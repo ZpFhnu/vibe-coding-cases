@@ -4,7 +4,7 @@
 
 发现用 AI 辅助编程开发的优秀项目
 
-**36** 个案例
+**47** 个案例
 
 </div>
 
@@ -20,8 +20,8 @@
 
 | 分类 | 说明 | 数量 |
 |------|------|------|
-| 🛠️ [工具](#工具) | 待办清单、记账、翻译、文件处理等实用工具 | 19 |
-| 📱 [应用](#应用) | 聊天App、管理后台、SaaS 等完整应用 | 11 |
+| 🛠️ [工具](#工具) | 待办清单、记账、翻译、文件处理等实用工具 | 23 |
+| 📱 [应用](#应用) | 聊天App、管理后台、SaaS 等完整应用 | 18 |
 | 🎮 [游戏](#游戏) | 小游戏、娱乐项目 | 2 |
 | 🔌 [插件](#插件) | Chrome 扩展、VS Code 插件、浏览器扩展 | 1 |
 | 📚 [学习](#学习) | 教程Demo、课程作业、技术实验 | 3 |
@@ -29,7 +29,7 @@
 ---
 
 <details>
-<summary><h2>🛠️ 工具 <small>(19 个项目)</small></h2></summary>
+<summary><h2>🛠️ 工具 <small>(23 个项目)</small></h2></summary>
 
 *待办清单、记账、翻译、文件处理等实用工具*
 
@@ -40,6 +40,10 @@
 **[GitNexus](https://github.com/abhigyanpatwari/GitNexus)** — GitNexus 是一个在浏览器中运行的客户端代码智能引擎，通过导入 GitHub 仓库或 ZIP 文件生成交互式知识图谱，并内置图检索增强生成（Graph RAG）代理，帮助开发者探索和理解代码结构。
 
 [演示](https://gitnexus.vercel.app) · [源码](https://github.com/abhigyanpatwari/GitNexus) · `TypeScript` · ⭐ 38972 · 📅 2026-05-19
+
+**[ppt-master](https://github.com/hugohe3/ppt-master)** — AI驱动的PPT生成工具，能将任意文档自动转换为原生可编辑的PowerPoint文件，支持真实形状和动画。
+
+[演示](https://hugohe3.github.io/ppt-master/) · [源码](https://github.com/hugohe3/ppt-master) · `Python` · 🤖 Claude, Cursor · ⭐ 18415 · 📅 2026-05-19
 
 **[Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)** — 一个轻量级的自动化机器学习研究工具，支持跨模型评审循环、想法发现和实验自动化，无需框架即可与多种LLM代理协同工作。
 
@@ -73,6 +77,10 @@
 
 [源码](https://github.com/yohey-w/multi-agent-shogun) · `Shell` · 🤖 Claude Code, OpenAI Codex · ⭐ 1275
 
+**[chunkhound](https://github.com/chunkhound/chunkhound)** — ChunkHound 是一个本地优先的代码库智能分析工具，能够通过语义搜索和代码分块算法帮助开发者理解代码架构和模式。
+
+[演示](https://chunkhound.ai) · [源码](https://github.com/chunkhound/chunkhound) · `Python` · 🤖 Claude, Copilot · ⭐ 1261 · 📅 2026-05-19
+
 **[vibe-remote](https://github.com/cyhhao/vibe-remote)** — 通过Slack、Discord、Telegram、微信、飞书等聊天平台远程指挥AI代理集群执行代码任务。
 
 [演示](https://avibe.bot) · [源码](https://github.com/cyhhao/vibe-remote) · `Python` · 🤖 Claude, Cursor · ⭐ 440 · 📅 2026-05-19
@@ -101,9 +109,17 @@
 
 [源码](https://github.com/IvanSolis1989/Smart-Config-Kit) · `JavaScript` · ⭐ 157 · 📅 2026-05-19
 
+**[ai-toolkit](https://github.com/softspark/ai-toolkit)** — 一个专业级的AI编码工具包，提供107个技能和44个智能体，支持多种AI编程平台，用于增强和规范AI辅助编码的工作流程。
+
+[演示](https://softspark.eu) · [源码](https://github.com/softspark/ai-toolkit) · `Python` · 🤖 Claude, Cursor · ⭐ 147 · 📅 2026-05-19
+
 **[GAAI-framework](https://github.com/Fr-e-d/GAAI-framework)** — 一个通过Markdown、YAML和bash脚本将AI编码工具转化为可靠软件交付系统的轻量级框架。
 
 [源码](https://github.com/Fr-e-d/GAAI-framework) · `Shell` · 🤖 Claude Code, Codex CLI · ⭐ 139 · 📅 2026-05-19
+
+**[remnic](https://github.com/joshuaswarren/remnic)** — 为AI代理提供开源记忆和上下文管理，帮助代理理解用户偏好、项目约束和决策模式，实现负责任的记忆检索与边界控制。
+
+[源码](https://github.com/joshuaswarren/remnic) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 73 · 📅 2026-05-19
 
 **[ComfyUI-Node-Translator](https://github.com/yamanacn/ComfyUI-Node-Translator)** — 一个用于翻译ComfyUI插件节点信息的工具，支持批量检测和翻译节点，生成JSON文件供翻译插件使用。
 
@@ -113,7 +129,7 @@
 </details>
 
 <details>
-<summary><h2>📱 应用 <small>(11 个项目)</small></h2></summary>
+<summary><h2>📱 应用 <small>(18 个项目)</small></h2></summary>
 
 *聊天App、管理后台、SaaS 等完整应用*
 
@@ -121,9 +137,21 @@
 
 [演示](https://open-design.ai/) · [源码](https://github.com/nexu-io/open-design) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 45772
 
+**[nocobase](https://github.com/nocobase/nocobase)** — NocoBase 是一个开源的无代码平台，结合 AI 代理，让用户通过可视化界面或 AI 编码代理快速构建业务管理系统。
+
+[演示](https://demo.nocobase.com/new) · [源码](https://github.com/nocobase/nocobase) · `TypeScript` · 🤖 Claude Code, Cursor · ⭐ 22437 · 📅 2026-05-19
+
+**[openhuman](https://github.com/tinyhumansai/openhuman)** — 一个开源的、注重隐私的个人AI超级智能助手，提供本地化、简单且强大的AI交互体验。
+
+[演示](https://tinyhumans.ai/openhuman) · [源码](https://github.com/tinyhumansai/openhuman) · `Rust` · 🤖 Claude, Copilot · ⭐ 19111 · 📅 2026-05-19
+
 **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** — 一个个人交易代理项目，提供全面的交易能力。
 
 [演示](https://vibetrading.wiki/) · [源码](https://github.com/HKUDS/Vibe-Trading) · `Python` · ⭐ 7631
+
+**[open-pencil](https://github.com/open-pencil/open-pencil)** — 一个开源的AI原生设计编辑器，支持打开Figma文件、内置AI设计助手、实时协作，并提供可编程的Vue SDK用于构建自定义编辑器。
+
+[演示](https://app.openpencil.dev/demo) · [源码](https://github.com/open-pencil/open-pencil) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 5005 · 📅 2026-05-19
 
 **[tabularis](https://github.com/TabularisDB/tabularis)** — 一个轻量级、跨平台的数据库客户端，支持MySQL、PostgreSQL和SQLite，可通过插件扩展，注重速度、安全性和美观性。
 
@@ -153,6 +181,14 @@
 
 [演示](https://www.dandi.cloud/) · [源码](https://github.com/emarco177/dandi) · `TypeScript` · 🤖 Cursor, v0 · ⭐ 156 · 📅 2026-04-02
 
+**[pneuma-skills](https://github.com/pandazki/pneuma-skills)** — 一个让人类和AI代码代理协作创建内容的桌面环境，支持幻灯片、看板等可视化编辑和技能分发。
+
+[源码](https://github.com/pandazki/pneuma-skills) · `TypeScript` · 🤖 Claude, Codex · ⭐ 148 · 📅 2026-05-19
+
+**[GitWand](https://github.com/devlint/GitWand)** — GitWand 是一个基于 Tauri 和 Vue 3 构建的桌面 Git 客户端，能够自动解决琐碎的合并冲突，并提供代码审查、合并预览等增强功能。
+
+[演示](https://devlint.github.io/GitWand/) · [源码](https://github.com/devlint/GitWand) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 93 · 📅 2026-05-19
+
 **[agomTradePro](https://github.com/guiyinan/agomTradePro)** — 一个AI原生的宏观投资研究基础设施，整合数据、决策框架、Agent能力和执行工作流，帮助个人投资者在正确的宏观环境下做出投资决策。
 
 [源码](https://github.com/guiyinan/agomTradePro) · `Python` · ⭐ 68 · 📅 2026-05-19
@@ -160,6 +196,14 @@
 **[yopedia](https://github.com/yologdev/yopedia)** — 一个由AI代理自动增长的维基百科系统，基于Karpathy的初始提示词持续扩展内容。
 
 [演示](https://yologdev.github.io/yoyo-evolve/) · [源码](https://github.com/yologdev/yopedia) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 57 · 📅 2026-05-19
+
+**[Hyper-pick-up-code](https://github.com/badnng/Hyper-pick-up-code)** — 一款基于本地OCR的Android应用，用于快速识别并管理外卖取餐码和快递取件码。
+
+[源码](https://github.com/badnng/Hyper-pick-up-code) · `Kotlin` · 🤖 Claude, Copilot · ⭐ 50 · 📅 2026-05-19
+
+**[daihuo-jianshou](https://github.com/witty-suckerpunch492/daihuo-jianshou)** — 上传商品图片，AI自动生成带货脚本、素材并合成适配抖音/快手/小红书的多平台短视频。
+
+[源码](https://github.com/witty-suckerpunch492/daihuo-jianshou) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 46 · 📅 2026-05-19
 
 ---
 </details>

@@ -88,6 +88,101 @@
       "updated_at": "2026-05-19T10:01:44.537590"
     },
     {
+      "github_id": 306829688,
+      "full_name": "nocobase/nocobase",
+      "name": "nocobase",
+      "owner": "nocobase",
+      "description": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability.",
+      "chinese_description": "NocoBase 是一个开源的无代码平台，结合 AI 代理，让用户通过可视化界面或 AI 编码代理快速构建业务管理系统。",
+      "html_url": "https://github.com/nocobase/nocobase",
+      "homepage": "https://demo.nocobase.com/new",
+      "language": "TypeScript",
+      "stars": 22437,
+      "forks": 2614,
+      "ai_tools": [
+        "Claude Code",
+        "Cursor",
+        "Codex",
+        "OpenCode",
+        "TRAE"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "React",
+        "Node.js"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T10:06:55.951683",
+      "pushed_at": "2026-05-19T09:58:26Z",
+      "quality_score": 9,
+      "confidence": 0.9,
+      "why_vibe_coding": "README 中明确提到项目支持并推荐使用主流 AI 编码代理（如 Claude Code、Cursor、Codex、OpenCode、TRAE）进行开发，强调 AI 与人类协作构建系统，且项目本身是一个功能完整的无代码平台，符合 vibe-coding 快速开发的特点。",
+      "readme_preview": "English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md) | [Français](./README.fr.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [Bahasa Indonesia](./README.id.md) | [Tiếng Việt](./README.vi.md) | [Deutsch](./README.de.md)\n\nhttps://github.com/user-attachments/assets/3b89d965-f60f-48e0-8110-24186c2911d2\n\n<p align=\"center\">\n<a href=\"https://trendshift.io/repositories/4112\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/4112\" alt=\"nocobase%2Fnocobase |",
+      "updated_at": "2026-05-19T10:06:55.951683"
+    },
+    {
+      "github_id": 1161163182,
+      "full_name": "tinyhumansai/openhuman",
+      "name": "openhuman",
+      "owner": "tinyhumansai",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "chinese_description": "一个开源的、注重隐私的个人AI超级智能助手，提供本地化、简单且强大的AI交互体验。",
+      "html_url": "https://github.com/tinyhumansai/openhuman",
+      "homepage": "https://tinyhumans.ai/openhuman",
+      "language": "Rust",
+      "stars": 19111,
+      "forks": 1678,
+      "ai_tools": [
+        "Claude",
+        "Copilot",
+        "Codeium"
+      ],
+      "tech_stack": [
+        "Rust",
+        "TypeScript",
+        "React",
+        "Next.js"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T10:07:07.336785",
+      "pushed_at": "2026-05-19T10:06:33Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目仓库中包含.agents/、.claude/、.codex/、AGENTS.md、CLAUDE.md、CODEX_WORKPAD.md等典型的AI辅助开发配置文件，表明开发者使用了多种AI工具（Claude、Codex等）进行编码。项目创建于2026年2月，仅3个月就获得近2万星标，且处于早期beta阶段，符合vibe-coding快速迭代、快速发布的特点。项目结构包含AI工作区配置，是典型的AI辅助开发项目。",
+      "readme_preview": "<h1 align=\"center\">OpenHuman</h1>\n\n<p align=\"center\">\n <img src=\"./gitbooks/.gitbook/assets/demo.png\" alt=\"The Tet\" />\n</p>\n\n<p align=\"center\" style=\"display: inline-block\">\n <a href=\"https://trendshift.io/repositories/23680\" target=\"_blank\" style=\"display: inline-block\">\n  <img src=\"https://trendshift.io/api/badge/repositories/23680\" alt=\"tinyhumansai%2Fopenhuman | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n </a> \n &nbsp;\n <a href=\"https://www.producthunt.com/prod",
+      "updated_at": "2026-05-19T10:07:07.336785"
+    },
+    {
+      "github_id": 1113573066,
+      "full_name": "hugohe3/ppt-master",
+      "name": "ppt-master",
+      "owner": "hugohe3",
+      "description": "AI generates natively editable PPTX from any document — real PowerPoint shapes with native animations, not images · by Hugo He",
+      "chinese_description": "AI驱动的PPT生成工具，能将任意文档自动转换为原生可编辑的PowerPoint文件，支持真实形状和动画。",
+      "html_url": "https://github.com/hugohe3/ppt-master",
+      "homepage": "https://hugohe3.github.io/ppt-master/",
+      "language": "Python",
+      "stars": 18415,
+      "forks": 1744,
+      "ai_tools": [
+        "Claude",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Python",
+        "JavaScript",
+        "HTML"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T10:07:12.377122",
+      "pushed_at": "2026-05-19T09:41:03Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目README中明确提到与Claude Code、Codex等AI工具的合作赞助关系，且项目结构包含.claude-plugin/、AGENTS.md、CLAUDE.md等典型的AI辅助开发配置文件，提交信息也体现了快速迭代的vibe-coding风格。",
+      "readme_preview": "# PPT Master — AI generates natively editable PPTX from any document\n\n[![Version](https://img.shields.io/badge/version-v2.7.0-blue.svg)](https://github.com/hugohe3/ppt-master/releases)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![GitHub stars](https://img.shields.io/github/stars/hugohe3/ppt-master.svg)](https://github.com/hugohe3/ppt-master/stargazers)\n[![AtomGit stars](https://atomgit.com/hugohe3/ppt-master/star/badge.svg)](https",
+      "updated_at": "2026-05-19T10:07:12.377122"
+    },
+    {
       "github_id": 931950959,
       "full_name": "liyupi/ai-guide",
       "name": "ai-guide",
@@ -191,6 +286,38 @@
       "readme_preview": "# Open CoDesign\n\n**简体中文**: [README.zh-CN.md](./README.zh-CN.md)\n\n> Your prompts. Your model. Your laptop.\n>\n> Turn prompts into polished artifacts — locally, openly, and with whichever model you already pay for.\n\n[Website](https://opencoworkai.github.io/open-codesign/) · [Quickstart](#quickstart) · [What's new](https://github.com/OpenCoworkAI/open-codesign/releases) · [Changelog](./CHANGELOG.md) · [Discussions](https://github.com/OpenCoworkAI/open-codesign/discussions) · [Docs](https://opencowor",
       "updated_at": "2026-05-19T10:01:56.188664",
       "created_at": "2026-05-19T08:25:43.084252"
+    },
+    {
+      "github_id": 1168481509,
+      "full_name": "open-pencil/open-pencil",
+      "name": "open-pencil",
+      "owner": "open-pencil",
+      "description": "AI-native design editor. Open-source Figma alternative.",
+      "chinese_description": "一个开源的AI原生设计编辑器，支持打开Figma文件、内置AI设计助手、实时协作，并提供可编程的Vue SDK用于构建自定义编辑器。",
+      "html_url": "https://github.com/open-pencil/open-pencil",
+      "homepage": "https://app.openpencil.dev/demo",
+      "language": "TypeScript",
+      "stars": 5005,
+      "forks": 440,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Vue",
+        "Tauri",
+        "WebRTC",
+        "WASM"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T10:07:56.357101",
+      "pushed_at": "2026-05-19T10:02:21Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目README中明确提到AI构建设计（AI builds designs）、MCP服务器、AI代理集成等AI原生特性，且提交记录中有'Co-authored-b'等AI协作痕迹；项目结构清晰但功能完整，符合vibe-coding快速迭代的特点；作为Figma替代品，功能复杂但开发周期短（2026年2月创建），暗示大量使用AI辅助编程加速开发。",
+      "readme_preview": "# OpenPencil\n\nOpen-source design editor. Opens `.fig` and `.pen` design files, includes built-in AI, and ships as a programmable toolkit with a headless Vue SDK for building custom editors.\n\n> **Status:** Active development. Not ready for production use.\n>\n> **Note:** There is another open-source project with the same name — [OpenPencil by ZSeven-W](https://github.com/ZSeven-W/openpencil), focused on AI-native design-to-code workflows. This project focuses on Figma-compatible visual design with ",
+      "updated_at": "2026-05-19T10:07:56.357101"
     },
     {
       "github_id": 1131107802,
@@ -439,6 +566,40 @@
       "readme_preview": "<div align=\"center\">\n\n# multi-agent-shogun\n\n**Command your AI army like a feudal warlord.**\n\nRun 10 AI coding agents in parallel — **Claude Code, OpenAI Codex, GitHub Copilot, Kimi Code** — orchestrated through a samurai-inspired hierarchy with zero coordination overhead.\n\n**Talk Coding, not Vibe Coding. Speak to your phone, AI executes.**\n\n[![GitHub Stars](https://img.shields.io/github/stars/yohey-w/multi-agent-shogun?style=social)](https://github.com/yohey-w/multi-agent-shogun)\n[![License: MIT",
       "updated_at": "2026-05-19T10:02:25.117723",
       "created_at": "2026-05-19T08:27:28.405947"
+    },
+    {
+      "github_id": 995920026,
+      "full_name": "chunkhound/chunkhound",
+      "name": "chunkhound",
+      "owner": "chunkhound",
+      "description": "Local first codebase intelligence",
+      "chinese_description": "ChunkHound 是一个本地优先的代码库智能分析工具，能够通过语义搜索和代码分块算法帮助开发者理解代码架构和模式。",
+      "html_url": "https://github.com/chunkhound/chunkhound",
+      "homepage": "https://chunkhound.ai",
+      "language": "Python",
+      "stars": 1261,
+      "forks": 99,
+      "ai_tools": [
+        "Claude",
+        "Copilot",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Python",
+        "Tree-sitter",
+        "MCP",
+        "VoyageAI",
+        "OpenAI",
+        "Ollama"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T10:08:01.956264",
+      "pushed_at": "2026-05-19T10:04:23Z",
+      "quality_score": 8,
+      "confidence": 0.95,
+      "why_vibe_coding": "README 中明确标注了 '100% AI Generated' 徽章，表明项目完全由 AI 生成；项目从 2025 年 6 月创建到 2026 年 5 月持续活跃更新，功能完整且包含研究论文引用的算法，但整体结构简洁、快速迭代，符合 vibe-coding 的典型特征。",
+      "readme_preview": "<p align=\"center\">\n  <a href=\"https://chunkhound.github.io\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"public/wordmark-centered-dark.svg\">\n      <img src=\"public/wordmark-centered.svg\" alt=\"ChunkHound\" width=\"400\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  <strong>Local-first codebase intelligence</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/chunkhound/chunkhound/actions/workflows/smoke-tests.yml\"><img src=\"https://github.com/chunkhound/ch",
+      "updated_at": "2026-05-19T10:08:01.956264"
     },
     {
       "github_id": 923332984,
@@ -848,6 +1009,78 @@
       "updated_at": "2026-05-19T10:03:09.284374"
     },
     {
+      "github_id": 1167377457,
+      "full_name": "pandazki/pneuma-skills",
+      "name": "pneuma-skills",
+      "owner": "pandazki",
+      "description": "Co-creation infrastructure for humans and code agents — visual environment, skills, continuous learning, and distribution.",
+      "chinese_description": "一个让人类和AI代码代理协作创建内容的桌面环境，支持幻灯片、看板等可视化编辑和技能分发。",
+      "html_url": "https://github.com/pandazki/pneuma-skills",
+      "homepage": null,
+      "language": "TypeScript",
+      "stars": 148,
+      "forks": 14,
+      "ai_tools": [
+        "Claude",
+        "Codex",
+        "Kimi"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js",
+        "Electron",
+        "React"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T10:08:45.551419",
+      "pushed_at": "2026-05-19T10:05:52Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目README明确描述为'人类与代码代理的共同创作基础设施'，核心设计理念就是让AI代理（Claude Code、Codex、Kimi）参与内容创作，项目本身是围绕AI协作构建的。从提交记录看，版本迭代非常频繁（3.9.1到3.10.2），且包含大量'chore: bump version'和hotfix提交，符合vibe-coding快速迭代的特点。项目结构包含.claude/、AGENTS.md、CLAUDE.md等AI相关配置文件，表明开发过程中深度使用了AI辅助。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"docs/images/pneuma-logo-helix_2.png\" alt=\"Pneuma\" width=\"120\" />\n</p>\n\n<h1 align=\"center\">Pneuma Skills</h1>\n<p align=\"center\"><strong>Co-creation Infrastructure for Humans × Code Agents</strong></p>\n<p align=\"center\">Visual environment, skills, continuous learning, and distribution — <br>everything humans and agents need to build content together.</p>\n\n<p align=\"center\"><strong>Works with</strong></p>\n<table align=\"center\"><tr>\n  <td align=\"center\" width=\"160\">\n  ",
+      "updated_at": "2026-05-19T10:08:45.551419"
+    },
+    {
+      "github_id": 1192530919,
+      "full_name": "softspark/ai-toolkit",
+      "name": "ai-toolkit",
+      "owner": "softspark",
+      "description": "Professional-grade AI coding toolkit: 94 skills, 44 agents, multi-platform (Claude, Cursor, Windsurf, Copilot, Gemini, Cline, Roo Code, Aider, Augment, Antigravity, Codex CLI, opencode).",
+      "chinese_description": "一个专业级的AI编码工具包，提供107个技能和44个智能体，支持多种AI编程平台，用于增强和规范AI辅助编码的工作流程。",
+      "html_url": "https://github.com/softspark/ai-toolkit",
+      "homepage": "https://softspark.eu",
+      "language": "Python",
+      "stars": 147,
+      "forks": 19,
+      "ai_tools": [
+        "Claude",
+        "Cursor",
+        "Windsurf",
+        "Copilot",
+        "Gemini",
+        "Cline",
+        "Roo Code",
+        "Aider",
+        "Augment",
+        "Antigravity",
+        "Codex CLI",
+        "opencode"
+      ],
+      "tech_stack": [
+        "Python",
+        "Node.js",
+        "Bash"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T10:08:51.736605",
+      "pushed_at": "2026-05-19T10:04:33Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "该项目README中明确列出了12种AI编程工具作为支持平台，包括Claude、Cursor、Windsurf等典型的vibe-coding工具；项目描述中强调'Professional-grade AI coding toolkit'，本质上是为AI编程工作流提供增强工具；项目结构包含大量shell脚本和配置文件，具有典型的AI辅助快速开发特征；更新日志中频繁提及针对Claude Code等AI工具的修复和优化，表明项目本身就是为AI编程生态服务的。",
+      "readme_preview": "# ai-toolkit\n\n> Professional-grade AI coding toolkit with multi-platform support. Machine-enforced safety, 107 skills, 44 agents, expanded lifecycle hooks, persona presets, experimental opt-in plugin packs, and benchmark tooling — works with Claude, Cursor, Windsurf, Copilot, Gemini, Cline, Roo Code, Aider, Augment, Google Antigravity, Codex CLI, and opencode, ready in 60 seconds.\n\n[![CI](https://github.com/softspark/ai-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/softspark/ai",
+      "updated_at": "2026-05-19T10:08:51.736605"
+    },
+    {
       "github_id": 1152272504,
       "full_name": "Fr-e-d/GAAI-framework",
       "name": "GAAI-framework",
@@ -909,6 +1142,66 @@
       "why_vibe_coding": "README中明确标注'Made with Cursor'，表明使用AI辅助编程工具Cursor开发；项目为功能完整的游戏应用，符合vibe-coding快速开发特点；技术栈为Next.js+TypeScript+Tailwind CSS，是AI辅助开发常见组合。",
       "readme_preview": "# IsoCity\n\nTry for free at [iso-city.com](https://iso-city.com).\n\nIsoCity is a open-source isometric city-building simulation game built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It leverages the HTML5 Canvas API for high-performance rendering of isometric graphics, featuring complex systems for economic simulation, trains, planes, seaplanes, helicopters, cars, pedestrians, and more.\n\n![IsoCity Banner](public/readme-image.png)\n\nMade with [Cursor](https://cursor.com)\n\n## Features\n\n-",
       "updated_at": "2026-05-19T10:03:15.705214"
+    },
+    {
+      "github_id": 1200271590,
+      "full_name": "devlint/GitWand",
+      "name": "GitWand",
+      "owner": "devlint",
+      "description": "GitWand automatically resolves trivial Git merge conflicts — the ones that waste your time but don't need human judgment. Think of it as PhpStorm's magic wand, everywhere.",
+      "chinese_description": "GitWand 是一个基于 Tauri 和 Vue 3 构建的桌面 Git 客户端，能够自动解决琐碎的合并冲突，并提供代码审查、合并预览等增强功能。",
+      "html_url": "https://github.com/devlint/GitWand",
+      "homepage": "https://devlint.github.io/GitWand/",
+      "language": "TypeScript",
+      "stars": 93,
+      "forks": 2,
+      "ai_tools": [
+        "Claude",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Vue",
+        "Tauri",
+        "Rust"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T10:09:06.168400",
+      "pushed_at": "2026-05-19T10:03:28Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目根目录包含多个 AI 辅助开发相关的计划文件（如 PLAN-*.md、AGENTS.md、CLAUDE.md），且 README 中描述 AI 辅助工作流，符合 vibe-coding 快速迭代、AI 驱动的开发特征。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"assets/logo.svg\" alt=\"GitWand\" width=\"300\" height=\"120\">\n</p>\n\n<h1 align=\"center\">GitWand</h1>\n\n<p align=\"center\">\n  <strong>A fast, native Git client with built-in smart conflict resolution</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"#desktop-app\">Desktop</a> &bull;\n  <a href=\"#conflict-resolution-engine\">Conflict engine</a> &bull;\n  <a href=\"#merge-preview\">Merge preview</a> &bull;\n  <a href=\"#cli\">CLI</a> &bull;\n  <a href=\"#mcp-server\">MCP Server</a> &bull;\n  <",
+      "updated_at": "2026-05-19T10:09:06.168400"
+    },
+    {
+      "github_id": 1150677698,
+      "full_name": "joshuaswarren/remnic",
+      "name": "remnic",
+      "owner": "joshuaswarren",
+      "description": "Open-source memory and context for user-aware agents: scoped memory, provenance, retrieval quality, correction, boundaries, evals, and MCP/HTTP access.",
+      "chinese_description": "为AI代理提供开源记忆和上下文管理，帮助代理理解用户偏好、项目约束和决策模式，实现负责任的记忆检索与边界控制。",
+      "html_url": "https://github.com/joshuaswarren/remnic",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 73,
+      "forks": 11,
+      "ai_tools": [
+        "Cursor",
+        "Claude"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T10:09:11.770741",
+      "pushed_at": "2026-05-19T10:06:35Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目包含.cursor/、.cursorignore、.cursorindexingignore、CLAUDE.md等典型的Cursor/Claude AI辅助开发配置文件，提交记录中有'Merge pull request from joshuaswarren/codex/'等AI协作痕迹，且项目创建于2026年2月，属于AI辅助编程流行时期的新项目，整体结构符合vibe-coding快速迭代的特点。",
+      "readme_preview": "# Remnic\n[![npm version](https://img.shields.io/npm/v/@remnic/cli)](https://www.npmjs.com/package/@remnic/cli)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink)](https://github.com/sponsors/joshuaswarren)\n\nOpen-source memory and context for user-aware agents.\n\nRemnic is for agents that need to understand the people they work with over time.\n\nRemnic helps AI agents understand the people they work with: th",
+      "updated_at": "2026-05-19T10:09:11.770741"
     },
     {
       "github_id": 1124502415,
@@ -991,8 +1284,70 @@
       "why_vibe_coding": "README中作者明确声明自己是纯开发小白，全程由Cursor开发，本人只是提问的工具人，符合vibe-coding的典型特征。项目功能单一、结构简单，属于快速开发的工具类项目。",
       "readme_preview": "声明：作者纯开发小白一枚，本项目全程由cursor开发，本人只是一个提问的工具人，如果遇到BUG，请轻喷。\n\n程序配套的视频讲解：\n【comfyui插件翻译自由啦，直接中文搜索节点，继承辣椒酱的意志~】 https://www.bilibili.com/video/BV1hmAneGEbZ/?share_source=copy_web&vd_source=af996d4f530575a9634db534351104a6\n\n# ComfyUI 节点翻译工具\n\n一个用于翻译 ComfyUI 插件节点信息的工具，支持批量检测和翻译节点信息。\n需要配合AIGODLIKE-ComfyUI-Translation使用\n将最终翻译的json直接放入AIGODLIKE-ComfyUI-Translation/zh-CN\\Nodes中即可\n\n# ComfyUI 节点翻译工具 - V2（2025/02/21）\n\n## 更新内容\n- 增加了拖放文件夹的支持，用户可以直接将插件文件夹拖入程序。\n- 优化了操作说明，提供了更清晰的使用步骤。\n- 检测到的待翻译 JSON 文件现在会存放在时间戳文件夹下。\n- 点",
       "updated_at": "2026-05-19T10:03:24.766409"
+    },
+    {
+      "github_id": 1171047840,
+      "full_name": "badnng/Hyper-pick-up-code",
+      "name": "Hyper-pick-up-code",
+      "owner": "badnng",
+      "description": "如题",
+      "chinese_description": "一款基于本地OCR的Android应用，用于快速识别并管理外卖取餐码和快递取件码。",
+      "html_url": "https://github.com/badnng/Hyper-pick-up-code",
+      "homepage": null,
+      "language": "Kotlin",
+      "stars": 50,
+      "forks": 4,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Kotlin",
+        "Android",
+        "OCR"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T10:09:21.650076",
+      "pushed_at": "2026-05-19T10:06:09Z",
+      "quality_score": 7,
+      "confidence": 1.0,
+      "why_vibe_coding": "README中明确声明'这个项目完全使用vibe coding'，且项目结构简洁、功能单一，符合vibe-coding快速开发的特点。",
+      "readme_preview": "# Hyper Pick-up Code （澎湃记）🍴\n\n**这个项目完全使用vibe coding，如果介意请勿使用**\n<p align=\"left\">\n  <img src=\"https://img.shields.io/badge/平台-Android-3DDC84?style=flat-square\" />\n  <img src=\"https://img.shields.io/github/license/badnng/Hyper-pick-up-code?style=flat-square\" />\n  <img src=\"https://img.shields.io/github/stars/badnng/Hyper-pick-up-code?style=flat-square\" />\n  <img src=\"https://img.shields.io/github/forks/badnng/Hyper-pick-up-code?style=flat-square\" />\n  <img src=\"https://img.shields.io/github/download",
+      "updated_at": "2026-05-19T10:09:21.650076"
+    },
+    {
+      "github_id": 1212324108,
+      "full_name": "witty-suckerpunch492/daihuo-jianshou",
+      "name": "daihuo-jianshou",
+      "owner": "witty-suckerpunch492",
+      "description": "自动生成电商带货短视频：上传商品图，AI 生成脚本、素材并合成视频，适配抖音、快手、小红书",
+      "chinese_description": "上传商品图片，AI自动生成带货脚本、素材并合成适配抖音/快手/小红书的多平台短视频。",
+      "html_url": "https://github.com/witty-suckerpunch492/daihuo-jianshou",
+      "homepage": null,
+      "language": "TypeScript",
+      "stars": 46,
+      "forks": 5,
+      "ai_tools": [
+        "Cursor",
+        "Claude"
+      ],
+      "tech_stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "FFmpeg"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T10:09:32.757370",
+      "pushed_at": "2026-05-19T09:12:55Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "README中明确提到AI多模型聚合、脚本生成、素材合成等AI功能，且项目结构简洁、依赖现代前端框架（Next.js 16、React 19），符合vibe-coding快速迭代的特点；同时存在AGENTS.md和CLAUDE.md等AI辅助开发配置文件，表明使用了Cursor和Claude等AI工具辅助编码。",
+      "readme_preview": "# 带货剪手 - AI 电商短视频自动生成工具\n\n> **AI E-commerce Video Generator** | 上传商品图，自动生成抖音/快手/小红书带货短视频\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js\" alt=\"Next.js 16\" />\n  <img src=\"https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react\" alt=\"React 19\" />\n  <img src=\"https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript\" alt=\"TypeScript 5\" />\n  <img src=\"https://img.shields.io/badge/Tailwind-4-06B6D4?",
+      "updated_at": "2026-05-19T10:09:32.757370"
     }
   ],
-  "updated_at": "2026-05-19T10:03:24.766420",
-  "total_count": 36
+  "updated_at": "2026-05-19T10:09:32.757390",
+  "total_count": 47
 }
