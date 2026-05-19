@@ -75,6 +75,37 @@
       "created_at": "2026-05-19T08:24:48.541883"
     },
     {
+      "github_id": 1031059905,
+      "full_name": "abhigyanpatwari/GitNexus",
+      "name": "GitNexus",
+      "owner": "abhigyanpatwari",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "chinese_description": "GitNexus 是一个在浏览器中运行的代码智能引擎，能够将 GitHub 仓库或 ZIP 文件索引为交互式知识图谱，并内置 Graph RAG Agent 帮助开发者探索和分析代码结构。",
+      "html_url": "https://github.com/abhigyanpatwari/GitNexus",
+      "homepage": "https://gitnexus.vercel.app",
+      "language": "TypeScript",
+      "stars": 38972,
+      "forks": 4461,
+      "ai_tools": [
+        "Cursor",
+        "Claude",
+        "Windsurf"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js",
+        "React"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:41:11.600321",
+      "pushed_at": "2026-05-19T09:37:25Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目包含 .cursor/, .claude/, .windsurfrules 等 AI 辅助开发工具的配置文件，表明使用了 Cursor、Claude 和 Windsurf 进行开发；项目结构清晰但复杂度适中，符合 vibe-coding 快速迭代的特点；README 中强调 AI agent 集成，且项目本身是为 AI 代理提供代码上下文，具有明显的 AI 驱动开发特征。",
+      "readme_preview": "# GitNexus\n**⚠️ Important Notice:** GitNexus has NO official cryptocurrency, token, or coin. Any token/coin using the GitNexus name on Pump.fun or any other platform is **not affiliated with, endorsed by, or created by** this project or its maintainers. Do not purchase any cryptocurrency claiming association with GitNexus.\n\n<div align=\"center\">\n\n  <a href=\"https://trendshift.io/repositories/19809\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/19809\" alt=\"abhigyanpat",
+      "updated_at": "2026-05-19T09:41:11.600321"
+    },
+    {
       "github_id": 931950959,
       "full_name": "liyupi/ai-guide",
       "name": "ai-guide",
@@ -677,6 +708,37 @@
       "updated_at": "2026-05-19T09:01:06.000206"
     },
     {
+      "github_id": 1139051534,
+      "full_name": "Ark0N/Codeman",
+      "name": "Codeman",
+      "owner": "Ark0N",
+      "description": "Manage Claude Code & Opencode in Tmux Sessions in a modern WebUI",
+      "chinese_description": "为AI编程代理（Claude Code和OpenCode）提供Web管理界面，支持在Tmux会话中可视化、控制和多会话管理。",
+      "html_url": "https://github.com/Ark0N/Codeman",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 393,
+      "forks": 49,
+      "ai_tools": [
+        "Claude Code",
+        "OpenCode"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js",
+        "Fastify",
+        "React"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:41:53.430058",
+      "pushed_at": "2026-05-19T09:40:37Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目README中明确提到其管理对象是AI编程代理（Claude Code和OpenCode），且项目本身是一个为AI代理设计的控制面板，具有典型的vibe-coding快速开发特征：现代WebUI、移动优先、零延迟输入覆盖等。项目结构清晰但复杂度适中，符合AI辅助快速迭代的特点。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"docs/images/codeman-title.svg\" alt=\"Codeman\" height=\"60\">\n</p>\n\n<h2 align=\"center\">The missing control plane for AI coding agents</h2>\n\n<p align=\"center\">\n  <em>Agent Visualization &bull; Zero-Lag Input Overlay &bull; Mobile-First UI &bull; Respawn Controller &bull; Multi-Session Dashboard </em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/License-MIT-1e3a5f?style=flat-square\" alt=\"License: MIT\"></a",
+      "updated_at": "2026-05-19T09:41:53.430058"
+    },
+    {
       "github_id": 1175591394,
       "full_name": "juyterman1000/entroly",
       "name": "entroly",
@@ -949,6 +1011,39 @@
       "updated_at": "2026-05-19T09:30:14.260481"
     },
     {
+      "github_id": 1152272504,
+      "full_name": "Fr-e-d/GAAI-framework",
+      "name": "GAAI-framework",
+      "owner": "Fr-e-d",
+      "description": "Turns AI coding tools into reliable software delivery systems. Drop a .gaai/ folder into any project — Discovery defines what to build, Delivery executes autonomously until criteria pass. Works with Claude Code, Codex CLI, Gemini CLI, Cursor, and more. No SDK. No package. Markdown + YAML + bash.",
+      "chinese_description": "一个通过Markdown、YAML和bash脚本实现的轻量级AI代理治理框架，帮助AI编程工具在项目中自主完成需求发现、任务拆解和代码交付。",
+      "html_url": "https://github.com/Fr-e-d/GAAI-framework",
+      "homepage": "",
+      "language": "Shell",
+      "stars": 139,
+      "forks": 26,
+      "ai_tools": [
+        "Claude Code",
+        "Codex CLI",
+        "Gemini CLI",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Shell",
+        "Markdown",
+        "YAML",
+        "bash"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:41:58.871934",
+      "pushed_at": "2026-05-19T09:30:18Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "README明确提到与Claude Code、Codex CLI、Gemini CLI、Cursor等AI工具配合使用，项目结构以.gaai/配置文件夹为核心，使用Markdown+YAML+bash而非传统编程语言，体现了快速原型和AI辅助开发的vibe-coding特征。项目创建于2026年2月，迭代频繁，符合AI辅助开发快速迭代的特点。",
+      "readme_preview": "![Version](https://img.shields.io/badge/version-2.33.0-blue)\n![License: ELv2](https://img.shields.io/badge/license-ELv2-green)\n![No SDK](https://img.shields.io/badge/stack-markdown%20%2B%20yaml%20%2B%20bash-orange)\n\n# GAAI — Governed Agentic AI Infrastructure\n\nA `.gaai/` folder you drop into any project. Markdown + YAML + bash. No SDK. No package. No external services.\n\n**GAAI turns AI coding tools into reliable agentic software delivery systems.**\n\n---\n\n## See It in Action\n\n```\nYou:        /gaa",
+      "updated_at": "2026-05-19T09:41:58.871934"
+    },
+    {
       "github_id": 1138809314,
       "full_name": "blendi-remade/isometric-city-fal",
       "name": "isometric-city-fal",
@@ -977,8 +1072,97 @@
       "why_vibe_coding": "README中明确标注'Made with Cursor'，且项目包含AI生成建筑功能（fal.ai），代码结构简洁，符合vibe-coding快速开发特点。",
       "readme_preview": "# IsoCity\n\nTry for free at [iso-city.com](https://iso-city.com).\n\nIsoCity is a open-source isometric city-building simulation game built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It leverages the HTML5 Canvas API for high-performance rendering of isometric graphics, featuring complex systems for economic simulation, trains, planes, seaplanes, helicopters, cars, pedestrians, and more.\n\n![IsoCity Banner](public/readme-image.png)\n\nMade with [Cursor](https://cursor.com)\n\n## Features\n\n-",
       "updated_at": "2026-05-19T09:30:31.986186"
+    },
+    {
+      "github_id": 1124502415,
+      "full_name": "guiyinan/agomTradePro",
+      "name": "agomTradePro",
+      "owner": "guiyinan",
+      "description": "AI-native macro investment research infrastructure with native MCP, terminal CLI, agent runtime, and disciplined decision workflows. 一个 AI-native 的宏观投资研究基础设施，内建原生 MCP、Terminal CLI、Agent Runtime 与纪律化决策工作流。",
+      "chinese_description": "一个AI原生的个人宏观投资研究平台，整合数据获取、策略分析、决策工作流和AI代理能力，帮助投资者在正确的宏观环境下做出投资决策。",
+      "html_url": "https://github.com/guiyinan/agomTradePro",
+      "homepage": "",
+      "language": "Python",
+      "stars": 68,
+      "forks": 18,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "Django",
+        "Qlib"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T09:42:43.116056",
+      "pushed_at": "2026-05-19T09:40:31Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目README中频繁出现AI原生（AI-native）描述，且更新日志显示每日高频迭代（如2026-05-02到05-14几乎每天都有大量功能更新），这种开发节奏符合vibe-coding的快速迭代特征。项目包含.agents/、.claude/、AGENTS.md、CLAUDE.md等AI辅助开发痕迹文件，且MCP（Model Context Protocol）工具数量达到333个，表明深度依赖AI工具进行开发。项目结构复杂但代码组织清晰，体现了AI辅助下快速构建完整应用的特点。",
+      "readme_preview": "<div align=\"center\">\n\n**[English](README_EN.md) | [中文](README.md)**\n\n# AgomTradePro\n\n### 别在错误的宏观环境里下注，哪怕你的逻辑是对的。\n\n**一个 AI-native 的个人投资研究底座：为 AI 提供数据基础与决策框架，把宏观判断、策略纪律、Agent 能力和执行工作流放进同一个系统里。**\n\n[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)\n[![Django 5.x](https://img.shields.io/badge/django-5.x-green.svg)](https://www.djangoproject.com/)\n[![Tests](https://img.shields.io/badge/tests-5%2C655-brightgreen.svg)](#测试)\n[![Modules](https://img.sh",
+      "updated_at": "2026-05-19T09:42:43.116056"
+    },
+    {
+      "github_id": 1202369085,
+      "full_name": "yologdev/yopedia",
+      "name": "yopedia",
+      "owner": "yologdev",
+      "description": "The Self-Growing Karpathy LLM Wiki — grown by an AI agent yoyo from Karpathy's founding prompt",
+      "chinese_description": "一个由AI代理自主驱动、持续生长的维基百科系统，同时为人类和AI代理提供可读写的知识库，支持页面更新、矛盾调和、来源追溯和过期衰减。",
+      "html_url": "https://github.com/yologdev/yopedia",
+      "homepage": "https://yologdev.github.io/yoyo-evolve/",
+      "language": "TypeScript",
+      "stars": 57,
+      "forks": 8,
+      "ai_tools": [
+        "Claude",
+        "GitHub Actions"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Node.js",
+        "Docker"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T09:43:14.468347",
+      "pushed_at": "2026-05-19T09:38:59Z",
+      "quality_score": 7,
+      "confidence": 0.95,
+      "why_vibe_coding": "README明确声明'No human writes code here'，所有代码由AI代理yoyo自主编写；项目从单个markdown文件通过AI代理的持续迭代成长为包含完整前后端、测试、CI/CD的全栈应用；提交记录显示所有提交均由'yoyo'代理完成，包括架构决策、代码编写、问题管理；项目描述强调'zero human code'，完全符合vibe-coding的核心理念。",
+      "readme_preview": "# yopedia — A Wiki for the Agent Age\n\n[![Stars](https://img.shields.io/github/stars/yologdev/yopedia?style=social)](https://github.com/yologdev/yopedia)\n[![Last Commit](https://img.shields.io/github/last-commit/yologdev/yopedia)](https://github.com/yologdev/yopedia/commits/main)\n[![Growth Sessions](https://img.shields.io/github/actions/workflow/status/yologdev/yopedia/grow.yml?label=growth%20session)](https://github.com/yologdev/yopedia/actions/workflows/grow.yml)\n\n> A shared second brain for hu",
+      "updated_at": "2026-05-19T09:43:14.468347"
+    },
+    {
+      "github_id": 935769351,
+      "full_name": "yamanacn/ComfyUI-Node-Translator",
+      "name": "ComfyUI-Node-Translator",
+      "owner": "yamanacn",
+      "description": null,
+      "chinese_description": "一个用于翻译 ComfyUI 插件节点信息的桌面工具，支持批量检测和翻译节点，并生成中文翻译文件。",
+      "html_url": "https://github.com/yamanacn/ComfyUI-Node-Translator",
+      "homepage": "https://www.bilibili.com/video/BV1hmAneGEbZ/",
+      "language": "Python",
+      "stars": 54,
+      "forks": 4,
+      "ai_tools": [
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Python"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:43:28.969036",
+      "pushed_at": "2025-02-21T08:34:16Z",
+      "quality_score": 6,
+      "confidence": 0.95,
+      "why_vibe_coding": "README 开头明确声明作者是开发小白，全程使用 Cursor 开发，本人只是提问的工具人，符合 vibe-coding 典型特征。项目结构简单，功能单一，代码量不大，属于快速开发的小工具。",
+      "readme_preview": "声明：作者纯开发小白一枚，本项目全程由cursor开发，本人只是一个提问的工具人，如果遇到BUG，请轻喷。\n\n程序配套的视频讲解：\n【comfyui插件翻译自由啦，直接中文搜索节点，继承辣椒酱的意志~】 https://www.bilibili.com/video/BV1hmAneGEbZ/?share_source=copy_web&vd_source=af996d4f530575a9634db534351104a6\n\n# ComfyUI 节点翻译工具\n\n一个用于翻译 ComfyUI 插件节点信息的工具，支持批量检测和翻译节点信息。\n需要配合AIGODLIKE-ComfyUI-Translation使用\n将最终翻译的json直接放入AIGODLIKE-ComfyUI-Translation/zh-CN\\Nodes中即可\n\n# ComfyUI 节点翻译工具 - V2（2025/02/21）\n\n## 更新内容\n- 增加了拖放文件夹的支持，用户可以直接将插件文件夹拖入程序。\n- 优化了操作说明，提供了更清晰的使用步骤。\n- 检测到的待翻译 JSON 文件现在会存放在时间戳文件夹下。\n- 点",
+      "updated_at": "2026-05-19T09:43:28.969036"
     }
   ],
-  "updated_at": "2026-05-19T09:30:31.986202",
-  "total_count": 30
+  "updated_at": "2026-05-19T09:43:28.969055",
+  "total_count": 36
 }
