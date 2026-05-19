@@ -169,8 +169,9 @@ def generate_readme(cases: list, output_path: str = None):
             
             lines.append(f'{links_str} · {" · ".join(tags)}')
             lines.append('')
-            # 项目之间加分隔线
-            lines.append('<br>')
+        
+        # 分类结束加水平线
+        lines.append('---')
         
         lines.append('</details>')
         lines.append('')
