@@ -23,6 +23,18 @@ def load_cases(data_dir: str = None):
         return data.get('cases', [])
 
 
+def format_date(date_str: str) -> str:
+    """格式化日期为简短格式"""
+    if not date_str:
+        return ''
+    try:
+        # GitHub 日期格式: 2025-01-15T10:30:00Z
+        dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+        return dt.strftime('%Y-%m-%d')
+    except:
+        return date_str[:10] if len(date_str) >= 10 else date_str
+
+
 def generate_readme(cases: list, output_path: str = None):
     """生成 README.md"""
     if output_path is None:
@@ -34,17 +46,20 @@ def generate_readme(cases: list, output_path: str = None):
         category = case.get('category', '其他')
         by_category[category].append(case)
     
-    # 分类 emoji 映射
+    # 分类 emoji 映射（与 AI 分析器中的预定义分类一致）
     category_emojis = {
-        'Web应用': '🌐',
-        '移动端': '📱',
-        '游戏': '🎮',
+        '网站': '🌐',
         '工具': '🛠️',
-        'Chrome插件': '🔌',
-        'VSCode插件': '📝',
-        'CLI工具': '⌨️',
-        '其他': '📦',
+        '游戏': '🎮',
+        '数据': '📊',
+        '插件': '🔌',
+        '应用': '📱',
+        '创意': '🎨',
+        '学习': '📚',
     }
+    
+    # 分类排序顺序
+    category_order = ['网站', '工具', '应用', '数据', '游戏', '插件', '创意', '学习']
     
     # 统计 AI 工具
     ai_tools_count = defaultdict(int)
@@ -73,7 +88,7 @@ def generate_readme(cases: list, output_path: str = None):
     # ===== 为什么有这个项目 =====
     lines.append('## 💡 为什么有这个项目')
     lines.append('')
-    lines.append('Vibe-Coding（氛围编程）正在改变软件开发的方式。这个仓库收集了 GitHub 上用 AI 辅助编程工具（如 Cursor、Claude、v0、Bolt.new、Lovable 等）开发的真实项目案例。')
+    lines.append('Vibe-Coding（氛围编程）正在改变软件开发的方式。这个仓库收集了 GitHub 上用 AI 辅助编程工具（如 Cursor、Claude、v0、Bolt.new、Lovable 等）开发的**真实应用案例**。')
     lines.append('')
     lines.append('- 🎯 **对初学者**：看看别人怎么用 AI 写代码，学习 Prompt 技巧')
     lines.append('- 💡 **找灵感**：发现有趣的 vibe-coding 项目，激发你的创意')
@@ -95,17 +110,22 @@ def generate_readme(cases: list, output_path: str = None):
     # ===== 目录 =====
     lines.append('## 📑 分类目录')
     lines.append('')
-    for category in by_category.keys():
-        emoji = category_emojis.get(category, '📦')
-        count = len(by_category[category])
-        lines.append(f'- [{emoji} {category}](#{category.lower().replace(" ", "-")}) ({count} 个项目)')
+    for category in category_order:
+        if category in by_category:
+            emoji = category_emojis.get(category, '📦')
+            count = len(by_category[category])
+            lines.append(f'- [{emoji} {category}](#{category.lower().replace(" ", "-")}) ({count} 个项目)')
     lines.append('')
     
     # ===== 各分类案例 =====
     lines.append('---')
     lines.append('')
     
-    for category, category_cases in by_category.items():
+    for category in category_order:
+        if category not in by_category:
+            continue
+            
+        category_cases = by_category[category]
         emoji = category_emojis.get(category, '📦')
         
         # 分类标题
@@ -117,15 +137,14 @@ def generate_readme(cases: list, output_path: str = None):
         
         for case in category_cases:
             name = case.get('name', 'Unknown')
-            full_name = case.get('full_name', '')
             description = case.get('chinese_description') or case.get('description') or ''
             stars = case.get('stars', 0)
             language = case.get('language', '')
             ai_tools = case.get('ai_tools', [])
             tech_stack = case.get('tech_stack', [])
-            estimated_hours = case.get('estimated_hours', '')
             homepage = case.get('homepage', '')
             html_url = case.get('html_url', '')
+            pushed_at = case.get('pushed_at', '')
             
             # 项目名称行
             links = []
@@ -147,9 +166,12 @@ def generate_readme(cases: list, output_path: str = None):
                 tags.append(f'🤖 {tool}')
             for tech in tech_stack[:3]:
                 tags.append(tech)
-            if estimated_hours:
-                tags.append(f'⏱️ {estimated_hours}')
             tags.append(f'⭐ {stars}')
+            
+            # 更新时间
+            update_date = format_date(pushed_at)
+            if update_date:
+                tags.append(f'📅 更新于 {update_date}')
             
             lines.append(f'{links_str}  ')
             lines.append(f'{", ".join(tags)}')

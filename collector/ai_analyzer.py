@@ -64,6 +64,9 @@ class BaseAnalyzer:
 class DeepSeekAnalyzer(BaseAnalyzer):
     """DeepSeek API 分析器 - 推荐，性价比高"""
     
+    # 预定义分类
+    VALID_CATEGORIES = ['网站', '工具', '游戏', '数据', '插件', '应用', '创意', '学习']
+    
     def __init__(self):
         self.api_key = os.getenv('DEEPSEEK_API_KEY')
         if not self.api_key:
@@ -121,7 +124,7 @@ class DeepSeekAnalyzer(BaseAnalyzer):
                 for c in commits[:5]
             ])
         
-        return f"""请分析以下 GitHub 仓库，判断它是否是使用 AI 辅助编程（vibe-coding）方式开发的项目。
+        return f"""请分析以下 GitHub 仓库，判断它是否是使用 AI 辅助编程（vibe-coding）方式开发的应用项目。
 
 【仓库信息】
 - 名称: {repo_data.get('full_name', 'Unknown')}
@@ -146,37 +149,64 @@ class DeepSeekAnalyzer(BaseAnalyzer):
     "confidence": 0.0-1.0,
     "ai_tools": ["使用的AI工具，如: Cursor", "Claude", "v0", "Bolt", "Lovable", "Windsurf", "Trae", "Copilot", "Codeium", "通义灵码", "CodeGeeX"],
     "tech_stack": ["技术栈，如: React", "Vue", "Python", "Node.js", "Next.js", "TypeScript"],
-    "category": "项目类型: Web应用/工具/游戏/移动端/Chrome插件/VSCode插件/CLI工具/其他",
-    "estimated_hours": "估算开发时间: 1-5小时/半天/1-2天/一周/不确定",
-    "chinese_description": "用一句话中文描述这个项目是做什么的",
+    "category": "必须从以下分类中选择一个: 网站/工具/游戏/数据/插件/应用/创意/学习",
+    "chinese_description": "用一句话中文描述这个项目是做什么的（描述它做了什么，而不是用了什么技术）",
     "quality_score": 1-10,
     "demo_url": "演示链接(从README中提取)或null",
     "why_vibe_coding": "判断理由，中文说明"
 }}
 
-判断标准：
-1. README 中明确提到使用 AI 工具开发
-2. 项目描述中有 "vibe coding", "AI generated", "built with Cursor" 等关键词
-3. 项目结构简单，可能是快速原型
-4. 提交信息中提到 AI 辅助
+【分类说明】（只能选一个，选最贴切的）
+- 网站：博客、落地页、作品集、文档站等网站类项目
+- 工具：待办清单、记账、翻译、文件处理等实用工具
+- 游戏：小游戏、娱乐项目
+- 数据：看板、爬虫、图表、数据分析工具
+- 插件：Chrome 扩展、VS Code 插件、浏览器扩展
+- 应用：聊天App、管理后台、SaaS 等完整应用
+- 创意：生成艺术、音乐、AI写作、实验性项目
+- 学习：教程Demo、课程作业、技术实验
+
+【必须排除的情况】（遇到以下情况，is_vibe_coding 设为 false）
+- awesome 列表、资源汇总、收藏夹
+- 教程、指南、文档、how-to 文章
+- 项目模板、脚手架、starter kit、boilerplate
+- 纯配置文件、dotfiles
+- 翻译项目（翻译别人的项目）
+- 没有实际功能的项目（只有 README）
+
+【判断标准】
+1. 必须是一个"做出来的应用/工具/网站"，而不是教程或列表
+2. README 中明确提到使用 AI 工具开发（如 "built with Cursor"、"made with Claude"）
+3. 项目有实际可运行的功能代码，不只是文档
+4. 项目结构简单到中等，符合 vibe-coding 快速开发的特点
 
 请只输出 JSON，不要其他内容。"""
     
     def _normalize_result(self, result: Dict, repo_data: Dict) -> Dict:
         """规范化结果"""
+        # 校验分类，不在预定义列表中则标记为无效
+        category = result.get('category', '')
+        if category not in self.VALID_CATEGORIES:
+            category = ''
+        
         # 确保必要字段存在
         normalized = {
             'is_vibe_coding': result.get('is_vibe_coding', False),
             'confidence': float(result.get('confidence', 0)),
             'ai_tools': result.get('ai_tools', []),
             'tech_stack': result.get('tech_stack', []),
-            'category': result.get('category', '其他'),
-            'estimated_hours': result.get('estimated_hours', '不确定'),
+            'category': category,
             'chinese_description': result.get('chinese_description', repo_data.get('description', '')),
             'quality_score': int(result.get('quality_score', 5)),
             'demo_url': result.get('demo_url'),
             'why_vibe_coding': result.get('why_vibe_coding', ''),
         }
+        
+        # 如果分类为空，说明 AI 无法归类，标记为非 vibe-coding 项目
+        if not category:
+            normalized['is_vibe_coding'] = False
+            normalized['why_vibe_coding'] = '无法归入任何预定义分类'
+        
         return normalized
 
 
