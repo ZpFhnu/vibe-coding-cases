@@ -62,17 +62,24 @@ def collect_projects():
     print(f"配置: min_stars={min_stars}, max_projects={max_projects}, "
           f"min_confidence={min_confidence}, min_quality={min_quality}")
     
-    # 搜索项目
-    print("\n正在搜索 GitHub 项目...")
-    repos = github.search_vibe_coding_projects(min_stars=min_stars)
-    print(f"找到 {len(repos)} 个候选项目")
-    
-    # 过滤已处理的项目
+    # 获取已处理的项目 ID
     processed_ids = store.get_processed_ids()
-    new_repos = [r for r in repos if r['id'] not in processed_ids]
-    print(f"其中 {len(new_repos)} 个是新项目")
+    print(f"已处理项目数: {len(processed_ids)}")
     
-    # 限制处理数量
+    # 搜索项目（传入 processed_ids，在搜索时就过滤）
+    print("\n正在搜索 GitHub 项目...")
+    repos = github.search_vibe_coding_projects(
+        min_stars=min_stars,
+        processed_ids=processed_ids,
+        min_new_per_query=5,  # 每个关键词至少找 5 个新的
+        max_pages=10
+    )
+    print(f"找到 {len(repos)} 个未处理的候选项目")
+    
+    new_repos = repos  # 已经过滤过了
+    
+    # 限制处理数量为 50
+    max_projects = 50
     repos_to_process = new_repos[:max_projects]
     print(f"本次将处理前 {len(repos_to_process)} 个项目\n")
     
