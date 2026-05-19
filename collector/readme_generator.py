@@ -123,15 +123,17 @@ def generate_readme(cases: list, output_path: str = None):
         category_cases = by_category[category]
         emoji = category_emojis.get(category, '📦')
         desc = category_descriptions.get(category, '')
-        
-        # 分类标题 + 说明
-        lines.append(f'## {emoji} {category}')
-        lines.append('')
-        lines.append(f'*{desc}*')
-        lines.append('')
+        count = len(category_cases)
         
         # 按 stars 排序
         category_cases.sort(key=lambda x: x.get('stars', 0), reverse=True)
+        
+        # 使用 details 标签实现折叠
+        lines.append(f'<details>')
+        lines.append(f'<summary><h2>{emoji} {category} <small>({count} 个项目)</small></h2></summary>')
+        lines.append('')
+        lines.append(f'*{desc}*')
+        lines.append('')
         
         for case in category_cases:
             name = case.get('name', 'Unknown')
@@ -167,6 +169,11 @@ def generate_readme(cases: list, output_path: str = None):
             
             lines.append(f'{links_str} · {" · ".join(tags)}')
             lines.append('')
+            # 项目之间加分隔线
+            lines.append('<br>')
+        
+        lines.append('</details>')
+        lines.append('')
     
     # ===== Footer =====
     lines.append('---')
