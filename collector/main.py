@@ -148,6 +148,7 @@ def collect_projects():
                     'owner': owner,
                     'description': repo.get('description', ''),
                     'chinese_description': analysis['chinese_description'],
+                    'english_description': analysis.get('english_description', ''),
                     'html_url': repo['html_url'],
                     'homepage': analysis.get('demo_url') or repo.get('homepage'),
                     'language': repo.get('language'),

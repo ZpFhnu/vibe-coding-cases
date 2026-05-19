@@ -151,6 +151,7 @@ class DeepSeekAnalyzer(BaseAnalyzer):
     "tech_stack": ["技术栈，如: React", "Vue", "Python", "Node.js", "Next.js", "TypeScript"],
     "category": "必须从以下分类中选择一个: 网站/工具/游戏/数据/插件/应用/创意/学习",
     "chinese_description": "用一句话中文描述这个项目是做什么的（描述它做了什么，而不是用了什么技术）",
+    "english_description": "用一句话英文描述这个项目是做什么的（描述它做了什么，而不是用了什么技术）",
     "quality_score": 1-10,
     "demo_url": "演示链接(从README中提取)或null",
     "why_vibe_coding": "判断理由，中文说明"
@@ -201,6 +202,7 @@ class DeepSeekAnalyzer(BaseAnalyzer):
             'tech_stack': result.get('tech_stack', []),
             'category': category,
             'chinese_description': result.get('chinese_description', repo_data.get('description', '')),
+            'english_description': result.get('english_description', ''),
             'quality_score': int(result.get('quality_score', 5)),
             'demo_url': result.get('demo_url'),
             'why_vibe_coding': result.get('why_vibe_coding', ''),
