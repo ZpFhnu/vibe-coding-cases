@@ -1,0 +1,51 @@
+name: Add English Descriptions
+
+on:
+  workflow_dispatch:  # 仅手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  add-english:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests python-dotenv
+      
+      - name: Run add_english
+        env:
+          AI_PROVIDER: ${{ secrets.AI_PROVIDER || 'deepseek' }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          MOONSHOT_API_KEY: ${{ secrets.MOONSHOT_API_KEY }}
+        run: |
+          cd collector
+          python add_english.py
+      
+      - name: Generate READMEs
+        run: |
+          cd collector
+          python readme_generator.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add web/data/cases.json README.md README_EN.md
+          git commit -m "🤖 Add English: Update case descriptions [$(date +'%Y-%m-%d %H:%M')]" || echo "No changes to commit"
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
