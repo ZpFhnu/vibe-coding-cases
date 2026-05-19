@@ -28,7 +28,6 @@ def format_date(date_str: str) -> str:
     if not date_str:
         return ''
     try:
-        # GitHub 日期格式: 2025-01-15T10:30:00Z
         dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
         return dt.strftime('%Y-%m-%d')
     except:
@@ -46,7 +45,7 @@ def generate_readme(cases: list, output_path: str = None):
         category = case.get('category', '其他')
         by_category[category].append(case)
     
-    # 分类 emoji 映射（与 AI 分析器中的预定义分类一致）
+    # 分类 emoji 映射
     category_emojis = {
         '网站': '🌐',
         '工具': '🛠️',
@@ -58,17 +57,20 @@ def generate_readme(cases: list, output_path: str = None):
         '学习': '📚',
     }
     
+    # 分类说明
+    category_descriptions = {
+        '网站': '博客、落地页、作品集、文档站等网站类项目',
+        '工具': '待办清单、记账、翻译、文件处理等实用工具',
+        '游戏': '小游戏、娱乐项目',
+        '数据': '看板、爬虫、图表、数据分析工具',
+        '插件': 'Chrome 扩展、VS Code 插件、浏览器扩展',
+        '应用': '聊天App、管理后台、SaaS 等完整应用',
+        '创意': '生成艺术、音乐、AI写作、实验性项目',
+        '学习': '教程Demo、课程作业、技术实验',
+    }
+    
     # 分类排序顺序
     category_order = ['网站', '工具', '应用', '数据', '游戏', '插件', '创意', '学习']
-    
-    # 统计 AI 工具
-    ai_tools_count = defaultdict(int)
-    for case in cases:
-        for tool in case.get('ai_tools', []):
-            ai_tools_count[tool] += 1
-    
-    # 排序 AI 工具
-    top_ai_tools = sorted(ai_tools_count.items(), key=lambda x: x[1], reverse=True)[:10]
     
     # 生成 README 内容
     lines = []
@@ -78,43 +80,36 @@ def generate_readme(cases: list, output_path: str = None):
     lines.append('')
     lines.append('# 🧠 Vibe-Coding 案例库')
     lines.append('')
-    lines.append('### 发现用 AI 辅助编程开发的优秀项目，看看别人怎么用 AI 写代码')
+    lines.append('发现用 AI 辅助编程开发的优秀项目')
     lines.append('')
-    lines.append(f'**{len(cases)}** 个案例 · **{len(by_category)}** 个分类 · **{len(ai_tools_count)}** 种 AI 工具')
+    lines.append(f'**{len(cases)}** 个案例')
     lines.append('')
     lines.append('</div>')
     lines.append('')
     
-    # ===== 为什么有这个项目 =====
-    lines.append('## 💡 为什么有这个项目')
+    # ===== 关于 =====
+    lines.append('## 关于')
     lines.append('')
-    lines.append('Vibe-Coding（氛围编程）正在改变软件开发的方式。这个仓库收集了 GitHub 上用 AI 辅助编程工具（如 Cursor、Claude、v0、Bolt.new、Lovable 等）开发的**真实应用案例**。')
+    lines.append('这个仓库收集了 GitHub 上用 AI 辅助编程工具（Cursor、Claude、v0、Bolt 等）开发的**真实应用案例**。')
     lines.append('')
-    lines.append('- 🎯 **对初学者**：看看别人怎么用 AI 写代码，学习 Prompt 技巧')
-    lines.append('- 💡 **找灵感**：发现有趣的 vibe-coding 项目，激发你的创意')
-    lines.append('- 📚 **学技术栈**：了解不同 AI 工具 + 技术栈的组合方式')
-    lines.append('- ⚡ **看效率**：感受 vibe-coding 的真实开发速度')
+    lines.append('- 看看别人怎么用 AI 写代码')
+    lines.append('- 发现有趣的 vibe-coding 项目')
+    lines.append('- 学习 AI 工具 + 技术栈的组合')
     lines.append('')
     
-    # ===== 热门 AI 工具 =====
-    if top_ai_tools:
-        lines.append('## 🤖 热门 AI 工具')
-        lines.append('')
-        tool_table = '| 工具 | 案例数 |'
-        tool_table += '\n|------|--------|'
-        for tool, count in top_ai_tools:
-            tool_table += f'\n| {tool} | {count} |'
-        lines.append(tool_table)
-        lines.append('')
-    
-    # ===== 目录 =====
-    lines.append('## 📑 分类目录')
+    # ===== 分类目录 =====
+    lines.append('## 分类')
     lines.append('')
+    lines.append('| 分类 | 说明 | 数量 |')
+    lines.append('|------|------|------|')
+    
     for category in category_order:
         if category in by_category:
             emoji = category_emojis.get(category, '📦')
+            desc = category_descriptions.get(category, '')
             count = len(by_category[category])
-            lines.append(f'- [{emoji} {category}](#{category.lower().replace(" ", "-")}) ({count} 个项目)')
+            lines.append(f'| {emoji} [{category}](#{category}) | {desc} | {count} |')
+    
     lines.append('')
     
     # ===== 各分类案例 =====
@@ -127,9 +122,12 @@ def generate_readme(cases: list, output_path: str = None):
             
         category_cases = by_category[category]
         emoji = category_emojis.get(category, '📦')
+        desc = category_descriptions.get(category, '')
         
-        # 分类标题
+        # 分类标题 + 说明
         lines.append(f'## {emoji} {category}')
+        lines.append('')
+        lines.append(f'*{desc}*')
         lines.append('')
         
         # 按 stars 排序
@@ -141,40 +139,33 @@ def generate_readme(cases: list, output_path: str = None):
             stars = case.get('stars', 0)
             language = case.get('language', '')
             ai_tools = case.get('ai_tools', [])
-            tech_stack = case.get('tech_stack', [])
             homepage = case.get('homepage', '')
             html_url = case.get('html_url', '')
             pushed_at = case.get('pushed_at', '')
             
-            # 项目名称行
+            # 项目标题行：名称 + 链接
             links = []
             if homepage:
-                links.append(f'[🌐 在线体验]({homepage})')
-            links.append(f'[💻 源码]({html_url})')
+                links.append(f'[演示]({homepage})')
+            links.append(f'[源码]({html_url})')
             links_str = ' · '.join(links)
             
-            lines.append(f'### [{name}]({html_url})')
-            lines.append('')
-            lines.append(f'{description}')
+            lines.append(f'**[{name}]({html_url})** — {description}')
             lines.append('')
             
-            # 标签行
+            # 标签行：语言 + AI工具 + Stars + 更新时间
             tags = []
             if language:
                 tags.append(f'`{language}`')
-            for tool in ai_tools[:3]:
-                tags.append(f'🤖 {tool}')
-            for tech in tech_stack[:3]:
-                tags.append(tech)
+            if ai_tools:
+                tags.append(f"🤖 {', '.join(ai_tools[:2])}")
             tags.append(f'⭐ {stars}')
             
-            # 更新时间
             update_date = format_date(pushed_at)
             if update_date:
-                tags.append(f'📅 更新于 {update_date}')
+                tags.append(f'📅 {update_date}')
             
-            lines.append(f'{links_str}  ')
-            lines.append(f'{", ".join(tags)}')
+            lines.append(f'{links_str} · {" · ".join(tags)}')
             lines.append('')
     
     # ===== Footer =====
@@ -182,13 +173,9 @@ def generate_readme(cases: list, output_path: str = None):
     lines.append('')
     lines.append('<div align="center">')
     lines.append('')
-    lines.append('## 📤 提交你的案例')
+    lines.append('**自动收集 · 每日更新**')
     lines.append('')
-    lines.append('如果你用 vibe-coding 方式开发了有趣的项目，欢迎提交！')
-    lines.append('')
-    lines.append('本项目通过 GitHub Actions 自动收集和更新案例。')
-    lines.append('')
-    lines.append(f'最后更新: {datetime.now().strftime("%Y-%m-%d %H:%M")} · 数据来源: GitHub')
+    lines.append(f'最后更新: {datetime.now().strftime("%Y-%m-%d")}')
     lines.append('')
     lines.append('</div>')
     
