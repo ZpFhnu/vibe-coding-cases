@@ -1,63 +1,36 @@
-# Vibe-Coding 案例库
+<div align="center">
 
-自动收集 GitHub 上用 vibe-coding 方式开发的项目案例。
+# 🧠 Vibe-Coding 案例库
 
-## 技术栈
+### 发现用 AI 辅助编程开发的优秀项目，看看别人怎么用 AI 写代码
 
-- **后端**: Python + GitHub Actions (定时收集)
-- **前端**: Next.js + Tailwind CSS
-- **部署**: GitHub Pages
-- **AI 分析**: DeepSeek API (国产，性价比高)
+**0** 个案例 · 自动收集中
 
-## 项目结构
+</div>
 
-```
-vibe-coding-cases/
-├── .github/
-│   └── workflows/
-│       └── auto-collect.yml      # 定时收集任务
-├── collector/                     # Python 收集器
-│   ├── __init__.py
-│   ├── github_client.py          # GitHub API 封装
-│   ├── ai_analyzer.py            # AI 分析模块
-│   ├── filters.py                # 过滤规则
-│   └── main.py                   # 主程序
-├── web/                          # Next.js 前端
-│   ├── app/
-│   ├── components/
-│   └── data/
-│       └── cases.json            # 案例数据
-├── requirements.txt
-└── README.md
-```
+## 💡 为什么有这个项目
 
-## 配置
+Vibe-Coding（氛围编程）正在改变软件开发的方式。这个仓库收集了 GitHub 上用 AI 辅助编程工具（如 Cursor、Claude、v0、Bolt.new、Lovable 等）开发的真实项目案例。
 
-1. 复制 `.env.example` 为 `.env`
-2. 填写你的 API Keys:
-   - `GITHUB_TOKEN`: GitHub Personal Access Token
-   - `DEEPSEEK_API_KEY`: DeepSeek API Key
+- 🎯 **对初学者**：看看别人怎么用 AI 写代码，学习 Prompt 技巧
+- 💡 **找灵感**：发现有趣的 vibe-coding 项目，激发你的创意
+- 📚 **学技术栈**：了解不同 AI 工具 + 技术栈的组合方式
+- ⚡ **看效率**：感受 vibe-coding 的真实开发速度
 
-## 本地运行
+## ⏳ 案例收集中
 
-```bash
-# 安装依赖
-pip install -r requirements.txt
+> 案例正在通过 GitHub Actions 自动收集，请稍后再来查看！
+> 
+> 收集器每 6 小时运行一次，会自动搜索 GitHub 上的 vibe-coding 项目，经 AI 分析后展示在这里。
 
-# 运行收集器
-cd collector
-python main.py
+---
 
-# 运行前端
-cd web
-npm install
-npm run dev
-```
+<div align="center">
 
-## 自动收集
+## 📤 提交你的案例
 
-GitHub Actions 每 6 小时自动运行收集任务，发现新的 vibe-coding 项目。
+如果你用 vibe-coding 方式开发了有趣的项目，欢迎提交！
 
-## License
+本项目通过 GitHub Actions 自动收集和更新案例。
 
-MIT
+</div>

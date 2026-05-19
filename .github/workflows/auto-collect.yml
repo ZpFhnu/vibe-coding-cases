@@ -43,7 +43,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if [ -n "$(git status --porcelain web/data/)" ]; then
+          if [ -n "$(git status --porcelain web/data/ README.md)" ]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -54,7 +54,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add web/data/
+          git add web/data/ README.md
           git commit -m "🤖 Auto-collect: Update vibe-coding cases [$(date +'%Y-%m-%d %H:%M')]"
           git push
       

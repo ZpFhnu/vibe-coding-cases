@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 from github_client import GitHubClient
 from ai_analyzer import AIFactory
 from data_store import DataStore
+from readme_generator import generate_readme
 
 
 def load_env():
@@ -182,6 +183,11 @@ def collect_projects():
     
     # 更新统计
     store.get_stats()
+    
+    # 重新生成 README.md
+    print("\n生成 README.md...")
+    cases = store.load_cases()
+    generate_readme(cases)
     
     # 打印总结
     print("\n" + "=" * 60)
