@@ -236,6 +236,36 @@
       "created_at": "2026-05-19T08:26:07.768508"
     },
     {
+      "github_id": 1189732822,
+      "full_name": "mvanhorn/cli-printing-press",
+      "name": "cli-printing-press",
+      "owner": "mvanhorn",
+      "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.",
+      "chinese_description": "一个为AI代理设计的CLI生成工具，能自动分析API文档并生成优化的命令行界面，支持离线搜索和复合查询。",
+      "html_url": "https://github.com/mvanhorn/cli-printing-press",
+      "homepage": "https://printingpress.dev",
+      "language": "Go",
+      "stars": 2238,
+      "forks": 211,
+      "ai_tools": [
+        "Claude",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Go",
+        "SQLite",
+        "MCP"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:28:13.660994",
+      "pushed_at": "2026-05-19T09:18:42Z",
+      "quality_score": 8,
+      "confidence": 0.95,
+      "why_vibe_coding": "README明确提到项目是为AI代理设计的，且描述中强调'agent-native'、'token-efficient'等AI优先理念；项目结构包含.claude-plugin/、.claude/等AI工具相关目录；提交信息显示频繁迭代和快速开发特征，符合vibe-coding的快速原型风格。",
+      "readme_preview": "# CLI Printing Press\n\n[![CI](https://github.com/mvanhorn/cli-printing-press/actions/workflows/lint.yml/badge.svg)](https://github.com/mvanhorn/cli-printing-press/actions/workflows/lint.yml)\n[![Golden](https://github.com/mvanhorn/cli-printing-press/actions/workflows/golden.yml/badge.svg)](https://github.com/mvanhorn/cli-printing-press/actions/workflows/golden.yml)\n[![Release](https://img.shields.io/github/v/release/mvanhorn/cli-printing-press?display_name=tag&sort=semver)](https://github.com/mvan",
+      "updated_at": "2026-05-19T09:28:13.660994"
+    },
+    {
       "github_id": 1104019361,
       "full_name": "amilich/isometric-city",
       "name": "isometric-city",
@@ -677,8 +707,278 @@
       "why_vibe_coding": "README中明确提及与Claude、Cursor、Codex、GPT等AI工具配合使用，项目描述强调'30秒安装'和快速原型特征，且项目创建时间短（2026年3月）但已有385星和频繁提交，符合vibe-coding快速迭代的特点。项目结构包含多个AI工具配置文件（.claude-plugin/, .claude/, .mcp.json等），表明开发过程深度依赖AI辅助。",
       "readme_preview": "<p align=\"center\">\n  <a href=\"docs/i18n/README.zh-CN.md\">🇨🇳 中文</a> •\n  <a href=\"docs/i18n/README.ja.md\">🇯🇵 日本語</a> •\n  <a href=\"docs/i18n/README.ko.md\">🇰🇷 한국어</a> •\n  <a href=\"docs/i18n/README.pt-BR.md\">🇧🇷 Português</a> •\n  <a href=\"docs/i18n/README.es.md\">🇪🇸 Español</a> •\n  <a href=\"docs/i18n/README.de.md\">🇩🇪 Deutsch</a> •\n  <a href=\"docs/i18n/README.fr.md\">🇫🇷 Français</a> •\n  <a href=\"docs/i18n/README.ru.md\">🇷🇺 Русский</a> •\n  <a href=\"docs/i18n/README.hi.md\">🇮🇳 हिन्दी</a> •\n  <a href=\"docs/i1",
       "updated_at": "2026-05-19T09:01:29.798556"
+    },
+    {
+      "github_id": 216514674,
+      "full_name": "TencentCloudBase/awesome-cloudbase-examples",
+      "name": "awesome-cloudbase-examples",
+      "owner": "TencentCloudBase",
+      "description": "Awesome Tencent CloudBase Examples 腾讯云开发案例",
+      "chinese_description": "这是一个腾讯云开发的示例项目集合，包含多个通过AI编程开发的演示应用，如艺术展览预约系统和分手厨房联机游戏。",
+      "html_url": "https://github.com/TencentCloudBase/awesome-cloudbase-examples",
+      "homepage": "https://awesome-cloudbase-examples.vercel.app",
+      "language": "JavaScript",
+      "stars": 384,
+      "forks": 274,
+      "ai_tools": [
+        "AI Builder",
+        "AI ToolKit"
+      ],
+      "tech_stack": [
+        "JavaScript",
+        "React",
+        "Phaser.js",
+        "Node.js"
+      ],
+      "category": "学习",
+      "created_at": "2026-05-19T09:29:05.209593",
+      "pushed_at": "2026-05-19T09:11:57Z",
+      "quality_score": 6,
+      "confidence": 0.9,
+      "why_vibe_coding": "README中明确标注了多个示例项目是'完全通过AI编程开发'，并使用了腾讯云开发的AI Builder和AI ToolKit工具，符合vibe-coding的典型特征。",
+      "readme_preview": "<a href=\"https://cloud.tencent.com/developer/article/2649588\" target=\"_blank\"><img width=\"3094\" height=\"654\" alt=\"banner\" src=\"https://github.com/user-attachments/assets/37982d04-274a-4b6c-85b8-06983c615d9a\" /></a>\n\n![awsome-cloudbase-examples](https://socialify.git.ci/TencentCloudBase/awsome-cloudbase-examples/image?font=Inter&forks=1&owner=1&pattern=Circuit+Board&stargazers=1)\n\n# Awesome CloudBase Examples\n\n> 精选的腾讯云开发（Tencent CloudBase，TCB）示例项目和资源列表\n\n[云开发（Tencent CloudBase，TCB）](https://cloud.",
+      "updated_at": "2026-05-19T09:29:05.209593"
+    },
+    {
+      "github_id": 1092687660,
+      "full_name": "marcusquinn/aidevops",
+      "name": "aidevops",
+      "owner": "marcusquinn",
+      "description": "Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, security, and 24/7 results. Open-source first. SOTA everything. Try on your repos for money-making magic.",
+      "chinese_description": "一个AI驱动的DevOps自动化框架，通过11个智能代理自动执行代码开发、业务运营、营销推广等任务，实现无需人工干预的项目交付。",
+      "html_url": "https://github.com/marcusquinn/aidevops",
+      "homepage": "https://aidevops.sh",
+      "language": "Shell",
+      "stars": 249,
+      "forks": 46,
+      "ai_tools": [
+        "OpenCode",
+        "Claude",
+        "GPT-5.5",
+        "GPT-5.4 mini",
+        "Gemini",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Shell",
+        "OpenCode",
+        "Git",
+        "Docker"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:29:17.018600",
+      "pushed_at": "2026-05-19T09:15:08Z",
+      "quality_score": 7,
+      "confidence": 0.95,
+      "why_vibe_coding": "README明确推荐使用OpenCode+AI模型（GPT-5.5、Claude等）进行开发，描述中强调'vibe-coding'理念，项目结构包含大量AI工具配置文件（.opencode/、.claude-plugin/、.coderabbit.yaml等），提交记录显示高频迭代（版本号3.15.65），且项目创建于2025年11月，符合vibe-coding快速开发特征。",
+      "readme_preview": "<!-- SPDX-License-Identifier: MIT -->\n<!-- SPDX-FileCopyrightText: 2025-2026 Marcus Quinn -->\n\n# AI DevOps Framework\n\n**[aidevops.sh](https://aidevops.sh)** — An [OpenCode](https://opencode.ai/) plugin and AI operations platform for launching and managing development, business, marketing, and creative projects. 11 primary agents handle automatable work across every domain so your time is preserved for real-world discovery and decisions that AI cannot yet reach.\n\n> **Recommended setup:** [OpenCod",
+      "updated_at": "2026-05-19T09:29:17.018600"
+    },
+    {
+      "github_id": 1038450318,
+      "full_name": "devonmochi/byetype",
+      "name": "byetype",
+      "owner": "devonmochi",
+      "description": "ByeType 是一个 Markdown 驱动的 AI 语音输入工具，用多模态大模型直接处理原始音频（使用自己的APIKEY），编辑 Markdown 文件即可自定义专有词汇、转录规则和格式化策略，人名、术语、口水词、数字格式一次转录到位，减少二次修改。支持 macOS、Windows 和 iOS。",
+      "chinese_description": "ByeType 是一个 Markdown 驱动的 AI 语音输入工具，通过多模态大模型直接处理原始音频，支持自定义词汇、转录规则和格式化策略，减少语音转文字的二次修改。",
+      "html_url": "https://github.com/devonmochi/byetype",
+      "homepage": "",
+      "language": "Rust",
+      "stars": 247,
+      "forks": 12,
+      "ai_tools": [
+        "Claude"
+      ],
+      "tech_stack": [
+        "Rust",
+        "TypeScript",
+        "React",
+        "Vite",
+        "Tauri"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:29:22.742220",
+      "pushed_at": "2026-05-18T04:52:23Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目提交记录中明确包含 'Co-Authored-By: Claude Opus'，表明开发者使用 Claude 辅助编码；项目结构清晰但复杂度适中，符合 vibe-coding 快速迭代的特点；README 展示了对产品细节的精心打磨，但技术实现上依赖 AI 工具辅助。",
+      "readme_preview": "# ByeType\n\n**告别打字，用说的。**\n\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)\n[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20iOS-brightgreen?style=flat-square)](https://github.com/lixiaojie001/byetype/releases)\n\nByeType 是一个 Markdown 驱动的 AI 语音输入工具。通过编辑 Markdown 格式的提示词，你可以自定义识别规则、专有词汇和文本优化策略，让语音输入最大限度匹配你的行业术语和个人习惯。\n\n此外，ByeType 还内置了 **AI 图像文字提取**功能（同样由 Markdown 提示词驱动），完美解决终端中 AI 输出的代码因行号、分屏、换行被切碎而无法直接复制使用的问题。\n\n免费开源，使用你自己的 API",
+      "updated_at": "2026-05-19T09:29:22.742220"
+    },
+    {
+      "github_id": 1087021690,
+      "full_name": "codervisor/lean-spec",
+      "name": "lean-spec",
+      "owner": "codervisor",
+      "description": "Lightweight, flexible Spec-Driven Development (SDD) for modern AI-powered development",
+      "chinese_description": "一个轻量级的规范驱动开发框架，支持多种后端（如GitHub Issues、Markdown）来管理和可视化项目规范，并集成AI辅助编码。",
+      "html_url": "https://github.com/codervisor/lean-spec",
+      "homepage": "https://web.lean-spec.dev",
+      "language": "TypeScript",
+      "stars": 244,
+      "forks": 19,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:29:34.152846",
+      "pushed_at": "2026-05-19T09:04:22Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目描述明确提到'AI-powered development'和'AI-native'，文件结构包含.agents/、.claude/、.gemini/、AGENTS.md、CLAUDE.md等AI工具配置文件，提交信息中也有'chore: consolidate dev skills into onsager-ai/dev-'等与AI工具链相关的操作，表明开发过程深度依赖AI辅助。",
+      "readme_preview": "# LeanSpec\n\n<p align=\"center\">\n  <img src=\"https://github.com/codervisor/lean-spec-docs/blob/main/static/img/logo-with-bg.svg\" alt=\"LeanSpec Logo\" width=\"120\" height=\"120\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/codervisor/lean-spec/actions/workflows/ci.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/codervisor/lean-spec/ci.yml?branch=main\" alt=\"CI Status\"></a>\n  <a href=\"https://www.npmjs.com/package/lean-spec\"><img src=\"https://img.shields.io/npm/v/lean-spe",
+      "updated_at": "2026-05-19T09:29:34.152846"
+    },
+    {
+      "github_id": 1131388506,
+      "full_name": "kdlbs/kandev",
+      "name": "kandev",
+      "owner": "kdlbs",
+      "description": "AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry.",
+      "chinese_description": "一个自托管的AI看板与开发环境，支持并行管理多个AI代理任务、审查代码变更并创建PR。",
+      "html_url": "https://github.com/kdlbs/kandev",
+      "homepage": "",
+      "language": "Go",
+      "stars": 232,
+      "forks": 19,
+      "ai_tools": [
+        "Claude Code",
+        "GitHub Copilot",
+        "Codex",
+        "Gemini CLI",
+        "Cursor",
+        "Windsurf",
+        "Trae",
+        "Amp",
+        "Auggie",
+        "OpenCode",
+        "Qwen",
+        "Factory Droid",
+        "iFlow",
+        "Kilocode",
+        "Pi",
+        "Kimi",
+        "AWS Kiro",
+        "Qoder"
+      ],
+      "tech_stack": [
+        "Go",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Docker"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:29:40.685751",
+      "pushed_at": "2026-05-19T09:26:29Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目README明确列出支持多种AI代理工具（Claude Code、Copilot、Codex等），并强调'多代理编排'和'审查变更'，其功能设计围绕AI辅助开发流程展开，且项目结构包含.agents/、.claude/等AI相关配置目录，符合vibe-coding快速迭代、多AI工具集成的特征。",
+      "readme_preview": "# Kandev\n\nManage and run tasks in parallel. Orchestrate agents. Review changes. Ship value.\n\n[Workflows](docs/workflow-tips.md) | [Run as a Service](docs/run-as-a-service.md) | [Roadmap](docs/roadmap.md) | [Contributing](CONTRIBUTING.md) | [Architecture](docs/ARCHITECTURE.md) | [Discord](https://discord.gg/gWdCPGcFCD)\n\n<p align=\"center\">\n  <img src=\"docs/screenshots/readme-intro.gif\" alt=\"Kandev Demo\">\n</p>\n\n[See all screenshots](docs/screenshots.md)\n\n## What\n\n\nOrganize work across kanban and pi",
+      "updated_at": "2026-05-19T09:29:40.685751"
+    },
+    {
+      "github_id": 1215458112,
+      "full_name": "IvanSolis1989/Smart-Config-Kit",
+      "name": "Smart-Config-Kit",
+      "owner": "IvanSolis1989",
+      "description": "科学上网分流配置（覆写脚本）分享 Clash Party / Clash Verge Rev / Mihomo Party / CMFA / FlClash / mihomo-party-android / ClashMi / OpenClash / PassWall2 / Shadowrocket / Surge / Loon / Quantumult X / sing-box / Hiddify / v2rayN",
+      "chinese_description": "一套基于AI编写和维护的科学上网分流配置生成体系，为多种代理客户端提供统一的分流策略配置。",
+      "html_url": "https://github.com/IvanSolis1989/Smart-Config-Kit",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 157,
+      "forks": 22,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "JavaScript",
+        "Shell",
+        "YAML",
+        "Mermaid"
+      ],
+      "category": "工具",
+      "created_at": "2026-05-19T09:30:09.199262",
+      "pushed_at": "2026-05-19T06:21:20Z",
+      "quality_score": 7,
+      "confidence": 0.95,
+      "why_vibe_coding": "README中明确声明'全部脚本与配置由AI编写并持续维护迭代'、'AI原生仓库'，且项目结构包含大量配置文件生成逻辑、AI自动回答Issue机制，符合vibe-coding的典型特征——AI深度参与代码生成与维护，项目结构清晰但复杂度适中。",
+      "readme_preview": "# 🚀 科学上网智能分流配置中心\n\n> [!TIP]\n> 一套以 **Mihomo Smart 内核（Clash Party）JS 覆写脚本** 为基线、同步产出多核心 / 多客户端等价配置的科学上网分流体系，**同一套策略模型覆盖多端**，让同一套分流策略在任何设备、任何代理工具上给出**一致、可解释、可迭代**的结果，降低“设备 A 可用、设备 B 抽风”的割裂感。  \n> - **全核心**：Mihomo (Clash.Meta / Smart) · sing-box · Xray · Shadowrocket / Surge / Loon / Quantumult X 各自私有引擎 \n> - **全客户端**：Clash Party / Clash Verge Rev / Mihomo Party / CMFA / FlClash / mihomo-party-android / ClashMi / OpenClash / PassWall2 / Shadowrocket / Surge / Loon / Quantumult X / sing-box / Hiddify / ",
+      "updated_at": "2026-05-19T09:30:09.199262"
+    },
+    {
+      "github_id": 851282728,
+      "full_name": "emarco177/dandi",
+      "name": "dandi",
+      "owner": "emarco177",
+      "description": "Boilerplate for building AI-powered micro SaaS apps with Next.js, LangChain JS, Supabase, auth, rate limiting, and API keys.",
+      "chinese_description": "一个用于构建AI驱动的微SaaS应用的样板项目，提供GitHub仓库分析、摘要和洞察功能。",
+      "html_url": "https://github.com/emarco177/dandi",
+      "homepage": "https://www.dandi.cloud/",
+      "language": "TypeScript",
+      "stars": 156,
+      "forks": 68,
+      "ai_tools": [
+        "Cursor",
+        "v0"
+      ],
+      "tech_stack": [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Supabase",
+        "LangChain",
+        "Tailwind CSS",
+        "NextAuth.js"
+      ],
+      "category": "应用",
+      "created_at": "2026-05-19T09:30:14.260481",
+      "pushed_at": "2026-04-02T13:49:47Z",
+      "quality_score": 7,
+      "confidence": 0.95,
+      "why_vibe_coding": "README中明确声明该项目完全使用Cursor IDE和v0开发，作者自称没有前端或全栈经验，通过AI辅助完成整个项目，且项目结构符合快速开发特点。",
+      "readme_preview": "# 🌻 Dandi API - Boilerplate for AI Micro SaaS Applications\n\n**🤯 🤯 This repo was buikt with ENGLISH as the programming language with Cursor IDE and v0.🤯**\n\n\n![Logo](https://github.com/emarco177/dandi/blob/main/public/demo.gif)\n\nDandi API is a comprehensive boilerplate repository for building AI-powered micro SaaS applications. It provides a solid foundation with essential components and functionalities needed to run an end-to-end micro SaaS application.\n\nThe service itself offers powerful insight",
+      "updated_at": "2026-05-19T09:30:14.260481"
+    },
+    {
+      "github_id": 1138809314,
+      "full_name": "blendi-remade/isometric-city-fal",
+      "name": "isometric-city-fal",
+      "owner": "blendi-remade",
+      "description": "Generate any building you want in IsoCity, powered by fal.ai",
+      "chinese_description": "一个开源的等距城市建造模拟游戏，支持AI生成自定义建筑。",
+      "html_url": "https://github.com/blendi-remade/isometric-city-fal",
+      "homepage": "https://iso-city.com",
+      "language": "TypeScript",
+      "stars": 108,
+      "forks": 7,
+      "ai_tools": [
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "HTML5 Canvas"
+      ],
+      "category": "游戏",
+      "created_at": "2026-05-19T09:30:31.986186",
+      "pushed_at": "2026-01-25T02:11:41Z",
+      "quality_score": 7,
+      "confidence": 0.95,
+      "why_vibe_coding": "README中明确标注'Made with Cursor'，且项目包含AI生成建筑功能（fal.ai），代码结构简洁，符合vibe-coding快速开发特点。",
+      "readme_preview": "# IsoCity\n\nTry for free at [iso-city.com](https://iso-city.com).\n\nIsoCity is a open-source isometric city-building simulation game built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It leverages the HTML5 Canvas API for high-performance rendering of isometric graphics, featuring complex systems for economic simulation, trains, planes, seaplanes, helicopters, cars, pedestrians, and more.\n\n![IsoCity Banner](public/readme-image.png)\n\nMade with [Cursor](https://cursor.com)\n\n## Features\n\n-",
+      "updated_at": "2026-05-19T09:30:31.986186"
     }
   ],
-  "updated_at": "2026-05-19T09:01:29.798571",
-  "total_count": 21
+  "updated_at": "2026-05-19T09:30:31.986202",
+  "total_count": 30
 }
