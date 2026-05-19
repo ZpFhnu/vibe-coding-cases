@@ -4,7 +4,7 @@
 
 发现用 AI 辅助编程开发的优秀项目
 
-**47** 个案例
+**47** 个案例 · [English Version](README_EN.md)
 
 </div>
 

@@ -1,0 +1,267 @@
+<div align="center">
+
+# 🧠 Vibe-Coding Cases
+
+Discover awesome projects built with AI-assisted programming
+
+**47** cases · [中文版本](README.md)
+
+</div>
+
+## About
+
+This repository collects **real application cases** from GitHub built with AI-assisted programming tools (Cursor, Claude, v0, Bolt, etc.).
+
+- See how others code with AI
+- Discover interesting vibe-coding projects
+- Learn AI tool + tech stack combinations
+
+## Categories
+
+| Category | Description | Count |
+|----------|-------------|-------|
+| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 23 |
+| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 18 |
+| 🎮 [Games](#games) | Small games, entertainment projects | 2 |
+| 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 1 |
+| 📚 [Learning](#learning) | Tutorial demos, course projects, tech experiments | 3 |
+
+---
+
+<details>
+<summary><h2>🛠️ Tools <small>(23 projects)</small></h2></summary>
+
+*Todo lists, accounting, translation, file processing utilities*
+
+**[ECC](https://github.com/affaan-m/ECC)** — A performance optimization system that equips AI agents like Claude Code and Cursor with enhanced skills, instincts, memory, and security for research-first development.
+
+[Demo](https://ecc.tools) · [Source](https://github.com/affaan-m/ECC) · `JavaScript` · ⭐ 186846 · 📅 2026-05-19
+
+**[GitNexus](https://github.com/abhigyanpatwari/GitNexus)** — GitNexus turns any GitHub repository or ZIP file into an interactive knowledge graph with a built-in Graph RAG agent for exploring and understanding code structure.
+
+[Demo](https://gitnexus.vercel.app) · [Source](https://github.com/abhigyanpatwari/GitNexus) · `TypeScript` · ⭐ 38972 · 📅 2026-05-19
+
+**[ppt-master](https://github.com/hugohe3/ppt-master)** — An AI-powered tool that converts any document into a fully editable PowerPoint file with native shapes and animations.
+
+[Demo](https://hugohe3.github.io/ppt-master/) · [Source](https://github.com/hugohe3/ppt-master) · `Python` · 🤖 Claude, Cursor · ⭐ 18415 · 📅 2026-05-19
+
+**[Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)** — ARIS is a lightweight, framework-free tool that enables autonomous machine learning research by automating cross-model review loops, idea discovery, and experiment execution with any LLM agent.
+
+[Demo](https://wanshuiyin.github.io/Auto-claude-code-research-in-sleep/ARIS_INTRO.html) · [Source](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) · `Python` · 🤖 Claude Code, Codex · ⭐ 9983
+
+**[open-codesign](https://github.com/OpenCoworkAI/open-codesign)** — An open-source tool that lets you generate design prototypes, slides, and PDFs from prompts, supporting multiple AI models with local-first execution.
+
+[Demo](https://opencoworkai.github.io/open-codesign/) · [Source](https://github.com/OpenCoworkAI/open-codesign) · `TypeScript` · ⭐ 6127
+
+**[cli-printing-press](https://github.com/mvanhorn/cli-printing-press)** — A CLI tool that extracts hidden information from APIs and consolidates features from competing tools into a unified interface with SQLite sync, offline search, and compound insight commands, designed primarily for AI agents.
+
+[Demo](https://printingpress.dev) · [Source](https://github.com/mvanhorn/cli-printing-press) · `Go` · ⭐ 2238 · 📅 2026-05-19
+
+**[MathModelAgent](https://github.com/jihe520/MathModelAgent)** — An intelligent agent that automatically completes mathematical modeling and generates a full paper ready for submission.
+
+[Demo](https://mathmodel.top/home) · [Source](https://github.com/jihe520/MathModelAgent) · `Python` · ⭐ 2012
+
+**[lean-ctx](https://github.com/yvgude/lean-ctx)** — A context management layer for AI development that compresses, tracks, and governs token interactions between your code and AI tools.
+
+[Demo](https://leanctx.com) · [Source](https://github.com/yvgude/lean-ctx) · `Rust` · 🤖 Cursor, Claude Code · ⭐ 1865 · 📅 2026-05-19
+
+**[agentic_coding_flywheel_setup](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup)** — Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI development environment in 30 minutes, including coding agents, session management, safety tools, and coordination infrastructure.
+
+[Demo](https://agent-flywheel.com) · [Source](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) · `Shell` · ⭐ 1482
+
+**[lanhu-mcp](https://github.com/dsphper/lanhu-mcp)** — An MCP server that enables AI assistants to share team knowledge, automatically analyze requirements, write frontend and backend code, and download design assets from Lanhu mockups.
+
+[Source](https://github.com/dsphper/lanhu-mcp) · `Python` · 🤖 Cursor, Claude · ⭐ 1415
+
+**[multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun)** — A multi-agent orchestration system that runs AI coding agents in parallel via tmux, inspired by the hierarchical structure of samurai warriors.
+
+[Source](https://github.com/yohey-w/multi-agent-shogun) · `Shell` · 🤖 Claude Code, OpenAI Codex · ⭐ 1275
+
+**[chunkhound](https://github.com/chunkhound/chunkhound)** — ChunkHound is a local-first codebase intelligence tool that helps developers understand code architecture and patterns through semantic search and code chunking.
+
+[Demo](https://chunkhound.ai) · [Source](https://github.com/chunkhound/chunkhound) · `Python` · 🤖 Claude, Copilot · ⭐ 1261 · 📅 2026-05-19
+
+**[vibe-remote](https://github.com/cyhhao/vibe-remote)** — Command AI agent clusters to execute code tasks remotely from chat platforms like Slack, Discord, Telegram, WeChat, and Lark.
+
+[Demo](https://avibe.bot) · [Source](https://github.com/cyhhao/vibe-remote) · `Python` · 🤖 Claude, Cursor · ⭐ 440 · 📅 2026-05-19
+
+**[OneResearchClaw](https://github.com/gaotiexinqu/OneResearchClaw)** — A fully autonomous research pipeline that ingests diverse materials and generates comprehensive research reports from any input.
+
+[Demo](https://weiyang209.github.io/OneResearchClaw/) · [Source](https://github.com/gaotiexinqu/OneResearchClaw) · `Python` · ⭐ 434 · 📅 2026-05-09
+
+**[Codeman](https://github.com/Ark0N/Codeman)** — A modern web-based control panel for managing Claude Code and Opencode sessions within Tmux.
+
+[Source](https://github.com/Ark0N/Codeman) · `TypeScript` · ⭐ 393 · 📅 2026-05-19
+
+**[entroly](https://github.com/juyterman1000/entroly)** — An open-source context engine that reduces AI token costs by 70–95% while detecting hallucinations and transparently revealing its reasoning process.
+
+[Demo](https://huggingface.co/spaces/entroly/entroly-context-compression) · [Source](https://github.com/juyterman1000/entroly) · `Python` · 🤖 Claude, Cursor · ⭐ 385 · 📅 2026-05-19
+
+**[aidevops](https://github.com/marcusquinn/aidevops)** — An AI-driven DevOps automation framework that uses 11 intelligent agents to manage development, business, marketing, and creative projects for automated operations.
+
+[Demo](https://aidevops.sh) · [Source](https://github.com/marcusquinn/aidevops) · `Shell` · 🤖 OpenCode, Claude · ⭐ 249 · 📅 2026-05-19
+
+**[lean-spec](https://github.com/codervisor/lean-spec)** — A lightweight Spec-Driven Development (SDD) tool that uses specification files to guide AI-assisted code generation, improving development efficiency and code quality.
+
+[Demo](https://web.lean-spec.dev) · [Source](https://github.com/codervisor/lean-spec) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 244 · 📅 2026-05-19
+
+**[Smart-Config-Kit](https://github.com/IvanSolis1989/Smart-Config-Kit)** — A unified, multi-client proxy routing configuration toolkit for managing split-tunneling rules across various Clash, sing-box, and other proxy clients.
+
+[Source](https://github.com/IvanSolis1989/Smart-Config-Kit) · `JavaScript` · ⭐ 157 · 📅 2026-05-19
+
+**[ai-toolkit](https://github.com/softspark/ai-toolkit)** — A professional-grade AI coding toolkit with 107 skills and 44 agents that enhances and standardizes AI-assisted coding workflows across multiple platforms.
+
+[Demo](https://softspark.eu) · [Source](https://github.com/softspark/ai-toolkit) · `Python` · 🤖 Claude, Cursor · ⭐ 147 · 📅 2026-05-19
+
+**[GAAI-framework](https://github.com/Fr-e-d/GAAI-framework)** — A lightweight framework that transforms AI coding tools into autonomous software delivery systems by defining build requirements and executing them until validation criteria are met.
+
+[Source](https://github.com/Fr-e-d/GAAI-framework) · `Shell` · 🤖 Claude Code, Codex CLI · ⭐ 139 · 📅 2026-05-19
+
+**[remnic](https://github.com/joshuaswarren/remnic)** — Open-source memory and context management for AI agents that enables responsible retrieval, user preference tracking, and controlled boundaries across sessions.
+
+[Source](https://github.com/joshuaswarren/remnic) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 73 · 📅 2026-05-19
+
+**[ComfyUI-Node-Translator](https://github.com/yamanacn/ComfyUI-Node-Translator)** — A tool for translating ComfyUI plugin node information, supporting batch detection and translation of nodes to generate JSON files for use with translation plugins.
+
+[Demo](https://www.bilibili.com/video/BV1hmAneGEbZ/) · [Source](https://github.com/yamanacn/ComfyUI-Node-Translator) · `Python` · 🤖 Cursor · ⭐ 54 · 📅 2025-02-21
+
+---
+</details>
+
+<details>
+<summary><h2>📱 Apps <small>(18 projects)</small></h2></summary>
+
+*Chat apps, admin panels, SaaS, complete applications*
+
+**[open-design](https://github.com/nexu-io/open-design)** — A local-first, open-source AI design tool that generates web, desktop, and mobile prototypes, slides, images, and videos with sandboxed preview and multi-format export.
+
+[Demo](https://open-design.ai/) · [Source](https://github.com/nexu-io/open-design) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 45772
+
+**[nocobase](https://github.com/nocobase/nocobase)** — NocoBase is an open-source platform that combines AI agents with a no-code interface to help users quickly build business management systems.
+
+[Demo](https://demo.nocobase.com/new) · [Source](https://github.com/nocobase/nocobase) · `TypeScript` · 🤖 Claude Code, Cursor · ⭐ 22437 · 📅 2026-05-19
+
+**[openhuman](https://github.com/tinyhumansai/openhuman)** — An open-source, privacy-focused personal AI super assistant that delivers a local, simple, and powerful AI interaction experience.
+
+[Demo](https://tinyhumans.ai/openhuman) · [Source](https://github.com/tinyhumansai/openhuman) · `Rust` · 🤖 Claude, Copilot · ⭐ 19111 · 📅 2026-05-19
+
+**[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** — A personal trading agent that provides comprehensive trading capabilities to automate and enhance your trading decisions.
+
+[Demo](https://vibetrading.wiki/) · [Source](https://github.com/HKUDS/Vibe-Trading) · `Python` · ⭐ 7631
+
+**[open-pencil](https://github.com/open-pencil/open-pencil)** — An open-source, AI-native design editor that lets you open Figma files, collaborate in real time, and build custom editors with a programmable SDK.
+
+[Demo](https://app.openpencil.dev/demo) · [Source](https://github.com/open-pencil/open-pencil) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 5005 · 📅 2026-05-19
+
+**[tabularis](https://github.com/TabularisDB/tabularis)** — A lightweight, cross-platform database client that supports MySQL, PostgreSQL, and SQLite, with plugin extensibility for speed, security, and aesthetics.
+
+[Demo](http://tabularis.dev) · [Source](https://github.com/TabularisDB/tabularis) · `TypeScript` · ⭐ 2085 · 📅 2026-05-19
+
+**[ryos](https://github.com/ryokun6/ryos)** — A web-based operating system-like desktop environment with built-in applications and an AI assistant, designed to run seamlessly across various devices.
+
+[Demo](https://os.ryo.lu/docs) · [Source](https://github.com/ryokun6/ryos) · `TypeScript` · 🤖 Cursor · ⭐ 1161 · 📅 2026-05-19
+
+**[Haven](https://github.com/GlassHaven/Haven)** — A free Android client for remotely accessing and managing servers via SSH, VNC, RDP, SFTP, and cloud storage.
+
+[Demo](https://glasshaven.github.io/Haven/) · [Source](https://github.com/GlassHaven/Haven) · `Kotlin` · 🤖 Claude, Cursor · ⭐ 518 · 📅 2026-05-19
+
+**[LiberSonora](https://github.com/LiberSonora/LiberSonora)** — LiberSonora is an AI-powered open-source audiobook toolkit that extracts smart subtitles, generates AI titles, and translates content into multiple languages, all offline with GPU-accelerated batch processing.
+
+[Demo](https://libersonora.github.io/) · [Source](https://github.com/LiberSonora/LiberSonora) · `Python` · 🤖 Deepseek, Cursor · ⭐ 463 · 📅 2025-07-30
+
+**[byetype](https://github.com/devonmochi/byetype)** — A Markdown-driven AI voice input tool that transcribes raw audio with customizable rules for proper nouns, terminology, and formatting across macOS, Windows, and iOS.
+
+[Source](https://github.com/devonmochi/byetype) · `Rust` · ⭐ 247 · 📅 2026-05-18
+
+**[kandev](https://github.com/kdlbs/kandev)** — A self-hostable AI-powered Kanban development environment that orchestrates multiple agents to manage parallel tasks, review code changes, and open pull requests.
+
+[Source](https://github.com/kdlbs/kandev) · `Go` · ⭐ 232 · 📅 2026-05-19
+
+**[dandi](https://github.com/emarco177/dandi)** — A boilerplate for rapidly building AI-powered micro SaaS applications with built-in authentication, rate limiting, and API key management.
+
+[Demo](https://www.dandi.cloud/) · [Source](https://github.com/emarco177/dandi) · `TypeScript` · 🤖 Cursor, v0 · ⭐ 156 · 📅 2026-04-02
+
+**[pneuma-skills](https://github.com/pandazki/pneuma-skills)** — A desktop environment for humans and AI code agents to collaboratively create content, with visual editing for slides and boards, plus skill distribution.
+
+[Source](https://github.com/pandazki/pneuma-skills) · `TypeScript` · 🤖 Claude, Codex · ⭐ 148 · 📅 2026-05-19
+
+**[GitWand](https://github.com/devlint/GitWand)** — GitWand is a desktop Git client that automatically resolves trivial merge conflicts and provides enhanced code review and merge preview features.
+
+[Demo](https://devlint.github.io/GitWand/) · [Source](https://github.com/devlint/GitWand) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 93 · 📅 2026-05-19
+
+**[agomTradePro](https://github.com/guiyinan/agomTradePro)** — An AI-native macro investment research infrastructure that helps individual investors make informed decisions by integrating data, decision frameworks, agent capabilities, and disciplined execution workflows within the right macroeconomic context.
+
+[Source](https://github.com/guiyinan/agomTradePro) · `Python` · ⭐ 68 · 📅 2026-05-19
+
+**[yopedia](https://github.com/yologdev/yopedia)** — A self-growing wiki system where an AI agent continuously expands content starting from Karpathy's founding prompt.
+
+[Demo](https://yologdev.github.io/yoyo-evolve/) · [Source](https://github.com/yologdev/yopedia) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 57 · 📅 2026-05-19
+
+**[Hyper-pick-up-code](https://github.com/badnng/Hyper-pick-up-code)** — A local OCR-based Android app that quickly identifies and manages food delivery pickup codes and parcel collection codes.
+
+[Source](https://github.com/badnng/Hyper-pick-up-code) · `Kotlin` · 🤖 Claude, Copilot · ⭐ 50 · 📅 2026-05-19
+
+**[daihuo-jianshou](https://github.com/witty-suckerpunch492/daihuo-jianshou)** — Upload product images, and AI automatically generates scripts, assets, and synthesizes short videos tailored for Douyin, Kuaishou, and Xiaohongshu.
+
+[Source](https://github.com/witty-suckerpunch492/daihuo-jianshou) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 46 · 📅 2026-05-19
+
+---
+</details>
+
+<details>
+<summary><h2>🎮 Games <small>(2 projects)</small></h2></summary>
+
+*Small games, entertainment projects*
+
+**[isometric-city](https://github.com/amilich/isometric-city)** — An open-source isometric city and theme park building simulation game featuring dynamic elements like trains, planes, cars, and pedestrians.
+
+[Demo](https://iso-city.com) · [Source](https://github.com/amilich/isometric-city) · `TypeScript` · ⭐ 2112
+
+**[isometric-city-fal](https://github.com/blendi-remade/isometric-city-fal)** — An open-source isometric city-building simulation game that lets you generate any building you want, with economic simulation and traffic systems.
+
+[Demo](https://iso-city.com) · [Source](https://github.com/blendi-remade/isometric-city-fal) · `TypeScript` · 🤖 Cursor · ⭐ 108 · 📅 2026-01-25
+
+---
+</details>
+
+<details>
+<summary><h2>🔌 Plugins <small>(1 projects)</small></h2></summary>
+
+*Chrome extensions, VS Code plugins, browser extensions*
+
+**[cpdown](https://github.com/ysm-dev/cpdown)** — A browser extension that copies any webpage content or YouTube subtitles to your clipboard as clean Markdown with a single click or keyboard shortcut.
+
+[Demo](https://github.com/user-attachments/assets/cedf05e8-ed1d-4e71-9769-66c9b292fbdd) · [Source](https://github.com/ysm-dev/cpdown) · `TypeScript` · ⭐ 547 · 📅 2026-05-18
+
+---
+</details>
+
+<details>
+<summary><h2>📚 Learning <small>(3 projects)</small></h2></summary>
+
+*Tutorial demos, course projects, tech experiments*
+
+**[ai-guide](https://github.com/liyupi/ai-guide)** — A comprehensive open-source knowledge base and navigation site that curates AI resources, tutorials, tools, and guides to help users learn and master AI technology.
+
+[Demo](https://ai.codefather.cn) · [Source](https://github.com/liyupi/ai-guide) · `JavaScript` · ⭐ 14113
+
+**[claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)** — A comprehensive guide to mastering Claude Code, featuring tutorials, templates, quizzes, and a cheatsheet for users of all skill levels.
+
+[Demo](https://florianbruniaux.github.io/claude-code-ultimate-guide-landing/) · [Source](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) · `TypeScript` · ⭐ 4405
+
+**[awesome-cloudbase-examples](https://github.com/TencentCloudBase/awesome-cloudbase-examples)** — A curated collection of example projects, tutorials, and resources for building applications with Tencent CloudBase.
+
+[Demo](https://awesome-cloudbase-examples.vercel.app) · [Source](https://github.com/TencentCloudBase/awesome-cloudbase-examples) · `JavaScript` · ⭐ 384 · 📅 2026-05-19
+
+---
+</details>
+
+---
+
+<div align="center">
+
+**Auto-collected · Daily updates**
+
+Last updated: 2026-05-19
+
+</div>
