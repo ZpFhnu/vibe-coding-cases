@@ -4,7 +4,7 @@
 
 发现用 AI 辅助编程开发的优秀项目
 
-**141** 个案例 · [English Version](README_EN.md) · [关于本项目](ABOUT.md)
+**158** 个案例 · [English Version](README_EN.md) · [关于本项目](ABOUT.md)
 
 </div>
 
@@ -20,8 +20,8 @@
 
 | 分类 | 说明 | 数量 |
 |------|------|------|
-| 🛠️ [工具](#工具) | 待办清单、记账、翻译、文件处理等实用工具 | 67 |
-| 📱 [应用](#应用) | 聊天App、管理后台、SaaS 等完整应用 | 60 |
+| 🛠️ [工具](#工具) | 待办清单、记账、翻译、文件处理等实用工具 | 72 |
+| 📱 [应用](#应用) | 聊天App、管理后台、SaaS 等完整应用 | 72 |
 | 🎮 [游戏](#游戏) | 小游戏、娱乐项目 | 2 |
 | 🔌 [插件](#插件) | Chrome 扩展、VS Code 插件、浏览器扩展 | 9 |
 | 📚 [学习](#学习) | 教程Demo、课程作业、技术实验 | 3 |
@@ -29,7 +29,7 @@
 ---
 
 <details>
-<summary><h2>🛠️ 工具 <small>(67 个项目)</small></h2></summary>
+<summary><h2>🛠️ 工具 <small>(72 个项目)</small></h2></summary>
 
 *待办清单、记账、翻译、文件处理等实用工具*
 
@@ -48,6 +48,10 @@
 **[GitNexus](https://github.com/abhigyanpatwari/GitNexus)** — GitNexus 是一个在浏览器中运行的客户端代码智能引擎，通过导入 GitHub 仓库或 ZIP 文件生成交互式知识图谱，并内置图检索增强生成（Graph RAG）代理，帮助开发者探索和理解代码结构。
 
 [演示](https://gitnexus.vercel.app) · [源码](https://github.com/abhigyanpatwari/GitNexus) · `TypeScript` · ⭐ 38972 · 📅 2026-05-19
+
+**[OpenCLI](https://github.com/jackwener/OpenCLI)** — 将任意网站转换为命令行界面，并允许AI代理通过已登录的浏览器操作网页。
+
+[演示](https://opencli.info/) · [源码](https://github.com/jackwener/OpenCLI) · `JavaScript` · 🤖 Claude, Cursor · ⭐ 22233 · 📅 2026-05-22
 
 **[ppt-master](https://github.com/hugohe3/ppt-master)** — AI驱动的PPT生成工具，能将任意文档自动转换为原生可编辑的PowerPoint文件，支持真实形状和动画。
 
@@ -92,6 +96,10 @@
 **[harbor](https://github.com/av/harbor)** — 一个通过单条命令即可启动完整预配置LLM服务栈的工具，帮助用户快速探索和使用多种AI服务。
 
 [演示](https://github.com/av/harbor) · [源码](https://github.com/av/harbor) · `TypeScript` · 🤖 Claude, ChatGPT · ⭐ 2950 · 📅 2026-05-19
+
+**[WindsurfAPI](https://github.com/dwgx/WindsurfAPI)** — 将Windsurf的AI模型转换为兼容OpenAI和Anthropic格式的API代理服务，支持100多种模型和账号池轮询。
+
+[演示](https://dwgx.github.io/WindsurfAPI/) · [源码](https://github.com/dwgx/WindsurfAPI) · `JavaScript` · 🤖 Windsurf, Claude · ⭐ 2554 · 📅 2026-05-22
 
 **[cli-printing-press](https://github.com/mvanhorn/cli-printing-press)** — 一个为AI代理设计的命令行工具，能够从API中提取隐藏信息，整合多种功能，支持SQLite同步、离线搜索和复合洞察命令。
 
@@ -140,6 +148,10 @@
 **[pdd](https://github.com/promptdriven/pdd)** — 一个基于提示驱动的开发命令行工具，用于自动化代码生成、GitHub问题实现和项目维护。
 
 [演示](https://promptdriven.ai) · [源码](https://github.com/promptdriven/pdd) · `Python` · 🤖 Claude, Copilot · ⭐ 702 · 📅 2026-05-21
+
+**[deepxiv_sdk](https://github.com/DeepXiv/deepxiv_sdk)** — 一个基于AI代理的arXiv论文搜索与渐进式阅读工具，支持通过命令行与论文交互。
+
+[演示](https://demo.rag.ac.cn/) · [源码](https://github.com/DeepXiv/deepxiv_sdk) · `Python` · 🤖 Claude, Cursor · ⭐ 686 · 📅 2026-05-22
 
 **[pipelex](https://github.com/Pipelex/pipelex)** — Pipelex 是一个声明式语言和开发工具，用于构建和运行可复用的 AI 工作流（方法），支持 60+ 模型路由和结构化输出。
 
@@ -261,6 +273,14 @@
 
 [演示](https://github.com/user-attachments/assets/3ba4c681-0a7e-4a03-89c8-b8d26b544a65) · [源码](https://github.com/deepcoldy/botmux) · `TypeScript` · 🤖 Claude, Codex · ⭐ 132 · 📅 2026-05-21
 
+**[qaskills](https://github.com/PramodDutta/qaskills)** — 一个为AI编程助手提供QA测试技能包的CLI工具，让AI代理能够自动获得专业的测试知识。
+
+[演示](https://qaskills.sh) · [源码](https://github.com/PramodDutta/qaskills) · `TypeScript` · 🤖 Claude Code, Cursor · ⭐ 119 · 📅 2026-05-21
+
+**[crw](https://github.com/us/crw)** — 一个高性能的网页爬虫和搜索API，专为AI代理设计，支持自托管和云服务。
+
+[演示](https://fastcrw.com) · [源码](https://github.com/us/crw) · `Rust` · 🤖 Claude Code, Cursor · ⭐ 101 · 📅 2026-05-22
+
 **[buddy](https://github.com/fiorastudio/buddy)** — 一个为AI编程助手提供虚拟宠物伴侣的MCP工具，能在终端中陪伴开发者成长并提供上下文感知的代码审查反馈。
 
 [源码](https://github.com/fiorastudio/buddy) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 87 · 📅 2026-05-19
@@ -305,9 +325,13 @@
 </details>
 
 <details>
-<summary><h2>📱 应用 <small>(60 个项目)</small></h2></summary>
+<summary><h2>📱 应用 <small>(72 个项目)</small></h2></summary>
 
 *聊天App、管理后台、SaaS 等完整应用*
+
+**[RuView](https://github.com/ruvnet/RuView)** — 利用普通WiFi信号实现穿墙人体检测、生命体征监测和空间感知的无线传感系统。
+
+[演示](https://Cognitum.One/RuView) · [源码](https://github.com/ruvnet/RuView) · `Rust` · 🤖 Claude, Cursor · ⭐ 63134 · 📅 2026-05-22
 
 **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)** — 一个多模型AI代理编排系统，支持同时协调多个AI助手（如OpenCode、Codex、Pi）协同工作，提供团队模式运行环境。
 
@@ -357,6 +381,10 @@
 
 [演示](https://pollinations.ai) · [源码](https://github.com/pollinations/pollinations) · `TypeScript` · 🤖 Claude, Windsurf · ⭐ 4514 · 📅 2026-05-19
 
+**[axonhub](https://github.com/looplj/axonhub)** — AxonHub 是一个开源 AI 网关，允许开发者使用任意 SDK 调用 100 多种大语言模型，内置故障转移、负载均衡、成本控制和端到端追踪功能。
+
+[演示](https://axonhub.onrender.com/) · [源码](https://github.com/looplj/axonhub) · `Go` · 🤖 Windsurf, Trae · ⭐ 3911 · 📅 2026-05-22
+
 **[tabularis](https://github.com/TabularisDB/tabularis)** — 一个轻量级、跨平台的数据库客户端，支持MySQL、PostgreSQL和SQLite，可通过插件扩展，注重速度、安全性和美观性。
 
 [演示](http://tabularis.dev) · [源码](https://github.com/TabularisDB/tabularis) · `TypeScript` · ⭐ 2085 · 📅 2026-05-19
@@ -385,9 +413,17 @@
 
 [演示](https://nezha.hanshutx.com/) · [源码](https://github.com/hanshuaikang/nezha) · `TypeScript` · 🤖 Claude, Codex · ⭐ 1252 · 📅 2026-05-20
 
+**[sceneview](https://github.com/sceneview/sceneview)** — SceneView 是一个跨平台的 3D 和增强现实（AR）SDK，让开发者能用熟悉的 UI 框架（如 Jetpack Compose、SwiftUI）在 Android、iOS、Web 等平台上构建 3D 和 AR 体验。
+
+[演示](https://play.google.com/store/apps/details?id=io.github.sceneview.demo) · [源码](https://github.com/sceneview/sceneview) · `Kotlin` · 🤖 Copilot, Cursor · ⭐ 1214 · 📅 2026-05-22
+
 **[ryos](https://github.com/ryokun6/ryos)** — 一个基于Web的类操作系统桌面环境，内置多个应用和AI助手，可在各种设备上运行。
 
 [演示](https://os.ryo.lu/docs) · [源码](https://github.com/ryokun6/ryos) · `TypeScript` · 🤖 Cursor · ⭐ 1161 · 📅 2026-05-19
+
+**[LangAlpha](https://github.com/ginlix-ai/LangAlpha)** — LangAlpha 是一个基于 AI 代理的金融投资研究平台，通过持久化工作区和多代理协作帮助用户进行市场分析和投资决策。
+
+[演示](https://ginlix.ai) · [源码](https://github.com/ginlix-ai/LangAlpha) · `Python` · 🤖 Claude, Claude Code · ⭐ 1152 · 📅 2026-05-22
 
 **[N.E.K.O](https://github.com/Project-N-E-K-O/N.E.K.O)** — 一个开源的AI桌面伴侣，能主动与用户聊天、理解屏幕内容、推荐娱乐内容，并支持多种虚拟形象和插件扩展。
 
@@ -416,6 +452,10 @@
 **[VCPChat](https://github.com/lioensky/VCPChat)** — VCPChat是一个分布式AI原生全栈引擎桌面终端，提供超越传统聊天界面的AI-UI-App交互系统，支持多模态渲染、分布式文件追踪和Agent群体智能协作。
 
 [源码](https://github.com/lioensky/VCPChat) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 679 · 📅 2026-05-19
+
+**[nimbalyst](https://github.com/nimbalyst/nimbalyst)** — 一个可视化工作空间，用于管理和协作AI编程代理（如Codex、Claude Code）的会话、文件和任务。
+
+[演示](https://nimbalyst.com) · [源码](https://github.com/nimbalyst/nimbalyst) · `TypeScript` · 🤖 Codex, Claude Code · ⭐ 574 · 📅 2026-05-22
 
 **[Wegent](https://github.com/wecode-ai/Wegent)** — 一个开源的AI原生操作系统，用于定义、组织和运行智能代理团队，支持多模型聊天、代码代理和沙箱执行。
 
@@ -453,6 +493,14 @@
 
 [演示](https://app.mach-ai.com/planexe_early_access) · [源码](https://github.com/PlanExeOrg/PlanExe) · `Python` · 🤖 Claude, Cursor · ⭐ 380 · 📅 2026-05-19
 
+**[Zephyr](https://github.com/Juwan-Hwang/Zephyr)** — 一个基于Tauri和Rust构建的现代、轻量级、注重安全的Mihomo/Clash Meta图形界面客户端，内置Prism Engine规则引擎。
+
+[演示](https://juwan-hwang.github.io/Zephyr/) · [源码](https://github.com/Juwan-Hwang/Zephyr) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 342 · 📅 2026-05-22
+
+**[bmm](https://github.com/Y80/bmm)** — 一个开源的全栈书签管理器，支持个人和团队收纳、整理、搜索与分享网站书签，并提供AI辅助整理功能。
+
+[演示](https://bmm.lccl.cc/) · [源码](https://github.com/Y80/bmm) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 328 · 📅 2026-05-22
+
 **[cokacdir](https://github.com/kstost/cokacdir)** — 一个通过Telegram、Discord和Slack等聊天应用远程控制AI编程代理（如Claude Code、Codex CLI）执行代码编辑、文件管理和Shell命令的工具。
 
 [源码](https://github.com/kstost/cokacdir) · `Rust` · 🤖 Claude, Codex · ⭐ 327 · 📅 2026-05-21
@@ -477,6 +525,10 @@
 
 [源码](https://github.com/kdlbs/kandev) · `Go` · ⭐ 232 · 📅 2026-05-19
 
+**[neuDrive](https://github.com/agi-bar/neuDrive)** — 一个个人AI中心，用于统一管理AI身份、记忆、偏好和信任，让Claude、ChatGPT、Cursor等AI代理共享上下文。
+
+[演示](https://www.neudrive.ai) · [源码](https://github.com/agi-bar/neuDrive) · `Go` · 🤖 Claude, Cursor · ⭐ 194 · 📅 2026-05-22
+
 **[amux](https://github.com/mixpeek/amux)** — 这是一个开源的AI代理控制面板，用于通过浏览器或手机并行运行和管理多个Claude Code会话，支持看板、笔记、调度和代理间协调。
 
 [演示](https://amux.io) · [源码](https://github.com/mixpeek/amux) · `HTML` · 🤖 Claude · ⭐ 187 · 📅 2026-05-19
@@ -493,6 +545,10 @@
 
 [演示](https://www.dandi.cloud/) · [源码](https://github.com/emarco177/dandi) · `TypeScript` · 🤖 Cursor, v0 · ⭐ 156 · 📅 2026-04-02
 
+**[bashkit](https://github.com/everruns/bashkit)** — 一个用Rust编写的虚拟Bash解释器，带有虚拟文件系统，用于多租户环境的安全沙箱执行。
+
+[演示](https://bashkit.sh) · [源码](https://github.com/everruns/bashkit) · `Rust` · 🤖 Claude, Copilot · ⭐ 149 · 📅 2026-05-22
+
 **[pneuma-skills](https://github.com/pandazki/pneuma-skills)** — 一个让人类和AI代码代理协作创建内容的桌面环境，支持幻灯片、看板等可视化编辑和技能分发。
 
 [源码](https://github.com/pandazki/pneuma-skills) · `TypeScript` · 🤖 Claude, Codex · ⭐ 148 · 📅 2026-05-19
@@ -500,6 +556,10 @@
 **[aeroftp](https://github.com/axpdev-lab/aeroftp)** — AeroFTP 是一个跨平台的多协议文件管理客户端，支持 FTP、SFTP、WebDAV、云存储等多种协议，并集成了 AI 功能。
 
 [演示](https://aeroftp.app) · [源码](https://github.com/axpdev-lab/aeroftp) · `Rust` · 🤖 Claude, Copilot · ⭐ 146 · 📅 2026-05-19
+
+**[stock_datasource](https://github.com/Yourdaylight/stock_datasource)** — 一个AI原生的A股智能投资助手，支持多Agent协作分析股票、智能选股、策略回测，并能通过微信等渠道交互。
+
+[源码](https://github.com/Yourdaylight/stock_datasource) · `Python` · 🤖 Claude, CodeBuddy · ⭐ 143 · 📅 2026-05-22
 
 **[webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode)** — 这是一个基于OpenCode框架的长篇网文AI辅助创作系统，通过分层RAG检索、故事合约引擎和结构化质量审查，解决AI在连载创作中的遗忘和幻觉问题，支持200万字量级的连载创作。
 
@@ -517,9 +577,17 @@
 
 [演示](https://monize-demo.ucdialplans.com) · [源码](https://github.com/kenlasko/monize) · `TypeScript` · 🤖 Claude · ⭐ 119 · 📅 2026-05-21
 
+**[QuranCaption](https://github.com/zonetecde/QuranCaption)** — 将古兰经诵读音频转换为带专业字幕和翻译的精美视频，支持40多种语言。
+
+[演示](https://youtu.be/vCRUjzATRDk) · [源码](https://github.com/zonetecde/QuranCaption) · `Python` · 🤖 Claude, Copilot · ⭐ 110 · 📅 2026-05-22
+
 **[MaClaw](https://github.com/RapidAI/MaClaw)** — MaClaw 是一个通用可自进化智能体平台，能理解用户意图、记住偏好、自主规划并执行复杂任务，覆盖商业、研究、合规、学术、内容创作和产品技术等多个领域。
 
 [演示](https://www.maclaw.top) · [源码](https://github.com/RapidAI/MaClaw) · `Go` · 🤖 Claude, Cursor · ⭐ 103 · 📅 2026-05-19
+
+**[humbug](https://github.com/m6r-ai/humbug)** — Humbug 是一个模块化、可扩展的平台，旨在让人类和AI协作处理想法，类似于为人类-AI协作设计的操作系统。
+
+[演示](docs/screenshots/v48-demo.gif) · [源码](https://github.com/m6r-ai/humbug) · `Python` · 🤖 Claude, Copilot · ⭐ 94 · 📅 2026-05-22
 
 **[GitWand](https://github.com/devlint/GitWand)** — GitWand 是一个基于 Tauri 和 Vue 3 构建的桌面 Git 客户端，能够自动解决琐碎的合并冲突，并提供代码审查、合并预览等增强功能。
 
@@ -638,6 +706,6 @@
 
 **自动收集 · 每日更新**
 
-最后更新: 2026-05-21
+最后更新: 2026-05-22
 
 </div>
