@@ -7132,6 +7132,38 @@
       "updated_at": "2026-05-31T03:43:50.615770"
     },
     {
+      "github_id": 1098666208,
+      "full_name": "shenpeiheng/ai-smart-draw",
+      "name": "ai-smart-draw",
+      "owner": "shenpeiheng",
+      "description": "ai-smart-draw",
+      "chinese_description": "一个基于AI的智能绘图应用，通过自然语言描述自动生成和编辑多种格式的图表（如流程图、UML、Mermaid等）。",
+      "english_description": "An AI-powered drawing application that generates and edits various diagram formats (flowcharts, UML, Mermaid, etc.) from natural language descriptions.",
+      "html_url": "https://github.com/shenpeiheng/ai-smart-draw",
+      "homepage": "https://ai-smart-draw.vercel.app/",
+      "language": "TypeScript",
+      "stars": 171,
+      "forks": 21,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "Node.js"
+      ],
+      "category": "应用",
+      "created_at": "2026-06-03T04:01:09.208389",
+      "pushed_at": "2026-06-03T02:40:21Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目创建于2025年11月，提交信息中出现大量无意义的'cf'提交，且README结构清晰但代码结构相对简单，符合AI辅助快速开发的特征；项目功能完整但复杂度适中，典型vibe-coding产物。",
+      "readme_preview": "# AI 智能绘图\n\n[English](README_en.md) | 中文\n\n一个基于 Next.js 构建的智能绘图应用程序，利用 AI 的强大功能创建和操作各种类型的图表，包括 Draw.io (diagrams.net)、Mermaid、PlantUML、Excalidraw，以及通过自然语言命令支持 20 多种其他图表格式。\n\n🔗 **在线演示**:\n- https://ai-smart-draw.vercel.app/\n\n![de5e647f-a83a-4b28-bd56-b449f587e472.png](public/de5e647f-a83a-4b28-bd56-b449f587e472.png)\n![01669c29-60a7-4777-af14-0982d6c6daa8.png](public/01669c29-60a7-4777-af14-0982d6c6daa8.png)\n![409fd263-800f-4183-8df9-71691307633c.png](public/409fd263-800f-4183-8df9-71691307633c.png)\n!",
+      "updated_at": "2026-06-03T04:01:09.208389"
+    },
+    {
       "github_id": 1185787675,
       "full_name": "JayCRL/MobileVC",
       "name": "MobileVC",
@@ -7449,6 +7481,38 @@
       "why_vibe_coding": "项目名称和描述使用了高度拟人化、富有情感色彩的营销语言（如'heal the wound'、'companion that remembers'），这是AI辅助生成内容的典型特征；项目结构包含.claude/、.cleo/、.codex等AI工具配置文件；提交信息格式（如T11242、T10538）显示任务编号系统，符合AI辅助开发的工作流；README中'Every developer who has ever returned...'等段落具有明显的AI生成文本风格。",
       "readme_preview": "<p align=\"center\">\n  <img src=\"docs/images/banner.png\" alt=\"CLEO — Agent First Task Orchestration\" width=\"100%\" />\n</p>\n\n# CLEO\n\n[![npm version](https://img.shields.io/npm/v/@cleocode/cleo.svg)](https://www.npmjs.com/package/@cleocode/cleo)\n[![CI](https://github.com/kryptobaseddev/cleo/actions/workflows/ci.yml/badge.svg)](https://github.com/kryptobaseddev/cleo/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Node.js Version](https://img.s",
       "updated_at": "2026-06-02T03:56:02.074405"
+    },
+    {
+      "github_id": 1187320841,
+      "full_name": "npc-live/clawfirm",
+      "name": "clawfirm",
+      "owner": "npc-live",
+      "description": null,
+      "chinese_description": "一个面向个体创业者的AI智能体平台，支持多LLM提供商、工作流编排，提供CLI、HTTP网关和桌面应用三种使用方式，用于自动化软件出海、套利交易和自媒体矩阵分发。",
+      "english_description": "An AI agent platform for solo entrepreneurs, supporting multiple LLM providers, workflow orchestration, and offering CLI, HTTP gateway, and desktop app interfaces for automated software development, arbitrage trading, and social media distribution.",
+      "html_url": "https://github.com/npc-live/clawfirm",
+      "homepage": null,
+      "language": "Go",
+      "stars": 157,
+      "forks": 13,
+      "ai_tools": [
+        "Claude",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Go",
+        "React",
+        "TypeScript",
+        "Docker"
+      ],
+      "category": "应用",
+      "created_at": "2026-06-03T04:01:19.128174",
+      "pushed_at": "2026-06-03T03:06:51Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目创建于2026年3月，仅2个多月就达到157星，且README中明确提到使用AI进行用户调研、写代码、审代码、自动化营销等全链路AI嵌入，项目结构清晰但代码量适中，符合vibe-coding快速迭代的特点。同时项目名称和描述中多次出现'AI'、'agent'等关键词，且提交记录显示使用Anthropic官方SDK，表明开发过程中深度依赖AI工具。",
+      "readme_preview": "# ClawFirm\n\nAI Gateway — 一个用 Go 构建的 AI 智能体平台，支持多 LLM 提供商、对话记忆、工作流编排，并提供 CLI、HTTP 网关和桌面应用三种使用方式。\n\nAI Gateway — An AI agent platform built with Go, supporting multiple LLM providers, conversation memory, workflow orchestration, available as CLI, HTTP gateway, and desktop app.\n\n---\n\n## 业务模块 / Business Modules\n\nClawFirm.dev 是专为新时代个体创业者打造的\"一人公司\"自动化引擎。通过 AI 深度嵌入商业全链路，提供三种核心盈利增长模式：\n\nClawFirm.dev is an automation engine built for the new generation of solo entrepreneurs — powering the \"one-person compan",
+      "updated_at": "2026-06-03T04:01:19.128174"
     },
     {
       "github_id": 851282728,
@@ -8278,6 +8342,38 @@
       "why_vibe_coding": "项目README中明确提到基于next-ai-drawio和ai-draw-next二次开发，这两个都是典型的AI辅助编程项目；项目结构清晰但代码量适中，符合vibe-coding快速迭代的特点；从提交记录看功能迭代频繁，有AI辅助开发的典型特征；项目创建于2025年底，属于较新的AI应用项目。",
       "readme_preview": "\n中文 | [English](./README_EN.md)\n\n<p>An AI-powered diagram platform lets you describe charts in natural language and interact with AI for easy creation. It supports Mermaid, Excalidraw, and Draw.io engines. Users can privately deploy with Docker, store and manage diagram files, and choose between local or cloud use, and supports multi-user usage.\n\n<p>AI驱动的图表创作平台，与AI对话，轻松使用Mermaid、Excalidraw和Draw.io绘图，支持docker私有部署、绘图文件存储和管理、本地和云端两种使用模式，支持多用户使用。\n\n\n<div align=center>\n  \n  # AI Draw <img src=\"https:/",
       "updated_at": "2026-05-28T03:33:43.356559"
+    },
+    {
+      "github_id": 1160039722,
+      "full_name": "antropos17/Aegis",
+      "name": "Aegis",
+      "owner": "antropos17",
+      "description": "Open-source EDR for AI agents. Monitor processes, files, network, and behavior of autonomous AI agents.",
+      "chinese_description": "一个开源的端点检测与响应（EDR）系统，用于监控AI代理在操作系统层面的进程、文件、网络和行为活动。",
+      "english_description": "An open-source EDR for monitoring AI agents at the OS level, tracking processes, file access, network activity, and behavioral anomalies.",
+      "html_url": "https://github.com/antropos17/Aegis",
+      "homepage": "https://github.com/antropos17/Aegis/releases/download/aegis-v0.10.0-alpha/demo.gif",
+      "language": "JavaScript",
+      "stars": 131,
+      "forks": 19,
+      "ai_tools": [
+        "Claude",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Electron"
+      ],
+      "category": "应用",
+      "created_at": "2026-06-03T04:01:32.895697",
+      "pushed_at": "2026-06-03T03:52:08Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目包含.claude/和CLAUDE.md等AI辅助开发配置文件，README中提及'built with Claude'风格描述，且项目结构清晰但复杂度适中，符合vibe-coding快速迭代特征。",
+      "readme_preview": "<p align=\"center\">\n  <h1 align=\"center\">AEGIS</h1>\n  <p align=\"center\"><b>OS-level oversight for AI coding agents</b></p>\n  <p align=\"center\"><i>Open-source monitor that shows what AI coding agents actually do on your machine — at the OS level, no agent hooks required.</i></p>\n</p>\n\n**AEGIS sees every AI agent on your machine — even ones that don't cooperate.** It is an independent, OS-level observer that watches agent processes, file access, network activity, and behavioral anomalies in real ti",
+      "updated_at": "2026-06-03T04:01:32.895697"
     },
     {
       "github_id": 1178005536,
@@ -9121,6 +9217,72 @@
       "updated_at": "2026-06-01T04:00:02.817081"
     },
     {
+      "github_id": 1250296864,
+      "full_name": "chaos-xxl/zelda-hyrule-ui",
+      "name": "zelda-hyrule-ui",
+      "owner": "chaos-xxl",
+      "description": "🗡️ Zelda BOTW style React UI component library — 84 components with Sheikah glow effects, dark theme, and AI-consumable design specs (Cursor/v0 ready)",
+      "chinese_description": "一个受《塞尔达传说：旷野之息》启发的 React UI 组件库，包含 83 个带有希卡辉光效果的暗色主题组件，并附带 AI 可直接使用的设计规范。",
+      "english_description": "A React UI component library inspired by The Legend of Zelda: Breath of the Wild, featuring 83 dark-themed components with Sheikah glow effects and AI-consumable design specs.",
+      "html_url": "https://github.com/chaos-xxl/zelda-hyrule-ui",
+      "homepage": "https://chaos-xxl.github.io/zelda-hyrule-ui/",
+      "language": "TypeScript",
+      "stars": 104,
+      "forks": 15,
+      "ai_tools": [
+        "Cursor",
+        "v0"
+      ],
+      "tech_stack": [
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "category": "工具",
+      "created_at": "2026-06-03T04:01:46.759578",
+      "pushed_at": "2026-06-03T03:59:34Z",
+      "quality_score": 7,
+      "confidence": 0.9,
+      "why_vibe_coding": "README 中明确标注了 'Cursor Ready' 和 'AI-consumable design specs'，并提到 'Cursor/v0 ready'，表明项目设计时考虑了 AI 辅助开发；项目结构清晰但复杂度适中，符合 vibe-coding 快速迭代的特点；组件数量多但功能单一，适合用 AI 工具批量生成。",
+      "readme_preview": "<div align=\"center\">\n\n# 🗡️ zelda-hyrule-ui\n\n[![npm version](https://img.shields.io/npm/v/zelda-hyrule-ui?color=cb3837&labelColor=222)](https://www.npmjs.com/package/zelda-hyrule-ui)\n[![npm downloads](https://img.shields.io/npm/dm/zelda-hyrule-ui?color=5fa04e&labelColor=222)](https://www.npmjs.com/package/zelda-hyrule-ui)\n[![GitHub stars](https://img.shields.io/github/stars/chaos-xxl/zelda-hyrule-ui?color=ffd700&labelColor=222)](https://github.com/chaos-xxl/zelda-hyrule-ui/stargazers)\n[![License]",
+      "updated_at": "2026-06-03T04:01:46.759578"
+    },
+    {
+      "github_id": 1213304788,
+      "full_name": "ghboke/core-ui",
+      "name": "core-ui",
+      "owner": "ghboke",
+      "description": "Direct2D hardware-accelerated rendering, Fluent 2 design system, 29+ built-in controls, declarative .ui markup, and a pure C API — all in a single DLL.",
+      "chinese_description": "Core UI 是一个轻量级的 Windows 桌面 UI 框架，使用 Direct2D 硬件加速渲染和 Fluent 2 设计语言，提供 29 多个内置控件和纯 C API，支持多种语言调用。",
+      "english_description": "Core UI is a lightweight Windows desktop UI framework with Direct2D hardware-accelerated rendering, Fluent 2 design system, 29+ built-in controls, and a pure C API callable from multiple languages.",
+      "html_url": "https://github.com/ghboke/core-ui",
+      "homepage": "https://ghboke.github.io/core-ui/",
+      "language": "C++",
+      "stars": 104,
+      "forks": 11,
+      "ai_tools": [
+        "Claude",
+        "GPT",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "C++",
+        "Direct2D",
+        "Direct3D 11",
+        "QuickJS-NG",
+        "Vue",
+        "CSS"
+      ],
+      "category": "应用",
+      "created_at": "2026-06-03T04:01:51.814685",
+      "pushed_at": "2026-06-03T03:10:08Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "README 中明确提到项目是'为 LLM 和 AI Agent 从零设计的 UI 框架'，并详细描述了如何让 AI 生成代码（如提供自包含的速查文档 docs/uix-ai-guide.md 让 LLM 一次读完就能生成完整应用），同时项目结构清晰、API 设计简洁（纯 C ABI、Vue 3 SFC 风格），符合 vibe-coding 快速开发的特点。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"./logo.svg\" alt=\"CORE UI\" height=\"64\">\n</p>\n\n<p align=\"center\">\n  <a href=\"./README-en.md\">English</a> · <b>中文</b>\n  &nbsp;·&nbsp;\n  <a href=\"https://ghboke.github.io/core-ui/\"><b>📖 在线文档</b></a>\n</p>\n\n**Core UI** 是一个现代化的 Windows 桌面 UI 框架，从零重新设计以匹配 Microsoft **Fluent 2** 视觉语言，同时保持**原生级的性能**与**极小的分发体积**。底层基于 **Direct2D / Direct3D 11** 硬件加速渲染，把从按钮、文本框到 Flyout、Dialog、TitleBar 的 25+ 个内置控件统一在一套 **纯 C API** 之下（共 250+ 个导出函数）——Rust、Go、Python、C#、Delphi 乃至 Lua 都能直接调用，不需要写 C++",
+      "updated_at": "2026-06-03T04:01:51.814685"
+    },
+    {
       "github_id": 1114812203,
       "full_name": "RapidAI/MaClaw",
       "name": "MaClaw",
@@ -9353,6 +9515,39 @@
       "updated_at": "2026-05-29T03:33:53.675967"
     },
     {
+      "github_id": 1211822834,
+      "full_name": "webjsdev/webjs",
+      "name": "webjs",
+      "owner": "webjsdev",
+      "description": "The web framework built for AI agents",
+      "chinese_description": "一个专为AI代理设计的全栈Web框架，基于Web Components构建，支持SSR、类型安全、无构建步骤，并内置AI友好的文件约定和AGENTS.md契约。",
+      "english_description": "A full-stack web framework built for AI agents, based on Web Components with SSR, type safety, zero build step, and AI-friendly file conventions with AGENTS.md contract.",
+      "html_url": "https://github.com/webjsdev/webjs",
+      "homepage": "https://webjs.dev",
+      "language": "JavaScript",
+      "stars": 101,
+      "forks": 68,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Web Components",
+        "Tailwind CSS"
+      ],
+      "category": "应用",
+      "created_at": "2026-06-03T04:01:56.621098",
+      "pushed_at": "2026-06-03T03:49:58Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "README明确以'AI-first'为核心设计理念，强调文件约定和AGENTS.md契约让LLM无需加载整个代码库即可修改代码；项目创建于2026年4月，提交活跃且功能迭代快速；框架设计明显针对AI代理的编程模式优化，如'one function per file'、'.server.ts boundary'等，符合vibe-coding的快速迭代和AI辅助开发特征。",
+      "readme_preview": "# webjs\n\n**AI-first. Web components first.**\n\nFull-stack web framework built on top of Web Components. `cache()` for\nqueries, HTTP Cache-Control for pages, Session class with SessionStorage,\nNextAuth-style auth with providers, WebSocket broadcast, rate limiting.\nSwap the in-memory cache store for Redis with a single `setStore()` call\n(no config files, no build step in between). Web components first,\nTypeScript with zero build step, real SSR with Declarative Shadow DOM.\n\n## Why webjs\n\n- **AI-firs",
+      "updated_at": "2026-06-03T04:01:56.621098"
+    },
+    {
       "github_id": 1248789121,
       "full_name": "JasonLam08/cursor_agent_status_light",
       "name": "cursor_agent_status_light",
@@ -9580,6 +9775,38 @@
       "updated_at": "2026-05-19T11:51:13.491312"
     },
     {
+      "github_id": 1226151883,
+      "full_name": "ryantsai/KKTerm",
+      "name": "KKTerm",
+      "owner": "ryantsai",
+      "description": "Windows-first AI-agent super-tool for vibe coders & system admins — terminals, SSH, SFTP, RDP/VNC, dashboards, install helpers, and a built-in AI assistant.",
+      "chinese_description": "一个面向Windows系统管理员和AI编程者的集成工作台，整合了终端、SSH、SFTP、RDP/VNC远程桌面、仪表盘和内置AI助手功能。",
+      "english_description": "A Windows-first integrated admin workspace combining terminals, SSH, SFTP, RDP/VNC remote desktop, dashboards, and a built-in AI assistant for system administrators and vibe-coders.",
+      "html_url": "https://github.com/ryantsai/KKTerm",
+      "homepage": "https://ryantsai.github.io/KKTerm/",
+      "language": "Rust",
+      "stars": 90,
+      "forks": 12,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Rust",
+        "React",
+        "Tauri",
+        "TypeScript"
+      ],
+      "category": "应用",
+      "created_at": "2026-06-03T04:02:01.201000",
+      "pushed_at": "2026-06-03T03:20:59Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目README中明确提及面向'vibe-coder'群体，描述中强调'AI-agent super-tool'定位，且仓库中包含AGENTS.md、CLAUDE.md、CONTEXT.md等AI辅助开发特有的配置文件，提交记录中有'codex/review'、'codex/verify'等AI代码审查相关分支，表明开发过程中深度使用了AI编程工具。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"src-tauri/icons/logo.png\" alt=\"KKTerm\" width=\"128\" />\n</p>\n\n<h1 align=\"center\">KKTerm</h1>\n\n<p align=\"center\">\n  <strong>The native Windows admin workspace the AI-tools era forgot to build — terminals, SSH, SFTP, RDP/VNC, dashboards, and an AI that builds your own tool widgets.</strong>\n</p>\n\n<p align=\"center\">\n  <em>Because your taskbar shouldn't look like a Vegas slot machine.</em>\n</p>\n\n<p align=\"center\">\n  <sub>Named after <strong>乖乖 (Kuāi Kuāi)</strong>, the g",
+      "updated_at": "2026-06-03T04:02:01.201000"
+    },
+    {
       "github_id": 1221249481,
       "full_name": "ChrisChen667788/wind-comic",
       "name": "wind-comic",
@@ -9781,6 +10008,39 @@
       "why_vibe_coding": "项目名称和描述中明确提到'AI-driven'和'AI-native'，README 中强调 AI 集成和本地 AI 功能，且项目结构包含 .claude/ 和 CLAUDE.md 等 AI 辅助开发痕迹，提交频率高（v0.53.x 快速迭代），符合 vibe-coding 快速开发的特点。",
       "readme_preview": "<p align=\"center\">  \n  <h1 align=\"center\">Termex</h1>  \n  <p align=\"center\"><strong>An open-source, AI-native SSH client built with Rust.</strong></p>  \n  <p align=\"center\">以 SSH 协议为底座，打造 AI 时代永不断线的云端智能工作平台。</p>  \n  <p align=\"center\">SSH is the wire. What flows through it is your entire AI-powered workflow.</p>  \n  <p align=\"center\">Connect from any device. Punch through any network.</p>  \n  <p align=\"center\">AI keeps working while you're away. Reconnect, and pick up right where it left off.</p>",
       "updated_at": "2026-05-23T02:55:40.935135"
+    },
+    {
+      "github_id": 973691711,
+      "full_name": "onion-liu/arxiv_daily_aigc",
+      "name": "arxiv_daily_aigc",
+      "owner": "onion-liu",
+      "description": "An AI-driven daily arXiv paper crawler, analyzer, and organizer tool, focusing on AIGC",
+      "chinese_description": "每天自动从arXiv抓取计算机视觉领域最新论文，用AI筛选出与AIGC相关的论文并生成结构化数据和美观的HTML报告。",
+      "english_description": "A daily automated tool that fetches latest arXiv papers in computer vision, uses AI to filter AIGC-related papers, and generates structured JSON data and beautiful HTML reports.",
+      "html_url": "https://github.com/onion-liu/arxiv_daily_aigc",
+      "homepage": "http://www.aha-time.com/arxiv_daily_aigc/",
+      "language": "HTML",
+      "stars": 85,
+      "forks": 15,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "HTML",
+        "TailwindCSS",
+        "JavaScript",
+        "GitHub Actions"
+      ],
+      "category": "工具",
+      "created_at": "2026-06-03T04:02:06.238833",
+      "pushed_at": "2026-06-03T02:45:41Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目创建于2025年4月，使用AI（OpenRouter API）作为核心功能组件，README中强调'AI-driven'和'AI filtering'，项目结构简洁（Python脚本+HTML模板+GitHub Actions），符合vibe-coding快速开发、AI辅助的特点。主要语言为HTML（前端展示），但核心逻辑在Python中，整体复杂度适中，没有复杂的工程化设计，体现了快速原型和AI驱动的开发风格。",
+      "readme_preview": "# Arxiv Daily AIGC\n\nThis is an automated project designed to fetch the latest papers from the Computer Vision (cs.CV) field on arXiv daily, use AI (currently via OpenRouter API) to filter papers related to image/video/multimodal generation, generate structured JSON data and aesthetically pleasing HTML pages, and finally automatically deploy the results to GitHub Pages via GitHub Actions.\n\n## Features\n\n1.  **Data Fetching**: Automatically fetches the latest papers from the `cs.CV` field on arXiv ",
+      "updated_at": "2026-06-03T04:02:06.238833"
     },
     {
       "github_id": 1208417484,
@@ -11130,6 +11390,39 @@
       "updated_at": "2026-05-31T03:44:56.923965"
     },
     {
+      "github_id": 1117377856,
+      "full_name": "rasinmuhammed/misata",
+      "name": "misata",
+      "owner": "rasinmuhammed",
+      "description": "High-performance open-source synthetic data engine. Uses LLMs for schema design and vectorized NumPy for deterministic, scalable generation.",
+      "chinese_description": "一个高性能开源合成数据引擎，通过自然语言描述或YAML配置生成具有参照完整性的多表数据集，并附带验证报告。",
+      "english_description": "A high-performance open-source synthetic data engine that generates referentially-intact multi-table datasets from natural language or YAML, with validation reports.",
+      "html_url": "https://github.com/rasinmuhammed/misata",
+      "homepage": "https://colab.research.google.com/github/rasinmuhammed/misata/blob/main/notebooks/quickstart.ipynb",
+      "language": "Python",
+      "stars": 57,
+      "forks": 3,
+      "ai_tools": [
+        "Claude",
+        "Cursor",
+        "Windsurf"
+      ],
+      "tech_stack": [
+        "Python",
+        "NumPy",
+        "Streamlit",
+        "YAML"
+      ],
+      "category": "工具",
+      "created_at": "2026-06-03T04:02:33.448361",
+      "pushed_at": "2026-06-03T03:46:49Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目README中明确提到支持通过MCP协议集成到Claude、Cursor、Windsurf等AI助手，且项目创建于2025年12月（较新），提交记录中包含'research'、'adversarial review'等AI辅助研究特征，项目结构清晰但复杂度适中，符合vibe-coding快速迭代的特点。",
+      "readme_preview": "<div align=\"center\">\n\n<img src=\"public/logo.png\" width=\"180\" alt=\"Misata\" />\n\n# Misata\n\n**Proof-backed synthetic data — realistic multi-table datasets with validation reports, from a sentence, YAML, or your own database.**\n\n[![PyPI version](https://img.shields.io/pypi/v/misata.svg?style=flat-square&color=E89030)](https://pypi.org/project/misata/)\n[![Python versions](https://img.shields.io/pypi/pyversions/misata.svg?style=flat-square)](https://pypi.org/project/misata/)\n[![CI](https://img.shields.",
+      "updated_at": "2026-06-03T04:02:33.448361"
+    },
+    {
       "github_id": 1125206904,
       "full_name": "nisshchayarathi/gitverse-nextjs",
       "name": "gitverse-nextjs",
@@ -11772,8 +12065,195 @@
       "why_vibe_coding": "项目创建于2025年底，README中明确提及AI辅助功能，提交信息包含'Polish onboarding flow visuals [skip ci]'等典型AI辅助开发风格，项目结构包含.agents/、AGENTS.md等AI开发工具配置文件，且项目功能完整但复杂度适中，符合vibe-coding快速迭代的特点。",
       "readme_preview": "<h1 align=\"center\">Sorty <img src=\"Sources/SortyLib/Resources/Images/SortyMascotHead.png\" alt=\"Sorty logo\" width=\"32\" style=\"vertical-align:middle; height:32px; display:inline-block; margin:0 8px;\" /> - AI-Powered Folder Organizer for macOS</h1>\n\n\n[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)\n[![Swift](https://img.shields.io/badge/Swift-6.0+-orange.svg)](https://swift.org)\n[![macOS](https://img.shields.io/badge/macOS-15.1+-blue.sv",
       "updated_at": "2026-05-31T03:45:47.064448"
+    },
+    {
+      "github_id": 1242442927,
+      "full_name": "lywnl/ai-app-generation",
+      "name": "ai-app-generation",
+      "owner": "lywnl",
+      "description": "基于Spring Boot 3 + LangChain4j的AI零代码应用生成平台。通过用户输入自然语言，由AI Agent 自动执行多源上下文增强、代码生成、项目构建的完整工作流，可一键部署为可访问的Web应用。并结合多级缓存、异步处理、安全护轨等多种优化策略，保证系统的高性能与稳定性",
+      "chinese_description": "一个AI驱动的零代码应用生成平台，用户通过自然语言描述需求，即可自动生成并部署完整的Web应用。",
+      "english_description": "An AI-driven no-code application generation platform that automatically generates and deploys complete web applications from natural language descriptions.",
+      "html_url": "https://github.com/lywnl/ai-app-generation",
+      "homepage": "",
+      "language": "Java",
+      "stars": 38,
+      "forks": 2,
+      "ai_tools": [
+        "Claude",
+        "通义灵码"
+      ],
+      "tech_stack": [
+        "Java",
+        "Spring Boot",
+        "Vue",
+        "LangChain4j",
+        "Docker",
+        "Redis",
+        "PostgreSQL"
+      ],
+      "category": "应用",
+      "created_at": "2026-06-03T04:03:06.102898",
+      "pushed_at": "2026-06-03T03:45:36Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目README中明确提到'对标美团NoCode、Bolt.new、Lovable等同类型产品'，这些均为AI辅助开发工具；项目创建时间极短（2026年5月18日），但功能描述非常完整且技术栈复杂，符合AI快速生成的特征；提交记录中包含'feat: L0热窗口工具消息折叠'等典型AI辅助开发中常见的迭代式改进描述；项目结构包含.claude/目录，暗示使用Claude进行开发辅助。",
+      "readme_preview": "<div align=\"center\">\n\n# AI App Generation\n\n**一句话需求 → 可部署 Web 应用** · 基于 LangChain4j 的 AI 全栈零代码（NoCode）应用生成平台\n\n[![Java](https://img.shields.io/badge/Java-25-ED8B00?logo=openjdk&logoColor=white)](https://openjdk.org/)\n[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.4-6DB33F?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)\n[![LangChain4j](https://img.shields.io/badge/LangChain4j-1.1.0-1C3C3C?logo=langchain&logoColor=white)](https://docs.langchain4j.dev/)\n[![Vu",
+      "updated_at": "2026-06-03T04:03:06.102898"
+    },
+    {
+      "github_id": 912799364,
+      "full_name": "uonou/mmrl-repo",
+      "name": "mmrl-repo",
+      "owner": "uonou",
+      "description": "基于MMRL (Magisk Module Repository Loader)的模块仓库。",
+      "chinese_description": "这是一个基于MMRL的Magisk模块仓库，提供模块的自动同步、更新和分发服务。",
+      "english_description": "A Magisk module repository based on MMRL that provides automatic module synchronization, updates, and distribution.",
+      "html_url": "https://github.com/uonou/mmrl-repo",
+      "homepage": "https://misak10.github.io/mmrl-repo/",
+      "language": "HTML",
+      "stars": 36,
+      "forks": 3,
+      "ai_tools": [
+        "Cursor"
+      ],
+      "tech_stack": [
+        "HTML",
+        "JavaScript",
+        "GitHub Actions"
+      ],
+      "category": "工具",
+      "created_at": "2026-06-03T04:03:14.688634",
+      "pushed_at": "2026-06-03T03:44:55Z",
+      "quality_score": 6,
+      "confidence": 0.85,
+      "why_vibe_coding": "README中明确感谢Cursor提供了强大的AI辅助开发体验，项目结构简单（静态HTML+JSON配置），功能单一（模块仓库同步分发），符合vibe-coding快速开发的特点。",
+      "readme_preview": "# Misaki-Modules Repo\n\n<div align=\"center\">\n    <img src=\"src/logo-red.png\" alt=\"Misaki-Module Repo\" width=\"100%\">\n</div>\n\n<div align=\"center\">\n\n[![GitHub stars](https://img.shields.io/github/stars/misak10/mmrl-repo?style=flat-square)](https://github.com/misak10/mmrl-repo/stargazers)\n[![GitHub issues](https://img.shields.io/github/issues/misak10/mmrl-repo?style=flat-square)](https://github.com/misak10/mmrl-repo/issues)\n[![GitHub forks](https://img.shields.io/github/forks/misak10/mmrl-repo?style=",
+      "updated_at": "2026-06-03T04:03:14.688634"
+    },
+    {
+      "github_id": 857587246,
+      "full_name": "jaylpp/chinese-insight",
+      "name": "chinese-insight",
+      "owner": "jaylpp",
+      "description": "汉语新解",
+      "chinese_description": "这是一个Chrome浏览器扩展，通过AI大模型解读汉语词汇并生成优雅的卡片，帮助用户从全新视角理解汉语言文化。",
+      "english_description": "A Chrome extension that interprets Chinese vocabulary using AI models and generates elegant cards, offering fresh perspectives on Chinese language and culture.",
+      "html_url": "https://github.com/jaylpp/chinese-insight",
+      "homepage": "https://chromewebstore.google.com/detail/%E6%B1%89%E8%AF%AD%E6%96%B0%E8%A7%A3/pnpajljeppgpoelfldccfnmhkidmahfc",
+      "language": "JavaScript",
+      "stars": 36,
+      "forks": 5,
+      "ai_tools": [
+        "Cursor"
+      ],
+      "tech_stack": [
+        "JavaScript",
+        "HTML5",
+        "Chrome Extension"
+      ],
+      "category": "插件",
+      "created_at": "2026-06-03T04:03:19.357281",
+      "pushed_at": "2024-09-27T08:51:12Z",
+      "quality_score": 7,
+      "confidence": 0.95,
+      "why_vibe_coding": "README明确提到'本插件由作者借助Cursor开发'，直接表明使用了AI辅助编程工具Cursor。项目结构简洁（manifest.json、content.js、popup.html等），功能聚焦于划词生成卡片，符合vibe-coding快速开发的特点。",
+      "readme_preview": "<h1 align=\"center\">汉语新解</h1>\n\n<p align=\"center\">\n<img alt=\"Static Badge\" src=\"https://img.shields.io/badge/chrome_plugin-black?style=flat&logo=googlechrome&logoColor=violet&logoSize=auto\">\n\n<img alt=\"Static Badge\" src=\"https://img.shields.io/badge/manifest_3.0-green\">\n\n<img alt=\"Static Badge\" src=\"https://img.shields.io/badge/made_by-PandaJay-blue\">\n\n<img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat\">\n\n<img alt=\"Static Badge\" src=\"https://img.shields.io/badge/HTML5-pu",
+      "updated_at": "2026-06-03T04:03:19.357281"
+    },
+    {
+      "github_id": 1146688547,
+      "full_name": "Anantys-oss/koan",
+      "name": "koan",
+      "owner": "Anantys-oss",
+      "description": "Autonomous background agent that consumes unused Claude Max quota to explore, audit, and improve a codebase — communicating with its human via Telegram and a shared mission queue.",
+      "chinese_description": "一个自主AI代理，利用闲置的Claude Max配额在后台自动审查代码、修复bug并提供战略洞察，通过Telegram与人类协作。",
+      "english_description": "An autonomous background agent that consumes unused Claude Max quota to explore, audit, and improve a codebase, communicating with its human via Telegram and a shared mission queue.",
+      "html_url": "https://github.com/Anantys-oss/koan",
+      "homepage": "https://koan.anantys.com",
+      "language": "Python",
+      "stars": 35,
+      "forks": 20,
+      "ai_tools": [
+        "Claude"
+      ],
+      "tech_stack": [
+        "Python",
+        "Docker"
+      ],
+      "category": "应用",
+      "created_at": "2026-06-03T04:03:24.293728",
+      "pushed_at": "2026-06-03T03:58:44Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "README明确提到项目本身是AI代理，且其第一个运行实例自发撰写了Manifesto、Koans和Lessons Learned，说明项目核心就是AI驱动的自主开发；项目描述中强调'agent proposes, human decides'的协作模式，符合vibe-coding中AI辅助开发的特征；项目结构包含AI_POLICY.md、CLAUDE.md等AI相关配置文件，且功能围绕消耗Claude Max配额展开，深度依赖AI工具。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"instance.example/avatar.png\" alt=\"Kōan\" width=\"180\" />\n</p>\n\n<h1 align=\"center\">Kōan</h1>\n\n<p align=\"center\">\n  <strong>An autonomous AI agent that works while you sleep.</strong><br/>\n  Turns idle Claude Max quota into code reviews, bug fixes, and strategic insights.\n</p>\n\n<p align=\"center\">\n  <a href=\"INSTALL.md\"><strong>Install Guide</strong></a> &bull;\n  <a href=\"docs/README.md\"><strong>Docs</strong></a> &bull;\n  <a href=\"docs/users/user-manual.md\"><strong>User",
+      "updated_at": "2026-06-03T04:03:24.293728"
+    },
+    {
+      "github_id": 1195690858,
+      "full_name": "bukkbeek/GodotFPS-Template",
+      "name": "GodotFPS-Template",
+      "owner": "bukkbeek",
+      "description": "Free & open-source Godot FPS template for everyone!",
+      "chinese_description": "一个免费开源的Godot引擎第一人称射击游戏模板，包含玩家移动、瞄准、武器系统、弹药、生命值、测试关卡和载具等完整FPS功能。",
+      "english_description": "A free and open-source Godot FPS template featuring player movement, ADS, hitscan weapon system, ammo, health, test level, vehicles, and common FPS utilities.",
+      "html_url": "https://github.com/bukkbeek/GodotFPS-Template",
+      "homepage": "https://www.youtube.com/watch?v=HDL8GqJAMLs",
+      "language": "GDScript",
+      "stars": 34,
+      "forks": 4,
+      "ai_tools": [
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Godot",
+        "GDScript"
+      ],
+      "category": "游戏",
+      "created_at": "2026-06-03T04:03:28.923438",
+      "pushed_at": "2026-03-31T05:38:55Z",
+      "quality_score": 6,
+      "confidence": 0.9,
+      "why_vibe_coding": "README中明确标注'Built with Cursor'，表明使用了AI辅助编程工具Cursor开发；项目结构清晰但代码量适中，符合vibe-coding快速原型的特点；项目创建于2026年3月30日，仅1天即发布0.1版本，开发速度符合AI辅助特征。",
+      "readme_preview": "# Godot FPS Template\n\nA beginner-friendly, modular, free and open-source FPS (first-person shooter) template built by [bukkbeek](https://bukkbeek.github.io) for the Godot community.\n\nIncludes player movement, aim-down-sights (ADS), a complete hitscan weapon system, ammo, health, a test level, vehicles, and common FPS utilities you can strip or extend.\n\n> **Work in progress:** This project is still under  development. You may encounter bugs, incomplete code.\n> The README currently includes a brie",
+      "updated_at": "2026-06-03T04:03:28.923438"
+    },
+    {
+      "github_id": 963010118,
+      "full_name": "freestylefly/wechat-mini",
+      "name": "wechat-mini",
+      "owner": "freestylefly",
+      "description": "🔥基于微信小程序平台的个人生辰数据分析应用。通过简单输入出生日期和时辰，获取详细的农历日期、生肖、天干地支和五行分析，结合AI技术提供个性化命理解读。",
+      "chinese_description": "这是一个基于微信小程序的生辰分析应用，用户输入出生日期和时辰后，可获取农历日期、生肖、天干地支、五行分析以及AI生成的个性化命理解读。",
+      "english_description": "A WeChat mini-program that analyzes personal birth data, converting solar dates to lunar calendar, calculating Chinese zodiac and Five Elements, and providing AI-powered fortune-telling interpretations.",
+      "html_url": "https://github.com/freestylefly/wechat-mini",
+      "homepage": null,
+      "language": "Java",
+      "stars": 32,
+      "forks": 6,
+      "ai_tools": [
+        "Cursor",
+        "DeepSeek"
+      ],
+      "tech_stack": [
+        "Java",
+        "Spring Boot",
+        "微信小程序",
+        "Python",
+        "Maven",
+        "Nginx"
+      ],
+      "category": "应用",
+      "created_at": "2026-06-03T04:03:47.209226",
+      "pushed_at": "2025-04-12T04:26:40Z",
+      "quality_score": 7,
+      "confidence": 0.95,
+      "why_vibe_coding": "README明确推荐使用Cursor作为AI辅助编程工具，并提供了AI开发环境配置步骤；项目结构包含.cursor/目录和AI相关配置；描述中强调‘AI编程学习’和‘从零到一快速构建’，符合vibe-coding快速开发特点；项目功能完整但结构简洁，适合AI辅助开发。",
+      "readme_preview": "# 生辰分析小程序\n\n![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)\n![Platform](https://img.shields.io/badge/platform-WeChat-green.svg)\n![AI-Powered](https://img.shields.io/badge/AI--Powered-Yes-orange.svg)\n\n基于微信小程序平台的个人生辰数据分析应用。通过简单输入出生日期和时辰，获取详细的农历日期、生肖、天干地支和五行分析，结合AI技术提供个性化命理解读。\n\n> 🔥 **特别说明**：本项目是一个面向AI编程学习的开源教程项目，完整展示了如何利用AI技术从零到一快速构建一个实用微信小程序。从需求分析、系统设计、前后端开发到最终部署上线，提供全流程、全沉浸式的实战教学体验。无论你是AI编程新手还是有经验的开发者，都能从中学习如何高效利用AI工具进行现代应用开发。\n\n## 📋 功能特点\n\n- 🔄 阳历日期自动转换为农历日期\n- 🧮 八字排盘与天干地支计算\n- 🔍 ",
+      "updated_at": "2026-06-03T04:03:47.209226"
     }
   ],
-  "updated_at": "2026-06-02T03:57:07.047393",
-  "total_count": 365
+  "updated_at": "2026-06-03T04:03:47.209271",
+  "total_count": 380
 }
