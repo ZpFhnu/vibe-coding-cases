@@ -4,7 +4,7 @@
 
 发现用 AI 辅助编程开发的优秀项目
 
-**561** 个案例 · [English Version](README_EN.md) · [关于本项目](ABOUT.md)
+**590** 个案例 · [English Version](README_EN.md) · [关于本项目](ABOUT.md)
 
 </div>
 
@@ -21,11 +21,11 @@
 | 分类 | 说明 | 数量 |
 |------|------|------|
 | 🌐 [网站](#网站) | 博客、落地页、作品集、文档站等网站类项目 | 7 |
-| 🛠️ [工具](#工具) | 待办清单、记账、翻译、文件处理等实用工具 | 227 |
-| 📱 [应用](#应用) | 聊天App、管理后台、SaaS 等完整应用 | 258 |
+| 🛠️ [工具](#工具) | 待办清单、记账、翻译、文件处理等实用工具 | 237 |
+| 📱 [应用](#应用) | 聊天App、管理后台、SaaS 等完整应用 | 271 |
 | 📊 [数据](#数据) | 看板、爬虫、图表、数据分析工具 | 4 |
 | 🎮 [游戏](#游戏) | 小游戏、娱乐项目 | 6 |
-| 🔌 [插件](#插件) | Chrome 扩展、VS Code 插件、浏览器扩展 | 49 |
+| 🔌 [插件](#插件) | Chrome 扩展、VS Code 插件、浏览器扩展 | 55 |
 | 🎨 [创意](#创意) | 生成艺术、音乐、AI写作、实验性项目 | 1 |
 | 📚 [学习](#学习) | 教程Demo、课程作业、技术实验 | 9 |
 
@@ -68,7 +68,7 @@
 </details>
 
 <details>
-<summary><h2>🛠️ 工具 <small>(227 个项目)</small></h2></summary>
+<summary><h2>🛠️ 工具 <small>(237 个项目)</small></h2></summary>
 
 *待办清单、记账、翻译、文件处理等实用工具*
 
@@ -171,6 +171,10 @@
 **[notebooklm-mcp-cli](https://github.com/jacob-bd/notebooklm-mcp-cli)** — 通过命令行或MCP协议程序化访问Google NotebookLM，实现笔记本管理、内容生成等自动化操作。
 
 [演示](https://www.youtube.com/watch?v=KrgLCrvU1dw) · [源码](https://github.com/jacob-bd/notebooklm-mcp-cli) · `Python` · 🤖 Claude, Cursor · ⭐ 4600 · 📅 2026-05-26
+
+**[vibetunnel](https://github.com/amantus-ai/vibetunnel)** — 将任何浏览器变成你的终端，让你可以在任何地方通过浏览器远程控制终端和AI代理。
+
+[演示](https://vt.sh) · [源码](https://github.com/amantus-ai/vibetunnel) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 4529 · 📅 2026-06-12
 
 **[ouroboros](https://github.com/Q00/ouroboros)** — Ouroboros 是一个 Agent OS，将 AI 编码工作流从非确定性提示转变为可重放、可观察、基于规范的执行合约，支持多 AI 客户端（Claude Code、Codex CLI、OpenCode、Hermes）的本地优先运行时层。
 
@@ -488,6 +492,10 @@
 
 [源码](https://github.com/grafana/gcx) · `Go` · 🤖 Claude, Copilot · ⭐ 291 · 📅 2026-05-19
 
+**[flutter-skill](https://github.com/ai-dashboad/flutter-skill)** — 这是一个AI驱动的端到端测试工具，让AI代理能直接操控和测试10种不同平台的应用，无需编写任何测试代码。
+
+[演示](https://github.com/user-attachments/assets/d4617c73-043f-424c-9a9a-1a61d4c2d3c6) · [源码](https://github.com/ai-dashboad/flutter-skill) · `Dart` · 🤖 Claude, Cursor · ⭐ 289 · 📅 2026-06-12
+
 **[solidworks-automation-skill](https://github.com/wzyn20051216/solidworks-automation-skill)** — 通过Python COM接口自动化控制SolidWorks，提供零件建模、装配体、工程图、钣金、焊件、仿真等全流程自动化操作的工具集。
 
 [源码](https://github.com/wzyn20051216/solidworks-automation-skill) · `Python` · 🤖 Claude, Codex · ⭐ 286 · 📅 2026-06-07
@@ -523,6 +531,10 @@
 **[mimo2codex](https://github.com/7as0nch/mimo2codex)** — 一个本地代理工具，让OpenAI Codex CLI/桌面端能够接入小米、DeepSeek等主流大模型，并自动翻译和路由API请求。
 
 [源码](https://github.com/7as0nch/mimo2codex) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 246 · 📅 2026-05-19
+
+**[skills_collection](https://github.com/wwwzhouhui/skills_collection)** — 这是一个Claude Code技能集合，提供自动化办公、内容生成、数据采集等实用工具，帮助提升开发效率和内容创作能力。
+
+[源码](https://github.com/wwwzhouhui/skills_collection) · `Python` · 🤖 Claude · ⭐ 245 · 📅 2026-06-12
 
 **[lean-spec](https://github.com/codervisor/lean-spec)** — 一个轻量级的规范驱动开发（SDD）工具，帮助AI辅助编程时通过规范文件来引导代码生成，提升开发效率和代码质量。
 
@@ -644,6 +656,10 @@
 
 [演示](https://github.com/user-attachments/assets/3ba4c681-0a7e-4a03-89c8-b8d26b544a65) · [源码](https://github.com/deepcoldy/botmux) · `TypeScript` · 🤖 Claude, Codex · ⭐ 132 · 📅 2026-05-21
 
+**[polanyi-skill](https://github.com/0xenzyme/polanyi-skill)** — 一个基于迈克尔·波兰尼认知哲学的可运行思维框架，通过AI对话形式帮助用户理解和应用隐性知识、辅助-焦点意识等心智模型。
+
+[源码](https://github.com/0xenzyme/polanyi-skill) · 🤖 Claude Code, 女娲.skill · ⭐ 132 · 📅 2026-06-12
+
 **[atomcode](https://github.com/atomgit-atomcode/atomcode)** — 一个开源的终端AI编程助手，可以连接任意大语言模型，自主读取代码、编辑文件、运行命令并验证修改。
 
 [演示](https://atomcode.atomgit.com/) · [源码](https://github.com/atomgit-atomcode/atomcode) · `Rust` · 🤖 Claude · ⭐ 128 · 📅 2026-06-06
@@ -728,6 +744,10 @@
 
 [演示](https://vibespace.xyzen.de/) · [源码](https://github.com/XyzenSun/vibespace) · `JavaScript` · 🤖 Claude Code, Claude · ⭐ 82 · 📅 2026-05-26
 
+**[in_animation](https://github.com/wwwzhouhui/in_animation)** — 这是一个基于大语言模型自动生成教学动画的工具，用户输入知识点主题即可生成交互式HTML5动画并导出为视频或GIF。
+
+[演示](http://115.190.165.156:8000/) · [源码](https://github.com/wwwzhouhui/in_animation) · `HTML` · 🤖 Claude · ⭐ 80 · 📅 2026-06-12
+
 **[grasp](https://github.com/Yuzc-001/grasp)** — Grasp 是一个面向 AI 代理的浏览器运行时，帮助 AI 在真实网页任务中保持连续性、可验证性和可恢复性。
 
 [源码](https://github.com/Yuzc-001/grasp) · `JavaScript` · 🤖 Claude Code, Codex · ⭐ 77 · 📅 2026-05-23
@@ -779,6 +799,10 @@
 **[pmb](https://github.com/oleksiijko/pmb)** — 为AI编程助手（如Claude Code、Cursor）提供本地持久化记忆的MCP工具，让AI能记住跨会话的上下文。
 
 [演示](https://pypi.org/project/pmb-ai/) · [源码](https://github.com/oleksiijko/pmb) · `Python` · 🤖 Claude Code, Cursor · ⭐ 65 · 📅 2026-06-01
+
+**[jimeng-mcp-server](https://github.com/wwwzhouhui/jimeng-mcp-server)** — 这是一个MCP服务器，让Claude等AI应用能够调用即梦AI的图像和视频生成能力。
+
+[源码](https://github.com/wwwzhouhui/jimeng-mcp-server) · `Python` · 🤖 Claude · ⭐ 65 · 📅 2026-06-12
 
 **[manifest-dev](https://github.com/doodledood/manifest-dev)** — 一个AI辅助开发工作流工具，允许开发者先定义验收标准（manifest），然后让AI自动执行并验证，实现从定义到交付的自动化。
 
@@ -884,6 +908,10 @@
 
 [源码](https://github.com/MCNeteaseDevs/modsdk_mcp_server) · `Python` · 🤖 Claude, Cursor · ⭐ 46 · 📅 2026-05-19
 
+**[odai](https://github.com/orziz/odai)** — 一个集成了AI工作流的技能工具箱，通过单一入口自动调度规划、设计、审查、编码等任务。
+
+[源码](https://github.com/orziz/odai) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 46 · 📅 2026-06-12
+
 **[token-monitor](https://github.com/Javis603/token-monitor)** — 一个实时监控AI编程工具Token消耗、成本和限额的桌面组件，支持多设备同步。
 
 [演示](http://javis-ai.com/token-monitor/) · [源码](https://github.com/Javis603/token-monitor) · `JavaScript` · 🤖 Claude, Cursor · ⭐ 44 · 📅 2026-06-07
@@ -932,6 +960,10 @@
 
 [演示](https://cl0nazepamm.github.io/powershot-threejs/) · [源码](https://github.com/cl0nazepamm/powershot-threejs) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 35 · 📅 2026-06-11
 
+**[Competitor-analysis-tool](https://github.com/Gingiris-1031/Competitor-analysis-tool)** — 一个AI驱动的竞品情报分析工具，输入任意URL即可自动生成竞品拆解报告。
+
+[演示](https://www.analook.com) · [源码](https://github.com/Gingiris-1031/Competitor-analysis-tool) · `HTML` · 🤖 Claude, Cursor · ⭐ 35 · 📅 2026-06-12
+
 **[anycap](https://github.com/anycap-ai/anycap)** — 为AI编程助手（如Claude Code、Cursor）提供图像生成、视频处理、网页搜索、发布等实际能力的执行层工具。
 
 [演示](https://anycap.ai) · [源码](https://github.com/anycap-ai/anycap) · `Shell` · 🤖 Claude, Cursor · ⭐ 33 · 📅 2026-06-05
@@ -947,6 +979,10 @@
 **[better-notion-mcp](https://github.com/n24q02m/better-notion-mcp)** — 为AI代理提供Markdown优先的Notion API服务器，将28+个端点调用整合为10个复合工具，简化Notion操作。
 
 [演示](https://mcp.n24q02m.com/servers/better-notion-mcp/) · [源码](https://github.com/n24q02m/better-notion-mcp) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 31 · 📅 2026-06-09
+
+**[wp-coding-agents](https://github.com/Extra-Chill/wp-coding-agents)** — 在WordPress上部署可对话的AI编程代理，支持通过Discord、Telegram等聊天界面远程控制WordPress站点。
+
+[源码](https://github.com/Extra-Chill/wp-coding-agents) · `Shell` · 🤖 Claude, OpenCode · ⭐ 31 · 📅 2026-06-12
 
 **[ai-coding-harness](https://github.com/TangHui-Best/ai-coding-harness)** — 为AI编程助手（如Codex、Claude Code）提供工程护栏和协作模板，帮助团队在多轮会话和多Agent协作中保持可追溯、可验收、可恢复。
 
@@ -980,11 +1016,15 @@
 
 [源码](https://github.com/boshu2/12-factor-agentops) · `Python` · 🤖 Claude, Cursor · ⭐ 27 · 📅 2026-06-07
 
+**[ode](https://github.com/odefun/ode)** — Ode 是一个桥接 AI 编码代理（如 Claude Code、OpenCode）与聊天应用（Slack、Discord、飞书）的工具，让用户通过聊天线程远程启动和管理编码会话。
+
+[演示](https://ode.fun/docs/quickstart) · [源码](https://github.com/odefun/ode) · `TypeScript` · 🤖 Claude Code, CodeBuddy · ⭐ 26 · 📅 2026-06-12
+
 ---
 </details>
 
 <details>
-<summary><h2>📱 应用 <small>(258 个项目)</small></h2></summary>
+<summary><h2>📱 应用 <small>(271 个项目)</small></h2></summary>
 
 *聊天App、管理后台、SaaS 等完整应用*
 
@@ -1212,6 +1252,10 @@
 
 [源码](https://github.com/coulsontl/ai-toolbox) · `Rust` · 🤖 Claude, Copilot · ⭐ 772 · 📅 2026-05-19
 
+**[gocron](https://github.com/gocronx-team/gocron)** — 一个用Go语言开发的分布式定时任务管理系统，用于替代Linux crontab，提供Web界面管理、高可用、任务依赖和AI辅助功能。
+
+[源码](https://github.com/gocronx-team/gocron) · `Go` · 🤖 Claude, Cursor · ⭐ 771 · 📅 2026-06-12
+
 **[skillsgate](https://github.com/skillsgate/skillsgate)** — 一个用于浏览、安装和管理AI代理技能的桌面应用和终端界面工具。
 
 [演示](https://skillsgate.ai) · [源码](https://github.com/skillsgate/skillsgate) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 741 · 📅 2026-06-08
@@ -1219,6 +1263,10 @@
 **[VCPChat](https://github.com/lioensky/VCPChat)** — VCPChat是一个分布式AI原生全栈引擎桌面终端，提供超越传统聊天界面的AI-UI-App交互系统，支持多模态渲染、分布式文件追踪和Agent群体智能协作。
 
 [源码](https://github.com/lioensky/VCPChat) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 679 · 📅 2026-05-19
+
+**[interview-coder-cn](https://github.com/ooboqoo/interview-coder-cn)** — 一个在面试或在线考试时，通过截屏和语音转录实时获取AI解题思路和答案的桌面助手。
+
+[源码](https://github.com/ooboqoo/interview-coder-cn) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 615 · 📅 2026-06-12
 
 **[agent-sessions](https://github.com/jazzyalex/agent-sessions)** — 一个macOS原生应用，用于浏览、搜索、保存和恢复多种AI编程助手（如Codex、Claude、OpenCode等）的本地会话历史，并实时查看API速率限制。
 
@@ -1303,6 +1351,10 @@
 **[AgentHub](https://github.com/jamesrochabrun/AgentHub)** — 一个macOS原生应用，用于集中管理和监控Claude Code和Codex CLI会话，支持多终端并行、差异预览、GitHub集成和Git工作树管理。
 
 [演示](https://x.com/jamesrochabrun/status/2036492646039036003?s=20) · [源码](https://github.com/jamesrochabrun/AgentHub) · `Swift` · 🤖 Claude, Codex · ⭐ 386 · 📅 2026-05-23
+
+**[SkillDeck](https://github.com/crossoverJie/SkillDeck)** — 一个macOS桌面应用，用于管理多个AI代码代理的技能，提供统一的图形界面来安装、更新和配置AI编码助手。
+
+[演示](http://crossoverjie.top/SkillDeck/) · [源码](https://github.com/crossoverJie/SkillDeck) · `Swift` · 🤖 Claude, Copilot · ⭐ 381 · 📅 2026-06-12
 
 **[PlanExe](https://github.com/PlanExeOrg/PlanExe)** — PlanExe 是一个开源工具，能将简单的英文目标描述在约15分钟内自动生成一份约40页的战略计划，包含甘特图、治理结构、风险登记表等完整内容。
 
@@ -1436,6 +1488,10 @@
 
 [源码](https://github.com/FlickeringLamp/ai-novelist) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 193 · 📅 2026-05-26
 
+**[nowen-note](https://github.com/cropflre/nowen-note)** — 一个自托管的私有知识库和笔记应用，支持富文本/Markdown编辑、AI写作、思维导图、任务管理和全文搜索。
+
+[演示](http://note.nowen.cn/) · [源码](https://github.com/cropflre/nowen-note) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 192 · 📅 2026-06-12
+
 **[amux](https://github.com/mixpeek/amux)** — 这是一个开源的AI代理控制面板，用于通过浏览器或手机并行运行和管理多个Claude Code会话，支持看板、笔记、调度和代理间协调。
 
 [演示](https://amux.io) · [源码](https://github.com/mixpeek/amux) · `HTML` · 🤖 Claude · ⭐ 187 · 📅 2026-05-19
@@ -1443,6 +1499,10 @@
 **[SwarmAI](https://github.com/xg-gh-25/SwarmAI)** — 一个桌面AI指挥中心，通过多智能体协作实现代码交付、内容生成和知识管理，探索单人+AI达到团队规模的生产力。
 
 [演示](https://github.com/xg-gh-25) · [源码](https://github.com/xg-gh-25/SwarmAI) · `Python` · 🤖 Claude · ⭐ 183 · 📅 2026-05-26
+
+**[FachuanHybridSystem](https://github.com/Lawyer-ray/FachuanHybridSystem)** — 法穿AI Copilot是一个面向律师的智能办公系统，自动处理法院短信、生成合同、打通立案流程并一键归档案件材料。
+
+[源码](https://github.com/Lawyer-ray/FachuanHybridSystem) · `Python` · 🤖 Claude, Copilot · ⭐ 181 · 📅 2026-06-12
 
 **[OpenCovibe](https://github.com/AnyiWang/OpenCovibe)** — 为AI编程代理（如Claude Code、Codex）提供本地优先的桌面UI界面，支持会话管理、可视化差异对比、多模型切换等功能。
 
@@ -1732,6 +1792,10 @@
 
 [源码](https://github.com/alchaincyf/fanbox) · `JavaScript` · 🤖 Claude, Playwright · ⭐ 80 · 📅 2026-06-11
 
+**[freshell](https://github.com/danshapiro/freshell)** — 一个基于终端的多代理集成开发环境，支持在标签页和窗格中同时运行多个AI编码助手、终端和编辑器，并可在不同设备间无缝切换。
+
+[演示](https://freshell.net/) · [源码](https://github.com/danshapiro/freshell) · `TypeScript` · 🤖 Claude, Codex · ⭐ 80 · 📅 2026-06-12
+
 **[labas-bahasa](https://github.com/rogasper/labas-bahasa)** — 这是一个AI驱动的多语言考试练习平台，支持生成雅思、托福、JLPT等考试的模拟试题，并提供计时模拟测试和成绩追踪功能。
 
 [演示](https://labas.rogasper.com) · [源码](https://github.com/rogasper/labas-bahasa) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 79 · 📅 2026-06-07
@@ -1775,6 +1839,10 @@
 **[OpenVibeCoding](https://github.com/TencentCloudBase/OpenVibeCoding)** — 这是一个基于腾讯云开发的开源AI全栈应用平台，支持对话式代码生成、实时预览和一键部署，可作为Lovable/v0/bolt.new的开源替代方案。
 
 [源码](https://github.com/TencentCloudBase/OpenVibeCoding) · `TypeScript` · 🤖 CodeBuddy, OpenCode · ⭐ 69 · 📅 2026-05-27
+
+**[Youzi-Write](https://github.com/LittleOrange-i/Youzi-Write)** — 柚子写作是一款专为小说创作者设计的桌面写作软件，提供多书籍管理、富文本编辑、地图设计、关系图谱、时间线管理等全流程创作功能，并集成AI写作辅助。
+
+[源码](https://github.com/LittleOrange-i/Youzi-Write) · `Vue` · 🤖 Cursor, Claude · ⭐ 69 · 📅 2026-06-12
 
 **[agomTradePro](https://github.com/guiyinan/agomTradePro)** — 一个AI原生的宏观投资研究基础设施，整合数据、决策框架、Agent能力和执行工作流，帮助个人投资者在正确的宏观环境下做出投资决策。
 
@@ -1924,6 +1992,14 @@
 
 [源码](https://github.com/superman1006/MeetMind) · `TypeScript` · 🤖 Claude Code, Codex · ⭐ 41 · 📅 2026-06-09
 
+**[ai-phone](https://github.com/dongxinsuperman/ai-phone)** — 一个面向中小型公司的三端真机AI自动化中台，支持iOS/Android/HarmonyOS设备，通过自然语言驱动纯视觉执行，提供设备调度、多设备并发、报告回传和运维大盘等功能。
+
+[源码](https://github.com/dongxinsuperman/ai-phone) · `Python` · 🤖 Cursor, Claude · ⭐ 40 · 📅 2026-06-12
+
+**[forgewright](https://github.com/buiphucminhtam/forgewright)** — 一个自适应AI编排器，通过不断从失败中学习来改进代码生成质量，具备52种技能和19种模式，支持SaaS、游戏开发、XR和AI/ML等场景。
+
+[源码](https://github.com/buiphucminhtam/forgewright) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 39 · 📅 2026-06-12
+
 **[Sorty](https://github.com/sorty-organizer/Sorty)** — Sorty 是一款 macOS 原生应用，利用 AI 智能分析文件内容并自动将文件夹中的文件分类整理到语义命名的子文件夹中。
 
 [演示](https://shirishpothi.gumroad.com/l/Sorty) · [源码](https://github.com/sorty-organizer/Sorty) · `Swift` · 🤖 Cursor, Claude · ⭐ 38 · 📅 2026-05-31
@@ -1935,6 +2011,10 @@
 **[MediCareAI-Agent](https://github.com/HougeLangley/MediCareAI-Agent)** — 一个多Agent自主医疗协作系统，通过AI代理团队实现症状诊断、治疗规划、患者监测和医患协作。
 
 [源码](https://github.com/HougeLangley/MediCareAI-Agent) · `Python` · 🤖 Cursor, Claude · ⭐ 38 · 📅 2026-06-09
+
+**[TRNovel](https://github.com/yexiyue/TRNovel)** — 一个在终端中运行的网络小说阅读器，支持本地TXT阅读、AI自动生成书源、TTS听书等功能。
+
+[演示](https://yexiyue.github.io/TRNovel) · [源码](https://github.com/yexiyue/TRNovel) · `Rust` · 🤖 Claude, Copilot · ⭐ 38 · 📅 2026-06-12
 
 **[koan](https://github.com/Anantys-oss/koan)** — 一个自主AI代理，利用闲置的Claude Max配额在后台自动审查代码、修复bug并提供战略洞察，通过Telegram与人类协作。
 
@@ -1967,6 +2047,10 @@
 **[huobao-drama-ai](https://github.com/dav-niu474/huobao-drama-ai)** — 这是一个AI驱动的短剧创作平台，用户可以从剧本上传、AI解析改写、角色场景提取、分镜生成，到图片生成、视频生成、AI配音，一站式完成短剧制作全流程。
 
 [演示](https://huobao-drama-ai.vercel.app) · [源码](https://github.com/dav-niu474/huobao-drama-ai) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 32 · 📅 2026-06-05
+
+**[nano_banana_pro_gradio](https://github.com/wwwzhouhui/nano_banana_pro_gradio)** — 一个基于Gemai API的AI图像生成Web应用，支持文生图和图生图功能，提供多种风格和参数调节。
+
+[源码](https://github.com/wwwzhouhui/nano_banana_pro_gradio) · `Python` · 🤖 Claude · ⭐ 32 · 📅 2026-06-12
 
 **[LocalClaw](https://github.com/PeterGreenAppliedAI/LocalClaw)** — 一个完全本地运行的AI代理框架，通过路由器和专家架构让本地模型在Ollama上执行复杂多工具任务，并集成Discord、Telegram等聊天平台。
 
@@ -2016,9 +2100,17 @@
 
 [演示](https://www.nullflix.zone.id/) · [源码](https://github.com/X-TechPro/NullFlix) · `TypeScript` · 🤖 v0, Copilot · ⭐ 27 · 📅 2026-05-29
 
+**[Green-Wells-LPG-System](https://github.com/mwakidenis/Green-Wells-LPG-System)** — 一个集实时追踪、即时支付和预测安全系统于一体的液化石油气配送平台。
+
+[演示](https://green-wells-connect.vercel.app/) · [源码](https://github.com/mwakidenis/Green-Wells-LPG-System) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 27 · 📅 2026-06-12
+
 **[Shelly](https://github.com/RYOITABASHI/Shelly)** — Shelly 是一个在 Android 手机上原生运行的 AI 驱动终端 IDE，集成了终端、AI 聊天、浏览器、Markdown 预览和 Git 功能，无需 Termux 或远程服务器即可在手机上编写和调试代码。
 
 [演示](https://github.com/user-attachments/assets/113ec26e-d289-4a06-a6d8-ef48158e874c) · [源码](https://github.com/RYOITABASHI/Shelly) · `TypeScript` · 🤖 Codex, Gemini · ⭐ 26 · 📅 2026-06-06
+
+**[skills-desktop](https://github.com/laststance/skills-desktop)** — 一个桌面应用，用于可视化管理和监控AI代理（如Claude Code、Cursor等）中安装的技能（Skills）及其符号链接状态。
+
+[演示](https://skills-desktop.vercel.app) · [源码](https://github.com/laststance/skills-desktop) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 26 · 📅 2026-06-12
 
 ---
 </details>
@@ -2080,7 +2172,7 @@
 </details>
 
 <details>
-<summary><h2>🔌 插件 <small>(49 个项目)</small></h2></summary>
+<summary><h2>🔌 插件 <small>(55 个项目)</small></h2></summary>
 
 *Chrome 扩展、VS Code 插件、浏览器扩展*
 
@@ -2184,6 +2276,10 @@
 
 [源码](https://github.com/dancinlab/sidecar) · `TeX` · 🤖 Claude · ⭐ 164 · 📅 2026-06-01
 
+**[producer-pal](https://github.com/adamjmurray/producer-pal)** — 一个AI驱动的音乐制作助手，通过自然语言控制Ableton Live进行音乐创作。
+
+[演示](https://producer-pal.org) · [源码](https://github.com/adamjmurray/producer-pal) · `TypeScript` · 🤖 Claude, Gemini · ⭐ 163 · 📅 2026-06-12
+
 **[databricks-agent-skills](https://github.com/databricks/databricks-agent-skills)** — 为AI编程助手（如Claude Code、Cursor等）提供Databricks平台专属技能和指导的插件集合。
 
 [源码](https://github.com/databricks/databricks-agent-skills) · `Python` · 🤖 Claude Code, Cursor · ⭐ 151 · 📅 2026-06-10
@@ -2232,6 +2328,10 @@
 
 [源码](https://github.com/12og3r/redpen) · `Shell` · 🤖 Claude, Codex CLI · ⭐ 63 · 📅 2026-06-11
 
+**[microsoft-security-skills](https://github.com/vinayaklatthe/microsoft-security-skills)** — 为AI编码助手提供58个经过验证的Microsoft安全技能，帮助代理在安全配置、策略验证和威胁调查中给出专业指导。
+
+[源码](https://github.com/vinayaklatthe/microsoft-security-skills) · `JavaScript` · 🤖 Copilot, Claude · ⭐ 62 · 📅 2026-06-12
+
 **[skills](https://github.com/marswaveai/skills)** — 为AI编程助手（如Claude Code、Cursor）提供AI驱动的技能插件，包括播客生成、视频制作、图像生成、语音转文字等多媒体创作功能。
 
 [演示](https://skills.sh/marswaveai/skills) · [源码](https://github.com/marswaveai/skills) · `Python` · 🤖 Claude, Cursor · ⭐ 61 · 📅 2026-06-04
@@ -2256,6 +2356,10 @@
 
 [演示](https://www.aicoin.com/coinos) · [源码](https://github.com/aicoincom/coinos-skills) · `JavaScript` · 🤖 Claude Code, Cursor · ⭐ 40 · 📅 2026-06-05
 
+**[mathjax-beautiful](https://github.com/zzq-github/mathjax-beautiful)** — 这是一个基于 MathJax 的数学公式编辑器组件库，为 Vue 3 和 React 项目提供专业的公式编辑、符号面板和实时预览功能。
+
+[演示](https://zzq-github.github.io/vue-mathjax-beautiful) · [源码](https://github.com/zzq-github/mathjax-beautiful) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 40 · 📅 2026-06-12
+
 **[call-e-integrations](https://github.com/CALLE-AI/call-e-integrations)** — CALL-E是一个AI电话代理集成工具，让AI代理能够通过电话执行真实世界的任务，如预约、通知和客户沟通。
 
 [演示](https://www.heycall-e.com/) · [源码](https://github.com/CALLE-AI/call-e-integrations) · `JavaScript` · 🤖 Claude, Cursor · ⭐ 39 · 📅 2026-06-05
@@ -2279,6 +2383,18 @@
 **[funplay-cocos-mcp](https://github.com/FunplayAI/funplay-cocos-mcp)** — 这是一个嵌入Cocos Creator编辑器的MCP服务器扩展，允许AI助手直接操控游戏场景、查询和管理资源。
 
 [源码](https://github.com/FunplayAI/funplay-cocos-mcp) · `JavaScript` · 🤖 Claude, Cursor · ⭐ 34 · 📅 2026-06-11
+
+**[WordFlow-Tracker](https://github.com/LeCheenaX/WordFlow-Tracker)** — 这是一个Obsidian插件，自动追踪笔记的编辑时间、字数变化和修改统计，并记录到每日笔记中，支持AI驱动的变更摘要生成。
+
+[源码](https://github.com/LeCheenaX/WordFlow-Tracker) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 29 · 📅 2026-06-12
+
+**[web-dev-skills](https://github.com/timzaak/web-dev-skills)** — 这是一个Claude Code插件，为Rust+React项目提供从PRD到Demo的完整工程化工作流，包含阶段门禁、子代理分工和标准化产物管理。
+
+[源码](https://github.com/timzaak/web-dev-skills) · `Python` · 🤖 Claude · ⭐ 27 · 📅 2026-06-12
+
+**[skills](https://github.com/crazynomad/skills)** — 为AI代理（如Claude Code）提供媒体处理、文件管理和本地AI功能的技能插件集合，让非编程用户通过简单指令完成复杂操作。
+
+[演示](https://youtu.be/lGRbMZw23ic) · [源码](https://github.com/crazynomad/skills) · `Python` · 🤖 Claude · ⭐ 26 · 📅 2026-06-12
 
 ---
 </details>
@@ -2345,6 +2461,6 @@
 
 **自动收集 · 每日更新**
 
-最后更新: 2026-06-11
+最后更新: 2026-06-12
 
 </div>
