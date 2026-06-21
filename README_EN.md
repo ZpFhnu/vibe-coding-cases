@@ -4,7 +4,7 @@
 
 Discover awesome projects built with AI-assisted programming
 
-**763** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
+**780** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
 
 </div>
 
@@ -21,11 +21,11 @@ This repository collects **real application cases** from GitHub built with AI-as
 | Category | Description | Count |
 |----------|-------------|-------|
 | 🌐 [Websites](#websites) | Blogs, landing pages, portfolios, documentation sites | 9 |
-| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 305 |
-| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 346 |
+| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 312 |
+| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 355 |
 | 📊 [Data](#data) | Dashboards, crawlers, charts, data analysis tools | 6 |
 | 🎮 [Games](#games) | Small games, entertainment projects | 7 |
-| 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 75 |
+| 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 76 |
 | 🎨 [Creative](#creative) | Generative art, music, AI writing, experimental projects | 4 |
 | 📚 [Learning](#learning) | Tutorial demos, course projects, tech experiments | 11 |
 
@@ -76,7 +76,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>🛠️ Tools <small>(305 projects)</small></h2></summary>
+<summary><h2>🛠️ Tools <small>(312 projects)</small></h2></summary>
 
 *Todo lists, accounting, translation, file processing utilities*
 
@@ -408,6 +408,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/JuneYaooo/gpt-image2-ppt-skills) · `Python` · 🤖 Claude Code, Codex · ⭐ 824 · 📅 2026-06-02
 
+**[agmsg](https://github.com/fujibee/agmsg)** — Enables different CLI AI coding agents (Claude Code, Codex, Gemini CLI, etc.) to message each other directly via a shared SQLite database, eliminating manual copy-paste between agents.
+
+[Demo](docs/agmsg-demo.gif) · [Source](https://github.com/fujibee/agmsg) · `Shell` · 🤖 Claude, Copilot · ⭐ 770 · 📅 2026-06-21
+
 **[next-devtools-mcp](https://github.com/vercel/next-devtools-mcp)** — A Model Context Protocol (MCP) server that provides Next.js development tools and utilities for coding agents like Claude and Cursor.
 
 [Demo](https://www.npmjs.com/package/next-devtools-mcp) · [Source](https://github.com/vercel/next-devtools-mcp) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 763 · 📅 2026-06-01
@@ -643,6 +647,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[ntu-dissertation-template](https://github.com/jackieyyang/ntu-dissertation-template)** — Provides Word and LaTeX dissertation templates for NTU EEE MSc, with AI Agent support for writing and formatting.
 
 [Source](https://github.com/jackieyyang/ntu-dissertation-template) · `TeX` · 🤖 Cursor, CodeBuddy · ⭐ 227 · 📅 2026-06-16
+
+**[td](https://github.com/marcus/td)** — A minimalist CLI for tracking tasks across AI coding sessions, providing structured handoffs (done/remaining/decisions/uncertain) so new sessions continue from accurate state.
+
+[Source](https://github.com/marcus/td) · `Go` · 🤖 Claude, Cursor · ⭐ 227 · 📅 2026-06-21
 
 **[asc-cli](https://github.com/tddworks/asc-cli)** — A CLI tool for automating App Store Connect workflows including build releases, screenshot management, and TestFlight distribution from the terminal or AI agents.
 
@@ -1224,6 +1232,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://www.npmjs.com/package/@wu529778790/open-im) · [Source](https://github.com/wu529778790/open-im) · `TypeScript` · 🤖 Claude, Codex · ⭐ 31 · 📅 2026-06-18
 
+**[relay-ai](https://github.com/jacob-bd/relay-ai)** — A CLI tool that relays any AI model into any coding agent, enabling local API gateways and switching between multiple AI providers.
+
+[Demo](https://youtu.be/IvsUPHLhX0o) · [Source](https://github.com/jacob-bd/relay-ai) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 31 · 📅 2026-06-21
+
+**[web-researcher-mcp](https://github.com/zoharbabin/web-researcher-mcp)** — An AI research assistant MCP server that honestly cites real web sources and searches the entire web, integrating with Claude, Cursor, and any MCP client.
+
+[Demo](https://zoharbabin.github.io/web-researcher-mcp/) · [Source](https://github.com/zoharbabin/web-researcher-mcp) · `Go` · 🤖 Claude, Cursor · ⭐ 31 · 📅 2026-06-21
+
 **[ai-coding-harness](https://github.com/TangHui-Best/ai-coding-harness)** — A practical harness for AI coding assistants (Codex, Claude Code, OpenCode) that provides engineering guardrails, skill templates, and collaboration workflows to keep multi-session and multi-agent development traceable, verifiable, and recoverable.
 
 [Source](https://github.com/TangHui-Best/ai-coding-harness) · `Python` · 🤖 Codex, Claude Code · ⭐ 30 · 📅 2026-06-08
@@ -1251,6 +1267,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[terminal-agent](https://github.com/laszukdawid/terminal-agent)** — An LLM agent that turns plain-language prompts into shell workflows, scripts, and quick answers directly in the terminal.
 
 [Demo](https://laszukdawid.github.io/terminal-agent/) · [Source](https://github.com/laszukdawid/terminal-agent) · `Go` · 🤖 Claude, Copilot · ⭐ 28 · 📅 2026-06-07
+
+**[oh-my-customcode](https://github.com/baekenough/oh-my-customcode)** — An oh-my-zsh style customization framework for Claude Code that manages and extends AI Agent capabilities through skills, agents, and rules.
+
+[Source](https://github.com/baekenough/oh-my-customcode) · `TypeScript` · 🤖 Claude · ⭐ 28 · 📅 2026-06-21
 
 **[ai-board](https://github.com/dev-null-sec/ai-board)** — A local planning board CLI for AI agents to manage task scope, prevent code boundary violations, and avoid multi-agent conflicts in vibe-coding workflows.
 
@@ -1288,6 +1308,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://agent-yes.com) · [Source](https://github.com/snomiao/agent-yes) · `TypeScript` · 🤖 Claude, Gemini · ⭐ 24 · 📅 2026-06-15
 
+**[rafter-cli](https://github.com/Raftersecurity/rafter-cli)** — A multi-language CLI security toolkit designed for AI coding agents and developers to scan and detect security vulnerabilities in code.
+
+[Demo](https://rafter.so) · [Source](https://github.com/Raftersecurity/rafter-cli) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 23 · 📅 2026-06-21
+
 **[e-arveldaja-mcp](https://github.com/iseppo/e-arveldaja-mcp)** — An experimental MCP server for the Estonian e-arveldaja (RIK e-Financials) API, enabling AI clients to perform accounting operations, bank reconciliation, and invoice management.
 
 [Source](https://github.com/iseppo/e-arveldaja-mcp) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 22 · 📅 2026-06-15
@@ -1295,6 +1319,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[VibeCode-Protocol-Suite](https://github.com/J-StaR-Films-Studios/VibeCode-Protocol-Suite)** — A toolkit that transforms AI from chatbot to development partner, optimizing AI-assisted development workflows through the VibeCode Protocol and meta-prompt system.
 
 [Source](https://github.com/J-StaR-Films-Studios/VibeCode-Protocol-Suite) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 22 · 📅 2026-06-19
+
+**[EGC](https://github.com/Fmarzochi/EGC)** — A local-first MCP runtime that gives AI coding agents persistent memory across sessions, so they never start from zero.
+
+[Demo](https://fmarzochi.github.io/EGCSite/) · [Source](https://github.com/Fmarzochi/EGC) · `JavaScript` · 🤖 Cursor, Copilot · ⭐ 22 · 📅 2026-06-21
 
 **[poe2_price](https://github.com/weixiao030/poe2_price)** — A patch tool for Path of Exile 2 that automatically fetches real-time currency prices and modifies game files to display prices on item names.
 
@@ -1304,7 +1332,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>📱 Apps <small>(346 projects)</small></h2></summary>
+<summary><h2>📱 Apps <small>(355 projects)</small></h2></summary>
 
 *Chat apps, admin panels, SaaS, complete applications*
 
@@ -2164,6 +2192,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://www.bilibili.com/video/BV1mK9vBCEYD/) · [Source](https://github.com/duxweb/codux) · `Rust` · 🤖 Claude, Codex · ⭐ 83 · 📅 2026-05-25
 
+**[cc-bar](https://github.com/nanvon/cc-bar)** — A native macOS menu bar app that tracks quota, usage, and cost for Codex (multi-account) and Claude Code, with a floating HUD and real-time statistics.
+
+[Source](https://github.com/nanvon/cc-bar) · `Swift` · 🤖 Claude, Cursor · ⭐ 83 · 📅 2026-06-21
+
+**[next-ai-blog-cms](https://github.com/fcppddl/next-ai-blog-cms)** — A full-stack blog CMS with public frontend, admin dashboard, AI writing assistant, and RAG-based intelligent Q&A system.
+
+[Demo](https://fcppddl.top) · [Source](https://github.com/fcppddl/next-ai-blog-cms) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 83 · 📅 2026-06-21
+
 **[fanbox](https://github.com/alchaincyf/fanbox)** — A desktop app that integrates file browsing, preview, embedded terminal, and AI agent orchestration in one window, helping users manage multiple AI-generated projects and track agent modifications in real-time.
 
 [Source](https://github.com/alchaincyf/fanbox) · `JavaScript` · 🤖 Claude, Playwright · ⭐ 80 · 📅 2026-06-11
@@ -2276,6 +2312,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://wl.do) · [Source](https://github.com/Ciao1019/Petrichor) · `TypeScript` · 🤖 Claude · ⭐ 64 · 📅 2026-06-10
 
+**[predict-raven](https://github.com/Alchemist-X/predict-raven)** — An autonomous AI agent framework that continuously monitors prediction markets on Polymarket, estimates event probabilities, and executes trading strategies.
+
+[Demo](https://forecasting-agent.com/world-cup) · [Source](https://github.com/Alchemist-X/predict-raven) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 63 · 📅 2026-06-21
+
 **[robrain](https://github.com/adelinamart/robrain)** — A shared memory layer for teams and AI agents that captures decisions and rejected alternatives, surfacing them proactively to prevent re-litigating past vetoes.
 
 [Demo](https://robrain.dev/) · [Source](https://github.com/adelinamart/robrain) · `TypeScript` · 🤖 Cursor, Claude Code · ⭐ 62 · 📅 2026-05-30
@@ -2331,6 +2371,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[Hephaestus](https://github.com/agentlas-ai/Hephaestus)** — An open-source agent operating system for building and managing AI agents with multi-runtime routing, local ontology, memory, and security gates.
 
 [Demo](https://agentlas.cloud/desktop) · [Source](https://github.com/agentlas-ai/Hephaestus) · `Python` · 🤖 Claude, Cursor · ⭐ 56 · 📅 2026-06-15
+
+**[spellcaster](https://github.com/laboratoiresonore/spellcaster)** — A local AI generation tool integrated into GIMP, DaVinci Resolve, and Darktable, providing one-click image segmentation and generation features.
+
+[Source](https://github.com/laboratoiresonore/spellcaster) · `Python` · 🤖 Claude, Copilot · ⭐ 56 · 📅 2026-06-21
 
 **[xbox-controller-mapper](https://github.com/NSEvent/xbox-controller-mapper)** — Remaps Xbox, PlayStation, Nintendo, and 300+ controllers to keyboard, mouse, macros, and scripts on macOS, with touchpad, gyroscope, swipe typing, and OBS integration.
 
@@ -2420,6 +2464,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://tour.5051001.xyz) · [Source](https://github.com/Wing900/PlotKityCat) · `Go` · 🤖 Claude, Copilot · ⭐ 43 · 📅 2026-06-20
 
+**[Deus](https://github.com/sliamh11/Deus)** — An open-source, self-hosted personal AI assistant that remembers user preferences, adapts to conversation styles, and provides intelligent interactions across multiple platforms like WhatsApp and Telegram.
+
+[Demo](https://github.com/sliamh11/Deus) · [Source](https://github.com/sliamh11/Deus) · `Python` · 🤖 Claude, Copilot · ⭐ 43 · 📅 2026-06-21
+
 **[incrementum-tauri](https://github.com/melpomenex/incrementum-tauri)** — A desktop app that combines incremental reading with spaced repetition, supporting import of PDFs, EPUBs, audio/video files and using FSRS algorithms for optimized review scheduling.
 
 [Demo](https://readsync.org) · [Source](https://github.com/melpomenex/incrementum-tauri) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 42 · 📅 2026-06-07
@@ -2475,6 +2523,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[shield-cli](https://github.com/fengyily/shield-cli)** — Shield CLI is a browser-first internal service gateway that allows you to access SSH terminals, remote desktops, database admin, and web apps through any browser with a single command, no VPN or client required.
 
 [Demo](https://docs.yishield.com) · [Source](https://github.com/fengyily/shield-cli) · `Go` · 🤖 Cursor, Claude · ⭐ 37 · 📅 2026-06-18
+
+**[skill-zoo](https://github.com/luochang212/skill-zoo)** — A desktop agent skills manager for browsing, installing, managing, and syncing skills across multiple AI coding tools like Claude Code, Cursor, and more.
+
+[Demo](https://www.luochang.ink/skill-zoo/) · [Source](https://github.com/luochang212/skill-zoo) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 37 · 📅 2026-06-21
 
 **[lamprey](https://github.com/USS-Parks/lamprey)** — A multi-provider, multi-agent desktop coding IDE that integrates code editing, browser, terminal, and AI agent orchestration with support for various LLM providers.
 
@@ -2644,6 +2696,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://luisfurquim.github.io/wings/) · [Source](https://github.com/luisfurquim/wings) · `Go` · 🤖 Claude, Cursor · ⭐ 26 · 📅 2026-06-15
 
+**[forklaunch](https://github.com/forklaunch/forklaunch)** — ForkLaunch is a backend framework and infrastructure platform that turns application code into production-grade deployments with one-click SOC 2 compliance, VPC isolation, auth, billing, and monitoring.
+
+[Demo](https://forklaunch.com) · [Source](https://github.com/forklaunch/forklaunch) · `TypeScript` · 🤖 Lovable, Replit · ⭐ 26 · 📅 2026-06-21
+
 **[Open-Laudable](https://github.com/ishandutta2007/Open-Laudable)** — An open-source AI app builder that generates full-stack web applications from natural language prompts, supporting local execution and multiple AI models.
 
 [Demo](https://tinyurl.com/OpenLovable) · [Source](https://github.com/ishandutta2007/Open-Laudable) · `TypeScript` · 🤖 Lovable, v0 · ⭐ 25 · 📅 2026-06-12
@@ -2664,6 +2720,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://demo.elysia-admin.top/admin) · [Source](https://github.com/meishanlaoyao/elysia-admin) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 25 · 📅 2026-06-18
 
+**[Clawd-Companion](https://github.com/Doulor/Clawd-Companion)** — A transparent desktop pet companion that displays real-time tool calls, session status, and completion alerts for Claude Code and OpenAI Codex, with multi-session tracking, token usage dashboard, Git status awareness, and sound effects.
+
+[Source](https://github.com/Doulor/Clawd-Companion) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 25 · 📅 2026-06-21
+
 **[FullScopeTest](https://github.com/05Huang/FullScopeTest)** — FullScopeTest is an AI-driven full-stack automated testing platform that supports API testing, web automation, mobile testing, and performance testing, with features like natural language script generation and intelligent error self-healing.
 
 [Demo](http://test.huangxuan.chat) · [Source](https://github.com/05Huang/FullScopeTest) · `Python` · 🤖 Cursor, Claude · ⭐ 24 · 📅 2026-06-17
@@ -2671,6 +2731,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[BaiShou-Next](https://github.com/Anson-Trio/BaiShou-Next)** — An open-source, privacy-focused AI memory companion app that records life and diaries locally, allowing AI partners to truly remember users and accompany them against forgetting.
 
 [Source](https://github.com/Anson-Trio/BaiShou-Next) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 24 · 📅 2026-06-17
+
+**[komai](https://github.com/etkecc/komai)** — A desktop-first Matrix chat application built with Rust, C++, and QML, focusing on usability and customizability.
+
+[Source](https://github.com/etkecc/komai) · `C++` · 🤖 Claude Code, Codex · ⭐ 24 · 📅 2026-06-21
 
 **[2code](https://github.com/AkaraChen/2code)** — A desktop workstation for vibe coding, integrating terminals, AI agents, Git, and worktree-based project management into a unified coding environment.
 
@@ -2764,7 +2828,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>🔌 Plugins <small>(75 projects)</small></h2></summary>
+<summary><h2>🔌 Plugins <small>(76 projects)</small></h2></summary>
 
 *Chrome extensions, VS Code plugins, browser extensions*
 
@@ -3068,6 +3132,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/socialismbuilder/ContextFlow) · `Python` · 🤖 Cursor, Claude · ⭐ 21 · 📅 2026-06-14
 
+**[notes-to-strapi-export-article-ai](https://github.com/CinquinAndy/notes-to-strapi-export-article-ai)** — An Obsidian plugin that exports notes directly to Strapi CMS with AI-powered frontmatter generation and SEO optimization.
+
+[Source](https://github.com/CinquinAndy/notes-to-strapi-export-article-ai) · `TypeScript` · 🤖 Copilot, Claude · ⭐ 20 · 📅 2026-06-21
+
 ---
 </details>
 
@@ -3153,6 +3221,6 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 **Auto-collected · Daily updates**
 
-Last updated: 2026-06-20
+Last updated: 2026-06-21
 
 </div>
