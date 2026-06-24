@@ -4,7 +4,7 @@
 
 Discover awesome projects built with AI-assisted programming
 
-**820** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
+**844** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
 
 </div>
 
@@ -20,19 +20,19 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 | Category | Description | Count |
 |----------|-------------|-------|
-| 🌐 [Websites](#websites) | Blogs, landing pages, portfolios, documentation sites | 11 |
-| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 329 |
-| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 369 |
+| 🌐 [Websites](#websites) | Blogs, landing pages, portfolios, documentation sites | 13 |
+| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 340 |
+| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 378 |
 | 📊 [Data](#data) | Dashboards, crawlers, charts, data analysis tools | 6 |
 | 🎮 [Games](#games) | Small games, entertainment projects | 8 |
-| 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 80 |
+| 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 82 |
 | 🎨 [Creative](#creative) | Generative art, music, AI writing, experimental projects | 4 |
 | 📚 [Learning](#learning) | Tutorial demos, course projects, tech experiments | 13 |
 
 ---
 
 <details>
-<summary><h2>🌐 Websites <small>(11 projects)</small></h2></summary>
+<summary><h2>🌐 Websites <small>(13 projects)</small></h2></summary>
 
 *Blogs, landing pages, portfolios, documentation sites*
 
@@ -55,6 +55,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[TinyToolTown](https://github.com/shanselman/TinyToolTown)** — A community-driven directory showcasing free, fun, and open-source tiny tools, where users can submit their own tools via GitHub issues or pull requests.
 
 [Demo](https://tinytooltown.com) · [Source](https://github.com/shanselman/TinyToolTown) · `Astro` · 🤖 Copilot · ⭐ 183 · 📅 2026-05-29
+
+**[one-person-company-journal](https://github.com/Fangx-AI/one-person-company-journal)** — A public journal website documenting a solo entrepreneur's journey from zero to monthly profit of 10,000-20,000 RMB, including daily reflections, product development, and traffic operations.
+
+[Demo](https://fxin.cc) · [Source](https://github.com/Fangx-AI/one-person-company-journal) · `JavaScript` · 🤖 Claude, Codex · ⭐ 161 · 📅 2026-06-24
 
 **[amytis](https://github.com/hutusi/amytis)** — A static website generator built to create elegant, Markdown-based digital gardens for knowledge management.
 
@@ -80,11 +84,15 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://www.skill-cn.com) · [Source](https://github.com/xgaicoding/skill-cn) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 31 · 📅 2026-06-23
 
+**[ceynri.cn](https://github.com/ceynri/ceynri.cn)** — A personal website featuring a blog, portfolio, and animated homepage to showcase the author's information and articles.
+
+[Demo](https://ceynri.cn/) · [Source](https://github.com/ceynri/ceynri.cn) · `Astro` · 🤖 Cursor · ⭐ 17 · 📅 2026-06-20
+
 ---
 </details>
 
 <details>
-<summary><h2>🛠️ Tools <small>(329 projects)</small></h2></summary>
+<summary><h2>🛠️ Tools <small>(340 projects)</small></h2></summary>
 
 *Todo lists, accounting, translation, file processing utilities*
 
@@ -736,6 +744,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/hitmux/hitmux-context-engine) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 151 · 📅 2026-06-23
 
+**[auto-embedded](https://github.com/DunCanYounG-1/auto-embedded)** — An engineering framework that enables AI coding assistants to reliably write embedded firmware by enforcing a five-stage workflow, hardware resource locking, and persistent task memory.
+
+[Source](https://github.com/DunCanYounG-1/auto-embedded) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 151 · 📅 2026-06-24
+
+**[hve-spielberg](https://github.com/nebrass/hve-spielberg)** — An AI-powered video production pipeline that automates 6 phases to turn your app into a polished promo, showcase, or tutorial video.
+
+[Demo](https://www.youtube.com/watch?v=tIsQabrczRs) · [Source](https://github.com/nebrass/hve-spielberg) · `HTML` · 🤖 Claude, Copilot · ⭐ 149 · 📅 2026-06-24
+
 **[prism-coder](https://github.com/dcostenco/prism-coder)** — An MCP server that gives AI coding agents persistent memory, local model routing, and cross-session context with offline support.
 
 [Demo](https://synalux.ai/prism-mcp) · [Source](https://github.com/dcostenco/prism-coder) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 148 · 📅 2026-06-22
@@ -1020,6 +1036,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://qedgen.dev) · [Source](https://github.com/QEDGen/solana-skills) · `Rust` · 🤖 Claude Code, Cursor · ⭐ 62 · 📅 2026-06-10
 
+**[invoice-pdf-printer](https://github.com/EnjoyWT/invoice-pdf-printer)** — A pure frontend invoice printing and merging tool that supports batch processing, multi-size auto-merging, AI recognition, and mobile responsiveness.
+
+[Demo](https://fpzs.vercel.app) · [Source](https://github.com/EnjoyWT/invoice-pdf-printer) · `Shell` · 🤖 Claude, Copilot · ⭐ 62 · 📅 2026-06-24
+
 **[vibe-usage](https://github.com/vibe-cafe/vibe-usage)** — A CLI tool that tracks token usage from AI coding tools and syncs it to vibecafe.ai.
 
 [Demo](https://vibecafe.ai/usage) · [Source](https://github.com/vibe-cafe/vibe-usage) · `JavaScript` · 🤖 Claude, Cursor · ⭐ 61 · 📅 2026-05-19
@@ -1027,6 +1047,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[gsd-skill-creator](https://github.com/Tibsfox/gsd-skill-creator)** — An adaptive learning and coprocessor architecture extension for Claude Code that enables guided software development (GSD) skill creation and management.
 
 [Source](https://github.com/Tibsfox/gsd-skill-creator) · `TypeScript` · 🤖 Claude · ⭐ 61 · 📅 2026-05-27
+
+**[agenfk](https://github.com/cglab-public/agenfk)** — A framework that transforms AI-assisted 'Vibe Coding' into structured, measurable, and visual agentic engineering workflows with Kanban boards, task tracking, and verification mechanisms.
+
+[Source](https://github.com/cglab-public/agenfk) · `TypeScript` · 🤖 Claude, Gemini · ⭐ 60 · 📅 2026-06-24
 
 **[rigor](https://github.com/rigortype/rigor)** — An inference-first static analysis tool for Ruby that detects undefined methods, wrong argument counts, and divisions by zero without requiring type annotations.
 
@@ -1120,9 +1144,21 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://ignaciohermosillacornejo.github.io/copilot-money-mcp/) · [Source](https://github.com/ignaciohermosillacornejo/copilot-money-mcp) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 50 · 📅 2026-06-08
 
+**[agentcad](https://github.com/jdilla1277/agentcad)** — A CAD CLI and MCP server that enables AI coding agents to design, execute, and validate 3D models programmatically.
+
+[Demo](https://www.youtube.com/watch?v=Zsn31-IilWM) · [Source](https://github.com/jdilla1277/agentcad) · `Python` · 🤖 Claude, Cursor · ⭐ 50 · 📅 2026-06-24
+
+**[control-surface-simulator](https://github.com/CunhaTiago-art/control-surface-simulator)** — A unified HID device mapper and diagram generator that detects joysticks, gamepads, and throttles, generates interactive live diagrams, and integrates AI for smart mapping.
+
+[Demo](https://cunhatiago-art.github.io/control-surface-simulator/) · [Source](https://github.com/CunhaTiago-art/control-surface-simulator) · `HTML` · 🤖 Claude, OpenAI · ⭐ 50 · 📅 2026-06-24
+
 **[clownfish](https://github.com/openclaw/clownfish)** — Clownfish is a maintainer tool that automatically classifies and cleans up clusters of GitHub issues and PRs identified in bulk.
 
 [Source](https://github.com/openclaw/clownfish) · `JavaScript` · 🤖 Copilot, Codex · ⭐ 49 · 📅 2026-06-16
+
+**[social-autoposter](https://github.com/m13v/social-autoposter)** — An automated social posting pipeline for Reddit, X/Twitter, LinkedIn, and Moltbook, shipped as a Claude Code skill with Python helpers and macOS launchd jobs.
+
+[Demo](https://s4l.ai) · [Source](https://github.com/m13v/social-autoposter) · `Python` · 🤖 Claude · ⭐ 49 · 📅 2026-06-24
 
 **[aicodeswitch](https://github.com/tangshuang/aicodeswitch)** — A local AI coding tool model interface management and quick-switching tool that supports multi-vendor API management, routing configuration, automatic switching, and failover.
 
@@ -1224,6 +1260,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://alehkot.github.io/android-emu-agent/) · [Source](https://github.com/alehkot/android-emu-agent) · `Python` · 🤖 Claude, Copilot · ⭐ 36 · 📅 2026-06-23
 
+**[WorkFlowX](https://github.com/TreeX-X/WorkFlowX)** — A file-driven AI multi-agent collaboration framework that upgrades AI coding from casual chat to a controllable, traceable engineering workflow with orchestrator, coder, and evaluator roles.
+
+[Source](https://github.com/TreeX-X/WorkFlowX) · `HTML` · 🤖 Claude Code, OpenAI Codex · ⭐ 36 · 📅 2026-06-24
+
 **[XIAOMI-MiMo-code](https://github.com/Gurabit77/XIAOMI-MiMo-code)** — A terminal-based AI coding assistant that allows users to leverage Xiaomi's MiMo model for writing code, fixing bugs, reading projects, and running commands via CLI.
 
 [Source](https://github.com/Gurabit77/XIAOMI-MiMo-code) · `TypeScript` · 🤖 Claude · ⭐ 35 · 📅 2026-06-08
@@ -1312,6 +1352,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/thiswind/cursor-agent-team) · `Python` · 🤖 Cursor, Claude · ⭐ 29 · 📅 2026-06-15
 
+**[jeo-skills](https://github.com/akillness/jeo-skills)** — A curated collection of 137 installable agent skills for spec-first, multi-agent LLM workflows with Claude, Gemini, Codex, Cursor, and OpenCode.
+
+[Source](https://github.com/akillness/jeo-skills) · `Shell` · 🤖 Claude, Gemini · ⭐ 29 · 📅 2026-06-24
+
 **[miniforge](https://github.com/miniforge-ai/miniforge)** — An autonomous software development system that writes code, runs tests, reviews itself, and opens pull requests from a plain English or structured spec.
 
 [Source](https://github.com/miniforge-ai/miniforge) · `Clojure` · 🤖 Claude, Cursor · ⭐ 28 · 📅 2026-06-06
@@ -1351,6 +1395,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[unsorry](https://github.com/agenticsnz/unsorry)** — A distributed swarm of autonomous AI agents that automatically replace 'sorry' placeholders in Lean 4 proofs with kernel-verified complete proofs.
 
 [Demo](https://unsorry.agentics.org.nz/) · [Source](https://github.com/agenticsnz/unsorry) · `Lean` · 🤖 Claude, Codex · ⭐ 26 · 📅 2026-06-20
+
+**[deepseek-web2api-free](https://github.com/snake-aabb-wtf/deepseek-web2api-free)** — A reverse proxy that converts DeepSeek Chat's private API into OpenAI-compatible format, supporting streaming, expert mode, and automatic PoW authentication.
+
+[Source](https://github.com/snake-aabb-wtf/deepseek-web2api-free) · `Python` · 🤖 DeepSeek v4 Flash, Claude Code · ⭐ 26 · 📅 2026-06-24
 
 **[skelm](https://github.com/scottgl9/skelm)** — An open-source, typed agentic workflow engine for authoring, scheduling, and operating secure, long-running pipelines that mix code, inference, and agents with default-deny permissions.
 
@@ -1404,11 +1452,15 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](examples/sample-deck.html) · [Source](https://github.com/FuQiang/feishu-deck-h5) · `Python` · 🤖 Claude, Cursor · ⭐ 21 · 📅 2026-06-23
 
+**[10x](https://github.com/z3z1ma/10x)** — A skill set that makes AI agents behave like a 10x developer by encoding engineering discipline, compounding knowledge and context over time.
+
+[Source](https://github.com/z3z1ma/10x) · `Python` · 🤖 Claude, Copilot · ⭐ 17 · 📅 2026-06-24
+
 ---
 </details>
 
 <details>
-<summary><h2>📱 Apps <small>(369 projects)</small></h2></summary>
+<summary><h2>📱 Apps <small>(378 projects)</small></h2></summary>
 
 *Chat apps, admin panels, SaaS, complete applications*
 
@@ -1668,6 +1720,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/lioensky/VCPChat) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 679 · 📅 2026-05-19
 
+**[prism-insight](https://github.com/dragon1086/prism-insight)** — An AI-powered stock market analysis and trading system that uses 13 specialized AI agents to detect surge stocks, generate analyst-grade reports, and execute trades automatically.
+
+[Demo](https://prism-insight-landing.vercel.app/) · [Source](https://github.com/dragon1086/prism-insight) · `Python` · 🤖 Claude, ChatGPT · ⭐ 655 · 📅 2026-06-24
+
 **[ouroboros](https://github.com/razzant/ouroboros)** — A self-modifying AI agent desktop application that writes its own code, rewrites its own mind, and evolves autonomously with persistent identity.
 
 [Demo](https://razzant.github.io/ouroboros/) · [Source](https://github.com/razzant/ouroboros) · `Python` · 🤖 Claude, Copilot · ⭐ 654 · 📅 2026-06-18
@@ -1687,6 +1743,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[CCTV-Smartphone-AI-Monitoring](https://github.com/suzuran0y/CCTV-Smartphone-AI-Monitoring)** — A distributed real-time monitoring system that repurposes unused Android devices as network camera nodes for AI-powered visual analysis over LAN.
 
 [Source](https://github.com/suzuran0y/CCTV-Smartphone-AI-Monitoring) · `Python` · 🤖 Claude, Copilot · ⭐ 588 · 📅 2026-05-30
+
+**[FLUJO](https://github.com/mario-andreschak/FLUJO)** — FLUJO is an open-source platform that provides a unified interface for managing AI models, MCP servers, and complex workflows, supporting multi-model chat and workflow orchestration.
+
+[Source](https://github.com/mario-andreschak/FLUJO) · `TypeScript` · 🤖 CLine · ⭐ 587 · 📅 2026-06-24
 
 **[Hexis](https://github.com/QuixiAI/Hexis)** — A Postgres-native cognitive architecture that wraps any LLM with persistent memory, autonomous behavior, and identity, enabling AI agents to maintain continuity and self-awareness across sessions.
 
@@ -2204,6 +2264,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://beevibe.ai) · [Source](https://github.com/beevibe-ai/beevibe) · `TypeScript` · 🤖 Claude · ⭐ 98 · 📅 2026-05-30
 
+**[API_detect_tools](https://github.com/Sponge-Lu/API_detect_tools)** — A desktop client for managing multiple API relay stations, featuring one-click check-in, local routing configuration, API key management, and automatic authentication.
+
+[Source](https://github.com/Sponge-Lu/API_detect_tools) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 96 · 📅 2026-06-24
+
 **[SimWorld-Studio](https://github.com/SimWorld-AI/SimWorld-Studio)** — Chat with an AI coding agent to build, simulate, and control 3D environments in Unreal Engine 5 for embodied agent learning.
 
 [Demo](https://simworld.org/simworld-studio/) · [Source](https://github.com/SimWorld-AI/SimWorld-Studio) · `Python` · 🤖 Claude · ⭐ 95 · 📅 2026-05-27
@@ -2372,6 +2436,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/LittleOrange-i/Youzi-Write) · `Vue` · 🤖 Cursor, Claude · ⭐ 69 · 📅 2026-06-12
 
+**[MOTO-Autonomous-ASI](https://github.com/Intrafere/MOTO-Autonomous-ASI)** — An autonomous AI research system that automatically generates mathematical theorems and formalizes proofs with Lean 4 verification, capable of running for days without user intervention.
+
+[Demo](https://intrafere.com/moto-autonomous-home-ai/) · [Source](https://github.com/Intrafere/MOTO-Autonomous-ASI) · `Python` · 🤖 Cursor, Claude · ⭐ 69 · 📅 2026-06-24
+
 **[agomTradePro](https://github.com/guiyinan/agomTradePro)** — An AI-native macro investment research infrastructure that helps individual investors make informed decisions by integrating data, decision frameworks, agent capabilities, and disciplined execution workflows within the right macroeconomic context.
 
 [Source](https://github.com/guiyinan/agomTradePro) · `Python` · ⭐ 68 · 📅 2026-05-19
@@ -2451,6 +2519,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[investTemplate](https://github.com/sunheyi6/investTemplate)** — A comprehensive stock analysis tool integrating four investment schools, providing standardized analysis templates, data verification, valuation frameworks, and decision tracking for Hong Kong and A-share investment decisions.
 
 [Demo](https://invest.sunheyi.com) · [Source](https://github.com/sunheyi6/investTemplate) · `Python` · 🤖 Claude, Trae · ⭐ 59 · 📅 2026-05-19
+
+**[herald-mail-app](https://github.com/herald-email/herald-mail-app)** — Herald is a terminal email client and inbox cleanup tool with IMAP, AI-assisted triage, MCP tools, and SSH/browser-friendly app modes.
+
+[Source](https://github.com/herald-email/herald-mail-app) · `Go` · 🤖 Claude, Copilot · ⭐ 59 · 📅 2026-06-23
 
 **[yopedia](https://github.com/yologdev/yopedia)** — A self-growing wiki system where an AI agent continuously expands content starting from Karpathy's founding prompt.
 
@@ -2627,6 +2699,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[TRNovel](https://github.com/yexiyue/TRNovel)** — A terminal-based novel reader that supports local TXT files and online book sources, with AI-powered book source generation and TTS capabilities.
 
 [Demo](https://yexiyue.github.io/TRNovel) · [Source](https://github.com/yexiyue/TRNovel) · `Rust` · 🤖 Claude, Copilot · ⭐ 38 · 📅 2026-06-12
+
+**[VibeCast](https://github.com/Pls-1q43/VibeCast)** — VibeCast turns your phone into a remote voice input panel for macOS, syncing text in real-time via WebSocket to target apps like Codex and Notion, with one-tap send.
+
+[Source](https://github.com/Pls-1q43/VibeCast) · `Swift` · 🤖 Cursor, Claude · ⭐ 38 · 📅 2026-06-24
 
 **[shield-cli](https://github.com/fengyily/shield-cli)** — Shield CLI is a browser-first internal service gateway that allows you to access SSH terminals, remote desktops, database admin, and web apps through any browser with a single command, no VPN or client required.
 
@@ -2820,6 +2896,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://forklaunch.com) · [Source](https://github.com/forklaunch/forklaunch) · `TypeScript` · 🤖 Lovable, Replit · ⭐ 26 · 📅 2026-06-21
 
+**[claudia-rh](https://github.com/JohnGabie/claudia-rh)** — A Windows desktop app that uses Claude AI to automatically browse job sites, analyze listings, and submit applications on your behalf.
+
+[Source](https://github.com/JohnGabie/claudia-rh) · `TypeScript` · 🤖 Claude · ⭐ 26 · 📅 2026-06-24
+
 **[Open-Laudable](https://github.com/ishandutta2007/Open-Laudable)** — An open-source AI app builder that generates full-stack web applications from natural language prompts, supporting local execution and multiple AI models.
 
 [Demo](https://tinyurl.com/OpenLovable) · [Source](https://github.com/ishandutta2007/Open-Laudable) · `TypeScript` · 🤖 Lovable, v0 · ⭐ 25 · 📅 2026-06-12
@@ -2860,6 +2940,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://2code.akr.moe) · [Source](https://github.com/AkaraChen/2code) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 23 · 📅 2026-06-19
 
+**[memento](https://github.com/ddong8/memento)** — A self-hosted memory management system that automatically collects conversations from AI coding tools like Claude Code and Cursor, providing cross-device search, knowledge graphs, and MCP interfaces.
+
+[Demo](https://mem.ihasy.com) · [Source](https://github.com/ddong8/memento) · `Python` · 🤖 Claude Code, Cursor · ⭐ 23 · 📅 2026-06-24
+
 **[DesktopDeclutter](https://github.com/kamilstanuch/DesktopDeclutter)** — A macOS app that helps declutter your desktop by reviewing files with a Tinder-like swipe interface.
 
 [Demo](desktopdeclutter.gif) · [Source](https://github.com/kamilstanuch/DesktopDeclutter) · `Swift` · 🤖 Cursor, Composer-1 · ⭐ 22 · 📅 2026-01-26
@@ -2887,6 +2971,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[podcast-rag](https://github.com/allenhutchison/podcast-rag)** — A RAG-based podcast question-answering system that automatically transcribes MP3 audio, extracts metadata, and enables semantic search with citations.
 
 [Demo](https://allen.hutchison.org/category/projects/podcast-rag/) · [Source](https://github.com/allenhutchison/podcast-rag) · `Python` · 🤖 CodeRabbit, Gemini · ⭐ 19 · 📅 2026-06-23
+
+**[MotrixMac](https://github.com/ShawnRn/MotrixMac)** — A native macOS download manager built with Swift, supporting HTTP, FTP, BitTorrent, and Magnet links.
+
+[Source](https://github.com/ShawnRn/MotrixMac) · `Swift` · 🤖 Antigravity · ⭐ 16 · 📅 2026-06-24
 
 ---
 </details>
@@ -2964,9 +3052,13 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>🔌 Plugins <small>(80 projects)</small></h2></summary>
+<summary><h2>🔌 Plugins <small>(82 projects)</small></h2></summary>
 
 *Chrome extensions, VS Code plugins, browser extensions*
+
+**[antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)** — An installable library of 1,600+ agentic skills and plugins for AI coding assistants like Claude Code, Cursor, and Gemini CLI to perform recurring development tasks.
+
+[Demo](https://sickn33.github.io/antigravity-awesome-skills/) · [Source](https://github.com/sickn33/antigravity-awesome-skills) · `Python` · 🤖 Claude Code, Cursor · ⭐ 41526 · 📅 2026-06-24
 
 **[agentmemory](https://github.com/rohitg00/agentmemory)** — A persistent memory system for AI coding agents that enables Claude Code, Cursor, and other tools to remember context and history without re-explaining.
 
@@ -3276,6 +3368,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://youtu.be/lGRbMZw23ic) · [Source](https://github.com/crazynomad/skills) · `Python` · 🤖 Claude · ⭐ 26 · 📅 2026-06-12
 
+**[autopilot](https://github.com/strzhao/autopilot)** — A set of Claude Code plugins that provides a fully automated autonomous engineering workflow from requirement description to code merge, featuring red-blue adversarial coding, five-layer QA, and intelligent commit.
+
+[Source](https://github.com/strzhao/autopilot) · `Shell` · 🤖 Claude · ⭐ 25 · 📅 2026-06-24
+
 **[wp-dev-skills](https://github.com/mralaminahamed/wp-dev-skills)** — A WordPress plugin development skill set for AI coding agents that enables automated GitHub workflows, code standards, testing, and release management.
 
 [Demo](https://github.com/mralaminahamed/wp-dev-skills/blob/trunk/README.md) · [Source](https://github.com/mralaminahamed/wp-dev-skills) · `PHP` · 🤖 Claude, Gemini · ⭐ 22 · 📅 2026-06-19
@@ -3381,6 +3477,6 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 **Auto-collected · Daily updates**
 
-Last updated: 2026-06-23
+Last updated: 2026-06-24
 
 </div>
