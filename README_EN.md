@@ -4,7 +4,7 @@
 
 Discover awesome projects built with AI-assisted programming
 
-**1289** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
+**1312** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
 
 </div>
 
@@ -21,13 +21,13 @@ This repository collects **real application cases** from GitHub built with AI-as
 | Category | Description | Count |
 |----------|-------------|-------|
 | 🌐 [Websites](#websites) | Blogs, landing pages, portfolios, documentation sites | 18 |
-| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 510 |
-| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 584 |
+| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 525 |
+| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 587 |
 | 📊 [Data](#data) | Dashboards, crawlers, charts, data analysis tools | 10 |
 | 🎮 [Games](#games) | Small games, entertainment projects | 10 |
-| 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 128 |
+| 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 132 |
 | 🎨 [Creative](#creative) | Generative art, music, AI writing, experimental projects | 7 |
-| 📚 [Learning](#learning) | Tutorial demos, course projects, tech experiments | 22 |
+| 📚 [Learning](#learning) | Tutorial demos, course projects, tech experiments | 23 |
 
 ---
 
@@ -112,7 +112,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>🛠️ Tools <small>(510 projects)</small></h2></summary>
+<summary><h2>🛠️ Tools <small>(525 projects)</small></h2></summary>
 
 *Todo lists, accounting, translation, file processing utilities*
 
@@ -236,6 +236,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://awslabs.github.io/mcp/) · [Source](https://github.com/awslabs/mcp) · `Python` · 🤖 Claude, Copilot · ⭐ 9099 · 📅 2026-05-21
 
+**[codeburn](https://github.com/getagentseal/codeburn)** — A free local tool to track AI coding token usage and cost across 31 tools and agents, by model, project, and task.
+
+[Demo](https://codeburn.app/) · [Source](https://github.com/getagentseal/codeburn) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 8695 · 📅 2026-07-17
+
 **[OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)** — OfficeCLI is a command-line Office suite designed for AI agents, enabling them to read, edit, and automate Word, Excel, and PowerPoint files with a single line of code, no Office installation required.
 
 [Demo](https://officecli.ai) · [Source](https://github.com/iOfficeAI/OfficeCLI) · `C#` · 🤖 Claude, Cursor · ⭐ 6536 · 📅 2026-06-09
@@ -300,9 +304,17 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://dwgx.github.io/WindsurfAPI/) · [Source](https://github.com/dwgx/WindsurfAPI) · `JavaScript` · 🤖 Windsurf, Claude · ⭐ 2554 · 📅 2026-05-22
 
+**[Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills)** — Vibe-Skills is a workflow runtime for AI agents that splits one request into bounded parts and coordinates local skills for composite tasks like planning, coding, testing, and review.
+
+[Source](https://github.com/foryourhealth111-pixel/Vibe-Skills) · `Python` · 🤖 Claude, Codex · ⭐ 2382 · 📅 2026-07-17
+
 **[HolyClaude](https://github.com/CoderLuii/HolyClaude)** — One-command AI development workstation that bundles Claude Code, web UI, headless browser, and 50+ dev tools in a containerized environment.
 
 [Demo](https://holyclaude.coderluii.dev) · [Source](https://github.com/CoderLuii/HolyClaude) · `JavaScript` · 🤖 Claude · ⭐ 2348 · 📅 2026-06-18
+
+**[Skills](https://github.com/MengTo/Skills)** — A curated collection of reusable agent skills for designers and builders to generate UIs, frontend systems, automations, and workflows using AI coding agents.
+
+[Source](https://github.com/MengTo/Skills) · `Python` · 🤖 Codex, Claude · ⭐ 2312 · 📅 2026-07-17
 
 **[cli-printing-press](https://github.com/mvanhorn/cli-printing-press)** — A CLI tool that extracts hidden information from APIs and consolidates features from competing tools into a unified interface with SQLite sync, offline search, and compound insight commands, designed primarily for AI agents.
 
@@ -640,6 +652,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/H-mmer/pentest-agents) · `Python` · 🤖 Claude Code, Codex · ⭐ 486 · 📅 2026-05-19
 
+**[blogger-distiller](https://github.com/otter1101/blogger-distiller)** — Input a blogger's link, automatically analyze their content strategy, cognitive patterns, and viral tactics, generating an installable AI creation guide and visual report.
+
+[Source](https://github.com/otter1101/blogger-distiller) · `Python` · 🤖 Claude, Copilot · ⭐ 477 · 📅 2026-07-16
+
 **[swamp](https://github.com/swamp-club/swamp)** — Swamp is a CLI tool that supercharges AI agents to create deterministic operational workflows with models, definitions, and data management.
 
 [Source](https://github.com/swamp-club/swamp) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 475 · 📅 2026-07-07
@@ -759,6 +775,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[Software-Engineer-AI-Agent-Atlas](https://github.com/syahiidkamil/Software-Engineer-AI-Agent-Atlas)** — A senior-engineer layer for Claude Code that helps explore requirements with wireframes and prototypes before building, captures them in living HTML, then hands off to Claude Code's native plan/goal/workflow loop for implementation.
 
 [Source](https://github.com/syahiidkamil/Software-Engineer-AI-Agent-Atlas) · `Python` · 🤖 Claude · ⭐ 298 · 📅 2026-06-07
+
+**[bingo](https://github.com/bingook/bingo)** — An AI-powered red team terminal that automatically executes penetration testing tasks like SQL injection, XSS, and SSRF based on user target input.
+
+[Source](https://github.com/bingook/bingo) · `Python` · 🤖 DeepSeek, Claude · ⭐ 295 · 📅 2026-07-17
 
 **[gcx](https://github.com/grafana/gcx)** — A CLI tool for managing Grafana Cloud resources, optimized for agentic usage, enabling querying metrics, logs, alerts, and dashboards.
 
@@ -980,6 +1000,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://mantishack.com) · [Source](https://github.com/deonmenezes/mantishack) · `Rust` · 🤖 Claude, Codex CLI · ⭐ 143 · 📅 2026-05-26
 
+**[heige-codex-skin-studio](https://github.com/HeiGeAi/heige-codex-skin-studio)** — A one-click theme switcher for OpenAI Codex Desktop that injects themes via CDP, supporting custom image color extraction and multiple preset themes.
+
+[Source](https://github.com/HeiGeAi/heige-codex-skin-studio) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 143 · 📅 2026-07-17
+
 **[harmony-next.skills](https://github.com/linhay/harmony-next.skills)** — An offline reference knowledge base for HarmonyOS NEXT development, designed to help AI coding assistants accurately retrieve API documentation, IDE operations, and automation testing information.
 
 [Source](https://github.com/linhay/harmony-next.skills) · `Python` · 🤖 Gemini CLI, Claude Code · ⭐ 140 · 📅 2026-05-28
@@ -1183,6 +1207,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** — An open-source local MCP server that provides AI assistants with comprehensive access to eBay's Sell APIs, offering 322 tools for inventory management, order fulfillment, marketing, and analytics.
 
 [Demo](https://www.npmjs.com/package/ebay-mcp) · [Source](https://github.com/YosefHayim/ebay-mcp) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 90 · 📅 2026-06-27
+
+**[creator-buddy](https://github.com/SpaceZephyr/creator-buddy)** — An orchestrated Agent Skills collection for cross-platform content search, creator analysis, and viral trend research.
+
+[Source](https://github.com/SpaceZephyr/creator-buddy) · `Python` · 🤖 Claude Code, Codex · ⭐ 89 · 📅 2026-07-17
 
 **[claude-skills](https://github.com/YiShu5/claude-skills)** — A collection of plug-and-play Claude Code Skills for tasks like HTML presentation generation, animation creation, WeChat article collaboration and publishing, PRD organization, and Chinese writing review, triggered via natural language.
 
@@ -1524,6 +1552,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/lvlup-sw/exarchos) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 45 · 📅 2026-07-14
 
+**[zotero-skills](https://github.com/WenyuChiou/zotero-skills)** — A tool that gives AI coding assistants full CRUD access to Zotero library for searching, adding, classifying, annotating, and organizing references from the terminal.
+
+[Source](https://github.com/WenyuChiou/zotero-skills) · `Python` · 🤖 Claude, Cursor · ⭐ 45 · 📅 2026-07-17
+
 **[token-monitor](https://github.com/Javis603/token-monitor)** — A real-time desktop widget that monitors token usage, costs, and AI tool limits across multiple AI coding tools with multi-device sync.
 
 [Demo](http://javis-ai.com/token-monitor/) · [Source](https://github.com/Javis603/token-monitor) · `JavaScript` · 🤖 Claude, Cursor · ⭐ 44 · 📅 2026-06-07
@@ -1551,6 +1583,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[DaisyWriter](https://github.com/ricky-theseus/DaisyWriter)** — DaisyWriter is a skill collection that transforms AI coding assistants into professional writing tools for web novels, short stories, tech blogs, and publishing automation.
 
 [Demo](https://github.com/ricky-theseus/DaisyWriter) · [Source](https://github.com/ricky-theseus/DaisyWriter) · `Python` · 🤖 OpenCode, Claude Code · ⭐ 42 · 📅 2026-07-08
+
+**[OpenMicro](https://github.com/stephenleo/OpenMicro)** — A tool that lets you control AI coding harnesses like Claude Code and Codex CLI using any gaming controller.
+
+[Source](https://github.com/stephenleo/OpenMicro) · `TypeScript` · 🤖 Claude · ⭐ 42 · 📅 2026-07-17
 
 **[cc-safe-setup](https://github.com/yurukusa/cc-safe-setup)** — One-command setup to install safety hooks that prevent Claude Code from executing destructive operations during autonomous operation.
 
@@ -1940,6 +1976,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://youtu.be/A-rCpn6O3SI) · [Source](https://github.com/skovtun/coherent-design-method) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 22 · 📅 2026-07-12
 
+**[customizable-agent-teams](https://github.com/discus0434/customizable-agent-teams)** — Splits Claude Code and Codex into 11 roles running as a team on tmux for collaborative software development.
+
+[Source](https://github.com/discus0434/customizable-agent-teams) · `Shell` · 🤖 Claude Code, Codex · ⭐ 22 · 📅 2026-07-17
+
 **[poe2_price](https://github.com/weixiao030/poe2_price)** — A patch tool for Path of Exile 2 that automatically fetches real-time currency prices and modifies game files to display prices on item names.
 
 [Source](https://github.com/weixiao030/poe2_price) · `PowerShell` · 🤖 Claude, ChatGPT · ⭐ 21 · 📅 2026-06-19
@@ -1987,6 +2027,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[agent-skills](https://github.com/mikecann/agent-skills)** — A personal AI agent skills repository containing focused automation skills for code cleanup, cartoon animation generation, motion graphics creation, and PR management.
 
 [Source](https://github.com/mikecann/agent-skills) · `TypeScript` · 🤖 Cursor, Claude Code · ⭐ 20 · 📅 2026-07-15
+
+**[botference](https://github.com/angadhn/botference)** — A multi-LLM planning council for your terminal where you, Claude Code, and Codex collaborate in real-time to debate and generate an implementation plan.
+
+[Demo](https://botference.com) · [Source](https://github.com/angadhn/botference) · `Python` · 🤖 Claude, Codex · ⭐ 20 · 📅 2026-07-17
 
 **[vibekit](https://github.com/MUKE-coder/vibekit)** — VibeKit is a structured framework for developers using AI tools like Claude Code to build production-grade Next.js applications, providing master prompts, planning workflows, and reference guides to avoid common pitfalls.
 
@@ -2104,6 +2148,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/huyphan13189/QE-AI) · 🤖 Claude, Cursor · ⭐ 16 · 📅 2026-07-16
 
+**[rayu-cli](https://github.com/Choeng-Rayu/rayu-cli)** — An open-source AI coding agent CLI with multi-provider support, local models, MCP, and specialized AI agents.
+
+[Demo](https://rayucode.com) · [Source](https://github.com/Choeng-Rayu/rayu-cli) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 16 · 📅 2026-07-17
+
+**[ChatCCC](https://github.com/wzj998/ChatCCC)** — Control local AI coding tools (Claude Code, Cursor, Codex) via Feishu or WeChat chat, allowing users to send commands from their phone to continue coding, debug, or run commands remotely.
+
+[Source](https://github.com/wzj998/ChatCCC) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 16 · 📅 2026-07-17
+
 **[more-paper-workflow-pro-skill](https://github.com/bingyunjiang/more-paper-workflow-pro-skill)** — An academic workflow tool for Chinese/bilingual paper writing that guides users through topic selection, literature search, download, Zotero integration, writing, and citation auditing based on real references rather than AI memory.
 
 [Source](https://github.com/bingyunjiang/more-paper-workflow-pro-skill) · `Python` · 🤖 Claude Code, Codex · ⭐ 15 · 📅 2026-06-26
@@ -2127,6 +2179,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[graphify](https://github.com/rhanka/graphify)** — Turn any folder of code, docs, papers, or images into a queryable knowledge graph with entity reconciliation and cross-source linking.
 
 [Demo](https://mystery-saga.sent-tech.ca/studio/) · [Source](https://github.com/rhanka/graphify) · `TypeScript` · 🤖 Claude Code, Codex · ⭐ 15 · 📅 2026-07-14
+
+**[wet-mcp](https://github.com/n24q02m/wet-mcp)** — An open-source MCP server for AI agents that provides web search, content extraction, and library documentation retrieval with 5-strategy scraping, running without API keys.
+
+[Demo](https://mcp.n24q02m.com/servers/wet-mcp/) · [Source](https://github.com/n24q02m/wet-mcp) · `Python` · 🤖 Claude, Copilot · ⭐ 15 · 📅 2026-07-17
+
+**[selvedge](https://github.com/masondelan/selvedge)** — Long-term memory for AI-coded codebases, capturing the reasoning behind each change made by AI agents, like a git blame for the 'why'.
+
+[Demo](https://selvedge.sh) · [Source](https://github.com/masondelan/selvedge) · `Python` · 🤖 Claude, Copilot · ⭐ 15 · 📅 2026-07-17
 
 **[obsidian-content-capture-backend](https://github.com/lyxdream/obsidian-content-capture-backend)** — A local tool for extracting Douyin content: parse share links, download videos/images without watermark, and transcribe speech to text using Whisper.
 
@@ -2160,7 +2220,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>📱 Apps <small>(584 projects)</small></h2></summary>
+<summary><h2>📱 Apps <small>(587 projects)</small></h2></summary>
 
 *Chat apps, admin panels, SaaS, complete applications*
 
@@ -2987,6 +3047,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[vouch](https://github.com/vouchdev/vouch)** — A git-native, review-gated knowledge base for AI agents where they propose writes and you approve them, with every claim citing a source and every change tracked as a diff in your repo.
 
 [Demo](docs/vouch-how-it-works.mp4) · [Source](https://github.com/vouchdev/vouch) · `Python` · 🤖 Claude, Claude Code · ⭐ 155 · 📅 2026-07-07
+
+**[social-auto-upload-web-ui](https://github.com/DevilJie/social-auto-upload-web-ui)** — QianFan Sync is a one-stop multi-platform social media auto-publishing tool that allows users to distribute videos and image sets to 11 mainstream platforms with a single click through a visual interface.
+
+[Source](https://github.com/DevilJie/social-auto-upload-web-ui) · `Python` · 🤖 Claude, Cursor · ⭐ 155 · 📅 2026-07-16
 
 **[welink](https://github.com/runzhliu/welink)** — A localized WeChat chat data analysis platform that uses AI to deeply analyze chat history, generate friend profiles, emotional trends, and AI avatars for simulated conversations.
 
@@ -4228,6 +4292,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/MARKJY-China/XuanTie-Lang) · `Go` · 🤖 Claude, Copilot · ⭐ 22 · 📅 2026-07-14
 
+**[prompt-island](https://github.com/shinteni/prompt-island)** — A local-first floating island on macOS that displays AI coding task status, tool calls, and approval requests for Claude Code, Codex CLI, and Codex Desktop.
+
+[Demo](https://shinteni.github.io/prompt-island/) · [Source](https://github.com/shinteni/prompt-island) · `Swift` · 🤖 Claude, Codex CLI · ⭐ 22 · 📅 2026-07-16
+
 **[metaforge](https://github.com/svy04/metaforge)** — An agent operating system that executes governed code through evidence gates and runtime orchestration, riding on Claude and Codex OAuth-backed agent paths.
 
 [Source](https://github.com/svy04/metaforge) · `TypeScript` · 🤖 Claude, Codex · ⭐ 21 · 📅 2026-06-19
@@ -4432,6 +4500,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://freeport.network) · [Source](https://github.com/ptrinh/freeport) · `HTML` · 🤖 Claude Code · ⭐ 15 · 📅 2026-07-14
 
+**[bellatrix](https://github.com/JJDSNT/bellatrix)** — A bare-metal Amiga machine emulator for Raspberry Pi 3B that integrates M68K JIT engine with Amiga chipset library, running directly on Pi hardware without Linux or hypervisor.
+
+[Demo](https://jjdsnt.github.io/bellatrix/viewer/) · [Source](https://github.com/JJDSNT/bellatrix) · `C` · 🤖 Claude, Cursor · ⭐ 15 · 📅 2026-07-17
+
 **[lixpi](https://github.com/Lixpi/lixpi)** — A visual, node-based AI workspace for building generative image and video pipelines on an infinite canvas.
 
 [Demo](https://youtu.be/Eee2Ku-Tl_8) · [Source](https://github.com/Lixpi/lixpi) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 14 · 📅 2026-07-05
@@ -4600,7 +4672,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>🔌 Plugins <small>(128 projects)</small></h2></summary>
+<summary><h2>🔌 Plugins <small>(132 projects)</small></h2></summary>
 
 *Chrome extensions, VS Code plugins, browser extensions*
 
@@ -4699,6 +4771,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[cpdown](https://github.com/ysm-dev/cpdown)** — A browser extension that copies any webpage content or YouTube subtitles to your clipboard as clean Markdown with a single click or keyboard shortcut.
 
 [Demo](https://github.com/user-attachments/assets/cedf05e8-ed1d-4e71-9769-66c9b292fbdd) · [Source](https://github.com/ysm-dev/cpdown) · `TypeScript` · ⭐ 547 · 📅 2026-05-18
+
+**[comfyui-vrgamedevgirl](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl)** — A collection of custom ComfyUI nodes for film grain, color matching, and video enhancement.
+
+[Source](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl) · `Python` · 🤖 Claude, Copilot · ⭐ 531 · 📅 2026-07-17
 
 **[obsidian-gemini](https://github.com/allenhutchison/obsidian-gemini)** — An Obsidian plugin that integrates Google Gemini and Ollama local models to provide AI-powered assistance for note-taking, writing, and knowledge management.
 
@@ -4816,6 +4892,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/databricks/databricks-agent-skills) · `Python` · 🤖 Claude Code, Cursor · ⭐ 151 · 📅 2026-06-10
 
+**[edd-custom-aggregate-queries](https://github.com/duywithshe/edd-custom-aggregate-queries)** — A PHP library that extends Easy Digital Downloads with SQL aggregation functions for in-dashboard e-commerce analytics.
+
+[Demo](https://duywithshe.github.io/edd-custom-aggregate-queries/) · [Source](https://github.com/duywithshe/edd-custom-aggregate-queries) · `HTML` · 🤖 Copilot, Claude · ⭐ 151 · 📅 2026-07-17
+
 **[glade-mcp](https://github.com/Glade-tool/glade-mcp)** — A bridge that connects AI coding clients (Claude Code, Cursor, Windsurf) to Unity or Godot editors via the MCP protocol, enabling AI-driven game development.
 
 [Demo](GladeKitMCP_DemoGIF.gif) · [Source](https://github.com/Glade-tool/glade-mcp) · `C#` · 🤖 Claude, Cursor · ⭐ 143 · 📅 2026-05-31
@@ -4900,6 +4980,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://bolt2github.com) · [Source](https://github.com/mamertofabian/bolt-to-github) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 71 · 📅 2026-05-30
 
+**[RollingGo-hotel-skill-CN](https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN)** — An AI Agent skill plugin that enables natural language hotel search, price comparison, booking and order management globally.
+
+[Demo](https://rollinggo.store/) · [Source](https://github.com/RollingGo-AI/RollingGo-hotel-skill-CN) · `Python` · 🤖 Cursor, Claude · ⭐ 71 · 📅 2026-07-17
+
 **[DSkills](https://github.com/Dianel555/DSkills)** — A collection of CLI tool skills for AI coding assistants (Claude Code, Codex, Gemini CLI) to enhance their search, reasoning, and code understanding capabilities.
 
 [Demo](https://github.com/Dianel555/DSkills) · [Source](https://github.com/Dianel555/DSkills) · `Python` · 🤖 Claude Code, Codex · ⭐ 64 · 📅 2026-07-08
@@ -4935,6 +5019,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[skills](https://github.com/Sendmux/skills)** — A skill pack for AI coding agents to interact with Sendmux services, enabling email sending, mailbox management, attachment handling, and more.
 
 [Source](https://github.com/Sendmux/skills) · `JavaScript` · 🤖 Claude, Cursor · ⭐ 54 · 📅 2026-07-03
+
+**[jmeter-ai](https://github.com/QAInsights/jmeter-ai)** — An AI-powered assistant plugin for Apache JMeter that enables multi-model chat, smart refactoring, and autonomous test plan editing.
+
+[Demo](https://jmeter.ai) · [Source](https://github.com/QAInsights/jmeter-ai) · `Java` · 🤖 Claude, Codex · ⭐ 53 · 📅 2026-07-17
 
 **[Godot-MCP](https://github.com/IvanMurzak/Godot-MCP)** — Integrates the Model Context Protocol (MCP) into the Godot Engine, enabling AI agents to directly control the Godot editor for game development.
 
@@ -5156,7 +5244,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>📚 Learning <small>(22 projects)</small></h2></summary>
+<summary><h2>📚 Learning <small>(23 projects)</small></h2></summary>
 
 *Tutorial demos, course projects, tech experiments*
 
@@ -5199,6 +5287,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[model_guided_research](https://github.com/Dicklesworthstone/model_guided_research)** — A systematic investigation of 11 exotic mathematical frameworks (Lie groups, tropical algebra, p-adic numbers, etc.) applied to deep learning, with dual JAX and PyTorch implementations.
 
 [Source](https://github.com/Dicklesworthstone/model_guided_research) · `Python` · 🤖 GPT-5 Pro, Claude · ⭐ 106 · 📅 2026-06-10
+
+**[apcs-judge](https://github.com/Yu-0312/apcs-judge)** — An in-browser APCS coding learning and judging platform featuring interactive tutorials, multi-language problem sets, code reading drills, and an AI photo solver.
+
+[Demo](https://yu-0312.github.io/apcs-judge/) · [Source](https://github.com/Yu-0312/apcs-judge) · `JavaScript` · 🤖 Gemini · ⭐ 74 · 📅 2026-07-17
 
 **[claude-skills](https://github.com/dmccreary/claude-skills)** — A collection of AI-powered skills and workflows for creating intelligent textbooks with learning graphs, interactive simulations, quizzes, and educational content.
 
@@ -5257,6 +5349,6 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 **Auto-collected · Daily updates**
 
-Last updated: 2026-07-16
+Last updated: 2026-07-17
 
 </div>
