@@ -2145,6 +2145,44 @@
       "updated_at": "2026-07-05T02:58:24.997687"
     },
     {
+      "github_id": 1123956658,
+      "full_name": "backnotprop/plannotator",
+      "name": "plannotator",
+      "owner": "backnotprop",
+      "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
+      "chinese_description": "这是一个本地浏览器端的AI编程代理审查工具，用于注释和审查AI代理生成的计划、代码差异和HTML，并支持将反馈一键发送给代理。",
+      "english_description": "A local browser-based review surface for AI coding agents, allowing users to annotate and review plans, code diffs, and HTML, and send feedback to agents with one click.",
+      "html_url": "https://github.com/backnotprop/plannotator",
+      "homepage": "https://www.youtube.com/watch?v=a_AT7cEN_9I",
+      "language": "TypeScript",
+      "stars": 7948,
+      "forks": 589,
+      "ai_tools": [
+        "Claude",
+        "Copilot",
+        "Codex",
+        "Gemini",
+        "OpenCode",
+        "Kiro",
+        "Droid",
+        "Amp",
+        "Pi"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "React",
+        "Node.js"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:08:40.460485",
+      "pushed_at": "2026-08-22T01:06:24Z",
+      "quality_score": 8,
+      "confidence": 0.8,
+      "why_vibe_coding": "该项目是专门为AI编程代理设计的工具，其开发过程很可能使用了AI辅助编程。README中提到了多种AI代理（如Claude Code、Codex等），且项目结构包含多个插件目录（.claude-plugin、.factory-plugin），表明其与AI工具深度集成。此外，项目创建于2025年12月，时间较新，符合vibe-coding快速迭代的特点。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\".github/assets/banner.webp\" alt=\"Plannotator\" width=\"640\" />\n</p>\n\n\n\n<p align=\"center\">\n  <strong>Everything you need to annotate and stay in the loop with your agents</strong><br/>\n  <strong>Markdown Review • Code Review • HTML Artifacts</strong><br/>\n  <sub>Annotate plans, specs, markdown, and HTML before implementation. Review diffs and PRs. Send feedback to your agent.</sub>\n</p>\n\n<p align=\"center\">\n  <img src=\".github/assets/icons/amp.svg\" alt=\"Amp\" title=\"Amp",
+      "updated_at": "2026-08-22T01:08:40.460485"
+    },
+    {
       "github_id": 679086250,
       "full_name": "XiaoYouChR/Ghost-Downloader-3",
       "name": "Ghost-Downloader-3",
@@ -10592,6 +10630,38 @@
       "updated_at": "2026-07-10T02:55:46.620341"
     },
     {
+      "github_id": 1262495435,
+      "full_name": "linuxrebel/DocuBrowser",
+      "name": "DocuBrowser",
+      "owner": "linuxrebel",
+      "description": "This does for Documents what repo-browser does for repos. A local AI powered Document search engine ",
+      "chinese_description": "DocuBrowse 是一个本地 AI 驱动的文档搜索引擎，支持关键词和语义搜索，并能生成 AI 摘要，帮助用户从杂乱的文档中快速找到所需内容。",
+      "english_description": "DocuBrowse is a local AI-powered document search engine that enables keyword and semantic search with AI-generated summaries, helping users find relevant content in messy document collections.",
+      "html_url": "https://github.com/linuxrebel/DocuBrowser",
+      "homepage": null,
+      "language": "Python",
+      "stars": 526,
+      "forks": 19,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "SQLite",
+        "Ollama",
+        "Docker"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:09:34.193027",
+      "pushed_at": "2026-08-22T01:05:12Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "README 中明确包含 'AI-Assisted Dev' 部分，暗示开发过程中使用了 AI 辅助编程工具。项目结构中等，包含多个 Python 脚本和设计文档，符合 vibe-coding 快速迭代的特点。此外，项目功能完整，但代码结构相对简单，可能由 AI 辅助生成。",
+      "readme_preview": "# DocuBrowse v1.0.3\n\n<a name=\"top\"></a>\n\nPackaged for Linux (RPM, DEB, tarball), Windows (zip), and macOS (dmg).\nInterfaces are stable; breaking changes are avoided where possible.\n\n**DocuBrowse turns a messy pile of documents into something you can actually search.**\nPoint it at your files — PDFs, ebooks, Word docs, notes, whatever — and it builds a smart\nindex that understands not just keywords, but meaning. Ask for \"that contract about the\nlease renewal\" and find it even if those exact words ",
+      "updated_at": "2026-08-22T01:09:34.193027"
+    },
+    {
       "github_id": 1162195268,
       "full_name": "GlassHaven/Haven",
       "name": "Haven",
@@ -10687,6 +10757,37 @@
       "why_vibe_coding": "README 中明确提到 'much of Shelley is written by Shelley, Sketch, Claude Code, and Codex'，直接表明使用了多个 AI 工具辅助开发，且项目结构清晰、功能完整，符合 vibe-coding 快速开发的特点。",
       "readme_preview": "# Shelley: a coding agent for exe.dev\n\nShelley is a mobile-friendly, web-based, multi-conversation, multi-modal,\nmulti-model, single-user coding agent built for but not exclusive to\n[exe.dev](https://exe.dev/). It does not come with authorization or sandboxing:\nbring your own.\n\n*Mobile-friendly* because ideas can come any time.\n\n*Web-based*, because terminal-based scroll back is punishment for shoplifting in some countries.\n\n*Multi-modal* because screenshots, charts, and graphs are necessary, no",
       "updated_at": "2026-06-30T03:34:17.654753"
+    },
+    {
+      "github_id": 642578676,
+      "full_name": "apocas/restai",
+      "name": "restai",
+      "owner": "apocas",
+      "description": "RESTai is an AIaaS (AI as a Service) open-source platform. Supports many public and local LLM suported by Ollama/vLLM/etc. Precise embeddings usage, tuning, analytics etc. Built-in image/audio generation with dynamic loading generators. Live chat deployment. Built-in block based graphical language. Prompt versioning and much more...",
+      "chinese_description": "RESTai 是一个开源的 AI 即服务平台，允许用户创建 AI 项目并通过简单的 REST API 进行消费，支持多种本地和公共 LLM、RAG、Agent、可视化逻辑编排、图像/音频生成和实时聊天部署。",
+      "english_description": "RESTai is an open-source AIaaS platform that lets users create AI projects and consume them via a simple REST API, supporting multiple local and public LLMs, RAG, Agents, visual logic blocks, image/audio generation, and live chat deployment.",
+      "html_url": "https://github.com/apocas/restai",
+      "homepage": "https://ai.restai.cloud/admin",
+      "language": "Python",
+      "stars": 511,
+      "forks": 106,
+      "ai_tools": [
+        "Claude"
+      ],
+      "tech_stack": [
+        "Python",
+        "React",
+        "Docker",
+        "Kubernetes"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:09:39.085928",
+      "pushed_at": "2026-08-22T01:07:42Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "该仓库的提交记录中明确包含 'Merge pull request #219 from apocas/claude/restai-' 和 'Merge pull request #218 from apocas/claude/restai-'，表明使用了 Claude 进行代码生成和合并，符合 vibe-coding 的特征。项目功能完整、结构中等，是一个实际可运行的 AI 平台应用。",
+      "readme_preview": "<!-- markdownlint-disable MD033 -->\n\n<h1 align=\"center\">\n  <img src=\"https://github.com/apocas/restai/blob/master/readme/assets/restai-logo.png\" alt=\"RESTai Logo\" width=\"120\"/>\n  <br/>RESTai\n</h1>\n\n<p align=\"center\">\n  <strong>AIaaS (AI as a Service) — Create AI projects and consume them via a simple REST API.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/apocas/restai/actions/workflows/tests.yml\"><img src=\"https://github.com/apocas/restai/actions/workflows/tests.yml/badge.svg\"",
+      "updated_at": "2026-08-22T01:09:39.085928"
     },
     {
       "github_id": 1201960789,
@@ -18390,6 +18491,38 @@
       "why_vibe_coding": "项目提交信息中包含':robot: I have'等AI自动生成的提交消息，README结构清晰但带有典型的AI辅助生成风格（大量表格、emoji、简洁的对比说明），且项目描述和功能设计符合快速原型开发的特点。",
       "readme_preview": "<p align=\"center\">\n<img width=\"256\" alt=\"AgentKey\" src=\"https://github.com/user-attachments/assets/4c7c78a9-e5d8-45ce-9372-d5bffe8f61c5\" />\n</p>\n\n<p align=\"center\">\n  <strong>One command. Full internet access for your AI agent.</strong>\n  <br>\n  Browse Twitter, search LinkedIn, scrape social media, read any webpage. Zero config. Just install and go.\n</p>\n\n<p align=\"center\">\n  <a href=\"#install\">Install</a> ·\n  <a href=\"#what-your-agent-can-now-do\">Platforms</a> ·\n  <a href=\"#faq\">FAQ</a> ·\n  <a ",
       "updated_at": "2026-07-06T03:25:55.297851"
+    },
+    {
+      "github_id": 1297089591,
+      "full_name": "paladini/harness-score",
+      "name": "harness-score",
+      "owner": "paladini",
+      "description": "Your AI coding agent is only as reliable as the harness around it. Measure that harness in seconds with harness-score.",
+      "chinese_description": "一个用于评估AI编程助手配置质量的命令行工具，通过检查仓库中的上下文文件、规则、钩子等配置，给出0-108分的成熟度评分和改进建议。",
+      "english_description": "A CLI tool that measures the quality of AI coding agent harness configurations in repositories, scoring maturity across six dimensions and providing actionable improvement recommendations.",
+      "html_url": "https://github.com/paladini/harness-score",
+      "homepage": "https://paladini.github.io/harness-score/",
+      "language": "TypeScript",
+      "stars": 184,
+      "forks": 17,
+      "ai_tools": [
+        "Cursor",
+        "Claude Code",
+        "Codex"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js",
+        "Biome"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-22T01:09:43.845592",
+      "pushed_at": "2026-08-22T01:05:24Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目本身是围绕AI编程工具（Cursor、Claude Code等）开发的诊断工具，README中明确提到检测这些AI工具，且项目结构包含.claude-plugin/、.cursor/等AI工具配置目录，开发过程中必然大量使用AI辅助。项目创建时间短（2026年7月），迭代速度快（1个月内发布多个版本），符合vibe-coding快速开发特征。",
+      "readme_preview": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"brand/harness-score-logo-dark.svg\">\n    <img alt=\"Harness Score\" src=\"brand/harness-score-logo.svg\" width=\"440\">\n  </picture>\n</p>\n\n<h1 align=\"center\">Harness Score</h1>\n\n<p align=\"center\">\n  <b>Your AI coding agent is only as reliable as the harness around it.</b><br>\n  Measure that harness in seconds. Know exactly what to fix. Watch the number go up.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/pa",
+      "updated_at": "2026-08-22T01:09:43.845592"
     },
     {
       "github_id": 1155078763,
@@ -28297,6 +28430,41 @@
       "updated_at": "2026-06-27T02:59:27.211689"
     },
     {
+      "github_id": 1124945647,
+      "full_name": "luongnv89/music-cli",
+      "name": "music-cli",
+      "owner": "luongnv89",
+      "description": "A command-line music player for coders. Background daemon with radio streaming, local MP3s, and AI-generated music.",
+      "chinese_description": "这是一个命令行音乐播放器，提供后台守护进程，支持电台流、本地MP3、YouTube音频和AI生成音乐，让开发者在不离开终端的情况下享受音乐。",
+      "english_description": "A command-line music player with a background daemon, supporting radio streams, local MP3s, YouTube audio, and AI-generated music, designed for developers to stay in flow without leaving the terminal.",
+      "html_url": "https://github.com/luongnv89/music-cli",
+      "homepage": "https://music-cli.luongnv.com",
+      "language": "Python",
+      "stars": 81,
+      "forks": 27,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "Click",
+        "Rich",
+        "SQLite",
+        "MusicGen",
+        "AudioLDM",
+        "Bark"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:10:02.408876",
+      "pushed_at": "2026-08-22T01:06:30Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "该仓库包含AGENTS.md和CLAUDE.md文件，这些文件通常用于指导AI编码工具（如Claude Code）进行开发，表明项目使用了AI辅助编程。此外，项目创建于2025年12月，时间较新，且功能丰富但结构相对简单，符合vibe-coding快速开发的特点。README中强调AI生成音乐功能，也暗示了AI技术的应用。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"assets/logo/logo-full.svg\" alt=\"music-cli logo\" width=\"340\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pypi.org/project/coder-music-cli/\"><img src=\"https://img.shields.io/pypi/v/coder-music-cli.svg\" alt=\"PyPI version\"></a>\n  <a href=\"https://pepy.tech/project/coder-music-cli\"><img src=\"https://static.pepy.tech/badge/coder-music-cli\" alt=\"PyPI Downloads\"></a>\n  <a href=\"https://github.com/luongnv89/music-cli/stargazers\"><img src=\"https://img.shields.io/github/star",
+      "updated_at": "2026-08-22T01:10:02.408876"
+    },
+    {
       "github_id": 1264531337,
       "full_name": "alchaincyf/fanbox",
       "name": "fanbox",
@@ -31189,6 +31357,36 @@
       "updated_at": "2026-08-21T01:13:29.406886"
     },
     {
+      "github_id": 1189860732,
+      "full_name": "gtapps/claude-code-hermit",
+      "name": "claude-code-hermit",
+      "owner": "gtapps",
+      "description": "Turn Claude Code into an Always-on Agent",
+      "chinese_description": "将 Claude Code 转变为一个全天候自主运行的智能代理，具备状态管理、主动执行、自我改进和成本控制能力。",
+      "english_description": "Turns Claude Code into an always-on autonomous agent with stateful memory, proactive routines, self-improvement, and cost awareness.",
+      "html_url": "https://github.com/gtapps/claude-code-hermit",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 69,
+      "forks": 14,
+      "ai_tools": [
+        "Claude"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js",
+        "Bun"
+      ],
+      "category": "插件",
+      "created_at": "2026-08-22T01:10:45.225211",
+      "pushed_at": "2026-08-22T01:05:38Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "该项目是 Claude Code 的插件，README 中大量使用 Claude 相关术语（如 'Monitor'、'CronCreate'、'operator-gated'），且功能描述高度依赖 Claude 的 AI 能力，表明其开发过程很可能使用 Claude 辅助编程。项目结构包含大量自动化脚本和配置，符合 AI 辅助快速开发的特点。",
+      "readme_preview": "<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-blue.svg\" alt=\"MIT License\" /></a>\n  <a href=\"https://code.claude.com/docs/en/plugins\"><img src=\"https://img.shields.io/badge/Claude%20Code-plugin-orange.svg\" alt=\"Claude Code Plugin\" /></a>\n  <a href=\"plugins/claude-code-hermit/CHANGELOG.md\"><img src=\"https://img.shields.io/badge/version-1.2.43-green.svg\" alt=\"Version 1.2.43\" /></a>\n  <img src=\"https://img.shields.io/endpoint?url=https://raw.githubusercont",
+      "updated_at": "2026-08-22T01:10:45.225211"
+    },
+    {
       "github_id": 1124502415,
       "full_name": "guiyinan/agomTradePro",
       "name": "agomTradePro",
@@ -31796,6 +31994,38 @@
       "why_vibe_coding": "项目包含多个AI辅助开发痕迹：存在.claude/、.codex/、.harness/、.superpowers/等AI工具配置目录，以及大量HANDOFF-*.md文件，表明开发过程中频繁使用AI代理进行任务交接和迭代。README中明确提到'Works with Claude Code, Clay, any AI agent'，且项目结构简单（主要是Markdown流程文件和少量Python脚本），符合vibe-coding快速迭代的特点。",
       "readme_preview": "# research process builder\n\n**→ For the scheduled pipeline (Product Hunt monitor, Supabase setup, SQL, deploy): [trigger/README.md](trigger/README.md)**\n\n---\n\nbuild validated web research processes through self-annealing loops. takes any research goal, generates search patterns, tests them against real companies, scores accuracy, and iterates until 90%+ reliability.\n\n**this is the factory that produces research agent prompts.**\n\nthe output is a portable `.md` file with step-by-step search instru",
       "updated_at": "2026-08-20T01:09:01.833333"
+    },
+    {
+      "github_id": 1332665268,
+      "full_name": "ujjwalredd/Dopamine",
+      "name": "Dopamine",
+      "owner": "ujjwalredd",
+      "description": "A human-dopamine-inspired AI agent skill that adapts effort, learns from feedback, and delivers the smallest verified solution.",
+      "chinese_description": "这是一个受人类多巴胺系统启发的AI代理技能，通过预测、行动、测量和反馈循环，帮助AI代理以最小验证结果完成编码、调试和研究任务。",
+      "english_description": "A human-dopamine-inspired AI agent skill that adapts effort, learns from feedback, and delivers the smallest verified solution for coding, debugging, research, and planning tasks.",
+      "html_url": "https://github.com/ujjwalredd/Dopamine",
+      "homepage": null,
+      "language": "Python",
+      "stars": 66,
+      "forks": 5,
+      "ai_tools": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "Windsurf",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python"
+      ],
+      "category": "插件",
+      "created_at": "2026-08-22T01:10:51.011081",
+      "pushed_at": "2026-08-22T00:53:42Z",
+      "quality_score": 7,
+      "confidence": 0.9,
+      "why_vibe_coding": "项目描述和README中明确提到这是为AI代理设计的技能，且文件结构包含多个AI工具的插件目录（如.claude-plugin、.codex-plugin、.cursor等），表明它是为AI辅助编程环境设计的。项目创建时间短（9天），更新频繁，且README中强调减少代码量和token，符合vibe-coding快速迭代的特点。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"assets/Dopamine.png\" width=\"200\" alt=\"Dopamine molecular structure\">\n</p>\n\n<h1 align=\"center\">Dopamine</h1>\n\n<p align=\"center\">\n  <em>Predict. Act. Measure. Learn. Stop.</em>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/version-0.1.0-58a6ff?style=flat-square\" alt=\"Version 0.1.0\">\n  <img src=\"https://img.shields.io/badge/skill-valid-2da44e?style=flat-square\" alt=\"Skill valid\">\n  <img src=\"https://img.shields.io/badge/tests-18%20passing-2da44e?st",
+      "updated_at": "2026-08-22T01:10:51.011081"
     },
     {
       "github_id": 1248675679,
@@ -35936,6 +36166,40 @@
       "why_vibe_coding": "项目明确设计为在 Claude Code 或 Codex 上运行，其核心功能就是利用 AI 代理自动完成求职流程。仓库中包含 .claude/ 和 .codex/ 目录，README 中强调'No API keys, no per-token bills. The agent runs inside Claude Code or Codex'，表明项目本身就是为 AI 编程环境构建的。项目结构包含多个应用（apps/）和部署配置，功能完整，符合 AI 辅助开发的快速迭代特点。",
       "readme_preview": "<div align=\"center\">\n\n<img src=\"apps/web/public/icon.svg\" width=\"96\" alt=\"JobPilot logo\" />\n\n# JobPilot\n\n**An AI agent that applies to jobs for you, on the Claude or Codex subscription you already have.**\n\n[![Release](https://img.shields.io/github/v/release/suxrobGM/jobpilot?style=flat&color=FF6A3D)](https://github.com/suxrobGM/jobpilot/releases)\n[![CI](https://github.com/suxrobGM/jobpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/suxrobGM/jobpilot/actions/workflows/ci.yml)\n[![Lice",
       "updated_at": "2026-08-16T01:13:20.800680"
+    },
+    {
+      "github_id": 1073410443,
+      "full_name": "jedarden/duck-e",
+      "name": "duck-e",
+      "owner": "jedarden",
+      "description": "🦆 DUCK-E: The Duck That Talks Back - An AI-powered voice assistant that revolutionizes rubber duck debugging by actively engaging in your debugging process. Built with OpenAI Realtime API, FastAPI, and AutoGen framework for intelligent, real-time voice conversations about your code.",
+      "chinese_description": "一个能主动回应的AI语音助手，用于替代传统橡皮鸭调试法，通过实时语音对话帮助开发者排查代码问题。",
+      "english_description": "An AI-powered voice assistant that revolutionizes rubber duck debugging by actively engaging in real-time voice conversations about your code.",
+      "html_url": "https://github.com/jedarden/duck-e",
+      "homepage": null,
+      "language": "Python",
+      "stars": 52,
+      "forks": 9,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI Realtime API",
+        "AutoGen",
+        "WebRTC",
+        "Docker"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:10:55.813272",
+      "pushed_at": "2026-08-22T01:05:46Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目创建于2025年10月，时间较新，且包含CLAUDE.md文件，表明开发者使用Claude进行开发。项目结构清晰、功能完整，但复杂度适中，符合vibe-coding快速迭代的特点。README中详细描述了功能和安全特性，但代码实现相对简洁，体现了AI辅助开发的高效性。",
+      "readme_preview": "# DUCK-E: The Duck That Talks Back\n\n**DUCK-E** (Digitally Unified Conversational Knowledge Engine) is an AI-powered voice assistant inspired by rubber duck debugging. Instead of explaining your problem to a silent rubber duck, DUCK-E listens and talks back — asking questions, offering suggestions, and searching the web in real time.\n\n## How it works\n\n```\nBrowser (WebRTC) → WebSocket → FastAPI → OpenAI Realtime API\n                                              (gpt-realtime-2)\n```\n\n1. Your browse",
+      "updated_at": "2026-08-22T01:10:55.813272"
     },
     {
       "github_id": 1205468810,
@@ -42240,6 +42504,41 @@
       "updated_at": "2026-08-18T01:09:35.968607"
     },
     {
+      "github_id": 1307065754,
+      "full_name": "weed33834/EduAgent",
+      "name": "EduAgent",
+      "owner": "weed33834",
+      "description": "EduFlow 畅学 — AI-driven student self-learning platform. AI agents assist, students lead. Next.js + FastAPI + LangGraph.",
+      "chinese_description": "这是一个AI驱动的学生自主学习平台，通过AI代理帮助学生编程学习、出题、判题和复习。",
+      "english_description": "An AI-driven student self-learning platform where AI agents assist students in programming education, quizzes, code evaluation, and review scheduling.",
+      "html_url": "https://github.com/weed33834/EduAgent",
+      "homepage": "https://github.com/weed33834/EduFlow",
+      "language": "Python",
+      "stars": 36,
+      "forks": 3,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "PostgreSQL",
+        "Docker",
+        "Tailwind CSS"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:11:41.176603",
+      "pushed_at": "2026-08-22T01:02:32Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "该项目具有典型的vibe-coding特征：1) 项目结构清晰但复杂度适中，使用大量现成开源组件（LiteLLM、E2B、Qdrant、Mem0、FSRS）快速集成；2) 提交信息风格简洁直接，如'用开源项目补齐'、'修复SSE bug'，符合AI辅助开发的迭代节奏；3) 项目从创建到更新仅一个月，开发速度极快；4) 技术栈选择务实，避免重复造轮子，直接使用最佳实践组合；5) 项目描述和README风格简洁，聚焦功能而非架构细节。",
+      "readme_preview": "# EduAgent\n\n> AI 编程学习 Agent — 会教编程、会出题、会判题、会运行代码、会排复习的 AI 学习伙伴。\n\n不是平台，不是工具箱，不是 LMS。就是一个 Agent。\n\n## 项目结构\n\n```\nEduAgent/\n├── backend/                  # FastAPI 后端（单服务）\n│   ├── app/\n│   │   ├── main.py           # 入口\n│   │   ├── config.py          # 配置（LLM/E2B/Qdrant/Mem0）\n│   │   ├── database.py        # 数据库引擎\n│   │   ├── security.py        # JWT + bcrypt\n│   │   ├── models.py          # 数据模型（User/Session/Message/ReviewItem）\n│   │   ├── agents/            # LangGraph 状态机\n│   │   │   ├── state.py ",
+      "updated_at": "2026-08-22T01:11:41.176603"
+    },
+    {
       "github_id": 1146688547,
       "full_name": "Anantys-oss/koan",
       "name": "koan",
@@ -44584,6 +44883,38 @@
       "why_vibe_coding": "该项目本身就是为了 AI 编程工具而设计，README 中大量提及 AI 编程助手（Claude、Gemini、Cursor），且项目结构简洁，功能聚焦，符合 vibe-coding 快速开发的特点。同时，项目创建时间较新（2025年），且更新频繁，可能由 AI 辅助开发。",
       "readme_preview": "<!-- faf: faf-cli | TypeScript | cli | CLI for the .faf and .fafm IANA-registered formats — AI context + memory that versions with your code -->\n<!-- faf: doc=readme | canonical=project.faf | score=100 | family=FAF -->\n\n<div align=\"center\">\n\n<h1>\n<img src=\"https://www.faf.one/orange-smiley.svg\" alt=\"FAF\" width=\"72\" /><br>\nfaf-cli<br>\n<sub><sub>CONTEXT, versioned.</sub></sub>\n</h1>\n\n### The context every AI coding agent reads — authored from your repo, never guessed.\n\n**One `.faf` file → `AGENTS.",
       "updated_at": "2026-08-19T01:11:00.222800"
+    },
+    {
+      "github_id": 987971735,
+      "full_name": "amurshak/congressMCP",
+      "name": "congressMCP",
+      "owner": "amurshak",
+      "description": "An MCP server allowing AI agents and MCP clients to interface with the Congress.gov API",
+      "chinese_description": "这是一个MCP服务器，让AI代理和MCP客户端能够通过自然语言查询美国国会数据，包括法案、投票、议员、委员会等信息。",
+      "english_description": "An MCP server that enables AI agents and MCP clients to query U.S. congressional data (bills, votes, members, committees) via natural language.",
+      "html_url": "https://github.com/amurshak/congressMCP",
+      "homepage": "https://congressmcp.lawgiver.ai",
+      "language": "Python",
+      "stars": 32,
+      "forks": 10,
+      "ai_tools": [
+        "Claude",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Python",
+        "MCP",
+        "FastAPI",
+        "Supabase"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-22T01:11:50.416908",
+      "pushed_at": "2026-08-21T18:29:17Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "项目创建于2025年5月，README中明确提到支持多种AI客户端（Claude Code, ChatGPT, Copilot等），且项目结构简洁，包含AGENTS.md文件，表明开发过程中使用了AI辅助。项目功能单一（MCP服务器），符合vibe-coding快速开发的特点。",
+      "readme_preview": "# CongressMCP\n\n**Live U.S. Congressional data for any MCP client — Claude Code, ChatGPT, Copilot, Codex, Cursor, OpenCode, Gemini CLI, Grok Build, and more.**\n\nBills, full bill text, votes, members, committees, hearings, nominations, and the Congressional Record — queried in natural language through the [Model Context Protocol](https://modelcontextprotocol.io/). Runs locally on your machine against the free Congress.gov and GovInfo APIs. No account, no hosted service, no telemetry.\n\n## Quick Sta",
+      "updated_at": "2026-08-22T01:11:50.416908"
     },
     {
       "github_id": 1163746876,
@@ -55869,6 +56200,69 @@
       "updated_at": "2026-08-21T01:14:42.228367"
     },
     {
+      "github_id": 1331752516,
+      "full_name": "Kpoiut/ruleblast",
+      "name": "ruleblast",
+      "owner": "Kpoiut",
+      "description": "Git diff for AI agent repository instructions. Shows the blast radius of AGENTS.md and CLAUDE.md changes.",
+      "chinese_description": "RuleBlast 是一个命令行工具，用于分析 Git 仓库中 AGENTS.md 和 CLAUDE.md 等 AI 指令文件的变更，展示这些变更影响的文件范围（blast radius），帮助开发者理解 AI 代理指令修改的连锁影响。",
+      "english_description": "RuleBlast is a CLI tool that analyzes Git diffs of AI instruction files like AGENTS.md and CLAUDE.md, showing the blast radius of changes across AI coding agents such as Codex and Claude Code.",
+      "html_url": "https://github.com/Kpoiut/ruleblast",
+      "homepage": "https://kpoiut.github.io/ruleblast/",
+      "language": "TypeScript",
+      "stars": 19,
+      "forks": 4,
+      "ai_tools": [
+        "Claude",
+        "Codex",
+        "Gemini CLI",
+        "Copilot CLI"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-22T01:12:48.910530",
+      "pushed_at": "2026-08-21T18:42:11Z",
+      "quality_score": 7,
+      "confidence": 0.9,
+      "why_vibe_coding": "该项目专为 AI 编程生态设计，README 中明确提及 Codex、Claude Code、Gemini CLI 和 Copilot CLI 等 AI 工具，且项目结构包含大量 AI 代理配置文件（.agents/, .claude/, .codex/ 等），表明其开发过程深度依赖 AI 辅助。项目功能聚焦于 AI 指令文件的 diff 分析，属于典型的 AI 时代工具，且创建时间较新（2026年），符合 vibe-coding 快速迭代的特点。",
+      "readme_preview": "<h1 align=\"center\">RuleBlast — Git diff for AI agent repository instructions</h1>\n\n<p align=\"center\">\n  <img src=\"assets/ruleblast-hero.png?v=2.4.8\" alt=\"RuleBlast — See the second diff. Local, read-only, evidence-first\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Kpoiut/ruleblast/actions/workflows/verify.yml\"><img src=\"https://github.com/Kpoiut/ruleblast/actions/workflows/verify.yml/badge.svg\" alt=\"Verify workflow status\"></a>\n  <a href=\"https://github.com/Kpoiut/rulebl",
+      "updated_at": "2026-08-22T01:12:48.910530"
+    },
+    {
+      "github_id": 1339653489,
+      "full_name": "midudev/tuweb.dev",
+      "name": "tuweb.dev",
+      "owner": "midudev",
+      "description": "Tu decides cómo es esta web",
+      "chinese_description": "这是一个由访问者投票决定功能、AI自动实现并部署的众包创意网站，每30分钟根据投票结果自动更新网页内容。",
+      "english_description": "A crowdsourced creative website where visitors vote on features, and an AI automatically implements and deploys the winning idea every 30 minutes.",
+      "html_url": "https://github.com/midudev/tuweb.dev",
+      "homepage": null,
+      "language": "Astro",
+      "stars": 19,
+      "forks": 0,
+      "ai_tools": [
+        "Claude Code"
+      ],
+      "tech_stack": [
+        "Astro",
+        "Node.js",
+        "Tailwind CSS",
+        "SQLite"
+      ],
+      "category": "创意",
+      "created_at": "2026-08-22T01:12:54.121352",
+      "pushed_at": "2026-08-21T17:38:22Z",
+      "quality_score": 8,
+      "confidence": 0.95,
+      "why_vibe_coding": "README 明确说明使用 Claude Code 作为 AI 实现工具，且整个项目流程是 AI 自动编写代码、部署和回滚，完全符合 vibe-coding 的特征。项目结构简单（Astro + SQLite），依赖极少，体现了快速原型和 AI 驱动的开发方式。",
+      "readme_preview": "# tuweb.dev\n\n**Una web que la construye quien la visita.** La gente propone qué quiere que\ntenga, cada 30 minutos se cierra la votación, y una IA implementa la idea más\nrepetida, la despliega y la sube a este repositorio. Sin nadie tocando nada.\n\nSi el cambio rompe la web, vuelve atrás sola.\n\n---\n\n## Cómo funciona\n\n```\n   propuestas          ventana de 30 min           IA                producción\n ┌────────────┐      ┌──────────────────┐   ┌──────────────┐   ┌────────────────┐\n │ entras con │  ",
+      "updated_at": "2026-08-22T01:12:54.121352"
+    },
+    {
       "github_id": 1144001832,
       "full_name": "wang-baohai/Omni-Stack",
       "name": "Omni-Stack",
@@ -58691,6 +59085,70 @@
       "why_vibe_coding": "项目包含 AGENTS.md 和 CLAUDE.md 文件，表明开发过程中使用了 AI 代理（如 Claude）进行辅助编码。项目结构包含 .agents/ 和 .conductor/ 目录，进一步证实了 AI 辅助开发的工作流。项目创建时间短（约10天），但功能完整，符合 vibe-coding 快速迭代的特点。",
       "readme_preview": "# Luke\n\n<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"design/brand/luke-wordmark-dark.svg\">\n    <img src=\"design/brand/luke-wordmark-light.svg\" alt=\"Luke\" width=\"360\">\n  </picture>\n</p>\n\n**Your AI engineering manager.**\n\nLuke is an open-source macOS app that watches your coding agent sessions and\nshows you which ones need your attention. It sits in the MacBook notch and\nworks without changing how your agents run.\n\n<p align=\"center\">\n  <a href=\"https://gi",
       "updated_at": "2026-08-21T01:14:57.622968"
+    },
+    {
+      "github_id": 1335221105,
+      "full_name": "madebywelch/guaca",
+      "name": "guaca",
+      "owner": "madebywelch",
+      "description": "Open source Grok Bot alternative",
+      "chinese_description": "一个本地桌面应用，让用户与多个LLM代理对话，代理之间也能互相通信，以Slack风格界面展示。",
+      "english_description": "A local desktop app where you talk to LLM agents and those agents talk to each other, with a Slack-shaped interface.",
+      "html_url": "https://github.com/madebywelch/guaca",
+      "homepage": "",
+      "language": "Rust",
+      "stars": 17,
+      "forks": 1,
+      "ai_tools": [
+        "Claude"
+      ],
+      "tech_stack": [
+        "Rust",
+        "TypeScript",
+        "React",
+        "Vite",
+        "Tauri"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:12:58.986108",
+      "pushed_at": "2026-08-22T01:06:20Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "项目包含CLAUDE.md和AGENTS.md文件，表明使用Claude进行开发；项目结构简洁，功能完整但复杂度适中，符合vibe-coding快速迭代的特点；README描述详细且功能丰富，但代码量不大，可能由AI辅助生成。",
+      "readme_preview": "# Guaca\n\nA local desktop app where you talk to LLM agents and those agents talk to each\nother. Slack-shaped: a rail of agents on the left, a conversation on the right,\nand an activity view showing every message they send between themselves.\n\n![Guaca, showing a crew of eleven agents, with the Manager's own computer open beside the transcript as it works through a Craigslist search](docs/img/guaca.png)\n\nAsk the Manager for something. It works out who on its team can help, sends\nthem each a message",
+      "updated_at": "2026-08-22T01:12:58.986108"
+    },
+    {
+      "github_id": 1114350429,
+      "full_name": "oogunbiyi21/stats-compass-mcp",
+      "name": "stats-compass-mcp",
+      "owner": "oogunbiyi21",
+      "description": "Stats Compass MCP server and utils",
+      "chinese_description": "这是一个MCP服务器工具，让AI助手（如Claude）能够直接进行数据加载、清洗、分析和机器学习等数据科学操作。",
+      "english_description": "An MCP server that turns LLMs into data analysts, enabling AI assistants to perform data loading, cleaning, EDA, visualization, and ML workflows directly.",
+      "html_url": "https://github.com/oogunbiyi21/stats-compass-mcp",
+      "homepage": "",
+      "language": "HTML",
+      "stars": 17,
+      "forks": 3,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "HTML",
+        "JavaScript",
+        "Docker"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-22T01:13:34.909217",
+      "pushed_at": "2026-08-22T01:05:30Z",
+      "quality_score": 7,
+      "confidence": 0.75,
+      "why_vibe_coding": "该项目是一个MCP服务器工具，旨在增强AI助手的数据分析能力，其核心功能就是与AI工具（Claude、Copilot）深度集成。项目结构简洁（Python包+HTML前端），README中明确展示了与Claude Desktop、VS Code Copilot等AI工具的集成方式，符合vibe-coding快速开发、面向AI工具生态的特点。虽然README未直接声明'built with Cursor'等字样，但项目本质就是为AI工具服务的，且开发模式符合vibe-coding的典型特征。",
+      "readme_preview": "<!-- mcp-name: io.github.oogunbiyi21/stats-compass -->\n\n<div align=\"center\">\n  <img src=\"./assets/logo/logo1.png\" alt=\"Stats Compass Logo\" width=\"200\"/>\n  \n  # stats-compass-mcp\n  \n  **Turn your LLM into a data analyst.** Multiple data science tools via MCP.\n\n  [![PyPI version](https://badge.fury.io/py/stats-compass-mcp.svg)](https://badge.fury.io/py/stats-compass-mcp)\n  [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)\n  [![License: MIT](ht",
+      "updated_at": "2026-08-22T01:13:34.909217"
     },
     {
       "github_id": 1140452250,
@@ -63868,6 +64326,40 @@
       "updated_at": "2026-08-21T01:15:18.568384"
     },
     {
+      "github_id": 1022874286,
+      "full_name": "akhileshrangani4/teachanything",
+      "name": "teachanything",
+      "owner": "akhileshrangani4",
+      "description": "Build open-access, course-specific AI chatbots using open-source LLMs for your students. Upload materials and customize responses—all for free.",
+      "chinese_description": "这是一个让教师上传课程材料并创建定制AI聊天机器人的教育平台，学生可以基于这些材料获得有引用来源的问答服务。",
+      "english_description": "An educational platform that lets instructors create custom AI chatbots from their course materials, providing students with cited, context-aware answers.",
+      "html_url": "https://github.com/akhileshrangani4/teachanything",
+      "homepage": "https://teachanything.ai",
+      "language": "TypeScript",
+      "stars": 14,
+      "forks": 9,
+      "ai_tools": [
+        "Claude",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Next.js",
+        "tRPC",
+        "PostgreSQL",
+        "Docker",
+        "Jest"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:14:03.126580",
+      "pushed_at": "2026-08-22T01:07:11Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目创建于2025年7月，但更新频繁且版本号已到1.34.8，提交信息显示快速迭代；README中明确提到'Using an AI coding assistant? Read AGENTS.md'，表明项目设计为AI辅助开发；项目结构包含AGENTS.md和CLAUDE.md等AI辅助开发配置文件；功能范围广泛（RAG、爬虫、分析、嵌入等）但开发周期短，符合vibe-coding快速构建的特点。",
+      "readme_preview": "<div align=\"center\">\n  <h1>Teach Anything</h1>\n  <h3>AI-Powered Education Platform</h3>\n  <p>Create intelligent chatbots from your course materials using RAG.</p>\n</div>\n\n<p align=\"center\">\n  <a href=\"https://github.com/akhileshrangani4/teachanything/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/akhileshrangani4/teachanything\" alt=\"License\" /></a>\n  <a href=\"https://github.com/akhileshrangani4/teachanything/commits/main\"><img src=\"https://img.shields.io/github/last-commit/ak",
+      "updated_at": "2026-08-22T01:14:03.126580"
+    },
+    {
       "github_id": 1230642554,
       "full_name": "im-ian/acorn",
       "name": "acorn",
@@ -65172,6 +65664,73 @@
       "why_vibe_coding": "README 中明确提到 AGENTS.md 为 AI 助手（Claude Code, Cursor 等）提供指导，且项目包含 .claude/、.cursor/、.opencode/ 等 AI 工具配置目录，表明开发过程中深度使用了 AI 辅助编程。项目结构中等，功能完整，符合 vibe-coding 快速开发的特点。",
       "readme_preview": "<div align=\"center\">\n\n<img src=\"https://ibl.ai/images/iblai-logo.png\" alt=\"ibl.ai\" width=\"300\" />\n\n# LMS\n\n**Open-source skills intelligence platform — discover courses, track competencies, earn credentials, and accelerate workforce development.**\n\n[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org)\n[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev)\n[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=t",
       "updated_at": "2026-08-21T01:15:28.563521"
+    },
+    {
+      "github_id": 1179256806,
+      "full_name": "hurttlocker/o8",
+      "name": "o8",
+      "owner": "hurttlocker",
+      "description": "The operating system for AI engineering.  Coordinate models, agents, tools, repositories, and long-running work from one place.",
+      "chinese_description": "o8 是一个开源的桌面控制室，用于协调多个 AI 编码代理，在隔离的 git 工作树中运行它们，并在合并前进行审批。",
+      "english_description": "o8 is an open-source desktop control room for AI coding agents, orchestrating multiple agents in isolated git worktrees with approval-based governance.",
+      "html_url": "https://github.com/hurttlocker/o8",
+      "homepage": "https://o8.run",
+      "language": "TypeScript",
+      "stars": 13,
+      "forks": 0,
+      "ai_tools": [
+        "Claude",
+        "Codex",
+        "Gemini",
+        "Aider",
+        "Goose"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "Electron"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:14:08.122466",
+      "pushed_at": "2026-08-22T01:05:44Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "该项目是一个功能完整的桌面应用，但创建时间短、更新频繁，且 README 中明确提到支持多种 AI 代理（Claude、Codex 等），暗示其开发过程中可能大量使用 AI 辅助。项目结构包含多个 AI 相关配置文件（如 .claude/、.codex/、AGENTS.md），表明开发者深度使用 AI 工具进行开发。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"./assets/o8-icon.png\" alt=\"\" width=\"104\">\n</p>\n\n# o8\n\n[![CI](https://github.com/hurttlocker/o8/actions/workflows/ci.yml/badge.svg)](https://github.com/hurttlocker/o8/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE) [![Release](https://img.shields.io/github/v/release/hurttlocker/o8)](https://github.com/hurttlocker/o8/releases) [![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=",
+      "updated_at": "2026-08-22T01:14:08.122466"
+    },
+    {
+      "github_id": 1317381990,
+      "full_name": "ryan-stonevx2158/aits-pdf-rag-chatbot",
+      "name": "aits-pdf-rag-chatbot",
+      "owner": "ryan-stonevx2158",
+      "description": "A Flask-powered AITS University RAG chatbot that uses semantic search, FAISS retrieval, and an LLM to answer questions from information stored in a PDF knowledge base.",
+      "chinese_description": "这是一个基于Flask的大学RAG聊天机器人，通过语义搜索和FAISS检索从PDF知识库中提取信息，回答关于大学的问题。",
+      "english_description": "A Flask-powered RAG chatbot for AITS University that uses semantic search and FAISS retrieval to answer questions from a PDF knowledge base.",
+      "html_url": "https://github.com/ryan-stonevx2158/aits-pdf-rag-chatbot",
+      "homepage": "https://ryan-stonevx2158.github.io/aits-pdf-rag-chatbot/",
+      "language": "HTML",
+      "stars": 13,
+      "forks": 0,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "Flask",
+        "HTML",
+        "FAISS"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-22T01:14:31.081736",
+      "pushed_at": "2026-08-22T01:00:13Z",
+      "quality_score": 6,
+      "confidence": 0.8,
+      "why_vibe_coding": "项目结构简单（仅包含index.html和少量文件），提交信息如'refresh-build-63406'、'stabilize-optimize-38577'等具有自动生成的特征，README中使用了大量徽章和模板化描述，符合AI辅助快速开发的特点。",
+      "readme_preview": "# AITS University RAG Chatbot - AI University Chatbot 2026\n\n> **AITS University RAG Chatbot is a Flask-powered web application that uses semantic search, FAISS retrieval, and an LLM to answer questions using information stored in a PDF knowledge base.**\n\n[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)\n[![Version](https://img.shields.io/badge/Version-Not%20specified-green?style=flat-square)](https://github.com)\n[![Updated](https://img.shields.io",
+      "updated_at": "2026-08-22T01:14:31.081736"
     },
     {
       "github_id": 1248898722,
@@ -67648,6 +68207,112 @@
       "updated_at": "2026-08-20T01:11:41.672426"
     },
     {
+      "github_id": 1145425043,
+      "full_name": "yutori-ai/yutori-sdk-python",
+      "name": "yutori-sdk-python",
+      "owner": "yutori-ai",
+      "description": "Official Python SDK for the Yutori API",
+      "chinese_description": "这是一个用于Yutori API的Python SDK和命令行工具，帮助开发者构建自主执行网页任务的AI代理。",
+      "english_description": "This is a Python SDK and CLI for the Yutori API, enabling developers to build AI agents that autonomously execute web tasks.",
+      "html_url": "https://github.com/yutori-ai/yutori-sdk-python",
+      "homepage": null,
+      "language": "Python",
+      "stars": 11,
+      "forks": 2,
+      "ai_tools": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "Windsurf"
+      ],
+      "tech_stack": [
+        "Python",
+        "CLI",
+        "MCP"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-22T01:14:55.134719",
+      "pushed_at": "2026-08-22T01:02:41Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "README中明确推荐使用AI编码代理（如Claude Code、Codex、Cursor、Windsurf）进行安装和设置，并提供了针对AI代理的安装说明，这表明项目设计时考虑了AI辅助开发。此外，项目结构简洁，包含SDK和CLI，符合vibe-coding快速开发的特点。",
+      "readme_preview": "# Yutori Python SDK & CLI\n\n[![PyPI version](https://img.shields.io/pypi/v/yutori.svg)](https://pypi.org/project/yutori/)\n[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)\n\nThe official Python SDK and CLI for the [Yutori API](https://docs.yutori.com) — build web agents that autonomously execute tasks on the web.\n\nThe SDK offers sync and async clients with full type annotations, plus a `yutori` CLI for authentication and managing resources from ",
+      "updated_at": "2026-08-22T01:14:55.134719"
+    },
+    {
+      "github_id": 1214171652,
+      "full_name": "sifxprime/kodelyth-ecc",
+      "name": "kodelyth-ecc",
+      "owner": "sifxprime",
+      "description": "70 agents · 194 skills · 97 commands · 22+ hooks · semantic intent routing · self-learning memory · MCP server. Claude Code, Windsurf, Cursor, Codex, Antigravity, Cline, Roo Code, Aider, Kimi, Gemini CLI. MIT.",
+      "chinese_description": "这是一个为AI编程助手提供70个专业代理、194个技能和语义路由的本地工具包，旨在提升编码效率。",
+      "english_description": "A local toolkit providing 70 specialist agents, 194 skills, and semantic intent routing for AI coding assistants to boost coding efficiency.",
+      "html_url": "https://github.com/sifxprime/kodelyth-ecc",
+      "homepage": "https://www.npmjs.com/package/kodelyth-ecc",
+      "language": "JavaScript",
+      "stars": 11,
+      "forks": 1,
+      "ai_tools": [
+        "Claude Code",
+        "Windsurf",
+        "Cursor",
+        "Codex",
+        "Antigravity",
+        "Cline",
+        "Roo Code",
+        "Aider",
+        "Kimi",
+        "Gemini CLI"
+      ],
+      "tech_stack": [
+        "JavaScript",
+        "Node.js",
+        "MCP"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-22T01:15:00.735373",
+      "pushed_at": "2026-08-21T19:10:26Z",
+      "quality_score": 7,
+      "confidence": 0.9,
+      "why_vibe_coding": "README 中明确列出支持多种 AI 编程工具（Claude Code, Windsurf, Cursor 等），且项目本身是用于增强这些 AI 工具的功能，符合 vibe-coding 的典型特征。项目结构包含 agents/、commands/ 等配置和脚本，属于快速迭代的产物。",
+      "readme_preview": "<div align=\"center\">\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"brand/ecc-lockup-dark.svg\">\n  <img src=\"brand/ecc-lockup-light.svg\" alt=\"Kodelyth ECC — Elite Code Crew\" width=\"440\"/>\n</picture>\n\n<br><br>\n\n<img src=\"social/readme-hero.svg\" alt=\"Kodelyth ECC — AI Agent Toolkit\" width=\"900\"/>\n\n[![npm version](https://img.shields.io/npm/v/kodelyth-ecc.svg)](https://www.npmjs.com/package/kodelyth-ecc)\n[![npm downloads](https://img.shields.io/npm/dm/kodelyth-ecc.svg)](https://ww",
+      "updated_at": "2026-08-22T01:15:00.735373"
+    },
+    {
+      "github_id": 1208292353,
+      "full_name": "DweskZ/EcuDataMCP",
+      "name": "EcuDataMCP",
+      "owner": "DweskZ",
+      "description": "MCP server that lets AI assistants search and analyze Ecuador's open government data",
+      "chinese_description": "这是一个MCP服务器，让AI助手能够通过自然语言搜索和分析厄瓜多尔政府的开放数据。",
+      "english_description": "An MCP server that enables AI assistants to search and analyze Ecuador's open government data through natural language.",
+      "html_url": "https://github.com/DweskZ/EcuDataMCP",
+      "homepage": null,
+      "language": "Python",
+      "stars": 11,
+      "forks": 3,
+      "ai_tools": [
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "Python",
+        "MCP",
+        "Docker",
+        "FastAPI"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-22T01:15:05.977161",
+      "pushed_at": "2026-08-21T16:32:18Z",
+      "quality_score": 7,
+      "confidence": 0.75,
+      "why_vibe_coding": "该项目是一个MCP服务器，旨在为AI助手提供数据访问能力，其设计初衷就是与AI工具配合使用。README中明确提到兼容Claude、ChatGPT、Gemini、Cursor等AI工具，且项目结构简洁，功能聚焦，符合vibe-coding快速开发的特点。虽然README未明确说明使用AI辅助开发，但项目本身是AI生态的一部分，且开发模式可能采用了AI辅助。",
+      "readme_preview": "# Ecuador MCP Server\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)\n[![MCP](https://img.shields.io/badge/MCP-compatible-green.svg)](https://modelcontextprotocol.io)\n\n**Servidor MCP (Model Context Protocol) que permite a chatbots de IA (Claude, ChatGPT, Gemini, Cursor, etc.) buscar, explorar y analizar datos abiertos del gobierno de",
+      "updated_at": "2026-08-22T01:15:05.977161"
+    },
+    {
       "github_id": 998035591,
       "full_name": "agentify-sh/cursor-proxmox-mcp",
       "name": "cursor-proxmox-mcp",
@@ -68200,6 +68865,73 @@
       "updated_at": "2026-08-19T01:13:07.556644"
     },
     {
+      "github_id": 1233148033,
+      "full_name": "cajasmota/grafel",
+      "name": "grafel",
+      "owner": "cajasmota",
+      "description": "Multi-repo code knowledge graphs for AI agents. Cross-repo linking, infrastructure topology, watcher-driven freshness.",
+      "chinese_description": "这是一个本地代码知识图谱守护进程，为AI代理提供跨仓库的结构化导航和MCP工具支持。",
+      "english_description": "A local code-knowledge-graph daemon that provides AI agents with structural navigation across multiple repositories via MCP tools.",
+      "html_url": "https://github.com/cajasmota/grafel",
+      "homepage": null,
+      "language": "Go",
+      "stars": 10,
+      "forks": 3,
+      "ai_tools": [
+        "Cursor",
+        "Windsurf",
+        "Codeium",
+        "Claude"
+      ],
+      "tech_stack": [
+        "Go",
+        "MCP",
+        "Docker",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-22T01:15:36.944203",
+      "pushed_at": "2026-08-22T01:02:49Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "项目包含多个AI工具配置文件（.cursor/, .windsurf/, .codeium/, .cursorrules, .windsurfrules, AGENTS.md, CLAUDE.md），表明开发者使用了多种AI辅助编程工具。项目结构相对简单（单一Go模块），但功能描述宏大，符合vibe-coding快速迭代的特点。提交信息中频繁出现bug修复，也符合AI辅助开发中常见的迭代模式。",
+      "readme_preview": "# grafel\n\n> ## Map your codebase, navigate any part.\n>\n> *Where grep gets lost, the Grafel shows the way.*\n\n**No cloud indexing, no account, no data sent anywhere.** Everything runs locally — the daemon indexes on your machine and never phones home.\n\n[![Build](https://github.com/cajasmota/grafel/actions/workflows/test.yml/badge.svg)](https://github.com/cajasmota/grafel/actions/workflows/test.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Status: v0.x](https",
+      "updated_at": "2026-08-22T01:15:36.944203"
+    },
+    {
+      "github_id": 1276986112,
+      "full_name": "divingsbysangam/salesforce-compound-engineering-plugin",
+      "name": "salesforce-compound-engineering-plugin",
+      "owner": "divingsbysangam",
+      "description": "Salesforce-aware compound engineering plugin for Claude Code, Cursor, Codex and other AI coding tools",
+      "chinese_description": "这是一个为多种AI编程工具（如Claude Code、Cursor、Codex）设计的Salesforce复合工程插件，通过技能优先架构和并行角色调度，帮助AI在开发过程中逐步积累知识并提升迭代质量。",
+      "english_description": "A Salesforce-aware compound engineering plugin for AI coding tools like Claude Code, Cursor, and Codex, featuring a skills-first architecture and parallel persona dispatch to enable smarter iterative development.",
+      "html_url": "https://github.com/divingsbysangam/salesforce-compound-engineering-plugin",
+      "homepage": null,
+      "language": "Python",
+      "stars": 10,
+      "forks": 0,
+      "ai_tools": [
+        "Claude Code",
+        "Cursor",
+        "Codex"
+      ],
+      "tech_stack": [
+        "Python",
+        "TypeScript",
+        "Node.js"
+      ],
+      "category": "插件",
+      "created_at": "2026-08-22T01:15:42.135563",
+      "pushed_at": "2026-08-21T13:57:13Z",
+      "quality_score": 7,
+      "confidence": 0.95,
+      "why_vibe_coding": "该项目明确是为AI编程工具设计的插件，README中大量提及Claude Code、Cursor、Codex等AI工具，且其核心功能就是增强AI辅助编程的工作流。项目结构包含多个AI工具的插件目录（.claude-plugin、.cursor-plugin、.codex-plugin），并围绕AI驱动的开发循环（Ideate→Plan→Work→Review→Compound）设计，是典型的vibe-coding生态产物。",
+      "readme_preview": "# SF Compound Engineering Plugin v3.1.0\n\n**Skills-first compound engineering for Salesforce** — a multi-platform plugin (Claude Code, Cursor, Codex, and 9 other AI coding tools) where each iteration becomes smarter than the last through institutional knowledge capture and parallel persona dispatch. This is a skill-native product, not an instruction pack: workflows auto-route from natural language and from `/sf-*` invocation.\n\n> **V3 is a skills-first architecture.** Commands were retired — every",
+      "updated_at": "2026-08-22T01:15:42.135563"
+    },
+    {
       "github_id": 1117971158,
       "full_name": "tznthou/day-19-stargazer-galaxy",
       "name": "day-19-stargazer-galaxy",
@@ -68231,6 +68963,6 @@
       "updated_at": "2026-08-15T01:12:24.707165"
     }
   ],
-  "updated_at": "2026-08-21T01:16:02.686758",
-  "total_count": 2112
+  "updated_at": "2026-08-22T01:15:42.135757",
+  "total_count": 2134
 }
