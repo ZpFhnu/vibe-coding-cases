@@ -3222,6 +3222,43 @@
       "updated_at": "2026-05-22T03:35:36.254653"
     },
     {
+      "github_id": 1338470635,
+      "full_name": "s1dashu/ip-as-logo-skill",
+      "name": "ip-as-logo-skill",
+      "owner": "s1dashu",
+      "description": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "chinese_description": "这是一个为AI代理设计的技能包，用于生成极简、圆润、略带新拟物风格的IP吉祥物Logo。",
+      "english_description": "A compact Agent Skill for AI agents to generate simple, rounded, neo-skeuomorphic IP mascot logos.",
+      "html_url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "homepage": "https://ipaslogo.com",
+      "language": null,
+      "stars": 3783,
+      "forks": 180,
+      "ai_tools": [
+        "Claude",
+        "Codex",
+        "Coze",
+        "Doubao",
+        "YouMind",
+        "Manus",
+        "Gemini Apps",
+        "Replit Agent"
+      ],
+      "tech_stack": [
+        "Agent Skills",
+        "Cloudflare R2",
+        "Supabase"
+      ],
+      "category": "插件",
+      "created_at": "2026-08-23T01:13:53.278149",
+      "pushed_at": "2026-08-22T16:48:59Z",
+      "quality_score": 8,
+      "confidence": 0.9,
+      "why_vibe_coding": "该项目本身就是一个AI Agent Skill，专门为AI代理（如Codex、Coze等）设计，用于指导AI生成Logo。其开发过程高度依赖AI辅助，README中明确提到与多种AI代理兼容，且项目结构简单（仅一个SKILL.md和资源文件），符合vibe-coding的快速迭代特点。",
+      "readme_preview": "# IP as Logo\n\n`ip-as-logo` is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.\n\nIt follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.\n\nYou can also browse the free [IP as Logo Skill website](https://ipasl",
+      "updated_at": "2026-08-23T01:13:53.278149"
+    },
+    {
       "github_id": 1196946534,
       "full_name": "kunchenguid/gnhf",
       "name": "gnhf",
@@ -13008,6 +13045,37 @@
       "updated_at": "2026-08-12T01:49:01.999511"
     },
     {
+      "github_id": 1308843906,
+      "full_name": "fanbuz/codesucker",
+      "name": "codesucker",
+      "owner": "fanbuz",
+      "description": "拖入项目，生成 60 页软著源程序文档。离线抽取、注释清洗、自动排版，导出前先帮你过一遍审查——代码不出本机。",
+      "chinese_description": "一个桌面应用，用于将本地代码项目整理成符合软件著作权申报要求的源程序文档，支持离线抽取、注释清洗、自动排版和导出前审查。",
+      "english_description": "A desktop application that organizes local code projects into software copyright application documents, featuring offline extraction, comment cleaning, auto-layout, and pre-export review.",
+      "html_url": "https://github.com/fanbuz/codesucker",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 382,
+      "forks": 77,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Electron",
+        "Node.js"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:14:07.048091",
+      "pushed_at": "2026-08-23T00:39:11Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "该项目是一个功能完整的桌面应用，具有清晰的用户界面和复杂的业务逻辑（如状态机代码清洗、编码识别、第三方代码线索分析等），符合vibe-coding快速开发的特点。README中提到了基于Mochi Issue Flow的协作方式，暗示了AI辅助开发流程。项目结构清晰，功能模块化，代码质量较高，但整体复杂度适中，适合AI辅助快速迭代。",
+      "readme_preview": "<div align=\"center\">\n\n<img src=\"packages/app/build/icon-256.png\" width=\"110\" alt=\"CodeSucker\" />\n\n# CodeSucker · 软著代码抽取器\n\n**把本地代码项目整理成便于软件著作权申报的源程序文档**\n\n全程离线 · 代码不出本机 · 规范内置 · 导出前自动校验\n\n[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)\n[![Release](https://img.shields.io/github/v/release/fanbuz/codesucker?display_name=tag&sort=semver&cacheSeconds=300)](https://github.com/fanbuz/codesucker/releases/latest)\n[![Platform](https://img.shields.io/badge/platfor",
+      "updated_at": "2026-08-23T01:14:07.048091"
+    },
+    {
       "github_id": 1246625636,
       "full_name": "open-gsd/get-shit-done-redux",
       "name": "get-shit-done-redux",
@@ -14123,6 +14191,41 @@
       "why_vibe_coding": "项目描述中明确体现了AI代理协作开发的特征（'Your AI writes the code'），使用多个AI代理角色（architect、coder、reviewer等）进行代码生成和审查，符合vibe-coding中AI辅助编程的核心概念。项目结构清晰但功能复杂，提交记录显示频繁的自动化发布（chore(main): release 7.29.2），且创建时间（2026年1月）到当前版本迭代速度极快，符合AI辅助快速开发的特点。",
       "readme_preview": "# OpenCode Swarm\n\n<div align=\"center\">\n\n# Your AI writes the code. Swarm proves it works.\n\n**Closing the trust gap between \"the model said it's done\" and \"this actually works in production.\"**\n\n[![npm version](https://img.shields.io/npm/v/opencode-swarm?color=brightgreen&label=npm)](https://www.npmjs.com/package/opencode-swarm)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Tests](https://img.shields.io/badge/tests-6000%2B-success)](https://github.com/zaxbysauce",
       "updated_at": "2026-05-23T02:54:11.033188"
+    },
+    {
+      "github_id": 1231210975,
+      "full_name": "professorpalmer/Puppetmaster",
+      "name": "Puppetmaster",
+      "owner": "professorpalmer",
+      "description": "Provider-neutral control plane for durable-state agent swarms: subprocess workers, leases, artifacts, memory, and deterministic stitching.",
+      "chinese_description": "这是一个用于编排和管理多智能体（Agent）集群的控制平面工具，支持子进程工作器、租约、工件、记忆和确定性拼接，帮助开发者运行多步骤工程任务并持久化状态。",
+      "english_description": "A provider-neutral control plane for orchestrating durable-state agent swarms, enabling subprocess workers, leases, artifacts, memory, and deterministic stitching for multi-step engineering tasks.",
+      "html_url": "https://github.com/professorpalmer/Puppetmaster",
+      "homepage": "https://raw.githubusercontent.com/professorpalmer/Puppetmaster/main/docs/demo.gif",
+      "language": "Python",
+      "stars": 332,
+      "forks": 32,
+      "ai_tools": [
+        "Cursor",
+        "Claude",
+        "Codex",
+        "Antigravity",
+        "Hermes"
+      ],
+      "tech_stack": [
+        "Python",
+        "SQLite",
+        "MCP",
+        "PyPI"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-23T01:14:12.129102",
+      "pushed_at": "2026-08-23T01:12:50Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "该项目README明确提到其设计目标是与Cursor、Claude Code、Codex等AI编程工具集成，并作为这些工具的编排层，其核心功能就是管理和路由AI代理任务，且项目结构包含大量AI相关配置（.cursor/、AGENTS.md），符合vibe-coding开发模式的特征。",
+      "readme_preview": "# Puppetmaster\n\n[![PyPI](https://img.shields.io/pypi/v/puppetmaster-ai.svg)](https://pypi.org/project/puppetmaster-ai/)\n[![CI](https://github.com/professorpalmer/Puppetmaster/actions/workflows/ci.yml/badge.svg)](https://github.com/professorpalmer/Puppetmaster/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/professorpalmer/Puppetmaster/blob/main/LICENSE)\n[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://githu",
+      "updated_at": "2026-08-23T01:14:12.129102"
     },
     {
       "github_id": 856806269,
@@ -18265,6 +18368,38 @@
       "updated_at": "2026-08-18T01:08:20.296808"
     },
     {
+      "github_id": 1273832382,
+      "full_name": "The412Banner/Bannerlator",
+      "name": "Bannerlator",
+      "owner": "The412Banner",
+      "description": "Bannerlator — run Windows PC games and apps on Android (Wine + Box64/86). A personal, community-driven continuation of the discontinued Winlator Star Bionic project. GitHub Actions builds + releases.",
+      "chinese_description": "这是一个在Android上运行Windows游戏和应用的兼容层项目，基于Wine和Box64/86，是Winlator Star Bionic的社区延续版本。",
+      "english_description": "A compatibility layer project that runs Windows PC games and apps on Android using Wine and Box64/86, a community continuation of the discontinued Winlator Star Bionic.",
+      "html_url": "https://github.com/The412Banner/Bannerlator",
+      "homepage": null,
+      "language": "Kotlin",
+      "stars": 193,
+      "forks": 26,
+      "ai_tools": [
+        "Claude",
+        "GitHub Copilot"
+      ],
+      "tech_stack": [
+        "Kotlin",
+        "Wine",
+        "Box64/86",
+        "GitHub Actions"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:14:17.035264",
+      "pushed_at": "2026-08-23T01:10:03Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "README中明确包含'Ask the AI'按钮和AI相关徽章，且项目结构包含.claude/和.opencode/目录，表明使用了AI辅助开发。项目是个人维护的社区项目，功能复杂但开发方式可能依赖AI辅助，符合vibe-coding特征。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"logo.jpg\" width=\"820\" alt=\"Bannerlator\" />\n</p>\n\n<h1 align=\"center\">Bannerlator</h1>\n<p align=\"center\"><b>Windows applications and games on Android.</b></p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/github/downloads/The412Banner/Bannerlator/total?style=for-the-badge&label=Downloads&color=ff2d9b\" alt=\"Total Downloads\">\n  <img src=\"https://img.shields.io/badge/Platform-Android%208.0%2B-7a4cff?style=for-the-badge\" alt=\"Platform\">\n  <img src=\"https://img.s",
+      "updated_at": "2026-08-23T01:14:17.035264"
+    },
+    {
       "github_id": 1155919734,
       "full_name": "cropflre/nowen-note",
       "name": "nowen-note",
@@ -18333,6 +18468,36 @@
       "why_vibe_coding": "项目包含AGENTS.md和CLAUDE.md文件，这是AI辅助开发（如Claude Code）的典型标志；README中提及'Ask DeepWiki'，且项目创建于2025年5月，时间较新，符合vibe-coding快速迭代的特点；项目结构清晰但复杂度适中，功能完整，符合AI辅助开发的应用特征。",
       "readme_preview": "<div align=\"center\">\n\n# Minepanel\n\n**Minecraft Server Manager for Java & Bedrock Edition**\n\nWeb panel to manage Minecraft servers with Docker — Create, configure, and monitor Java and Bedrock servers from a modern UI.\n\n[![License](https://img.shields.io/badge/License-Community-blue.svg)](LICENSE)\n[![Docker Pulls](https://img.shields.io/docker/pulls/ketbom/minepanel?logo=docker&color=2496ED)](https://hub.docker.com/r/ketbom/minepanel)\n[![Docker Size](https://img.shields.io/docker/image-size/ketbo",
       "updated_at": "2026-07-09T02:53:25.232410"
+    },
+    {
+      "github_id": 1148190240,
+      "full_name": "Redth/MAUI.Sherpa",
+      "name": "MAUI.Sherpa",
+      "owner": "Redth",
+      "description": "Let MAUI Sherpa guide you through all your .NET MAUI dev environment needs!",
+      "chinese_description": "一个跨平台桌面应用，用于管理和诊断 .NET MAUI 开发环境，包括 Android SDK 管理、Apple 开发者工具、模拟器管理和应用检查等功能。",
+      "english_description": "A cross-platform desktop application for managing and diagnosing .NET MAUI development environments, including Android SDK management, Apple developer tools, emulator management, and app inspection.",
+      "html_url": "https://github.com/Redth/MAUI.Sherpa",
+      "homepage": "https://redth.github.io/MAUI.Sherpa/",
+      "language": "C#",
+      "stars": 189,
+      "forks": 19,
+      "ai_tools": [
+        "Copilot"
+      ],
+      "tech_stack": [
+        "C#",
+        ".NET MAUI",
+        "Blazor"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:14:21.238954",
+      "pushed_at": "2026-08-23T01:07:29Z",
+      "quality_score": 8,
+      "confidence": 0.75,
+      "why_vibe_coding": "提交记录中明确包含 'Co-authored-by: Copilot A' 和 'Co-author' 标记，表明使用了 GitHub Copilot 辅助开发。项目功能丰富但结构相对集中，符合 AI 辅助快速迭代的特点。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"docs/maui.sherpa.logo.png\" width=\"150\" alt=\"MAUI Sherpa Logo\">\n</p>\n\n<h1 align=\"center\">MAUI Sherpa</h1>\n\n<p align=\"center\">\n  <em>Your guide to .NET MAUI development</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Redth/MAUI.Sherpa/actions/workflows/build.yml\"><img src=\"https://github.com/Redth/MAUI.Sherpa/actions/workflows/build.yml/badge.svg\" alt=\"Build\"></a>\n  <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/Licen",
+      "updated_at": "2026-08-23T01:14:21.238954"
     },
     {
       "github_id": 1093194457,
@@ -24138,6 +24303,38 @@
       "why_vibe_coding": "README中明确声明'本项目使用了AI生成的代码'，且项目结构包含多个构建脚本和配置文件，符合AI辅助快速开发的特点。项目功能明确、结构中等复杂度，是典型的vibe-coding产物。",
       "readme_preview": "链接：https://pan.quark.cn/s/1f3cfbcf8d5f?pwd=7Twv\n\n提取码：7Twv\n\n本项目使用了AI生成的代码\n\nThis project incorporates AI-generated code.\n\n----\n\n目前收集到的反馈有需要：\n\n战争前线\n\nOverWatch\n\n塔可夫\n\nCODOL\n\n卡拉彼丘\n\nCOD16/19\n\nApex\n\nThe finals\n\nCSOL\n\n战地6\n\nR6\n\n混搭音效\n\n这些游戏和功能不一定都做，需要看情况\n\n----\n\n[English](README.md) | [简体中文](README.zh-CN.md)\n\n# KillConfirmGameBar\nKillConfirmGameBar is a Counter-Strike 2 kill-confirm overlay for Xbox Game Bar.\n\nIt plays voice lines and shows animated effects when CS2 reports kills through Game State Integrati",
       "updated_at": "2026-08-14T01:50:11.738399"
+    },
+    {
+      "github_id": 1183687998,
+      "full_name": "mycelium-io/mycelium",
+      "name": "mycelium",
+      "owner": "mycelium-io",
+      "description": "Multi-agent coordination + persistent memory, semantic negotiation, async rooms, and a shared knowledge graph",
+      "chinese_description": "为多智能体系统提供协调层，包括共享房间、持久记忆和协商机制，使自主代理能够作为对等节点协作完成任务。",
+      "english_description": "A coordination layer for multi-agent systems providing shared rooms, persistent memory, and negotiation mechanisms for autonomous agents to collaborate as peers.",
+      "html_url": "https://github.com/mycelium-io/mycelium",
+      "homepage": "https://mycelium-io.github.io/",
+      "language": "Python",
+      "stars": 113,
+      "forks": 11,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:14:31.019955",
+      "pushed_at": "2026-08-23T01:12:18Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目包含 .claude/ 和 .tome/ 目录，CLAUDE.md 文件，以及提交信息中频繁出现 'docs:' 前缀，表明开发过程中大量使用 AI 辅助工具（如 Claude）进行文档生成和代码编写。项目结构包含多个子项目（fastapi-backend, mycelium-cli, mycelium-client, mycelium-frontend），但整体复杂度适中，符合 vibe-coding 快速迭代的特点。README 中强调 'install → coordinate → plan → work' 的快速上手流程，也符合 AI 辅助开发的风格。",
+      "readme_preview": "# mycelium\n\n<div align=\"center\">\n  <img src=\"docs/banner.png?v=3\" alt=\"mycelium\" width=\"800\" />\n</div>\n\n<p align=\"center\">\n  <a href=\"https://github.com/mycelium-io/mycelium/actions/workflows/ci.yml?branch=main\"><img src=\"https://img.shields.io/github/actions/workflow/status/mycelium-io/mycelium/ci.yml?branch=main&style=for-the-badge\" alt=\"CI status\"></a>\n  <a href=\"https://github.com/mycelium-io/mycelium/releases\"><img src=\"https://img.shields.io/github/v/release/mycelium-io/mycelium?include_pr",
+      "updated_at": "2026-08-23T01:14:31.019955"
     },
     {
       "github_id": 1155175981,
@@ -32154,6 +32351,38 @@
       "why_vibe_coding": "项目包含.agents/、.claude/、.codex/、AGENTS.md、CLAUDE.md等AI辅助开发痕迹，README中提及'Built by Colophon Group'但未明确说明人工开发，且项目结构中有多个AI工具配置文件，符合vibe-coding快速开发特征。",
       "readme_preview": "<div align=\"center\">\n\n# Job Seek\n\n**An open-source job aggregator that monitors 4,400+ company career pages directly.**\n\nRoles land here within hours of the company posting them — once, in canonical form, with no third-party reposts.\n\n[**Try jseek.co →**](https://jseek.co) &nbsp;·&nbsp; [Self-host](#run-your-own) &nbsp;·&nbsp; [Add a company](#add-a-company)\n\n[![MIT License](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)\n[![Job data CC BY-NC 4.0](https://img.shields.io/badge/data-CC%2",
       "updated_at": "2026-07-10T02:56:50.675646"
+    },
+    {
+      "github_id": 1270821261,
+      "full_name": "gutomec/nirvana-os-engine",
+      "name": "nirvana-os-engine",
+      "owner": "gutomec",
+      "description": "Nirvana-OS — source-available engine for agentic work (squads, businesses, mind-clones). Developed in the open. Runtime-agnostic: Claude Code, Codex, Gemini-CLI, Antigravity, Hermes.",
+      "chinese_description": "Nirvana-OS 是一个开源引擎，通过自然语言指令将单个终端代理编排成多个虚拟公司、团队和专家代理，并行执行复杂任务并生成执行记录。",
+      "english_description": "Nirvana-OS is an open-source engine that orchestrates multiple AI agents into virtual companies and squads to execute complex tasks from plain-language instructions, with receipts for every step.",
+      "html_url": "https://github.com/gutomec/nirvana-os-engine",
+      "homepage": "https://gutomec.github.io/nirvana-os-engine/",
+      "language": "TypeScript",
+      "stars": 65,
+      "forks": 20,
+      "ai_tools": [
+        "Claude Code",
+        "Codex",
+        "Gemini-CLI",
+        "Antigravity"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:14:45.693392",
+      "pushed_at": "2026-08-23T01:11:28Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "该项目明确面向 AI 代理（Claude Code、Codex、Gemini-CLI 等）设计，README 中强调‘你说话，你的代理运行命令’，且项目结构包含大量 AI 代理配置文件（如 AGENTS.md、CLAUDE.md、GEMINI.md），表明其开发和使用都深度依赖 AI 辅助。项目功能完整，属于应用类，且开发节奏快（频繁发布），符合 vibe-coding 特征。",
+      "readme_preview": "# Nirvana-OS engine\n\n<p align=\"center\">\n  <img src=\"./docs/assets/nirvana-promo-en-readme.gif\" alt=\"One prose order in — a whole AI conglomerate of companies, squads, and agents assembles and delivers, with a gate on every step\" width=\"100%\">\n</p>\n\n![Nirvana-OS — command a universe of companies in plain language](./docs/assets/hero.png)\n\n[![version](https://img.shields.io/badge/version-0.3.3--beta-blue)](#license-authorship-and-status)\n[![CI](https://github.com/gutomec/nirvana-os-engine/actions/",
+      "updated_at": "2026-08-23T01:14:45.693392"
     },
     {
       "github_id": 1143517499,
@@ -41043,6 +41272,37 @@
       "why_vibe_coding": "项目根目录包含 CLAUDE.md、GEMINI.md 和 .windsurfrules 等 AI 工具配置文件，表明开发过程中使用了多种 AI 辅助工具。项目结构简洁，功能聚焦，符合快速迭代的 vibe-coding 开发模式。README 中提及的 'dbv-specs-ops' 框架也暗示了 AI 辅助的规格驱动开发流程。",
       "readme_preview": "# DBV Markdown Reader\n\n[![Release](https://img.shields.io/github/v/release/davidbuenov/dbv-md-reader?display_name=tag&sort=semver)](https://github.com/davidbuenov/dbv-md-reader/releases)\n[![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-disponible-0078D4?logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9n7bmdzgcp0s)\n![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)\n![Rust](https://img.shields.io/badge/Rust-1.76+-000000?logo=rust&logoColor=whit",
       "updated_at": "2026-08-17T01:11:11.839641"
+    },
+    {
+      "github_id": 1175223662,
+      "full_name": "whinc/super-skills",
+      "name": "super-skills",
+      "owner": "whinc",
+      "description": "让 AI 编程代理获得特定技术领域的专家知识。",
+      "chinese_description": "这是一个可复用的AI编程技能集合，为特定工程任务（如微信小程序自动化、React效果优化等）提供专家知识，可通过Skills CLI安装使用。",
+      "english_description": "A collection of reusable AI coding skills that provide focused expert knowledge for specific engineering tasks, installable via the Skills CLI.",
+      "html_url": "https://github.com/whinc/super-skills",
+      "homepage": "",
+      "language": "HTML",
+      "stars": 39,
+      "forks": 3,
+      "ai_tools": [
+        "CodeBuddy",
+        "Claude"
+      ],
+      "tech_stack": [
+        "HTML",
+        "Markdown",
+        "Shell"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-23T01:14:59.917999",
+      "pushed_at": "2026-08-22T15:54:14Z",
+      "quality_score": 6,
+      "confidence": 0.8,
+      "why_vibe_coding": "README中明确提到使用CodeBuddy和Claude等AI工具进行开发，且项目结构简单，包含多个独立的技能模块，符合vibe-coding快速迭代的特点。",
+      "readme_preview": "# AI Skills Collection\n\nA collection of reusable skills that give AI coding agents focused knowledge for specific engineering tasks. The skills follow the [Skills](https://github.com/vercel-labs/skills) specification and can be installed with the Skills CLI.\n\n## Relationship to mattpocock/skills\n\nThis repository is an independent collection, not a replacement for `mattpocock/skills`.\n\n- `mattpocock/skills` provides the single-ticket `/implement` workflow, including the implementation, testing, r",
+      "updated_at": "2026-08-23T01:14:59.917999"
     },
     {
       "github_id": 1124597358,
@@ -50880,6 +51140,39 @@
       "updated_at": "2026-08-21T01:14:26.062584"
     },
     {
+      "github_id": 1339144629,
+      "full_name": "ARFCON/dsh-hotplug-hub",
+      "name": "dsh-hotplug-hub",
+      "owner": "ARFCON",
+      "description": "DSH - Dseam",
+      "chinese_description": "DSH-Hotplug-Hub 是 Dseam World 的插件管理器，用于管理 DSH 插件、技能和 MCP 服务器，并支持全局记忆功能。",
+      "english_description": "DSH-Hotplug-Hub is the plugin manager for Dseam World, managing DSH plugins, skills, and MCP servers with global memory support.",
+      "html_url": "https://github.com/ARFCON/dsh-hotplug-hub",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 25,
+      "forks": 5,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "C#",
+        "WinForms",
+        "WebView2",
+        "JavaScript",
+        "Node.js"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:15:04.555178",
+      "pushed_at": "2026-08-22T15:58:08Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "README 开头明确写着'面向 AI 编程协作者'，并指示阅读 AI_AGENTS.md 文件，这表明项目开发流程明确依赖 AI 辅助。项目结构包含 AI_AGENTS.md、sandbox/ 等目录，且提交记录中有 'feat: add OpenCode Ox Alpha Free provider' 等 AI 相关功能，进一步印证了 AI 辅助开发的特征。",
+      "readme_preview": "> 面向 AI 编程协作者：开始任何工作前，请先阅读本目录的 `AI_AGENTS.md`，并遵循其中的同步/检查/上报流程。\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/version-v1.0.0-6c5ce7\" alt=\"version\" />\n  <img src=\"https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-2d3436\" alt=\"platform\" />\n  <img src=\"https://img.shields.io/badge/license-MIT-00b894\" alt=\"license\" />\n  <img src=\"https://img.shields.io/badge/stack-WebView2%20%2B%20C%23%20WinForms-0984e3\" alt=\"stack\" />\n</p>\n\n<div align=\"center\">\n  <a href=\"#eng",
+      "updated_at": "2026-08-23T01:15:04.555178"
+    },
+    {
       "github_id": 875435619,
       "full_name": "mrrizzs/HTML-to-UGUI-Baker",
       "name": "HTML-to-UGUI-Baker",
@@ -52530,6 +52823,42 @@
       "updated_at": "2026-08-21T01:14:31.624223"
     },
     {
+      "github_id": 1164604663,
+      "full_name": "ahundt/ai-session-search",
+      "name": "ai-session-search",
+      "owner": "ahundt",
+      "description": "Ultra-fast rust-powered AI agent session search and analysis. Search millions of messages in under a second. Claude Code, Claude Desktop, Codex, Cursor, Antigravity, Pi, Google AI Studio, and Gemini CLI. One Rust core behind the aise CLI, an MCP server, a Rust library, and a Python API.",
+      "chinese_description": "一个超快的本地AI会话搜索工具，能跨多种AI编程助手（如Claude Code、Cursor、Codex等）的会话记录进行全文搜索和分析。",
+      "english_description": "An ultra-fast local AI session search tool that indexes and searches across conversation records from multiple AI coding assistants like Claude Code, Cursor, and Codex.",
+      "html_url": "https://github.com/ahundt/ai-session-search",
+      "homepage": "https://github.com/user-attachments/assets/757950b2-0523-4b59-b617-96d94ccf5ab1",
+      "language": "Rust",
+      "stars": 23,
+      "forks": 0,
+      "ai_tools": [
+        "Claude",
+        "Cursor",
+        "Codex",
+        "Gemini CLI",
+        "Antigravity",
+        "Pi",
+        "Google AI Studio"
+      ],
+      "tech_stack": [
+        "Rust",
+        "Python",
+        "MCP"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-23T01:15:09.987315",
+      "pushed_at": "2026-08-23T01:04:05Z",
+      "quality_score": 8,
+      "confidence": 0.85,
+      "why_vibe_coding": "该项目本身就是为了解决AI编程工具（Claude Code、Cursor、Codex等）会话记录难以搜索的问题而创建的，其核心功能就是处理这些AI工具产生的数据。项目结构清晰、功能聚焦，符合vibe-coding快速开发的特点。虽然README没有明确说'built with Cursor'，但项目名称和描述都围绕AI编程生态，且支持多种AI工具，暗示开发者深度使用AI工具进行开发。项目创建于2026年，时间较新，且功能高度针对AI编程场景，符合vibe-coding项目的典型特征。",
+      "readme_preview": "\n# AI Session Search (`aise`)\n\nUltra-fast rust-based search of every local AI coding session with on-the-fly reindexing. Reads Claude Code, Claude Desktop, ChatGPT Codex, Cursor, Antigravity, Pi, Prime Agent, Google AI Studio, and Gemini CLI, on macOS, Linux, and Windows.\n\n[![PyPI](https://img.shields.io/pypi/v/ai-session-search)](https://pypi.org/project/ai-session-search/)\n[![crates.io](https://img.shields.io/crates/v/ai-session-search)](https://crates.io/crates/ai-session-search)\n[![CI](https",
+      "updated_at": "2026-08-23T01:15:09.987315"
+    },
+    {
       "github_id": 1142402701,
       "full_name": "kamilstanuch/DesktopDeclutter",
       "name": "DesktopDeclutter",
@@ -53479,6 +53808,40 @@
       "why_vibe_coding": "README中明确提到使用Claude Code开发，且更新日志详细记录了与AI协作的迭代过程（如'用户带来文章询问是否值得应用'、'AI在会话中错误应用了模式后被回滚'），体现了典型的vibe-coding工作流。项目结构包含.claude/、.codex/等AI工具配置目录，且功能高度依赖AI代理执行，符合AI辅助开发的特征。",
       "readme_preview": "<p align=\"center\">\n  <img src=\"banner.png\" alt=\"Dev Team Kit\"/>\n</p>\n\n> 🇧🇷 [Versão em Português](README.pt-BR.md) · 🌎 English version\n\n# Dev Team Kit — 62 Specialist Skills for Coding Agents\n\n![Version](https://img.shields.io/badge/version-2.59.0-0f766e)\n![Skills](https://img.shields.io/badge/skills-62-1d4ed8)\n![Plugin](https://img.shields.io/badge/Claude%20Code-plugin-f59e0b)\n![License](https://img.shields.io/badge/license-Apache--2.0-7c3aed)\n\n> A complete team of software specialists inside yo",
       "updated_at": "2026-08-20T01:10:01.966579"
+    },
+    {
+      "github_id": 1227534817,
+      "full_name": "mtarcure/claude-vibe-squad",
+      "name": "claude-vibe-squad",
+      "owner": "mtarcure",
+      "description": "Markdown-first multi-model AI orchestration in one tmux session. A single coordinator (Chrono) routes scoped task packets across 4 frontier model families (Codex / Claude / Gemini / Kimi) to 68 role-based specialists — isolated git worktrees, cross-family review gates, durable memory. No server. Dogfooded daily.",
+      "chinese_description": "一个基于Markdown的多模型AI编排工具，通过一个协调器在四个AI模型家族之间分配任务，让68个角色化专家在隔离的git工作树中协作完成复杂工作。",
+      "english_description": "A Markdown-first multi-model AI orchestration tool that routes tasks across 4 frontier model families to 68 role-based specialists in isolated git worktrees, all coordinated through a single tmux session.",
+      "html_url": "https://github.com/mtarcure/claude-vibe-squad",
+      "homepage": null,
+      "language": "Python",
+      "stars": 22,
+      "forks": 5,
+      "ai_tools": [
+        "Claude",
+        "Codex",
+        "Gemini",
+        "Kimi"
+      ],
+      "tech_stack": [
+        "Python",
+        "Markdown",
+        "tmux",
+        "Git"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-23T01:15:15.071746",
+      "pushed_at": "2026-08-23T00:38:06Z",
+      "quality_score": 8,
+      "confidence": 0.9,
+      "why_vibe_coding": "项目名称和README明确提到'vibe coding'，且项目本身就是为vibe coding场景设计的AI编排工具。项目使用Markdown作为核心指令层，代码只处理必要的系统边界，判断逻辑完全交给AI模型，体现了典型的vibe-coding开发理念。项目结构简洁（Python + Markdown），功能聚焦于AI协作编排，符合vibe-coding快速迭代的特点。",
+      "readme_preview": "<div align=\"center\">\n\n# Vibe Squad\n\n**One coordinator. Four model families. Sixty-eight specialists, all written in Markdown you can read and edit.**\n\n![models](https://img.shields.io/badge/models-Codex%20%C2%B7%20Claude%20%C2%B7%20Gemini%20%C2%B7%20Kimi-informational)\n![license](https://img.shields.io/badge/license-AGPL--3.0-blue)\n![orchestration](https://img.shields.io/badge/orchestration-native%20CLIs%20%C2%B7%20isolated%20worktrees-success)\n![version](https://img.shields.io/badge/version-v1.",
+      "updated_at": "2026-08-23T01:15:15.071746"
     },
     {
       "github_id": 979765002,
@@ -54488,6 +54851,39 @@
       "why_vibe_coding": "README明确提到该工具是为AI编码代理（如Copilot、Claude、Cursor）设计的，目的是让AI代理能够操作Power Query M文件。项目创建于2025年6月，更新频繁，功能迭代快速，符合vibe-coding的快速开发特点。项目结构清晰，有完整的测试（136个测试），但整体复杂度适中，适合AI辅助开发。",
       "readme_preview": "<!-- HEADER_TABLE -->\n<table align=\"center\">\n<tr>\n  <td width=\"112\" align=\"center\" valign=\"middle\">\n    <img src=\"assets/excel-power-query-editor-logo-128x128.png\" width=\"112\" alt=\"Excel Power Query Editor\"><br>\n    <strong>E · P · Q · E</strong>\n  </td>\n\n  <td align=\"center\" valign=\"middle\">\n    <h1 align=\"center\">Excel Power Query Editor</h1>\n    <p align=\"left\">\n      <b>Edit Power Query M in VS Code —<br>including in workbooks Excel already has open.</b><br>\n      <sub>\n        No Excel auto",
       "updated_at": "2026-08-21T01:14:36.867593"
+    },
+    {
+      "github_id": 1248657228,
+      "full_name": "kiycoh/silica-harness",
+      "name": "silica-harness",
+      "owner": "kiycoh",
+      "description": "A local-first knowledge management tool that connects concepts and let an LLM safely maintain a plain-Markdown vault you can read, audit, and edit yourself.",
+      "chinese_description": "一个本地优先的知识管理工具，让LLM安全地维护纯Markdown笔记库，并自动连接概念。",
+      "english_description": "A local-first knowledge management tool that lets an LLM safely maintain a plain-Markdown vault and connect concepts.",
+      "html_url": "https://github.com/kiycoh/silica-harness",
+      "homepage": "https://youtu.be/nYLiKTtMZuY",
+      "language": "Python",
+      "stars": 21,
+      "forks": 1,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "TypeScript",
+        "React",
+        "FastAPI",
+        "SQLite"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:15:24.855692",
+      "pushed_at": "2026-08-23T01:11:30Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "项目描述强调LLM安全维护Markdown，且README中引用了AI相关研究，项目结构包含.agents/、.claude-plugin/、.codex-plugin/等AI工具配置，表明开发过程中使用了AI辅助编程。",
+      "readme_preview": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/kiycoh/silica-harness/main/assets/banner-light.svg\" />\n    <img src=\"https://raw.githubusercontent.com/kiycoh/silica-harness/main/assets/banner.svg\" alt=\"Silica\" width=\"440\" />\n  </picture>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://deepwiki.com/kiycoh/silica-harness\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\" /></a>\n  <a href=\"https://pypi.org/project/sil",
+      "updated_at": "2026-08-23T01:15:24.855692"
     },
     {
       "github_id": 776208271,
@@ -60806,6 +61202,65 @@
       "why_vibe_coding": "README 明确标注了 'Built with Claude Code' 徽章，并提到使用 Claude Code 的多代理工作流开发，符合 vibe-coding 的明确特征。项目结构中等复杂，包含多个集成组件（SearXNG、Firecrawl、Ollama 等），但整体是快速迭代的产物，有频繁的版本更新和文档完善，体现了 AI 辅助开发的典型风格。",
       "readme_preview": "# searxng-mcp\n\n[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-6B57FF?logo=claude&logoColor=white)](https://claude.ai/code)\n[![CI](https://github.com/TadMSTR/searxng-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/TadMSTR/searxng-mcp/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![npm](https://img.shields.io/npm/v/@tadmstr/searxng-mcp)](https://www.npmjs.com/package",
       "updated_at": "2026-08-20T01:10:31.554081"
+    },
+    {
+      "github_id": 1269592442,
+      "full_name": "agent-ix/quoin",
+      "name": "quoin",
+      "owner": "agent-ix",
+      "description": "Spec-driven development for Claude Code — author validated, ISO/IEC/IEEE 29148-aligned specs, then plan and build against them.",
+      "chinese_description": "这是一个为Claude Code等AI编码代理提供规范驱动开发工作流的工具包，帮助用户先编写符合ISO标准的软件规格说明，再基于规格进行规划和编码。",
+      "english_description": "A toolkit providing spec-driven development workflows for AI coding agents like Claude Code, enabling users to author ISO-standard software specifications before planning and building against them.",
+      "html_url": "https://github.com/agent-ix/quoin",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 16,
+      "forks": 0,
+      "ai_tools": [
+        "Claude"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Node.js",
+        "Docker"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-23T01:15:38.113395",
+      "pushed_at": "2026-08-23T01:13:12Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "项目明确针对Claude Code等AI编码代理设计，README中大量使用AI代理交互示例（如/specify、/spec-review等命令），且项目结构包含.agents/、.claude-plugin/、.codex-plugin/等AI工具集成目录，表明其开发和使用都深度依赖AI辅助编程。项目创建时间短（2026年6月），迭代速度快，符合vibe-coding快速开发的特点。",
+      "readme_preview": "<p align=\"center\">\n  <img src=\"logo.png\" alt=\"Quoin\" width=\"100%\" />\n</p>\n\n# Quoin\n\n[![Discord](https://img.shields.io/badge/Discord-Join%20us-5865F2?logo=discord&logoColor=white)](https://discord.gg/6qsdhSPE)\n[![ISO/IEC/IEEE 29148](https://img.shields.io/badge/ISO%2FIEC%2FIEEE-29148%20aligned-0052CC)](https://www.iso.org/standard/72089.html)\n[![Open Knowledge Format](https://img.shields.io/badge/OKF-Open%20Knowledge%20Format-4285F4)](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree",
+      "updated_at": "2026-08-23T01:15:38.113395"
+    },
+    {
+      "github_id": 1008774872,
+      "full_name": "bendrucker/claude",
+      "name": "claude",
+      "owner": "bendrucker",
+      "description": "My personal plugin marketplace and settings for Claude Code",
+      "chinese_description": "这是一个个人插件市场，用于管理和分发 Claude Code 的插件和用户配置。",
+      "english_description": "A personal plugin marketplace for Claude Code, providing plugins and user configuration.",
+      "html_url": "https://github.com/bendrucker/claude",
+      "homepage": "",
+      "language": "TypeScript",
+      "stars": 16,
+      "forks": 1,
+      "ai_tools": [
+        "Claude"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "Bun"
+      ],
+      "category": "插件",
+      "created_at": "2026-08-23T01:15:42.792856",
+      "pushed_at": "2026-08-23T01:11:08Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "该仓库是作者为 Claude Code 开发的个人插件市场，主要包含插件和配置，属于轻量级项目。虽然 README 未明确提及使用 AI 工具开发，但项目本身是围绕 AI 助手 Claude Code 构建的，且提交信息中频繁出现 'lead'、'grill' 等类似 AI 协作的词汇，暗示可能使用 AI 辅助开发。项目结构简单，符合 vibe-coding 快速迭代的特点。",
+      "readme_preview": "# claude\n\n> My personal plugin marketplace for [Claude Code](https://code.claude.com/docs), Anthropic's AI coding assistant.\n\n## Overview\n\nThis repository provides plugins for Claude Code, organized as a plugin marketplace. Plugins extend Claude Code with language conventions, workflow automation, service integrations, and custom behaviors.\n\nIt also contains my user configuration.\n\n## Prerequisites\n\nMany plugins include TypeScript hooks and scripts that require [Bun](https://bun.sh) to run. See ",
+      "updated_at": "2026-08-23T01:15:42.792856"
     },
     {
       "github_id": 1255607931,
@@ -68313,6 +68768,70 @@
       "updated_at": "2026-08-22T01:15:05.977161"
     },
     {
+      "github_id": 1227307412,
+      "full_name": "renezander030/agentic-task-system",
+      "name": "agentic-task-system",
+      "owner": "renezander030",
+      "description": "CLI + MCP for agent context: a task layer over TickTick, Notion, GitHub, Obsidian & more (RRF retrieval, provenance, reviewed writes, undo) plus a knowledge-graph layer — ats kg: facts from any source, human-ratified. Recommended engines: Graphiti (server), LadybugDB (embedded).",
+      "chinese_description": "这是一个为AI代理提供任务管理和知识图谱上下文的命令行工具与MCP服务器，支持与TickTick、Notion、GitHub、Obsidian等多个任务系统集成。",
+      "english_description": "A CLI and MCP server that provides AI agents with task management and knowledge graph context, integrating with TickTick, Notion, GitHub, Obsidian and more.",
+      "html_url": "https://github.com/renezander030/agentic-task-system",
+      "homepage": "https://www.npmjs.com/package/@reneza/ats-cli",
+      "language": "JavaScript",
+      "stars": 11,
+      "forks": 2,
+      "ai_tools": [
+        "Claude",
+        "Cursor"
+      ],
+      "tech_stack": [
+        "JavaScript",
+        "Node.js",
+        "TypeScript",
+        "MCP",
+        "CLI"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-23T01:16:00.398193",
+      "pushed_at": "2026-08-22T10:48:12Z",
+      "quality_score": 7,
+      "confidence": 0.75,
+      "why_vibe_coding": "该项目具有典型的vibe-coding特征：1) 项目结构复杂但组织方式松散，包含多个包和适配器，但缺少清晰的架构文档；2) 功能范围广泛（任务管理、知识图谱、多后端适配），但代码量相对较小，符合AI快速生成的特点；3) 存在REFACTOR-PLAN.md文件，表明项目在快速迭代中需要重构；4) 项目创建时间短（2026年5月），但功能描述非常宏大，符合AI辅助快速开发的特征；5) 项目描述中大量使用AI相关术语（agent context, MCP, provenance），表明项目是为AI生态设计的。",
+      "readme_preview": "\n<p align=\"center\">\n  <img src=\"assets/logo.png\" alt=\"Agentic Task System\" width=\"420\" />\n</p>\n\n<p align=\"center\"><strong>Your task manager is the best agent memory you're not using.</strong></p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/@reneza/ats-cli\"><img src=\"https://img.shields.io/npm/v/@reneza/ats-cli?logo=npm&label=%40reneza%2Fats-cli&color=A855F7\" alt=\"npm version\" /></a>\n  <a href=\"https://github.com/renezander030/agentic-task-system/actions/workflows/ci.yml\"><img sr",
+      "updated_at": "2026-08-23T01:16:00.398193"
+    },
+    {
+      "github_id": 1139093088,
+      "full_name": "artinte/stock-analysis",
+      "name": "stock-analysis",
+      "owner": "artinte",
+      "description": "股票量化分析",
+      "chinese_description": "这是一个集数据采集、AI分析、技术指标计算和量化策略筛选于一体的股票量化分析工具，提供自然语言交互界面。",
+      "english_description": "A stock quantitative analysis tool that integrates data crawling, AI analysis, technical indicators, and strategy screening with a natural language interface.",
+      "html_url": "https://github.com/artinte/stock-analysis",
+      "homepage": null,
+      "language": "Python",
+      "stars": 11,
+      "forks": 4,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "Ollama",
+        "GUI"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:16:09.941574",
+      "pushed_at": "2026-08-23T01:07:46Z",
+      "quality_score": 7,
+      "confidence": 0.75,
+      "why_vibe_coding": "项目结构清晰且模块化，包含crawler、gateways、gui、tools等多个模块，功能覆盖全面，符合AI辅助快速开发的特点。README中明确提到使用本地LLM和云端LLM进行AI分析，且项目创建时间较新（2026年），提交记录显示频繁的refactor和feat，符合vibe-coding的迭代开发模式。虽然README未直接声明使用特定AI工具，但项目整体架构和功能设计（如自然语言交互、AI分析）暗示了AI辅助开发的可能性。",
+      "readme_preview": "\n\n# Stock Analysis\n\n> 面向个人开发者与量化研究团队的行情分析与量化选股工具。\n\n[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)\n[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)\n\n---\n\n<a id=\"table-of-contents\"></a>\n\n## 📖 目录\n\n* [项目简介](#project-introduction)\n* [系统架构](#architecture)\n* [核心功能](#core-features)\n\n  * [智能数据感知与舆情系统](#crawler-feature)\n  * [行情接入与技术指标引擎](#market-feature)\n  * [人工智能分析与预测](#ai-feature)\n  * [量化策略与股票筛选](#strategy-feature)\n\n* [项目结构](#project-struc",
+      "updated_at": "2026-08-23T01:16:09.941574"
+    },
+    {
       "github_id": 998035591,
       "full_name": "agentify-sh/cursor-proxmox-mcp",
       "name": "cursor-proxmox-mcp",
@@ -68932,6 +69451,136 @@
       "updated_at": "2026-08-22T01:15:42.135563"
     },
     {
+      "github_id": 1234515741,
+      "full_name": "Th3-H4xx0r/IntelliStock",
+      "name": "IntelliStock",
+      "owner": "Th3-H4xx0r",
+      "description": "IntelliStock is a self-hosted algorithmic trading platform you run on your own infrastructure. It builds strategies, runs backtests, monitors live positions, and answers questions about your portfolio; all from one workspace, against your own broker accounts.",
+      "chinese_description": "IntelliStock 是一个自托管的算法交易平台，用户可以在自己的基础设施上构建策略、运行回测、监控实时持仓，并通过聊天界面询问投资组合相关问题。",
+      "english_description": "IntelliStock is a self-hosted algorithmic trading platform that allows users to build strategies, run backtests, monitor live positions, and ask questions about their portfolio via a chat interface.",
+      "html_url": "https://github.com/Th3-H4xx0r/IntelliStock",
+      "homepage": "",
+      "language": "Python",
+      "stars": 10,
+      "forks": 2,
+      "ai_tools": [
+        "Claude",
+        "Copilot"
+      ],
+      "tech_stack": [
+        "Python",
+        "React",
+        "Docker",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:16:15.079331",
+      "pushed_at": "2026-08-23T01:07:17Z",
+      "quality_score": 7,
+      "confidence": 0.8,
+      "why_vibe_coding": "该仓库具有典型的 vibe-coding 特征：项目结构包含多个 AI 辅助开发常见的文件（如 AGENTS.md、CLAUDE.md、.superpowers/），提交信息风格简洁且频繁，README 中使用了大量 emoji 和现代徽章，且项目功能复杂但代码结构可能不够严谨。此外，项目描述和功能范围较大，但创建时间较短，符合 AI 辅助快速开发的特点。",
+      "readme_preview": "# 📈 IntelliStock\n\n<p align=\"center\">\n  <img src=\"./imgs/github-banner.png\" alt=\"IntelliStock\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <strong>Strategies that read the market for you.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"./LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-a78bfa?style=for-the-badge\" alt=\"License: MIT\"></a>\n  <a href=\"https://github.com/Th3-H4xx0r/IntelliStock/stargazers\"><img src=\"https://img.shields.io/github/stars/Th3-H4xx0r/IntelliStock?style=for-the-badge&c",
+      "updated_at": "2026-08-23T01:16:15.079331"
+    },
+    {
+      "github_id": 1056407338,
+      "full_name": "zackees/clud",
+      "name": "clud",
+      "owner": "zackees",
+      "description": "Claude & Codex CLI but with safety 3rd and God Mode always.",
+      "chinese_description": "一个命令行工具，用于统一管理和运行Claude、Codex、Deepseek等AI编程助手，提供安全模式和自动化任务处理。",
+      "english_description": "A CLI tool that unifies and manages AI coding assistants like Claude, Codex, and Deepseek, with safety modes and automated task handling.",
+      "html_url": "https://github.com/zackees/clud",
+      "homepage": "https://pypi.org/project/clud/",
+      "language": "Rust",
+      "stars": 10,
+      "forks": 1,
+      "ai_tools": [
+        "Claude",
+        "Codex",
+        "Deepseek"
+      ],
+      "tech_stack": [
+        "Rust",
+        "Python",
+        "CLI"
+      ],
+      "category": "工具",
+      "created_at": "2026-08-23T01:16:28.716060",
+      "pushed_at": "2026-08-23T01:12:23Z",
+      "quality_score": 6,
+      "confidence": 0.8,
+      "why_vibe_coding": "项目描述和功能直接围绕AI编程助手，README中明确提到使用Claude、Codex、Deepseek，且项目结构包含多个AI相关的配置目录（.claude/, .codex/），表明开发过程中大量依赖AI辅助。项目创建时间较新，功能迭代快速，符合vibe-coding的快速开发特征。",
+      "readme_preview": "# clud\n\n![hero-clud](https://github.com/user-attachments/assets/4009dfee-e703-446d-b073-80d826708a10)\n\n**A luxury agentic experience with Claude, Codex and Deepseek. By running them all on Claude**\n\n  * Fixes Windows Performance Problem with Windows git/bash zombie process\n  * transltate codex and deepseek into claude terminal\n\nThe name `clud` is simply a shorter, easier-to-type version of `claude`.\n\n## Built in support for running codex on the claude harness:\n\n`clud --codex --harness claude`\n\n#",
+      "updated_at": "2026-08-23T01:16:28.716060"
+    },
+    {
+      "github_id": 1253788063,
+      "full_name": "BuildingTechAlternatives/OpenThorn",
+      "name": "OpenThorn",
+      "owner": "BuildingTechAlternatives",
+      "description": "Free, browser-based BYOK AI website builder — v0 / Lovable / Bolt.new alternative. Bring your own key from 17 providers, generate & deploy full code, no subscription.",
+      "chinese_description": "OpenThorn 是一个免费的浏览器端 AI 网站构建器，用户自带 API 密钥即可通过自然语言描述生成并部署完整网站代码，无需订阅。",
+      "english_description": "OpenThorn is a free browser-based AI website builder that lets users bring their own API key to generate and deploy full website code from natural language descriptions, with no subscription required.",
+      "html_url": "https://github.com/BuildingTechAlternatives/OpenThorn",
+      "homepage": "https://openthorn.app",
+      "language": "TypeScript",
+      "stars": 10,
+      "forks": 5,
+      "ai_tools": [
+        "Claude",
+        "v0",
+        "Lovable",
+        "Bolt"
+      ],
+      "tech_stack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Supabase",
+        "Node.js"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:16:38.275118",
+      "pushed_at": "2026-08-22T16:16:04Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "该项目定位为 Lovable、Bolt.new、v0 的替代品，这些产品本身就是 AI 编程工具。项目功能完整（AI 生成代码、预览、部署），技术栈现代且结构清晰，符合 AI 辅助快速开发的特征。README 中明确对比了 AI 构建工具，且项目包含 CLAUDE.md 文件，暗示使用 Claude 进行开发。项目创建时间短（约3个月），但功能丰富，符合 vibe-coding 快速迭代的特点。",
+      "readme_preview": "# OpenThorn\n\n**The free, BYOK AI website builder — a Lovable, Bolt.new, and v0 alternative. Bring your own API key, pay your provider directly.**\n\n[![Live](https://img.shields.io/badge/live-openthorn.app-4f46e5?style=flat-square)](https://openthorn.app)\n[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](#license)\n\n---\n\nOpenThorn is a BYOK (bring-your-own-key) AI app builder. Describe what you want in plain language; the AI agent writes the code, previews it live in-bro",
+      "updated_at": "2026-08-23T01:16:38.275118"
+    },
+    {
+      "github_id": 1107348698,
+      "full_name": "chainlesschain/chainlesschain",
+      "name": "chainlesschain",
+      "owner": "chainlesschain",
+      "description": null,
+      "chinese_description": "这是一个基于U盾和SIMKey的个人移动AI管理系统，提供CLI工具、IDE插件和Android应用，用于安全远程控制、跨会话消息管理和AI技能调用。",
+      "english_description": "A personal mobile AI management system based on U-shield and SIMKey, offering CLI tools, IDE plugins, and Android apps for secure remote control, cross-session messaging, and AI skill invocation.",
+      "html_url": "https://github.com/chainlesschain/chainlesschain",
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 10,
+      "forks": 6,
+      "ai_tools": [
+        "Claude"
+      ],
+      "tech_stack": [
+        "JavaScript",
+        "Node.js",
+        "Android"
+      ],
+      "category": "应用",
+      "created_at": "2026-08-23T01:16:52.180405",
+      "pushed_at": "2026-08-23T01:06:18Z",
+      "quality_score": 7,
+      "confidence": 0.85,
+      "why_vibe_coding": "README中明确提到使用Claude（如'.claude/'目录、'Claude increment implementati'提交），且项目结构包含大量AI辅助开发痕迹（如AGENTS.md、CLAUDE.md），版本迭代频繁，功能范围广泛，符合vibe-coding快速开发的特点。",
+      "readme_preview": "# ChainlessChain - 基于U盾和SIMKey的个人移动AI管理系统\n\n> **📋 Android v1.0 重新定位 RFC 评审中**（2026-05-10）—— 桌面 = AI 工作站，手机 = 钥匙 + 捕获器 + 遥控器。停止以 skill 数量对标桌面，转 L1 (StrongBox/DID/QR) + L2 (Voice/Camera OCR/推送) + L3 (REMOTE 调用桌面 skill) 三层架构。详见[设计文档](docs/design/Android_重新定位_设计文档.md) | [用户文档](docs-site/docs/chainlesschain/mobile-positioning.md)。\n\n> **📦 CLI 安装**：`npm i -g chainlesschain@0.165.6`（当前完整门禁版；别名 `cc` / `clc` / `clchain`）。\n> **中国大陆镜像用户注意**：若你的 npm 默认源是淘宝镜像 `registry.npmmirror.com`，可能遇到安装报错 `npm error code E",
+      "updated_at": "2026-08-23T01:16:52.180405"
+    },
+    {
       "github_id": 1117971158,
       "full_name": "tznthou/day-19-stargazer-galaxy",
       "name": "day-19-stargazer-galaxy",
@@ -68961,8 +69610,39 @@
       "why_vibe_coding": "项目结构简洁（scripts/ + assets/），功能单一明确，README 风格活泼且包含大量 emoji 和流程图，符合 AI 辅助快速开发的特点。代码量适中，算法实现（黄金螺旋）和 GitHub Action 配置都是典型 AI 工具擅长的任务。项目创建时间较新（2025年12月），且提交记录全部为自动生成的 '[skip ci]' 更新，表明开发过程快速迭代。虽然 README 未明确提及 AI 工具，但整体风格和实现方式高度符合 vibe-coding 特征。",
       "readme_preview": "# Stargazer Galaxy 星光共同體\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![GitHub Action](https://img.shields.io/badge/GitHub-Action-2088FF.svg)](https://github.com/features/actions)\n[![Node.js](https://img.shields.io/badge/Node.js-20+-339933.svg)](https://nodejs.org/)\n\n[← 回到 Muripo HQ](https://tznthou.github.io/muripo-hq/) | [English](README_EN.md)\n\n把每一個按下 Star 的支持者，變成你專案銀河中的一顆恆星。\n\n![Stargazer Galaxy](assets/galaxy.png)\n\n> ⭐ **Star 這",
       "updated_at": "2026-08-15T01:12:24.707165"
+    },
+    {
+      "github_id": 905640482,
+      "full_name": "ryokun6/three-playground",
+      "name": "three-playground",
+      "owner": "ryokun6",
+      "description": null,
+      "chinese_description": "一个基于 Three.js 的粒子模拟器，支持多种形状、音频响应和交互控制，用于视觉创意实验。",
+      "english_description": "A Three.js-based particle simulator with multiple shapes, audio reactivity, and interactive controls for visual creative experiments.",
+      "html_url": "https://github.com/ryokun6/three-playground",
+      "homepage": "https://three-playground-psi.vercel.app",
+      "language": "TypeScript",
+      "stars": 9,
+      "forks": 0,
+      "ai_tools": [
+        "Cursor"
+      ],
+      "tech_stack": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "Tailwind CSS"
+      ],
+      "category": "创意",
+      "created_at": "2026-08-23T01:17:19.851447",
+      "pushed_at": "2025-01-02T10:27:00Z",
+      "quality_score": 7,
+      "confidence": 0.95,
+      "why_vibe_coding": "README 明确标注 'An experiment built with Cursor'，直接表明使用 AI 编程工具 Cursor 开发。项目结构简洁（单页应用），功能聚焦于视觉创意实验，符合 vibe-coding 快速迭代、探索性开发的特点。代码量适中，包含 .cursorrules 配置文件，进一步佐证了 AI 辅助开发的工作流。",
+      "readme_preview": "# Particle Simulator 6\nAn experiment built with Cursor.\n\n## Features\n- Particle simulator with 6 built-in shapes\n- Audio reactivity\n- Auto Camera and manual controls\n- Environment and post-processing\n- Keyboard shortcuts for performance\n- Touch & gesture support on mobile\n- UI to tweak all parameters",
+      "updated_at": "2026-08-23T01:17:19.851447"
     }
   ],
-  "updated_at": "2026-08-22T01:15:42.135757",
-  "total_count": 2134
+  "updated_at": "2026-08-23T01:17:19.851710",
+  "total_count": 2155
 }
