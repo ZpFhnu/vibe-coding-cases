@@ -4,7 +4,7 @@
 
 Discover awesome projects built with AI-assisted programming
 
-**2494** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
+**2519** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
 
 </div>
 
@@ -21,8 +21,8 @@ This repository collects **real application cases** from GitHub built with AI-as
 | Category | Description | Count |
 |----------|-------------|-------|
 | 🌐 [Websites](#websites) | Blogs, landing pages, portfolios, documentation sites | 30 |
-| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 1010 |
-| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 1119 |
+| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 1019 |
+| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 1135 |
 | 📊 [Data](#data) | Dashboards, crawlers, charts, data analysis tools | 24 |
 | 🎮 [Games](#games) | Small games, entertainment projects | 24 |
 | 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 234 |
@@ -160,7 +160,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>🛠️ Tools <small>(1010 projects)</small></h2></summary>
+<summary><h2>🛠️ Tools <small>(1019 projects)</small></h2></summary>
 
 *Todo lists, accounting, translation, file processing utilities*
 
@@ -972,6 +972,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/ziwang-Physics/AgentChat) · `JavaScript` · 🤖 Claude · ⭐ 338 · 📅 2026-07-05
 
+**[genie](https://github.com/automagik-dev/genie)** — Genie is a CLI agent that interviews users to understand requirements, plans the work, dispatches parallel coding agents in isolated worktrees, and reviews code before presenting merge-ready PRs.
+
+[Demo](https://docs.automagik.dev/genie) · [Source](https://github.com/automagik-dev/genie) · `TypeScript` · 🤖 Claude, Codex · ⭐ 334 · 📅 2026-09-07
+
 **[Puppetmaster](https://github.com/professorpalmer/Puppetmaster)** — A provider-neutral control plane for orchestrating durable-state agent swarms, enabling subprocess workers, leases, artifacts, memory, and deterministic stitching for multi-step engineering tasks.
 
 [Demo](https://raw.githubusercontent.com/professorpalmer/Puppetmaster/main/docs/demo.gif) · [Source](https://github.com/professorpalmer/Puppetmaster) · `Python` · 🤖 Cursor, Claude · ⭐ 332 · 📅 2026-08-23
@@ -1348,6 +1352,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://aykutkorkut.github.io/badge-odyssey-voyage/) · [Source](https://github.com/aykutkorkut/badge-odyssey-voyage) · `HTML` · 🤖 Claude, Copilot · ⭐ 151 · 📅 2026-07-08
 
+**[lightnovel-pydownloader](https://github.com/ilusrdbb/lightnovel-pydownloader)** — A crawler tool for Japanese light novel translation sites that downloads novels and generates EPUB files.
+
+[Source](https://github.com/ilusrdbb/lightnovel-pydownloader) · `Python` · 🤖 AI生成GUI前端代码 · ⭐ 151 · 📅 2026-09-08
+
 **[hve-spielberg](https://github.com/nebrass/hve-spielberg)** — An AI-powered video production pipeline that automates 6 phases to turn your app into a polished promo, showcase, or tutorial video.
 
 [Demo](https://www.youtube.com/watch?v=tIsQabrczRs) · [Source](https://github.com/nebrass/hve-spielberg) · `HTML` · 🤖 Claude, Copilot · ⭐ 149 · 📅 2026-06-24
@@ -1591,6 +1599,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[zelda-hyrule-ui](https://github.com/chaos-xxl/zelda-hyrule-ui)** — A React UI component library inspired by The Legend of Zelda: Breath of the Wild, featuring 83 dark-themed components with Sheikah glow effects and AI-consumable design specs.
 
 [Demo](https://chaos-xxl.github.io/zelda-hyrule-ui/) · [Source](https://github.com/chaos-xxl/zelda-hyrule-ui) · `TypeScript` · 🤖 Cursor, v0 · ⭐ 104 · 📅 2026-06-03
+
+**[pharma-skills](https://github.com/RConsortium/pharma-skills)** — A community-contributed catalog of agent skills for pharmaceutical R&D, covering clinical trial design, data simulation, and statistical analysis workflows.
+
+[Demo](https://rconsortium.github.io/pharma-skills/gsdbench-intake/) · [Source](https://github.com/RConsortium/pharma-skills) · `R` · 🤖 Claude · ⭐ 104 · 📅 2026-09-08
 
 **[frankenterm](https://github.com/Dicklesworthstone/frankenterm)** — A terminal hypervisor for coordinating fleets of AI coding agents, featuring real-time pane capture, state-machine pattern detection, and a JSON API for swarm management.
 
@@ -2091,6 +2103,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[better-code-review-graph](https://github.com/n24q02m/better-code-review-graph)** — A knowledge graph-based code review tool that enables token-efficient code reviews with fixed search and configurable embeddings.
 
 [Demo](https://mcp.n24q02m.com/servers/better-code-review-graph/) · [Source](https://github.com/n24q02m/better-code-review-graph) · `Python` · 🤖 Claude, Copilot · ⭐ 53 · 📅 2026-06-09
+
+**[Kiln](https://github.com/codeofaxel/Kiln)** — Kiln is an open-source MCP server that enables AI agents (like Claude, Codex) to directly control 3D printers, handling everything from design and slicing to printing.
+
+[Demo](https://kiln3d.com/?utm_source=github&utm_medium=readme#demo) · [Source](https://github.com/codeofaxel/Kiln) · `Python` · 🤖 Claude, Codex · ⭐ 53 · 📅 2026-09-08
 
 **[agent-assistant](https://github.com/hainamchung/agent-assistant)** — An AI agent orchestration tool that extends AI coding tools like Claude Code and Cursor into 21 specialist agents working together through structured workflows for software development.
 
@@ -2916,6 +2932,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://notes.junghanacs.com/notes/20250215t202517) · [Source](https://github.com/junghan0611/entwurf) · `TypeScript` · 🤖 Claude Code, Codex · ⭐ 26 · 📅 2026-09-01
 
+**[ruoyi-scan](https://github.com/xiabai2008/ruoyi-scan)** — A dedicated vulnerability scanner for the RuoYi framework with plugin architecture, three-state verdict, WAF bypass, and AI-assisted POC generation for security testing.
+
+[Source](https://github.com/xiabai2008/ruoyi-scan) · `Python` · 🤖 Claude, Copilot · ⭐ 26 · 📅 2026-09-08
+
 **[skelm](https://github.com/scottgl9/skelm)** — An open-source, typed agentic workflow engine for authoring, scheduling, and operating secure, long-running pipelines that mix code, inference, and agents with default-deny permissions.
 
 [Demo](https://skelm.dev) · [Source](https://github.com/scottgl9/skelm) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 25 · 📅 2026-06-14
@@ -3276,6 +3296,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/NocodeMrLi/mini-program-engineering-skill-suite) · `Python` · 🤖 Claude, Copilot · ⭐ 19 · 📅 2026-08-24
 
+**[termlens](https://github.com/vyncint/termlens)** — A headless PTY test harness for CLI/TUI apps that spawns programs in a real terminal and asserts on the rendered screen, like Playwright for the terminal.
+
+[Source](https://github.com/vyncint/termlens) · `Rust` · 🤖 Claude Code, Cursor · ⭐ 19 · 📅 2026-09-08
+
 **[knowie](https://github.com/timcsy/knowie)** — Knowie is a tool that uses Markdown files to document project principles, vision, and experience, enabling AI to understand developer thinking during coding.
 
 [Demo](https://www.npmjs.com/package/knowie) · [Source](https://github.com/timcsy/knowie) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 18 · 📅 2026-06-27
@@ -3455,6 +3479,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[stats-compass-mcp](https://github.com/oogunbiyi21/stats-compass-mcp)** — An MCP server that turns LLMs into data analysts, enabling AI assistants to perform data loading, cleaning, EDA, visualization, and ML workflows directly.
 
 [Source](https://github.com/oogunbiyi21/stats-compass-mcp) · `HTML` · 🤖 Claude, Copilot · ⭐ 17 · 📅 2026-08-22
+
+**[deepgeo-seo](https://github.com/yuanzhongqiao/deepgeo-seo)** — A China-first GEO+SEO content optimization CLI toolkit that helps web content get indexed and cited by major domestic and international AI models.
+
+[Demo](http://www.geohao.com) · [Source](https://github.com/yuanzhongqiao/deepgeo-seo) · `Python` · 🤖 Claude, Copilot · ⭐ 17 · 📅 2026-09-08
 
 **[claudesec](https://github.com/Twodragon0/claudesec)** — ClaudeSec is a security scanning toolkit that integrates security best practices into AI-assisted development workflows, providing security prompts, hooks, templates, and guides.
 
@@ -4128,6 +4156,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/Open-BFME/Open-BFME-2) · `C++` · 🤖 Claude, 其他AI agent · ⭐ 11 · 📅 2026-09-07
 
+**[hera-agent-godot](https://github.com/NotNull92/hera-agent-godot)** — A CLI tool that enables AI agents to inspect and control a live Godot editor in real-time, providing low-token operations for scene building, testing, and QA.
+
+[Source](https://github.com/NotNull92/hera-agent-godot) · `Go` · 🤖 Claude · ⭐ 11 · 📅 2026-09-08
+
 **[cursor-proxmox-mcp](https://github.com/agentify-sh/cursor-proxmox-mcp)** — An MCP server for managing Proxmox VMs within Cursor, supporting VM lifecycle management, container operations, and OpenAPI integration.
 
 [Source](https://github.com/agentify-sh/cursor-proxmox-mcp) · `Python` · 🤖 Cursor · ⭐ 10 · 📅 2026-01-19
@@ -4176,6 +4208,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://hydra.uvansa.com/) · [Source](https://github.com/ankit373/hydra) · `Go` · 🤖 Claude · ⭐ 10 · 📅 2026-09-07
 
+**[saas-marketing-agents](https://github.com/shalintripathi/saas-marketing-agents)** — An open-source AI marketing team for B2B SaaS companies, featuring 78 specialist agent personas and 19 Claude Code skills coordinated by the CATALYST orchestrator to execute SEO, content, paid media, and other marketing workflows.
+
+[Source](https://github.com/shalintripathi/saas-marketing-agents) · `Markdown` · 🤖 Claude, Cursor · ⭐ 10 · 📅 2026-09-08
+
 **[day-19-stargazer-galaxy](https://github.com/tznthou/day-19-stargazer-galaxy)** — A tool that automatically arranges GitHub stargazers' avatars into a golden spiral galaxy pattern, auto-updating via GitHub Actions.
 
 [Source](https://github.com/tznthou/day-19-stargazer-galaxy) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 9 · 📅 2026-08-15
@@ -4208,7 +4244,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>📱 Apps <small>(1119 projects)</small></h2></summary>
+<summary><h2>📱 Apps <small>(1135 projects)</small></h2></summary>
 
 *Chat apps, admin panels, SaaS, complete applications*
 
@@ -4719,6 +4755,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[veritas-kanban](https://github.com/BradGroux/veritas-kanban)** — A local-first Kanban task management board with optional AI agent orchestration, workflows, and governance for tracking project truth.
 
 [Demo](https://bradgroux.github.io/veritas-kanban/demo/) · [Source](https://github.com/BradGroux/veritas-kanban) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 757 · 📅 2026-07-13
+
+**[TreeMap-Disk-Visualizer](https://github.com/Prithvi-Web/TreeMap-Disk-Visualizer)** — TreeMap is a cross-platform desktop app that visualizes disk space usage as a treemap, allowing users to delete and open files.
+
+[Demo](https://tree-map-landing-page.vercel.app/) · [Source](https://github.com/Prithvi-Web/TreeMap-Disk-Visualizer) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 742 · 📅 2026-09-08
 
 **[skillsgate](https://github.com/skillsgate/skillsgate)** — A desktop app and TUI for browsing, installing, and managing AI agent skills from a single interface.
 
@@ -5823,6 +5863,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[glucose-buddy](https://github.com/flyhunterl/glucose-buddy)** — Glucose Buddy is a smart blood glucose monitoring system that connects to continuous glucose monitors, predicts glucose trends, provides AI-powered analysis, manages treatment plans, and generates health reports.
 
 [Demo](https://aixt.llingfei.com) · [Source](https://github.com/flyhunterl/glucose-buddy) · `Python` · 🤖 Claude, Copilot · ⭐ 101 · 📅 2026-07-29
+
+**[open-flow](https://github.com/oomol-lab/open-flow)** — Open Flow is an open-source visual workflow automation platform that enables AI agents and users to collaboratively create, edit, and run typed workflows via CLI or a visual workbench.
+
+[Demo](https://www.youtube.com/watch?v=CIF5I11VpLM) · [Source](https://github.com/oomol-lab/open-flow) · `TypeScript` · 🤖 Claude, Codex · ⭐ 101 · 📅 2026-09-08
 
 **[foliofox](https://github.com/unav4ila8le/foliofox)** — An AI-powered personal portfolio tracking and financial advisor app that helps users make smarter investment decisions through intelligent analysis and visualization tools.
 
@@ -7040,6 +7084,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://gadak.dev/demo/) · [Source](https://github.com/midagedev/gadak) · `Go` · 🤖 Claude · ⭐ 33 · 📅 2026-09-03
 
+**[TraeWorkAssistant](https://github.com/smart-open/TraeWorkAssistant)** — A Windows desktop tool for managing multiple AI application accounts, supporting sign-in automation, login state switching, device ID isolation, and points dashboard for Trae Work and similar AI apps.
+
+[Demo](https://blog.sopenai.cn) · [Source](https://github.com/smart-open/TraeWorkAssistant) · `TypeScript` · 🤖 Trae, Claude · ⭐ 33 · 📅 2026-09-08
+
 **[wechat-mini](https://github.com/freestylefly/wechat-mini)** — A WeChat mini-program that analyzes personal birth data, converting solar dates to lunar calendar, calculating Chinese zodiac and Five Elements, and providing AI-powered fortune-telling interpretations.
 
 [Source](https://github.com/freestylefly/wechat-mini) · `Java` · 🤖 Cursor, DeepSeek · ⭐ 32 · 📅 2025-04-12
@@ -7127,6 +7175,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[devglobe](https://github.com/sajeetharan/devglobe)** — DevGlobe is a global developer discovery platform that uses a 3D map and AI search to help users and AI agents find the right developers.
 
 [Demo](https://devglobe.dev) · [Source](https://github.com/sajeetharan/devglobe) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 31 · 📅 2026-08-29
+
+**[northroad-ai](https://github.com/hannanmax/northroad-ai)** — A road hazard detection platform that analyzes dashcam video to identify potholes in real-time, alerting drivers and reporting hazards to municipal authorities through a management dashboard.
+
+[Source](https://github.com/hannanmax/northroad-ai) · `TypeScript` · 🤖 Cursor · ⭐ 31 · 📅 2026-06-27
 
 **[tg_content_factory](https://github.com/axisrow/tg_content_factory)** — A personal Telegram monitoring toolkit for collecting messages, searching across channels, and getting keyword alerts with AI-powered search.
 
@@ -7467,6 +7519,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[open-fanqie](https://github.com/Linho1219/open-fanqie)** — An open-source implementation of the Fanqie numbered musical notation rendering core and compatible app, which parses the Fanqie DSL and renders sheet music as SVG in the browser, with export to JPG and PDF.
 
 [Demo](https://fanqie.linho.cc/) · [Source](https://github.com/Linho1219/open-fanqie) · `TypeScript` · 🤖 Claude, ChatGPT · ⭐ 25 · 📅 2026-08-31
+
+**[SwarmLLM](https://github.com/enapt/SwarmLLM)** — A decentralized peer-to-peer LLM inference network that pools hardware resources across nodes to run large models on machines that couldn't host them alone, with no API tokens or cloud fees.
+
+[Source](https://github.com/enapt/SwarmLLM) · `Rust` · 🤖 Claude · ⭐ 25 · 📅 2026-09-08
+
+**[Strada.Brain](https://github.com/okandemirel/Strada.Brain)** — An AI-powered autonomous coding agent for Unity/Strada.Core projects that reads codebases, writes code, runs builds, and fixes errors via chat channels like Telegram, Discord, and Slack, with 24/7 daemon mode and multi-agent orchestration.
+
+[Source](https://github.com/okandemirel/Strada.Brain) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 25 · 📅 2026-09-08
 
 **[FullScopeTest](https://github.com/05Huang/FullScopeTest)** — FullScopeTest is an AI-driven full-stack automated testing platform that supports API testing, web automation, mobile testing, and performance testing, with features like natural language script generation and intelligent error self-healing.
 
@@ -8180,6 +8240,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/saddism/DuoCLI) · `TypeScript` · 🤖 Claude · ⭐ 15 · 📅 2026-09-06
 
+**[WorldScript-Studio](https://github.com/qnbs/WorldScript-Studio)** — An AI-powered writing studio for authors and screenwriters, featuring story planning, character and world building, with offline PWA and desktop app support.
+
+[Demo](https://qnbs.github.io/WorldScript-Studio/) · [Source](https://github.com/qnbs/WorldScript-Studio) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 15 · 📅 2026-09-08
+
+**[icpc-workbench](https://github.com/ZF3373/icpc-workbench)** — A local web application for ICPC contestants that syncs practice records from multiple platforms, analyzes weaknesses, generates AI-personalized training plans, and tracks progress via a calendar.
+
+[Source](https://github.com/ZF3373/icpc-workbench) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 15 · 📅 2026-09-08
+
 **[lixpi](https://github.com/Lixpi/lixpi)** — A visual, node-based AI workspace for building generative image and video pipelines on an infinite canvas.
 
 [Demo](https://youtu.be/Eee2Ku-Tl_8) · [Source](https://github.com/Lixpi/lixpi) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 14 · 📅 2026-07-05
@@ -8308,6 +8376,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/wink-cloud-hub/wink-ai-embedded) · `C` · 🤖 Claude, Copilot · ⭐ 14 · 📅 2026-09-06
 
+**[AnyBridge](https://github.com/soulvon/AnyBridge)** — AnyBridge is a local BYOK bridging tool that unifies API key and model provider management, allowing multiple AI coding tools to share the same models.
+
+[Demo](https://soulvon.github.io/AnyBridge/) · [Source](https://github.com/soulvon/AnyBridge) · `Rust` · 🤖 Cursor, Claude · ⭐ 14 · 📅 2026-09-08
+
 **[acorn](https://github.com/im-ian/acorn)** — Acorn is a desktop app that lets users manage multiple parallel AI coding agent sessions in one window, with split panes, isolated Git worktrees, and native PTY terminals.
 
 [Source](https://github.com/im-ian/acorn) · `TypeScript` · 🤖 Claude, Codex · ⭐ 13 · 📅 2026-07-03
@@ -8399,6 +8471,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[student](https://github.com/aramshiva/student)** — An unofficial alternative client for StudentVUE, offering gradebook, schedule, calendar, attendance, documents, mail, and more with a clean UI and hypothetical mode.
 
 [Demo](https://student.aram.sh) · [Source](https://github.com/aramshiva/student) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 13 · 📅 2026-09-05
+
+**[paynani](https://github.com/iaaorgmx/paynani)** — Paynani is a tool that enables AI agents to automatically read and process emails by connecting to an IMAP/SMTP mailbox and following instructions from authorized contacts.
+
+[Source](https://github.com/iaaorgmx/paynani) · `Python` · 🤖 Claude, OpenAI Codex · ⭐ 13 · 📅 2026-09-08
+
+**[ApiSaverWriter](https://github.com/Vaxue/ApiSaverWriter)** — An AI-powered writing workbench for long-form web novel authors, featuring world-building, outline, chapter memory, full-text search, book analysis, and multi-device sync.
+
+[Source](https://github.com/Vaxue/ApiSaverWriter) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 13 · 📅 2026-09-08
 
 **[Green-AI](https://github.com/mwakidenis/Green-AI)** — An AI-powered platform that transforms waste into sustainable energy, featuring real-time monitoring, predictive analytics, and community engagement.
 
@@ -8520,6 +8600,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://opentask.mcnitt.io) · [Source](https://github.com/trentmcnitt/opentask) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 12 · 📅 2026-09-07
 
+**[richfolio](https://github.com/furic/richfolio)** — A zero-maintenance portfolio monitoring system that runs on GitHub Actions, sending daily AI-analyzed investment briefings via email and Telegram.
+
+[Demo](https://furic.github.io/richfolio/) · [Source](https://github.com/furic/richfolio) · `TypeScript` · 🤖 Claude, Gemini · ⭐ 12 · 📅 2026-09-08
+
 **[BlindRSS](https://github.com/serrebidev/BlindRSS)** — An accessible RSS and podcast client for the blind, featuring screen-reader support, cross-platform desktop operation, and comprehensive feed management with media playback.
 
 [Source](https://github.com/serrebidev/BlindRSS) · `Python` · 🤖 Claude, Copilot · ⭐ 11 · 📅 2026-07-16
@@ -8583,6 +8667,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[gitnado](https://github.com/hegsie/gitnado)** — A privacy-focused cross-platform Git GUI client with local AI-powered commit message generation, fully offline and account-free.
 
 [Source](https://github.com/hegsie/gitnado) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 11 · 📅 2026-09-07
+
+**[Roami](https://github.com/ybz21/Roami)** — Roami is a remote development console that lets you connect back to your own development machines from any device, managing projects, terminals, browsers, and AI coding agents for a seamless, persistent development workflow.
+
+[Source](https://github.com/ybz21/Roami) · `TypeScript` · 🤖 Claude, Codex · ⭐ 11 · 📅 2026-09-08
+
+**[goinfer](https://github.com/townsendmerino/goinfer)** — A pure-Go, cgo-free local LLM inference engine that runs Gemma, Qwen, Llama and other open-weight models from safetensors or GGUF in a single static binary.
+
+[Source](https://github.com/townsendmerino/goinfer) · `Go` · 🤖 Claude · ⭐ 11 · 📅 2026-09-08
 
 **[agentlens](https://github.com/RogerReed/agentlens)** — AgentLens is a local monitoring and observability tool that provides real-time insights into AI coding agents' traces, token usage, cost, and efficiency, and detects stuck patterns.
 
@@ -8676,6 +8768,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://nguyenminhduc163.github.io/Edtech-Learning-App/) · [Source](https://github.com/NguyenMinhDuc163/Edtech-Learning-App) · `Dart` · 🤖 Claude, Codex · ⭐ 10 · 📅 2026-09-07
 
+**[smtc2web](https://github.com/AkarinLiu/smtc2web)** — A desktop application that displays the currently playing song in live streaming software, supporting Windows and Linux.
+
+[Demo](https://smtc2web.org) · [Source](https://github.com/AkarinLiu/smtc2web) · `Rust` · 🤖 Trae, OpenCode · ⭐ 10 · 📅 2026-09-08
+
 **[beacon](https://github.com/kurogin23mech-source/beacon)** — A milestone-driven project dashboard for AI-assisted development, keeping progress visible during sessions with AI assistants like Claude Code.
 
 [Source](https://github.com/kurogin23mech-source/beacon) · `Python` · 🤖 Claude Code · ⭐ 9 · 📅 2026-09-02
@@ -8687,6 +8783,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[stratos](https://github.com/ContextSphere/stratos)** — Stratos is an open-source framework for building agent-powered IDEs, featuring a desktop app and modular architecture that supports multiple AI providers like Claude Code, Codex, and Opencode, as well as local models.
 
 [Source](https://github.com/ContextSphere/stratos) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 9 · 📅 2026-09-04
+
+**[OneNAS](https://github.com/yangjian1412/OneNAS)** — An all-in-one client that aggregates multimedia, file management, and NAS system management, unifying multiple open-source services like Jellyfin, Emby, and Navidrome into a single app for NAS users.
+
+[Source](https://github.com/yangjian1412/OneNAS) · `TypeScript` · 🤖 Claude, vibe coding · ⭐ 9 · 📅 2026-09-08
 
 ---
 </details>
@@ -10077,6 +10177,6 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 **Auto-collected · Daily updates**
 
-Last updated: 2026-09-07
+Last updated: 2026-09-08
 
 </div>
