@@ -4,7 +4,7 @@
 
 Discover awesome projects built with AI-assisted programming
 
-**2532** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
+**2546** cases · [中文版本](README.md) · [About This Project](ABOUT_EN.md)
 
 </div>
 
@@ -21,12 +21,12 @@ This repository collects **real application cases** from GitHub built with AI-as
 | Category | Description | Count |
 |----------|-------------|-------|
 | 🌐 [Websites](#websites) | Blogs, landing pages, portfolios, documentation sites | 30 |
-| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 1024 |
-| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 1141 |
+| 🛠️ [Tools](#tools) | Todo lists, accounting, translation, file processing utilities | 1027 |
+| 📱 [Apps](#apps) | Chat apps, admin panels, SaaS, complete applications | 1150 |
 | 📊 [Data](#data) | Dashboards, crawlers, charts, data analysis tools | 24 |
 | 🎮 [Games](#games) | Small games, entertainment projects | 24 |
-| 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 236 |
-| 🎨 [Creative](#creative) | Generative art, music, AI writing, experimental projects | 13 |
+| 🔌 [Plugins](#plugins) | Chrome extensions, VS Code plugins, browser extensions | 237 |
+| 🎨 [Creative](#creative) | Generative art, music, AI writing, experimental projects | 14 |
 | 📚 [Learning](#learning) | Tutorial demos, course projects, tech experiments | 40 |
 
 ---
@@ -160,7 +160,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>🛠️ Tools <small>(1024 projects)</small></h2></summary>
+<summary><h2>🛠️ Tools <small>(1027 projects)</small></h2></summary>
 
 *Todo lists, accounting, translation, file processing utilities*
 
@@ -347,6 +347,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[ouroboros](https://github.com/Q00/ouroboros)** — Ouroboros is an Agent OS that transforms AI coding workflows from non-deterministic prompting into replayable, observable, specification-first execution contracts, supporting multiple AI clients (Claude Code, Codex CLI, OpenCode, Hermes) with a local-first runtime layer.
 
 [Source](https://github.com/Q00/ouroboros) · `Python` · 🤖 Claude, Codex CLI · ⭐ 4283 · 📅 2026-05-27
+
+**[design-extract](https://github.com/Manavarya09/design-extract)** — A CLI tool that points a headless browser at any URL and extracts its complete design system, emitting DTCG tokens, Tailwind config, Figma variables, and multi-platform design assets.
+
+[Demo](https://designlang.manavaryasingh.com/) · [Source](https://github.com/Manavarya09/design-extract) · `HTML` · 🤖 Claude, Cursor · ⭐ 4068 · 📅 2026-09-10
 
 **[gnhf](https://github.com/kunchenguid/gnhf)** — An orchestrator that keeps AI agents running autonomously while you sleep, committing changes and logging progress.
 
@@ -1776,6 +1780,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://serac.build) · [Source](https://github.com/serac-labs/serac) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 78 · 📅 2026-08-20
 
+**[ultrastorage](https://github.com/yangshun/ultrastorage)** — A supercharged localStorage library that supports storing any data type, key expiration, namespacing, and schema validation.
+
+[Demo](https://ultrastorage.dev) · [Source](https://github.com/yangshun/ultrastorage) · `TypeScript` · 🤖 Claude · ⭐ 78 · 📅 2026-09-10
+
 **[grasp](https://github.com/Yuzc-001/grasp)** — Grasp is a route-aware browser runtime for AI agents that helps keep real web tasks moving forward in the browser with continuity, verification, and recoverability.
 
 [Source](https://github.com/Yuzc-001/grasp) · `JavaScript` · 🤖 Claude Code, Codex · ⭐ 77 · 📅 2026-05-23
@@ -2847,6 +2855,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[logseq-matryca-parser](https://github.com/MarcoPorcellato/logseq-matryca-parser)** — A deterministic Logseq parser that preserves parent-child context for RAG, with a 60FPS visualizer and append-only writer.
 
 [Demo](https://MarcoPorcellato.github.io/logseq-matryca-parser/) · [Source](https://github.com/MarcoPorcellato/logseq-matryca-parser) · `Python` · 🤖 Cursor, Claude · ⭐ 28 · 📅 2026-08-30
+
+**[elementor-website-skill](https://github.com/javen-wangjunren/elementor-website-skill)** — A suite of AI agent skills that guides B2B website building through business research, page planning, visual design, and generating maintainable custom Elementor widgets.
+
+[Demo](https://github.com/javen-wangjunren/elementor-website-skill/releases/download/v0.1.0/homepage-demo.mp4) · [Source](https://github.com/javen-wangjunren/elementor-website-skill) · `HTML` · 🤖 Claude · ⭐ 28 · 📅 2026-09-10
 
 **[ai-board](https://github.com/dev-null-sec/ai-board)** — A local planning board CLI for AI agents to manage task scope, prevent code boundary violations, and avoid multi-agent conflicts in vibe-coding workflows.
 
@@ -4264,7 +4276,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>📱 Apps <small>(1141 projects)</small></h2></summary>
+<summary><h2>📱 Apps <small>(1150 projects)</small></h2></summary>
 
 *Chat apps, admin panels, SaaS, complete applications*
 
@@ -4851,6 +4863,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[aio-coding-hub](https://github.com/dyndynjyxa/aio-coding-hub)** — A local AI CLI unified gateway desktop tool that provides a single entry point for Claude Code, Codex, Gemini CLI with intelligent routing, usage statistics, and workspace management.
 
 [Demo](https://www.helpaio.com) · [Source](https://github.com/dyndynjyxa/aio-coding-hub) · `Rust` · 🤖 Claude, Copilot · ⭐ 612 · 📅 2026-07-06
+
+**[trypost](https://github.com/trypostit/trypost)** — TryPost is an open-source social media scheduling app with a visual calendar, AI copilot, and native publishing to 12 networks.
+
+[Demo](https://trypost.it) · [Source](https://github.com/trypostit/trypost) · `PHP` · 🤖 Claude, Cursor · ⭐ 600 · 📅 2026-09-10
 
 **[agent-sessions](https://github.com/jazzyalex/agent-sessions)** — A native macOS app for browsing, searching, saving, and resuming local session histories from multiple AI coding assistants (Codex, Claude, OpenCode, etc.) with real-time rate limit tracking.
 
@@ -5652,6 +5668,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/lintendo/Axhub-Make) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 133 · 📅 2026-07-11
 
+**[Trackstr](https://github.com/besoeasy/Trackstr)** — A decentralized media tracker that lets users log and rate movies, TV shows, and music while keeping data self-sovereign via Nostr and IPFS.
+
+[Demo](https://trackstr.besoeasy.com/) · [Source](https://github.com/besoeasy/Trackstr) · `JavaScript` · 🤖 Cursor, Claude · ⭐ 132 · 📅 2026-09-10
+
 **[ai-draw](https://github.com/stone-yu/ai-draw)** — An AI-powered diagram platform that lets users describe charts in natural language and automatically generates them using Mermaid, Excalidraw, or Draw.io, with support for private deployment and multi-user management.
 
 [Demo](http://100qie.cn:3000) · [Source](https://github.com/stone-yu/ai-draw) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 131 · 📅 2026-05-28
@@ -6355,6 +6375,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[nirvana-os-engine](https://github.com/gutomec/nirvana-os-engine)** — Nirvana-OS is an open-source engine that orchestrates multiple AI agents into virtual companies and squads to execute complex tasks from plain-language instructions, with receipts for every step.
 
 [Demo](https://gutomec.github.io/nirvana-os-engine/) · [Source](https://github.com/gutomec/nirvana-os-engine) · `TypeScript` · 🤖 Claude Code, Codex · ⭐ 65 · 📅 2026-08-23
+
+**[tako](https://github.com/tako-sh/tako)** — Tako is a self-hosted deployment and application platform that lets developers ship apps to their own servers with built-in rolling deploys, load balancing, HTTPS, secrets, and logs.
+
+[Demo](https://tako.sh) · [Source](https://github.com/tako-sh/tako) · `Rust` · 🤖 Claude · ⭐ 65 · 📅 2026-09-10
 
 **[ascii-agents](https://github.com/IvanWng97/ascii-agents)** — A terminal pixel-art office that visualizes AI coding agents as coworkers, showing their typing, walking, and napping behaviors in real-time.
 
@@ -7332,6 +7356,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://app.opencastor.com) · [Source](https://github.com/craigm26/OpenCastor) · `Python` · 🤖 Claude, Copilot · ⭐ 28 · 📅 2026-09-09
 
+**[CAPI](https://github.com/mzrodyu/CAPI)** — A lightweight AI model aggregation gateway compatible with OpenAI-style APIs, featuring channel management, user system, API key management, and an iOS-style admin dashboard.
+
+[Source](https://github.com/mzrodyu/CAPI) · `Go` · 🤖 Claude · ⭐ 28 · 📅 2026-09-10
+
 **[ai-video-editor](https://github.com/leonardogrig/ai-video-editor)** — An AI-powered video editor that automatically removes silent segments, transcribes speech, and detects/filters duplicate segments using AI.
 
 [Source](https://github.com/leonardogrig/ai-video-editor) · `TypeScript` · 🤖 Cursor, Claude · ⭐ 27 · 📅 2026-04-20
@@ -7463,6 +7491,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[videodown](https://github.com/kamiertop/videodown)** — A desktop video downloader supporting Bilibili and Douyin, with login, browsing, and batch download features.
 
 [Source](https://github.com/kamiertop/videodown) · `TypeScript` · 🤖 Claude, ChatGPT · ⭐ 26 · 📅 2026-08-28
+
+**[ErgeMD](https://github.com/ErgeAIA/ErgeMD)** — A desktop application focused on Markdown reading, supporting math formulas, Mermaid/PlantUML diagrams, Obsidian syntax compatibility, with multi-tab, file tree, bookmarks, and multi-format export features.
+
+[Source](https://github.com/ErgeAIA/ErgeMD) · `TypeScript` · 🤖 Claude, Trae · ⭐ 26 · 📅 2026-09-10
 
 **[Open-Laudable](https://github.com/ishandutta2007/Open-Laudable)** — An open-source AI app builder that generates full-stack web applications from natural language prompts, supporting local execution and multiple AI models.
 
@@ -8288,6 +8320,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Source](https://github.com/ZF3373/icpc-workbench) · `TypeScript` · 🤖 Claude, Copilot · ⭐ 15 · 📅 2026-09-08
 
+**[codey](https://github.com/its-ahoh/codey)** — Codey is a multi-agent workbench that lets you orchestrate coding agents like Claude Code, Codex, and OpenCode from a native macOS app, chat platforms, or voice, with per-project workspaces, worker teams, and parallel runs.
+
+[Demo](https://its-ahoh.github.io/codey/) · [Source](https://github.com/its-ahoh/codey) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 15 · 📅 2026-09-10
+
 **[lixpi](https://github.com/Lixpi/lixpi)** — A visual, node-based AI workspace for building generative image and video pipelines on an infinite canvas.
 
 [Demo](https://youtu.be/Eee2Ku-Tl_8) · [Source](https://github.com/Lixpi/lixpi) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 14 · 📅 2026-07-05
@@ -8644,6 +8680,14 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://furic.github.io/richfolio/) · [Source](https://github.com/furic/richfolio) · `TypeScript` · 🤖 Claude, Gemini · ⭐ 12 · 📅 2026-09-08
 
+**[kasaterm](https://github.com/2rami/kasaterm)** — A cross-platform GPU terminal built from scratch in Rust, featuring Korean IME, multi-pane splitting, and orchestration of multiple Claude AI agents.
+
+[Source](https://github.com/2rami/kasaterm) · `Rust` · 🤖 Claude · ⭐ 12 · 📅 2026-09-10
+
+**[live-mixer](https://github.com/Chyona/live-mixer)** — An end-to-end live stream clipping workbench that uses ASR and AI to select highlights and generate CapCut drafts for one-click video production.
+
+[Demo](https://gogoshine.com) · [Source](https://github.com/Chyona/live-mixer) · `Go` · 🤖 Cursor · ⭐ 12 · 📅 2026-09-10
+
 **[BlindRSS](https://github.com/serrebidev/BlindRSS)** — An accessible RSS and podcast client for the blind, featuring screen-reader support, cross-platform desktop operation, and comprehensive feed management with media playback.
 
 [Source](https://github.com/serrebidev/BlindRSS) · `Python` · 🤖 Claude, Copilot · ⭐ 11 · 📅 2026-07-16
@@ -8831,6 +8875,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 **[OneNAS](https://github.com/yangjian1412/OneNAS)** — An all-in-one client that aggregates multimedia, file management, and NAS system management, unifying multiple open-source services like Jellyfin, Emby, and Navidrome into a single app for NAS users.
 
 [Source](https://github.com/yangjian1412/OneNAS) · `TypeScript` · 🤖 Claude, vibe coding · ⭐ 9 · 📅 2026-09-08
+
+**[local_cents](https://github.com/zorn/local_cents)** — LocalCents is an open-source, local-first expense-tracking application supporting offline collaboration across multiple devices, available as a desktop and web app.
+
+[Demo](https://mikezornek.com/posts/2026/8/local-cents/) · [Source](https://github.com/zorn/local_cents) · `Elixir` · 🤖 Claude · ⭐ 9 · 📅 2026-09-10
 
 ---
 </details>
@@ -9044,7 +9092,7 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>🔌 Plugins <small>(236 projects)</small></h2></summary>
+<summary><h2>🔌 Plugins <small>(237 projects)</small></h2></summary>
 
 *Chrome extensions, VS Code plugins, browser extensions*
 
@@ -9836,6 +9884,10 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 [Demo](https://edvincodes.github.io/InstagramUnfollowers/) · [Source](https://github.com/EdvinCodes/InstagramUnfollowers) · `TypeScript` · 🤖 Claude, Cursor · ⭐ 20 · 📅 2026-08-30
 
+**[spec-workflow](https://github.com/kamioj/spec-workflow)** — A spec-driven development plugin for Claude Code and Codex CLI that manages large code changes through 16 re-entrant slash commands covering research, clarify, propose, hard gate, implement, verify, and archive stages.
+
+[Source](https://github.com/kamioj/spec-workflow) · `Shell` · 🤖 Claude, Claude Code · ⭐ 20 · 📅 2026-09-10
+
 **[novel-injector](https://github.com/ZZZa-o/novel-injector)** — A SillyTavern third-party extension that organizes long novels into injectable plot, character, stage, world-setting, and vector index data to improve AI continuation fidelity.
 
 [Source](https://github.com/ZZZa-o/novel-injector) · `JavaScript` · 🤖 Claude, Copilot · ⭐ 19 · 📅 2026-08-06
@@ -9996,9 +10048,13 @@ This repository collects **real application cases** from GitHub built with AI-as
 </details>
 
 <details>
-<summary><h2>🎨 Creative <small>(13 projects)</small></h2></summary>
+<summary><h2>🎨 Creative <small>(14 projects)</small></h2></summary>
 
 *Generative art, music, AI writing, experimental projects*
+
+**[openOii](https://github.com/xeronsh/openOii)** — An AI platform that turns story ideas into animated comic videos through multi-agent collaboration.
+
+[Source](https://github.com/xeronsh/openOii) · `Python` · 🤖 Claude · ⭐ 390 · 📅 2026-09-10
 
 **[claude-directory](https://github.com/pulkitxm/claude-directory)** — A directory of experimental landing pages, hero sections, and interactive prototypes generated with Claude Fable 5, each with original prompts and demo videos.
 
@@ -10229,6 +10285,6 @@ This repository collects **real application cases** from GitHub built with AI-as
 
 **Auto-collected · Daily updates**
 
-Last updated: 2026-09-09
+Last updated: 2026-09-10
 
 </div>
